@@ -1,7 +1,5 @@
 ---
 title: "CS 104 (Applied Computing), Fall 2023"
-filters:
-  - nutshell
 ---
 
 #### Outcomes

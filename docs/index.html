@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>cs104 - CS 104 (Applied Computing), Fall 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">cs104</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">CS 104 (Applied Computing), Fall 2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="outcomes">Outcomes</h4>
+<p>This course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:</p>
+<ul>
+<li>Design data types/structures and algorithms to solve computational problems, using:
+<ul>
+<li>primitive data types, expressions and arrays/lists;</li>
+<li>basic control structures: sequence, selection and repetition</li>
+<li>subprograms (methods/functions;</li>
+<li>classes;</li>
+</ul></li>
+<li>Find and fix syntactic and logical problems in programs;</li>
+<li>Use an Integrated Development Environment (IDE) to develop a program;</li>
+<li>Understand the wider social implications of encoding intelligence and knowledge in the form of algorithms.</li>
+</ul>
+<p>The course technologies are based on the Python programming language, and a modern IDE. The material is considered in the context of the reformed Christian perspective.</p>
+</section>
+<section id="staff" class="level4">
+<h4 class="anchored" data-anchor-id="staff">Staff</h4>
+<ul>
+<li>Professor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33@calvin.edu</li>
+<li>Lab assistant: Grace&nbsp;Van Farowe,&nbsp;gev22@calvin.edu</li>
+<li>Grader: Edom Maru,&nbsp;eam43@calvin.edu</li>
+</ul>
+</section>
+<section id="communication" class="level4">
+<h4 class="anchored" data-anchor-id="communication"><strong>Communication</strong></h4>
+<p>Outside of class, we’ll use a variety of communication tools:</p>
+<ul>
+<li>Piazza — We will use Piazza for most course communication.
+<ul>
+<li>Post&nbsp;<em>questions</em>&nbsp;on assignments, concepts discussed in class, or when you have problems getting code to run.</li>
+<li>Post&nbsp;<em>answers</em>&nbsp;as well. You might be able to provide a good answer before the course staff even sees the question!</li>
+<li>Post notes on articles or events that might be of interest to the class.</li>
+<li>Posts can be public or private, anonymous or not.&nbsp;<strong>In general, don’t post code publicly</strong>. If you have to include code, make the post private first so the course staff can decide if it’s ok to share.</li>
+</ul></li>
+<li>Email — Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).</li>
+</ul>
+<p>You’ll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You’re free to schedule your work as best works for you, but we’ll be trying to observe a Sabbath in our own schedules.</p>
+<section id="section" class="level5">
+<h5 class="anchored" data-anchor-id="section"></h5>
+</section>
+</section>
+<section id="materials" class="level4">
+<h4 class="anchored" data-anchor-id="materials"><strong>Materials</strong></h4>
+<ul>
+<li><p><a href="http://learn.zybooks.com/">ZyBooks</a>&nbsp;— We will be using an online text called&nbsp;<em>Programming in Python 3 with ZyLabs</em>. The text will cost $77 and can be accessed as follows:</p>
+<ol type="1">
+<li>Sign up at&nbsp;<a href="http://learn.zybooks.com/">learn.zybooks.com</a>&nbsp;(see Zyante’s&nbsp;<a href="https://www.zybooks.com/privacy-policy/">privacy policy</a>). Note that you must use your Calvin e-mail address (e.g.,&nbsp;<code>xyz27@calvin.edu</code>).</li>
+<li>Enter zyBook code:&nbsp;<code>**CALVINCS104Fall2023**</code></li>
+<li>Click&nbsp;<em>Subscribe</em>.</li>
+</ol>
+<p>You’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the&nbsp;<a href="https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-">option to print a PDF version</a>&nbsp;of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.</p></li>
+<li><p><a href="https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf"><em>Activities for CS1 in Python</em></a>, T. Shepherd, C. Mayfield &amp; H. Hu, Creative Commons — These are available online or, optionally, in paper form from the book store.</p></li>
+<li><p>Graphics libraries:&nbsp;<a href="https://docs.python.org/3.7/library/turtle.html">Turtle graphics</a>.</p></li>
+</ul>
+<section id="pogil" class="level5">
+<h5 class="anchored" data-anchor-id="pogil"><strong>POGIL</strong></h5>
+<p>From weeks 2 to 7 the first class of a module will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning).&nbsp;We will form teams of three students in order to solve a set of exercises:</p>
+<ul>
+<li>a programmer (runs the exercises in Thonny)</li>
+<li>a recorder (writes the team’s answers to the exercises)</li>
+<li>a manager/presenter (keeps the team on track; interacts with class)</li>
+</ul>
+</section>
+</section>
+<section id="weekly-schedule-and-deadlines" class="level4">
+<h4 class="anchored" data-anchor-id="weekly-schedule-and-deadlines"><strong>Weekly Schedule and Deadlines</strong></h4>
+<p>With the exception of Unit 1, each Unit will start on a Friday and will proceed until Wednesday of next week.</p>
+<p><strong>In Class:</strong></p>
+<ul>
+<li>Fridays: POGIL activity introducing the unit</li>
+<li>Mondays: examples and exercises, extra content, preparation for labs</li>
+<li>Tuesdays: lab work</li>
+<li>Wednesdays: weeks 1, 3, 5 and 7: perspectival reflections; weeks 2, 4 and 6: quizzes</li>
+</ul>
+<p>Exceptionally at Unit 1, we will introduce the unit on Monday and proceed to the lab on Tuesday as usual.</p>
+<p><strong>At Home:</strong></p>
+<p>For each unit we will expect:</p>
+<ul>
+<li>Reading assignments (at zyBooks).
+<ul>
+<li>Deadline for Unit 1: Wednesday of the first week;</li>
+<li>Deadline for Unit 2: Monday of the second week;</li>
+<li>Deadlines for further Units: Fridays (when the Unit will be introduced);</li>
+</ul></li>
+<li>Lab exercises (at zyBooks). Deadline:&nbsp;Fridays;</li>
+<li>Homework (at zyBooks), on even weeks (2, 4 and 6): Deadline: Tuesdays;</li>
+<li>Perspectives activities (at Moodle), on odd weeks (1, 3, 5 and 7). Deadline: Tuesdays;</li>
+<li>Quizzes (in class), on weeks 2, 4 and 6.</li>
+</ul>
+<p>Unless stated otherwise, the assignment submissions are <em>due by midnight</em> of the due date. The Moodle calendar will list these due dates/times.</p>
+<p>You do the preparation activities on your own. You can work with others, but you must submit your own solutions to the reading exercises.</p>
+<p>If feasible, <strong>you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well</strong>. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.</p>
+<p>The lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.</p>
+</section>
+<section id="grading" class="level4">
+<h4 class="anchored" data-anchor-id="grading"><strong>Grading</strong></h4>
+<p>We will compute your final grade as follows:</p>
+<ul>
+<li>5% — Reading assignments</li>
+<li>5% — Perspectives</li>
+<li>10% — Lab exercises</li>
+<li>35% — Quizzes</li>
+<li>45% — Homeworks</li>
+</ul>
+<p>We’ll throw out your lowest quiz score. Your grades will be available in the Moodle gradebook, generally before the next assignment of a similar type is due.</p>
+</section>
+<section id="use-of-technology" class="level4">
+<h4 class="anchored" data-anchor-id="use-of-technology"><strong>Use of Technology</strong></h4>
+<p>We believe that technology is not neutral: we use them, but they also affect us. Consequently, <strong>technology in the classroom changes things</strong>. Studies suggest that&nbsp;<a href="https://www.insidehighered.com/news/2018/07/27/class-cellphone-and-laptop-use-lowers-exam-scores-new-study-shows">internet-enabled electronic devices in the classroom reduces student performance</a>. We&nbsp;<em>will</em>&nbsp;use technology in class, but with limits:</p>
+<ul>
+<li>You may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.</li>
+<li>You may use laptops to take notes or attempt programming tasks.</li>
+<li>Beyond those uses, technology use in class should be limited to critical messages only.</li>
+</ul>
+<p>Furthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.</p>
+<p>This doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see <a href="https://calvin.edu/offices-services/provost/rac/writing-with-integrity/ai-text-generators/index.html">this page</a>.</p>
+</section>
+<section id="academic-integrity" class="level4">
+<h4 class="anchored" data-anchor-id="academic-integrity"><strong>Academic Integrity</strong></h4>
+<p>Code re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.</p>
+<p>The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit&nbsp;<a href="https://calvin.edu/directory/policies/academic-integrity-policy" class="uri">https://calvin.edu/directory/policies/academic-integrity-policy</a>.</p>
+</section>
+<section id="late-work" class="level4">
+<h4 class="anchored" data-anchor-id="late-work"><strong>Late work</strong></h4>
+<p>We will indicate a due date for all assignments. <strong>Anything submitted after that date is late, unless you have made prior arrangements with us.</strong> For each late assignment, you will be charged 10% for each business-day that you are late (e.g., if an assignment is due on Friday, you may turn it in on Monday at 10% off, Tuesday at 20% off and so on) and you need to email us to tell us which assignment you’re submitting late and how late it is. We will not accept work that is more than one week late unless you talk to us about the circumstances and negotiate a late-submission plan. We will generally grant up to 30% for these negotiated plans. We will also grant you 4 grace days with no penalty, no questions asked. Please note that grace days do not apply to the quizzes or the final project, and that we do not accept or negotiate for late work after the last day of class. If there are exceptional circumstances, please talk to us so we can work something out.</p>
+</section>
+<section id="etiquette-and-wellness" class="level4">
+<h4 class="anchored" data-anchor-id="etiquette-and-wellness"><strong>Etiquette and Wellness</strong></h4>
+<p>I like to understand education as forming <strong>a community of friends who love knowledge</strong> (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.</p>
+<p>We are not just developing technical skill; we are also developing virtue and character <em>through the</em> acquisition of a technical skill. Please, take advantage of this opportunity.</p>
+<p>Furthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.</p>
+<p>Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The <a href="https://calvin.edu/offices-services/counseling-and-wellness/">Center for Counseling and Wellness</a> sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!</p>
+</section>
+<section id="accomodations" class="level4">
+<h4 class="anchored" data-anchor-id="accomodations"><strong>Accomodations</strong></h4>
+<p>Calvin University is committed to providing access to all students. If you are a student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360) to discuss necessary accommodations. If you have an accommodation memo, please talk to me in the first two weeks of class</p>
+</section>
+<section id="diversity-and-inclusion" class="level4">
+<h4 class="anchored" data-anchor-id="diversity-and-inclusion"><strong>Diversity and Inclusion</strong></h4>
+<p>I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.</p>
+<p>We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to&nbsp;<a href="https://calvin.edu/offices-services/safer-spaces/">Safer Spaces</a>&nbsp;or the&nbsp;<a href="http://www.calvin.edu/go/comments-on-faculty/">provost’s office</a>.</p>
+</section>
+<section id="study-sessions" class="level4">
+<h4 class="anchored" data-anchor-id="study-sessions"><strong>Study Sessions</strong></h4>
+<p>For this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:</p>
+<ul>
+<li>4-8 hours of tutoring per week</li>
+<li>A nice place to do homework and ask questions</li>
+<li>An entire room of people working through the same challenges</li>
+<li>A chance to make friends and study partners</li>
+</ul>
+<p>The service is completely free and flexible. For more information, visit&nbsp;<a href="https://calvin.edu/go/tutor" class="uri">https://calvin.edu/go/tutor</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
