@@ -65,17 +65,26 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
 
 ## Activities
 
-1.  (Weekly) **zyBooks reading preparation**: you'll perform these readings as a preparation for a new unit on Fridays. Pay attention to the text and practice with the interactive exercises.
-2.  (Weekly) **Perusall perspective reading**: you'll read an article commenting on common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Try not to do it just for the sake of getting the assignment done and get the grade;
-3.  (Weekly) **POGIL**: when introducing a new Unit on **every Friday**, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+Every week we will go through the following:
+
+1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. Pay attention to the text and practice with the interactive exercises.
+
+2.  **Perspectives reading (Perusall)**: you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
+
+3.  **POGIL Activity**: when introducing a new Unit on **every Friday**, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+
     -   a programmer (runs the exercises in Thonny)
     -   a recorder (writes the team's answers to the exercises)
     -   a manager/presenter (keeps the team on track; interacts with class)
-4.  (Weekly) **Labs**: we'll go through a series of programming assignments during our lab classes on Tuesdays. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+
+4.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+
     -   If feasible, *you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
     -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
-5.  (Weekly) **Quizzes**: usually on Wednesdays, we will have a 15 to 20 minute quiz on Moodle reviewing and applying the concepts we got from the unit.
-6.  (Every other week, starting week 2) **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page.
+
+5.  **Quizzes**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
+
+Every other week, starting week 2, we will also have **homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 3 homework assignments during the course.
 
 ### Schedule and deadlines
 
