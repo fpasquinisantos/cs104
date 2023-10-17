@@ -52,6 +52,17 @@ You'll also see that ZyBooks provides reading, lab and homework assignments matc
 
 -   [*Activities for CS1 in Python*](https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf), T. Shepherd, C. Mayfield & H. Hu, Creative Commons --- These are available online or, optionally, in paper form from the book store. We will use those for the POGIL Activities usually on Fridays.
 
+### Work Environment
+
+We will use [Thonny](https://thonny.org/) as the integrated development environment of our programming exercises in Python.
+
+The labs in SB 354 & 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.
+
+1.  Install Thonny in your own machine Install the latest version of Thonny development environment for your system type. Thonny has a current version of Python built-in and should work without further configuration; or
+2.  Access the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:
+    -   the list of machines here: <https://remote.cs.calvin.edu>
+    -   the instructions for using those machines here: <https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php>
+
 ## Activities
 
 1.  (Weekly) **zyBooks reading preparation**: you'll perform these readings as a preparation for a new unit on Fridays. Pay attention to the text and practice with the interactive exercises.
