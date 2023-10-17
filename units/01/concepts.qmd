@@ -1,0 +1,68 @@
+---
+title: "Concepts"
+format:
+  revealjs:
+    menu: 
+      openButton: false
+    slide-level: 5
+    navigation-mode: linear
+    transition: slide
+    simplemenu:
+      scale: 0.55
+      barhtml:
+        header: "<div class='menubar'><a href='index.html'>back</a><ul class='menu'></ul>"
+revealjs-plugins:
+    - simplemenu
+---
+
+[//]: <> (if I want to refer to other concept, [concept](concepts2.html#/concept-4), export PATH="/home/fs33/.local/bin/:$PATH")
+
+# Program {data-stack-name="program"}
+
+- Programming is about writing programs. What are programs?
+- Programs are forms of wisdom
+
+## aa
+
+# Programming language {data-name="programming language"}
+
+![](img/python.png)
+
+# Computation {data-stack-name="computation"}
+
+qqq
+
+## Programming a computation
+
+Babbage
+
+# Objects {data-stack-name="objects"}
+
+## aaa
+
+aaa
+
+# Variables {data-stack-name="variables"}
+
+## Objects vs variables
+a
+- Metaphor: place in a shelf vs thing in the shelf (then callable and iterable are containers)
+
+# Input/Output {data-stack-name="input/output"}
+Programming is nothing without the design of an interface
+
+I/O model - start with objects
+Or interface
+
+## Graphical input/output
+
+## Text input/output
+
+# Interpreter {data-stack-name="interpreter"}
+
+## interactive Python interpreter
+
+
+# Errors {data-name="errors"}
+
+![](img/whydoesitwork.jpg)

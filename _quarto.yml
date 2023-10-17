@@ -1,20 +1,29 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!*.test.qmd"
 
 website:
-  title: "cs104"
+  title: "CS 104 (Applied Computing) at Calvin University"
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+  sidebar:
+    contents:
+      - "index.qmd"
+      - "classes.qmd"
+      - section: "Units"
+        icon: "book-half"
+        contents:
+          auto: "units/01"
+  page-navigation: true
+  
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
-
-editor: visual
-
+    toc_depth: 2
+    toc_float: true

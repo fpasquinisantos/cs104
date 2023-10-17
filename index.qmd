@@ -1,44 +1,46 @@
 ---
-title: "CS 104 (Applied Computing), Fall 2023"
+title: "Syllabus"
+format:
+  html:
+    toc-expand: 4
 ---
 
-#### Outcomes
+## Learning Outcomes
 
 This course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:
 
--   Design data types/structures and algorithms to solve computational problems, using:
+-   Design algorithms and data types/structures to solve computational problems, using:
     -   primitive data types, expressions and arrays/lists;
-    -   basic control structures: sequence, selection and repetition
+    -   basic control structures: sequences, selection and repetition
     -   subprograms (methods/functions;
     -   classes;
 -   Find and fix syntactic and logical problems in programs;
 -   Use an Integrated Development Environment (IDE) to develop a program;
--   Understand the wider social implications of encoding intelligence and knowledge in the form of algorithms.
+-   Understand the wider implications of encoding intelligence in the form of algorithms.
 
 The course technologies are based on the Python programming language, and a modern IDE. The material is considered in the context of the reformed Christian perspective.
 
-#### Staff
+## Staff
 
 -   Professor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33\@calvin.edu
 -   Lab assistant: Grace Van Farowe, gev22\@calvin.edu
 -   Grader: Edom Maru, eam43\@calvin.edu
 
-#### **Communication**
+## Materials
+
+### Communication
 
 Outside of class, we'll use a variety of communication tools:
 
--   Piazza --- We will use Piazza for most course communication.
+-   [Perusall](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing) --- We will use Perusall for most course communication.
     -   Post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run.
     -   Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
-    -   Post notes on articles or events that might be of interest to the class.
-    -   Posts can be public or private, anonymous or not. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
+    -   Post notes on articles or events that might be of interest to the class. +Posts can be public or private, anonymous or not. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
 -   Email --- Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).
 
 You'll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You're free to schedule your work as best works for you, but we'll be trying to observe a Sabbath in our own schedules.
 
-##### 
-
-#### **Materials**
+### Textbook
 
 -   [ZyBooks](http://learn.zybooks.com/) --- We will be using an online text called *Programming in Python 3 with ZyLabs*. The text will cost \$77 and can be accessed as follows:
 
@@ -46,67 +48,58 @@ You'll generally find us responsive on Monday through Friday, but less so on the
     2.  Enter zyBook code: `**CALVINCS104Fall2023**`
     3.  Click *Subscribe*.
 
-    You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
+You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
 
--   [*Activities for CS1 in Python*](https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf), T. Shepherd, C. Mayfield & H. Hu, Creative Commons --- These are available online or, optionally, in paper form from the book store.
+-   [*Activities for CS1 in Python*](https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf), T. Shepherd, C. Mayfield & H. Hu, Creative Commons --- These are available online or, optionally, in paper form from the book store. We will use those for the POGIL Activities usually on Fridays.
 
--   Graphics libraries: [Turtle graphics](https://docs.python.org/3.7/library/turtle.html).
+## Activities
 
-##### **POGIL**
+1.  (Weekly) **zyBooks reading preparation**: you'll perform these readings as a preparation for a new unit on Fridays. Pay attention to the text and practice with the interactive exercises.
+2.  (Weekly) **Perusall perspective reading**: you'll read an article commenting on common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Try not to do it just for the sake of getting the assignment done and get the grade;
+3.  (Weekly) **POGIL**: when introducing a new Unit on **every Friday**, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+    -   a programmer (runs the exercises in Thonny)
+    -   a recorder (writes the team's answers to the exercises)
+    -   a manager/presenter (keeps the team on track; interacts with class)
+4.  (Weekly) **Labs**: we'll go through a series of programming assignments during our lab classes on Tuesdays. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+    -   If feasible, *you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
+    -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
+5.  (Weekly) **Quizzes**: usually on Wednesdays, we will have a 15 to 20 minute quiz on Moodle reviewing and applying the concepts we got from the unit.
+6.  (Every other week, starting week 2) **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page.
 
-From weeks 2 to 7 the first class of a module will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). We will form teams of three students in order to solve a set of exercises:
+### Schedule and deadlines
 
--   a programmer (runs the exercises in Thonny)
--   a recorder (writes the team's answers to the exercises)
--   a manager/presenter (keeps the team on track; interacts with class)
+Our schedule and the activities deadlines will be posted on our [Class Schedule](classes.html) page and on the introduction pages of each module in this website. Where some tool we use is also supporting a calendar schedule, the deadlines will be there too (Moodle, zyBooks, Perusall).
 
-#### **Weekly Schedule and Deadlines**
+Unless stated otherwise, the assignment submissions are **due by midnight** of the due date. The Moodle calendar will list these due dates/times.
 
-With the exception of Unit 1, each Unit will start on a Friday and will proceed until Wednesday of next week.
+#### Late work policy
 
-**In Class:**
+*Anything submitted after the dealine is late, unless you have made prior arrangements with us.* For each late assignment, you will be charged 10% for each business-day that you are late (e.g., if an assignment is due on Friday, you may turn it in on Monday at 10% off, Tuesday at 20% off and so on) and you need to email us to tell us which assignment you're submitting late and how late it is. We will not accept work that is more than one week late unless you talk to us about the circumstances and negotiate a late-submission plan. We will generally grant up to 30% for these negotiated plans. We will also grant you 4 grace days with no penalty, no questions asked. Please note that grace days do not apply to the quizzes or the final project, and that we do not accept or negotiate for late work after the last day of class. If there are exceptional circumstances, please talk to us so we can work something out.
 
--   Fridays: POGIL activity introducing the unit
--   Mondays: examples and exercises, extra content, preparation for labs
--   Tuesdays: lab work
--   Wednesdays: weeks 1, 3, 5 and 7: perspectival reflections; weeks 2, 4 and 6: quizzes
-
-Exceptionally at Unit 1, we will introduce the unit on Monday and proceed to the lab on Tuesday as usual.
-
-**At Home:**
-
-For each unit we will expect:
-
--   Reading assignments (at zyBooks).
-    -   Deadline for Unit 1: Wednesday of the first week;
-    -   Deadline for Unit 2: Monday of the second week;
-    -   Deadlines for further Units: Fridays (when the Unit will be introduced);
--   Lab exercises (at zyBooks). Deadline: Fridays;
--   Homework (at zyBooks), on even weeks (2, 4 and 6): Deadline: Tuesdays;
--   Perspectives activities (at Moodle), on odd weeks (1, 3, 5 and 7). Deadline: Tuesdays;
--   Quizzes (in class), on weeks 2, 4 and 6.
-
-Unless stated otherwise, the assignment submissions are *due by midnight* of the due date. The Moodle calendar will list these due dates/times.
-
-You do the preparation activities on your own. You can work with others, but you must submit your own solutions to the reading exercises.
-
-If feasible, **you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well**. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
-
-The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
-
-#### **Grading**
+### Grading
 
 We will compute your final grade as follows:
 
--   5% --- Reading assignments
--   5% --- Perspectives
+-   5% --- Preparation readings (zyBooks)
+-   5% --- Perspectives readings (Perusall)
 -   10% --- Lab exercises
 -   35% --- Quizzes
 -   45% --- Homeworks
 
-We'll throw out your lowest quiz score. Your grades will be available in the Moodle gradebook, generally before the next assignment of a similar type is due.
+We'll throw out your lowest quiz score.
 
-#### **Use of Technology**
+Your grades will be available in the Moodle gradebook, generally before the next assignment of a similar type is due.
+
+::: callout-tip
+## How to succeed in this course?
+
+1.  **Help others to succeed.** The last thing we want to reinforce in our education is the idea that success only depends on individual effort. You'll see that programming is much easier when done in community. Two or more people looking at the same code is twice or more the attention to details that is necessary for avoiding mistakes, remembering syntax and keeping objectives on track.
+    -   This doesn't mean to be carried by our teammates - i.e., letting them do all the work for you. Insist in participating. **Don't split tasks and exercises.** It may be easy to get good grades in courses that involve group work, but though it may solve your problem now (i.e., passing the course), **this will be really a problem in the future**, where you may be required to take the lead in solving a programming problem, for example. I've seen lots of cases like this in academic education and it is really awful.
+2.  **Don't neglect textbook readings.** In all my experience and a little of data analysis in courses I teach, there is a **very clear correlation between low engagement with the textbook and low grades**. So, **be active** in your reading. I know that everything around us today encourage us to just skim through texts, but that is not a good way to study. Think with the text. Ask questions. Annotate. Focus. You can do it.
+    -   The same applies for classes. Reading and listening aren't passive. They are **active abilities** that can and have to be developed.
+:::
+
+## Use of Technology
 
 We believe that technology is not neutral: we use them, but they also affect us. Consequently, **technology in the classroom changes things**. Studies suggest that [internet-enabled electronic devices in the classroom reduces student performance](https://www.insidehighered.com/news/2018/07/27/class-cellphone-and-laptop-use-lowers-exam-scores-new-study-shows). We *will* use technology in class, but with limits:
 
@@ -118,17 +111,13 @@ Furthermore, in general, it's not a good idea to copy code from Web sources or t
 
 This doesn't mean I'm all against the use of generative AI. But we need to do that responsibly. There's always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see [this page](https://calvin.edu/offices-services/provost/rac/writing-with-integrity/ai-text-generators/index.html).
 
-#### **Academic Integrity**
+## Academic Integrity
 
 Code re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you've copied code with attribution, we'll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we'll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.
 
 The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit <https://calvin.edu/directory/policies/academic-integrity-policy>.
 
-#### **Late work**
-
-We will indicate a due date for all assignments. **Anything submitted after that date is late, unless you have made prior arrangements with us.** For each late assignment, you will be charged 10% for each business-day that you are late (e.g., if an assignment is due on Friday, you may turn it in on Monday at 10% off, Tuesday at 20% off and so on) and you need to email us to tell us which assignment you're submitting late and how late it is. We will not accept work that is more than one week late unless you talk to us about the circumstances and negotiate a late-submission plan. We will generally grant up to 30% for these negotiated plans. We will also grant you 4 grace days with no penalty, no questions asked. Please note that grace days do not apply to the quizzes or the final project, and that we do not accept or negotiate for late work after the last day of class. If there are exceptional circumstances, please talk to us so we can work something out.
-
-#### **Etiquette and Wellness**
+# Etiquette and Wellness
 
 I like to understand education as forming **a community of friends who love knowledge** (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.
 
@@ -138,17 +127,17 @@ Furthermore, a wide range of things can interfere with your learning: trouble co
 
 Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The [Center for Counseling and Wellness](https://calvin.edu/offices-services/counseling-and-wellness/) sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!
 
-#### **Accomodations**
+# Accomodations
 
 Calvin University is committed to providing access to all students. If you are a student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360) to discuss necessary accommodations. If you have an accommodation memo, please talk to me in the first two weeks of class
 
-#### **Diversity and Inclusion**
+## Diversity and Inclusion
 
 I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.
 
 We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I'll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
 
-#### **Study Sessions**
+## Study Sessions
 
 For this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:
 

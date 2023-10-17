@@ -1,0 +1,18 @@
+---
+title: "Examples and Discussion"
+format:
+  revealjs:
+    menu: 
+      openButton: false
+    slide-level: 5
+    navigation-mode: linear
+    transition: slide
+    simplemenu:
+      scale: 0.55
+      barhtml:
+        header: "<div class='menubar'><a href='index.html'>back</a><ul class='menu'></ul>"
+revealjs-plugins:
+    - simplemenu
+---
+
+![](img/assignment.jpg)
