@@ -28,18 +28,6 @@ The course technologies are based on the Python programming language, and a mode
 
 ## Materials
 
-### Communication
-
-Outside of class, we'll use a variety of communication tools:
-
--   [Perusall](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing) --- We will use Perusall for most course communication.
-    -   Post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run.
-    -   Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
-    -   Post notes on articles or events that might be of interest to the class. +Posts can be public or private, anonymous or not. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
--   Email --- Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).
-
-You'll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You're free to schedule your work as best works for you, but we'll be trying to observe a Sabbath in our own schedules.
-
 ### Textbook
 
 -   [ZyBooks](http://learn.zybooks.com/) --- We will be using an online text called *Programming in Python 3 with ZyLabs*. The text will cost \$77 and can be accessed as follows:
@@ -51,6 +39,19 @@ You'll generally find us responsive on Monday through Friday, but less so on the
 You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
 
 -   [*Activities for CS1 in Python*](https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf), T. Shepherd, C. Mayfield & H. Hu, Creative Commons --- These are available online or, optionally, in paper form from the book store. We will use those for the POGIL Activities usually on Fridays.
+-   Several articles on programming that will be availabe on [Perusall](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing). These will form our perspective readings and we expect you to interact and discuss on these texts.
+
+### Communication
+
+Outside of class, we'll use:
+
+-   Moodle:
+    -   After each class, you will be invited to answer a **feedback form** on Moodle, to inform about your progress in the course and what is still not clear to you. This won't be graded, but will be a nice way to give me feedback and orient my next classes in a way that is good for you.
+    -   Besides that, you can also use our **Q&A Forum** to post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run. Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
+    -   We also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
+-   Email --- Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).
+
+You'll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You're free to schedule your work as best works for you, but we'll be trying to observe a Sabbath in our own schedules.
 
 ### Work Environment
 
@@ -67,7 +68,7 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
 
 Every week we will go through the following:
 
-1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. Pay attention to the text and practice with the interactive exercises.
+1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the "participation" activities in the specified sections as you go. You can skip the "challenge" activities.
 
 2.  **Perspectives reading (Perusall)**: you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
 
@@ -86,7 +87,7 @@ Every week we will go through the following:
 
     -   Exceptionally at week 1, we won't have a Quiz (too early for that).
 
-Also, every other week, starting week 2, you will have **homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 3 homework assignments during the course.
+Every other week, starting week 2, you will also have **homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 3 homework assignments during the course.
 
 ### Schedule and deadlines
 
