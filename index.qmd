@@ -84,7 +84,9 @@ Every week we will go through the following:
 
 5.  **Quizzes**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
 
-Every other week, starting week 2, we will also have **homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 3 homework assignments during the course.
+    -   Exceptionally at week 1, we won't have a Quiz (too early for that).
+
+Also, every other week, starting week 2, you will have **homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 3 homework assignments during the course.
 
 ### Schedule and deadlines
 
