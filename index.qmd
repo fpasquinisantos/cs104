@@ -117,7 +117,7 @@ Code re-use can be a valuable practice in computing, but reusing code or algorit
 
 The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit <https://calvin.edu/directory/policies/academic-integrity-policy>.
 
-# Etiquette and Wellness
+## Etiquette and Wellness
 
 I like to understand education as forming **a community of friends who love knowledge** (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.
 
@@ -127,7 +127,7 @@ Furthermore, a wide range of things can interfere with your learning: trouble co
 
 Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The [Center for Counseling and Wellness](https://calvin.edu/offices-services/counseling-and-wellness/) sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!
 
-# Accomodations
+## Accomodations
 
 Calvin University is committed to providing access to all students. If you are a student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360) to discuss necessary accommodations. If you have an accommodation memo, please talk to me in the first two weeks of class
 
