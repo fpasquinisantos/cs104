@@ -1,0 +1,28 @@
+---
+title: "Habits"
+author: "John Doe"
+format:
+  beamer:
+    navigation: vertical
+---
+
+## Everything as a program?
+
+* Ada Lovelace idealized a more general purpose machine capable of far more than just numerical calculation: the automated execution of any series of instructions.
++ To Lovelace, algorithms were a way of capturing a kind of mathematical intelligence, and encoding it in a repeatable form. 
+* Alan Turing theorized mathematically and generalized this idea of an algorithmic intelligence: a machine with a list of instructions + a memory (variables)
+
+# Errors {data-name="errors"}
+
+* A part of life in programming...
+
+![](img/whydoesitwork.jpg)
+
+## Some tips:
+
+* `SyntaxError`: check if you closed quotes, parentheses, etc
+* `NameError`:
+  + Check for misspelling variables
+  + 
+  
+image

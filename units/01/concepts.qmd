@@ -1,10 +1,12 @@
 ---
-title: "Concepts"
+title: "1: Concepts"
+execute:
+  echo: true
 format:
   revealjs:
     menu: 
       openButton: false
-    slide-level: 5
+    slide-level: 2
     navigation-mode: linear
     transition: slide
     simplemenu:
@@ -15,54 +17,362 @@ revealjs-plugins:
     - simplemenu
 ---
 
-[//]: <> (if I want to refer to other concept, [concept](concepts2.html#/concept-4), export PATH="/home/fs33/.local/bin/:$PATH")
-
 # Program {data-stack-name="program"}
 
-- Programming is about writing programs. What are programs?
-- Programs are forms of wisdom
+-   Programming = writing programs. What are programs?
 
-## aa
+::: columns
+::: {.column width="70%"}
+![](img/program.png)
+:::
 
-# Programming language {data-name="programming language"}
+::: {.column width="30%"}
+![](img/original-4779988-3.jpg)
+:::
+:::
 
-![](img/python.png)
+------------------------------------------------------------------------
+
+![](img/lego.jpg)
+
+## Programs are forms of wisdom {.nostretch}
+
+![](img/complete-metamorphosis.gif){width="35%" fig-align="center"} ![](img/dnareaction.png){height="45%" fig-align="center"}
+
+## Programs are forms of wisdom {.smaller}
+
+> 22 "The Lord brought me forth as the first of his works, before his deeds of old; 23 I was formed long ages ago, at the very beginning, when the world came to be. 24 When there were no watery depths, I was given birth, when there were no springs overflowing with water; 25 before the mountains were settled in place, before the hills, I was given birth, 26 before he made the world or its fields or any of the dust of the earth. 27 I was there when he set the heavens in place, when he marked out the horizon on the face of the deep, 28 when he established the clouds above and fixed securely the fountains of the deep, 29 when he gave the sea its boundary so the waters would not overstep his command, and when he marked out the foundations of the earth. 30 Then I was constantly at his side. I was filled with delight day after day, rejoicing always in his presence, 31 rejoicing in his whole world and delighting in mankind.
+
+## Drawing as a program
+
+![](img/Turtle-animation.gif)
 
 # Computation {data-stack-name="computation"}
 
-qqq
+-   We use programs to **compute** numbers.
 
-## Programming a computation
+::: columns
+::: {.column width="33%"}
+![](img/fred-flintstone-abacus.gif)
+:::
 
-Babbage
+::: {.column width="33%"}
+![](img/Poser-une-multiplication.gif)
+:::
 
-# Objects {data-stack-name="objects"}
+::: {.column width="33%"}
+![](img/calculator.gif)
+:::
+:::
 
-## aaa
+## Automatic computation
 
-aaa
+-   Charles Babbage is known for developing the first automatic computer machine (1820's)
+    -   "the faster and more reliably one could calculate, the more money businesses could make."
+
+::: columns
+::: {.column width="70%"}
+![](img/Babbage-Analytical-Engine.jpg){width="50%"}
+:::
+
+::: {.column width="30%"}
+![](img/Charles_Babbage_-_1860.jpg){width="75%"}
+:::
+:::
+
+## Ada Lovelace's program
+
+-   Ada Lovelace, daughter of Lord Byron, became enamoured by Babbage's machine and developed the first **algorithm**, to calculate a sum of numbers:
+
+::: columns
+::: {.column width="70%"}
+![](img/adaalgorithm.png)
+:::
+
+::: {.column width="30%"}
+![](img/lovelace.jpg)
+:::
+:::
+
+## Algorithm
+
+-   Basically, a program: a description of a series of operations.
+
+-   But with some specific features:
+
+    1.  Precise and unambiguous steps
+
+    2.  Definite results
+
+    3.  Finite
+
+    4.  Generalizable (works with a range of possible inputs)
+
+    5.  Usually expressed through abstract/mathematical notation
+
+## STEM today is programming computations
+
+-   For complex calculations, we don't rely anymore on pressing calculator buttons. We have to program!
+
+[![](img/animation_example_1.gif)](https://blogs.mathworks.com/pick/2021/03/26/animation-playback-controls-in-live-scripts-r2021a/)
+
+# Code {data-stack-name="code"}
+
+-   Initially, computer operators had to set the program manually to run...
+
+![](img/eniac.png){.r-stretch align="center"}
+
+## The punched card
+
+-   At the end of the 1800s, Herman Hollerith invented the punched card, to be automatically read by a machine.
+-   Instructions were then **CODED** in the punched card.
+
+::: columns
+::: {.column width="60%"}
+![](img/hollerith.png)
+:::
+
+::: {.column width="40%"}
+![](img/piano002.gif)
+:::
+:::
+
+## Grace Hopper's proposal
+
+-   Later, in 1949, Grace Hopper invented the first programming language: COBOL (COmmon Business-Oriented Language)
+    -   For example, the user would write:
+
+        `COMPUTE SUM = (1 + 3)`
+
+        `DIVIDE SUM BY 2 GIVING AVERAGE`
+-   Crucial to this was the development of the **compiler**: a program capable of converting a sentence very much like an English phrase (with syntax and semantics) into machine instructions.
+
+## So, what's a code?
+
+-   "A program that follows a set of rules" (in order to be correctly interpreted)
+
+![](img/code.png)
+
+## Python programming language
+
+-   Invented in the early 1990s by Guido van Rossum, named after Monty Python's Flying Circus
+-   Open source project
+-   High-level, general-purpose language
+-   Widely available, easy to learn, rich in tools and libraries, and portable
+
+![](img/python.png){.r-stretch}
+
+------------------------------------------------------------------------
+
+![https://spectrum.ieee.org/top-programming-languages-2022](img/ieelanguages.png){align="center"}
+
+------------------------------------------------------------------------
+
+![](img/pythonmeme.png){align="center"}
+
+# Objects {.smaller data-name="objects"}
+
+-   Python syntax specifies some ways to represent different types of data. A data representation in Python is called an "object".
+
+| Type                            | Object type in Python | Example          |
+|---------------------------------|-----------------------|------------------|
+| Integer number                  | `int`                 | `123`            |
+| Decimal number (floating point) | `float`               | `3.14`           |
+| Logic value                     | `bool`                | `True`, `False`  |
+| Text                            | `string`              | `"Hello World!"` |
 
 # Variables {data-stack-name="variables"}
 
-## Objects vs variables
-a
-- Metaphor: place in a shelf vs thing in the shelf (then callable and iterable are containers)
+-   Variables are names we set to refer to objects.
+    -   A not-so-good metaphor: variables are containers for objects
+    -   A better metaphor: objects are houses, variables are addresses of these houses
+
+```{python}
+x = 123  # a variable x that contains the integer value 123
+x = x + 1  # x is updated with the value of x + 1, becoming 124...
+hello = "Hello World!"  # a variable that contains the string "Hello World!"
+is_done = True  # a variable is_done with the logic value True
+```
+
+## Assigning objects to variables
+
+![](img/assignment.jpg)
+
+## Objects x variables
+
+-   It is **very important** to differentiate!
+-   Which of the following are variables and which are objects?
+
+```         
+"hello"
+
+hello
+
+132
+
+var_1
+
+truev
+
+True
+```
+
+## Variable naming conventions in Python {.smaller}
+
+-   They MUST start with a letter or with \_ (underline)
+-   They are case sensitive ('C' is different from 'c')
+-   They can't contain: `{ ( + - * / \ ; . , ?`
+-   They can't have names of words already reserved for other purposes in Python:
+
+![](img/reserved.png)
+
+---
+
+-   What happens if?
+
+```{python}
+#| error: true
+True = 123
+```
+
+```{python}
+#| error: true
+"Hello" = world
+```
+
+```{python}
+#| error: true
+1stcar = 2000
+```
 
 # Input/Output {data-stack-name="input/output"}
-Programming is nothing without the design of an interface
 
-I/O model - start with objects
-Or interface
+-   Programming is nothing without the design of an **interface**!
+    -   I have to be able to **input** data in the program, and
+    -   I have to be able to get results (**output**) from the program.
 
-## Graphical input/output
+![](img/vending-machine.gif){.r-stretch align="center"}
 
-## Text input/output
+## Graphical user interface (GUI)
 
-# Interpreter {data-stack-name="interpreter"}
+-   Kind of mimics the way we use mechanical input and output
+-   Traditionally, [WIMP](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/wimp) (Windows, Icons, Menus and Pointers)
 
-## interactive Python interpreter
+![](img/ui.jpg)
 
+## Text input/output {.nostretch}
 
-# Errors {data-name="errors"}
+-   Even simpler, however, it is a good start for programming!
 
-![](img/whydoesitwork.jpg)
+```{python}
+#| echo: true
+#| eval: false
+name = input("Please enter your name:")
+reverse = name[::-1]
+print("Your name in reverse is", reverse)
+```
+
+The command-line interface will ask for input from our keyboard, and then:
+
+![](img/ioexample.png){width="50%"}
+
+## Python text output: `print()`
+
+* Put what you want to print between the parentheses: `print("Hello World")`
+* If you want to jump to a new line, use `\n`: `print("Hello\nWorld")`
+* You can also pass multiple arguments by separating them with commas:
+`print("x has the value:", x, "\nand y has the value:", y)`
+
+## Python text input: `input()`
+
+-   The command waits until the user types some text in the command-line interface and finishes with ENTER
+-   The term `input()` "turns" into the text entered, and is **ALWAYS** an object the type `string`!
+-   Thus, it needs to be saved into a variable: `x = input()`
+    -   After the user types "Hi", for example, it is as if: `x = "Hi"`
+-   You can customize an input message by passing a string:
+
+```{python}
+#| echo: true
+#| eval: false
+x = input("Please enter your name: ")
+```
+
+## Input of numeric values
+
+-   Now, suppose we want to calculate the sum of two numbers:
+
+```{python}
+#| echo: true
+#| eval: false
+x = input("Please enter first number: ")
+y = input("Please enter second number: ")
+z = x + y
+print("The sum is", z)
+```
+
+What happened???
+
+::: {style="font-size: 70%;"}
+-   We were adding two strings together, not two numbers! (`input()` gives strings!)
+:::
+
+## Converting string to number types
+
+-   You can convert a string to a number using the methods `int()` and `float()`
+    -   The string that goes inside the parentheses (which we call the "argument" of the method) will be turned to an integer/float
+
+```{python}
+#| echo: true
+#| eval: false
+xstring = input("Please enter your age: ")
+x = int(xstring)
+print("Your age is ", x)
+```
+
+-   Just make things shorter by chaining one method into another!
+
+```{python}
+#| echo: true
+#| eval: false
+x = int(input("Please enter your age: "))
+print("Your age is ", x)
+```
+
+# Running code {data-stack-name="running code"}
+
+Try:
+
+-   Saving some previous code as `program.py`
+-   Open a command-line interface in your computer and run: `python3 program.py`
+    -   You need to have python3 installed in your machine
+    -   You need to be in the directory of the file `program.py`
+
+------------------------------------------------------------------------
+
+Python can be run in two modes:
+
+::: columns
+::: {.column width="50%"}
+### Script / Program
+
+-   All lines of code executed without stop
+-   Run in command-line as `python3 program.py`
+:::
+
+::: {.column width="50%"}
+### Interactive shell
+
+-   Run lines of code each at a time, as user enters them
+-   Open in command-line just by typing `python3`
+:::
+:::
+
+## Integrated Development Environment (IDE)
+
+-   In our classes, we will be using [Thonny](https://thonny.org/)
+    -   Notice the panels for scripting and for interactive shell
+    -   There is also a helper and variable explorer for debugging code
+
+---
+
+![](img/thonnyOverview.png)
