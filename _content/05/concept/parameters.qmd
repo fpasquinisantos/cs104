@@ -1,0 +1,74 @@
+# Input: parameters
+
+- Parameters are function inputs
+  - They are also **local variables** inside functions and exist only as long as the function is executing
+
+For example:
+```{python}
+def greeter(name):
+    print('Hello', name)
+
+greeter('Bob')
+```
+
+- The variable `name` is the **parameter** of the function `greeter`.
+- When `greeter` is called, the string object `Bob` is passed as *an argument* of the function
+  - Then, `Bob` is assigned to the variable `name` when the code inside `greeter` is running.
+  
+## Multiple parameters
+
+```{python}
+#| eval: false
+import turtle
+
+def draw_square(pen, size):
+    for i in range(4):
+        pen.forward(size)
+        pen.left(90)
+
+t = turtle.Turtle()
+draw_square(t, 100)
+```
+
+- Notice that parameters may be called in order
+- If we don't want to follow this order, or we want to specify which parameter receives what, we simply state the names of the parameters:
+
+```{python}
+#| eval: false
+draw_square(pen=t, size=100)
+```
+
+---
+What happens if we don't specify all the parameters?
+
+```{python}
+#| eval: false
+import turtle
+
+def draw_square(pen, size):
+    for i in range(4):
+        pen.forward(size)
+        pen.left(90)
+
+t = turtle.Turtle()
+draw_square(100)
+```
+
+## Preset parameters
+
+- We can pre-specify the values of some parameters by assigning some value to them in the definition
+  - This also makes the parameter assignment **optional** when the function is called: see `draw_square(t)`
+    - The function will run every time as if `size=100`, unless we say different
+
+```{python}
+#| eval: false
+import turtle
+
+def draw_square(pen, size=100):
+    for i in range(4):
+        pen.forward(size)
+        pen.left(90)
+
+t = turtle.Turtle()
+draw_square(t)
+```

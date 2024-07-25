@@ -1,0 +1,7 @@
+# Exercise: shapes and areas
+
+- Let's implement a general class called `Shape` and two subclasses called `Circle` and `Rectangle`
+  - Overload the `__eq__` operator to compare the shapes' areas
+  - Override the constructor methods: `Rectangle` should have `width` and `height`, and `Circle` should have `radius`
+  - Write methods that calculate the areas of the shapes. When you have only the generic `Shape` object, area should be equal to zero.
+  - what about trying to implement the rendering of these shapes with turtle graphics?

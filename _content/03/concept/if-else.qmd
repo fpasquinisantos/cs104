@@ -1,0 +1,19 @@
+# If-else statement {data-name="if else"}
+
+::: columns
+::: {.column width="60%"}
+-   Python also supports a two-way selection statement:
+
+```{python}
+#| eval: false
+if expression:
+  # statements if expression is true
+else:
+  # statements if expression is false
+```
+:::
+
+::: {.column width="40%"}
+![](/img/ifflow2.png)
+:::
+:::

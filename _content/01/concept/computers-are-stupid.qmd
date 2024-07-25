@@ -1,0 +1,54 @@
+# Example: Bhaskara's formula
+
+-   Is the following code right? What's wrong with it?
+
+```{python}
+#| echo: true
+#| eval: false
+
+from math import sqrt
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+x1 = ( -b + sqrt(b^2 - 4ac) ) / 2a
+x2 = ( -b - sqrt(b^2 - 4ac) ) / 2a
+```
+
+# Example: Coding text
+
+-   Suppose I want to print the following string:
+
+> Gandalf said: "You shall not pass!"
+
+-   Why does the following code doesn't work? What can I do to fix it?
+
+```{python}
+#| echo: true
+#| eval: false
+print(""Gandalf said: "You shall not pass!"")
+```
+
+-   Now, suppose I want to print a poem spanning multiple lines. How can I do that?
+
+> Over hill, over dale, <br> Thorough bush, thorough brier, <br> Over park, over pale, <br> Thorough flood, thorough fire!
+
+Tip: check for Python's [escape characters](https://www.w3schools.com/python/gloss_python_escape_characters.asp)...
+
+# Discussion: computers are actually stupid...?
+
+> Q: “If computers are so smart, why don’t they program themselves?” A: “Somebody would first have to write the program, and no one has yet been that smart". - Derek Robinson, "Functions" (in: Software Studies, a Lexicon)
+
+-   Writing code requires us to be really precise and non-ambiguous. It is really nitpicky and doesn't allow even little inaccuracies (which humans can easily disregard...)
+    -   Sometimes what we write makes sense to us, but it doesn't "make sense" to the computer.
+    -   Sometimes it doesn't work and it won't even show the error!
+    -   Sometimes it "works", but I doesn't do exactly what we are thinking it should do... (an illusion of achievement).
+-   Solutions?
+    -   [*code verification and validation*](https://en.wikipedia.org/wiki/Verification_and_validation)
+    -   [**Pair programming**](https://en.wikipedia.org/wiki/Pair_programming): working in pairs (or more) helps us making sure that we are really communicating something that makes sense...
+    -   Maybe better programming language design...?
+
+Opinion: Amy Ko, [*Critically Conscious Computing*](https://criticallyconsciouscomputing.org/languages)
+
+> These efforts to make communication with computers easier, alas, have not resulted in programming being easy, creating a broad cultural belief that programming is inaccessible, hard to learn, and only for"smart" people. In reality, however, programming languages are often poorly designed, poorly explained, and poorly taught, and many of their users gatekeep access to them, reinforcing elitist, essentialist attitudes about who is "smart" enough to use them.

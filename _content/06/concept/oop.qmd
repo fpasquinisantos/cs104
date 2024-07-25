@@ -1,0 +1,66 @@
+# Object-Oriented Programming
+
+- Originally, computers were designed for just running algorithms for performing specific tasks.
+- With the invention of operating systems, databases and graphical user interfaces, however, programming took a turn toward **representing objects virtually and interacting with them**.
+- For achieving that, we needed a new way of articulating programming and programming languages: the [Object-Oriented Paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming).
+
+::: columns
+::: {.column width="50%"}
+![](/img/objects.jpg)
+:::
+::: {.column width="50%"}
+![](/img/gui_example.png)
+:::
+
+:::
+
+## Classes and objects
+
+- We define **classes**, which are basically "blueprints" for the objects (or, you could say, type definitions)
+  - We **instantiate** an object of some class by just writing the class name with parenthesis - like `Dog()`
+- These classes define **attributes** (variables) and **methods** (functions) for an object of its type.
+
+![](/img/dog_class.png){width="80%"}
+
+```{python}
+class Dog(): # definition of the class ("blueprint")
+  
+  # indentation starts - "inside of class"
+  def eat(self):  # a method (NOTICE THAT IT IS INSIDE THE CLASS DEFINITION)
+    pass  # using "pass" to write it as an empty function (to be filled later)
+  
+  def sleep(self):
+    pass
+  
+  def sit(self):
+    pass
+
+
+# main code chunk! (outside of class definition now)
+a = Dog()  # creates an instance of type "Dog"
+a.breed = 'Pug'  # its breed (attribute) is 'Pug"
+b = Dog()
+b.breed = 'Boxer'
+```
+
+## Example: the Turtle class
+
+- Remember the turtles we are using to draw? They are also objects of class Turtle.
+
+```{python}
+#| eval: false
+import turtle
+raphael = turtle.Turtle() # creates a turtle
+leonardo = turtle.Turtle() # creates another turtle
+print(raphael.pos) # gets the attribute "position" of the turtle Raphael
+leonardo.forward(100) # calls the method "forward" for the turtle Leonardo
+```
+
+## Some principles and rules
+
+- PEP-8 style guidelines require that we **write the names of classes starting with capital letters**! (e.g., `Dog`, `Car`, `Player`, etc.).
+  - This helps A LOT differentiating them from functions (like `eat()`, `sleep()`, etc.) and variables (like `a`, `b`, etc.).
+- The **Single Responsibility Principle** states that every class should have **one and only one responsibility**. All class attributes and methods should be aligned with that one responsibility.
+  - This helps organize classes and makes changes easier.
+  - As a class grows, it may need to be split (a process that is part of what we call **refactoring**).
+

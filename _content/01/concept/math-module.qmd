@@ -1,0 +1,57 @@
+::: {.content-visible unless-format="revealjs"}
+# Math module
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.4 MATH MODULE</b>"}
+:::
+
+For other mathematical operations, you can import Python's math module. Two ways to do that:
+
+::: columns
+::: {.column width="50%"}
+-   Import the whole module and use as needed: need to use the module name followed by a dot (.) before using a function or variable from the module.
+
+```{python}
+#| echo: true
+#| eval: false
+import math
+r = 3
+circumference = 2 * r * math.pi
+```
+:::
+
+::: {.column width="50%"}
+-   Import only the functions and variables you will need. Then, no need to use the qualifier "math."
+
+```{python}
+#| echo: true
+#| eval: false
+from math import pi
+r = 3
+circumference = 2 * r * pi
+```
+:::
+:::
+
+Some functions in the math module (documentation [here](https://docs.python.org/3/library/math.html))
+
+| Method          | Explanation                   |
+|-----------------|-------------------------------|
+| math.cos(x)     | Returns cosine of x (rads)    |
+| math.sin(x)     | Returns sine of x (rads)      |
+| math.tan(x)     | Returns tangent of x (rads)   |
+| math.degrees(x) | Converts x radians to degrees |
+| math.radians(x) | Converts x degrees to rads    |
+| math.sqrt(x)    | Returns square root of x      |
+
+-   You can also try to import all of the modules resources by using
+
+```{python}
+#| echo: true
+#| eval: false
+from math import *
+```
+
+-   However, this is not recommended due to **"namespace pollution"** (having lots of names referenced that are actually not used)

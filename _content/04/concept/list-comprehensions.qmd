@@ -1,0 +1,49 @@
+# List comprehensions {data-stack-name="list comprehensions"}
+
+Python offers a shorter syntax when you want to create a new list based on the values of an existing sequence.
+
+For example:
+```{python}
+names = ["Anakin", "Luke", "Leia"]
+names_with_last_name = [ n+" Skywalker" for n in names]
+print(names_with_last_name)
+```
+
+## Other examples:
+
+Using ranges: 
+```{python}
+length = 15
+exponents2 = [ 2**i for i in range(length)]
+print(exponents2)
+```
+
+Nesting comprehensions:
+```{python}
+w = 4
+h = 4
+zero_matrix = [ [0 for j in range(h)] for i in range(w)]
+print(zero_matrix)
+```
+
+## Examples:
+
+Checking conditions:
+
+```{python}
+x = [3, 6, -2, 5, -12, 5, -1]
+only_positives = [i for i in x if i > 0]
+print(only_positives)
+```
+
+```{python}
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+```
+
+## Creating a scenario (see our tile drawing exercise)
+
+```{python}
+level = [['s' if j<8 else 'g' for i in range(10)] for j in range(10)]
+```

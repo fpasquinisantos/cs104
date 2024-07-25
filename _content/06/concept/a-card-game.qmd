@@ -1,0 +1,5 @@
+# Exercise: a card game
+
+Try to write the class definitions for the following class diagram, representing a game of bridge:
+
+![](/img/card_game.png){width="75%"}

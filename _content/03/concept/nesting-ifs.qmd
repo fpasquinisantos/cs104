@@ -1,0 +1,16 @@
+# Nested ifs {data-name="nested ifs"}
+
+-   You can also "nest" an if inside another:
+
+```{python}
+#| eval: false
+if age > 12:
+   if age < 20:
+     print('teenager')
+   else:
+      print('adult')
+else:
+   print('child')
+```
+
+-   Note that, in this case, whatever is "inside" the two ifs must be indented twice!

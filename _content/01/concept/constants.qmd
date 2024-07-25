@@ -1,0 +1,40 @@
+::: {.content-visible unless-format="revealjs"}
+# Constants
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.2 CONSTANTS</b>"}
+:::
+
+-   Constants are variables with values that the program never changes
+-   Reasons to use them:
+    -   improves readability of the source code
+    -   facilitates easier program modification
+-   Good programming practice (style):
+    -   place all constant declarations **at the beginning of a program**
+    -   use all CAPITALS for constant names
+
+Example: which code is more clear?
+
+::: columns
+::: {.column width="50%"}
+```{python}
+#| echo: true
+#| eval: false
+x = 3.14159
+y = 1.324
+z = 2*x*y
+```
+:::
+
+::: {.column width="50%"}
+```{python}
+#| echo: true
+#| eval: false
+PI = 3.14159
+radius = 1.324
+circumference = 2*PI*radius
+```
+:::
+:::

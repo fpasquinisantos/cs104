@@ -1,0 +1,73 @@
+# Functions {data-stack-name="functions"}
+
+-   Functions in Python are ways to "encapsulate" parts of code in order to be organized and reused
+  - A programmer who uses a function does not need to know how a function works. He just informs the inputs and outputs!
+  
+- Example: `math.sqrt(3)`
+  - Input: what is inside the parentheses: `3`
+  - Output: what is the expression evaluated to: `1.7320508075688772`
+  
+## Why use functions?
+
+- Programs could be written without functions and all code written in one block, but:
+  - the program it would become large
+  - a lot of code would be duplicated
+- Breaking big programs into smaller functions:
+  - allows work to be divided among several programmers
+  - enables functions to be re-used in other programs
+  - makes testing and maintenance easier
+  - improves readability 
+
+## Defining a function
+
+- Python has many built-in functions like `print()`,  but you can also create your own functions
+  - these functions are called **user-defined functions**
+
+```{python}
+#| eval: false
+def function_name():
+    statement1
+    statement2
+```
+
+- The code to be executed when the function is called **needs to be indented** - "inside" the function definition
+  - The code inside the definition will not run unless it is called later!
+- The name for a function should follow the same general rules as for variables - as they also are variables pointing to objects.
+  - Functions are also objects: of the "callable" type. Check, for example, `type(print)`.
+
+## Examples
+
+::: columns
+
+::: {.column width="50%"}
+
+```{python}
+# define the function
+def greeter():
+    print('Hello world!')
+
+# call the function
+greeter()
+```
+:::
+
+::: {.column width="50%"}
+
+```{python}
+# define function
+def print_square():
+    print('****')
+    print('****')
+    print('****')
+    print('****')
+
+# call the function
+print_square()
+
+```
+
+:::
+
+:::
+
+- What is the flow of execution of the programs above? (state the sequence using the line numbers)

@@ -1,30 +1,359 @@
 [
   {
-    "objectID": "prayers/psalm90.html",
-    "href": "prayers/psalm90.html",
+    "objectID": "classes/01 - Introduction/09-04-slide.html#section",
+    "href": "classes/01 - Introduction/09-04-slide.html#section",
     "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "",
-    "text": "Let your work be shown to your servants,\nand your glorious power to their children.\nLet the favor of the Lord our God be upon us,\nand establish the work of our hands upon us;\nyes, establish the work of our hands!\nPsalm 90:16-17"
+    "text": "Programming = writing programs. What are programs?",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Syllabus",
+    "objectID": "classes/01 - Introduction/09-04-slide.html#programs-are-forms-of-wisdom",
+    "href": "classes/01 - Introduction/09-04-slide.html#programs-are-forms-of-wisdom",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Programs are forms of wisdom",
+    "text": "Programs are forms of wisdom\n\n\n\n\n\n\n\n\n\n\n\n22 “The Lord brought me forth as the first of his works, before his deeds of old; 23 I was formed long ages ago, at the very beginning, when the world came to be. 24 When there were no watery depths, I was given birth, when there were no springs overflowing with water; 25 before the mountains were settled in place, before the hills, I was given birth, 26 before he made the world or its fields or any of the dust of the earth. 27 I was there when he set the heavens in place, when he marked out the horizon on the face of the deep, 28 when he established the clouds above and fixed securely the fountains of the deep, 29 when he gave the sea its boundary so the waters would not overstep his command, and when he marked out the foundations of the earth. 30 Then I was constantly at his side. I was filled with delight day after day, rejoicing always in his presence, 31 rejoicing in his whole world and delighting in mankind. Proverbs 8.22-31",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#drawing-as-a-program",
+    "href": "classes/01 - Introduction/09-04-slide.html#drawing-as-a-program",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Drawing as a program",
+    "text": "Drawing as a program",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#section-1",
+    "href": "classes/01 - Introduction/09-04-slide.html#section-1",
+    "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "",
-    "text": "Open my eyes, that I may behold wondrous things out of your law. Psalm 119.18\nWelcome to CS-104-A, Applied Computing!",
+    "text": "We use programs to compute numbers.",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
     ]
   },
   {
-    "objectID": "index.html#activities",
-    "href": "index.html#activities",
-    "title": "Syllabus",
-    "section": "Activities",
-    "text": "Activities\nEvery week we will go through the following:\n\nPreparation reading (zyBooks textbook): you’ll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the “participation” activities in the specified sections as you go. You can skip the “challenge” activities.\nClass activities: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:\n\na programmer (runs the exercises in Thonny)\na recorder (writes the team’s answers to the exercises)\na manager/presenter (keeps the team on track; interacts with class)\n\nLab: we’ll go through a series of programming assignments during our lab classes every Tuesday. These are posted as assignments in zyBooks, where you and you partner will also submit your solutions.\n\nIf feasible, you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.\nThe lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.\n\nQuiz: usually on Wednesdays, we will have a 15 to 20 minute closed-notes quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.\n\nExceptionally at week 1, we won’t have a Quiz (too early for that).\n\nHomework: these will also be posted as assignments on our zyBooks course page. These will total 6 homework assignments during the course.\n\nPlus, every other week we will have a perspectives reading (on Perusall): you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.",
+    "objectID": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
+    "href": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Automatic computation",
+    "text": "Automatic computation\n\nCharles Babbage is known for developing the first automatic computer machine (1820’s)\n\n“the faster and more reliably one could calculate, the more money businesses could make.”\n\n\n\n\n\n\n\n\n\nAda Lovelace, daughter of Lord Byron, became enamoured by Babbage’s machine and developed the first algorithm, to calculate a sum of numbers:",
     "crumbs": [
-      "Syllabus"
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
     ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#algorithm",
+    "href": "classes/01 - Introduction/09-04-slide.html#algorithm",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Algorithm",
+    "text": "Algorithm\n\nBasically, a program: a description of a series of operations.\nBut with some specific features:\n\nPrecise and unambiguous steps\nDefinite results\nFinite\nGeneralizable (works with a range of possible inputs)\nUsually expressed through abstract/mathematical notation",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#stem-today-is-programming-computations",
+    "href": "classes/01 - Introduction/09-04-slide.html#stem-today-is-programming-computations",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "STEM today is programming computations",
+    "text": "STEM today is programming computations\n\nFor complex calculations, we don’t rely anymore on pressing calculator buttons. We have to make automatic computation programs",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#section-2",
+    "href": "classes/01 - Introduction/09-04-slide.html#section-2",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Initially, computer operators had to set the program manually to run…",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#punched-cards",
+    "href": "classes/01 - Introduction/09-04-slide.html#punched-cards",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Punched cards",
+    "text": "Punched cards\n\nAt the end of the 1800s, Herman Hollerith invented the punched card, to be automatically read by a machine.\nInstructions were then CODED in the punched card.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#grace-hoppers-proposal",
+    "href": "classes/01 - Introduction/09-04-slide.html#grace-hoppers-proposal",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Grace Hopper’s proposal",
+    "text": "Grace Hopper’s proposal\n\nLater, in 1949, Grace Hopper invented the first programming language: COBOL (COmmon Business-Oriented Language)\n\nFor example, the user would write: COMPUTE SUM = (1 + 3) DIVIDE SUM BY 2 GIVING AVERAGE\n\nCrucial to this was the development of the compiler: a program capable of converting a sentence very much like an English phrase (with syntax and semantics) into machine instructions.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#so-whats-a-code",
+    "href": "classes/01 - Introduction/09-04-slide.html#so-whats-a-code",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "So, what’s a code?",
+    "text": "So, what’s a code?\n\n“A program that follows a set of rules” (in order to be correctly interpreted)\nTo learn how to program, then, is to learn how to express yourself correctly through the code\n\nNotice the origin of the word - codex",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#python-programming-language",
+    "href": "classes/01 - Introduction/09-04-slide.html#python-programming-language",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Python programming language",
+    "text": "Python programming language\n\nInvented in the early 1990s by Guido van Rossum, named after Monty Python’s Flying Circus\nOpen source project\nHigh-level, general-purpose language\nWidely available, easy to learn, rich in tools and libraries, and portable",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "prayers/go-and-work.html",
+    "href": "prayers/go-and-work.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Go and work\nHonor the One who is working on you.\nDo so by making beautiful things,\nBe serving in beautiful ways,\nBy speaking up for the weak whose beauty is being maligned,\nBy filling this city with the aroma of good and beautiful work\nReflect the beautiful work of your heavenly Father,\nNourished now by the grace and mercy of Christ,\nIn the power of the Holy Spirit.\nGod has already accomplished the great work.\nGod goes before you and behind you.\nGod works at your side.\n(Matthew Kaemingk & Cory B. Willson, Work and Worship, p. 140)"
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html",
+    "href": "classes/01 - Introduction/index.html",
+    "title": "01 - Introduction",
+    "section": "",
+    "text": "Objectives for this unit:",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html#programming",
+    "href": "classes/01 - Introduction/index.html#programming",
+    "title": "01 - Introduction",
+    "section": "Programming",
+    "text": "Programming\n\nUnderstand what are programs, codes and algorithms.\nUnderstand what is a programming language and how it can be tricky to use them.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html#variables-and-objects",
+    "href": "classes/01 - Introduction/index.html#variables-and-objects",
+    "title": "01 - Introduction",
+    "section": "Variables and Objects",
+    "text": "Variables and Objects\n\nDescribe what variables and objects are in Python, and differentiate between them.\nDeclare and initialize variables with different data types (e.g., integers, floats, strings).\nIdentify and apply the rules for naming variables in Python.\nConvert between data types (int(), float(), str()).\nPerform basic variable assignments.\nUse multiple assignments to assign values to several variables simultaneously.\nSwap values between variables using assignment.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html#input-and-output",
+    "href": "classes/01 - Introduction/index.html#input-and-output",
+    "title": "01 - Introduction",
+    "section": "Input and output",
+    "text": "Input and output\n\nUse the input() function to read data from the user.\nUse the print() function to display information to the user.\nFormat output using different methods (e.g., string concatenation, f-strings).",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html#comments-and-programming-style",
+    "href": "classes/01 - Introduction/index.html#comments-and-programming-style",
+    "title": "01 - Introduction",
+    "section": "Comments and programming style",
+    "text": "Comments and programming style\n\nExplain the importance of following programming style\nExplain the importance of commenting code for readability and maintainability.\nUse the # symbol to write single-line comments in Python.\nUse triple quotes (’’’ or “““) to write multi-line comments in Python.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/index.html#math-operations",
+    "href": "classes/01 - Introduction/index.html#math-operations",
+    "title": "01 - Introduction",
+    "section": "Math operations",
+    "text": "Math operations\n\nPerform addition, subtraction, multiplication, and division using Python operators.\nExplain and use the modulus, exponentiation, and floor division operators.\nUnderstand and apply the rules of operator precedence in expressions.\nImport the math module and explain its purpose.\nUse common math functions (e.g., sqrt(), ceil(), floor(), pow()) to perform mathematical calculations.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction"
+    ]
+  },
+  {
+    "objectID": "prayers/starting.html",
+    "href": "prayers/starting.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Dear Heavenly Father,\nAs we gather here today to embark on a new journey of learning, we invite Your presence into this classroom.\nBless each student with wisdom, understanding, and a thirst for knowledge. Let Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
+  },
+  {
+    "objectID": "prayers/prayer-information-technology.html",
+    "href": "prayers/prayer-information-technology.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, we pray for those making international and national decisions about the ‘Information Super-Highway’;\nthat the whole range of considerations - political, economic, personal, sectional, communal - may be properly taken into account.\n\nLord, we pray for those setting up and administering national data-banks; we give thanks for the good they can do in co-ordinating information. We remember those who misuse the information they hold.\n\nLord, we pray for those involved in Research and Development in computers; we remember the power and responsibility they have for making changes in our world and our lives. We remember those who have lost their jobs as a result of new technology.\n\nLord, we pray for those who have boring keyboard jobs, those who suffer from Repetitive Strain Injury, or eyestrain. We pray for willingness to deal with the causes of such problems.\n\nLord, we pray for those in small computing businesses; the difficulties they face in chasing creditors; the stress on them, the risks they have to take - perhaps even with their own homes.\n\nLord, we pray for those who write computer games: some which are used to do much good at school, others to encourage people to gamble, some which are used just to make money. We pray for those who are addicted to computer and arcade games, and for their families; and for those who are anxious about the violence of some computer games.\n\nLord, we pray for those frightened of computers and other sorts of new technology; those who feel they cannot master using them; those who feel old or who lose their confidence in the face of change and new things.\n\nLord, we pray that technology may be the servant, not the controller of our lives.\n\n(From ‘Work in Worship’, Peterborough Diocese People and Work Programme)"
+  },
+  {
+    "objectID": "prayers/prayer-bad-jobs.html",
+    "href": "prayers/prayer-bad-jobs.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, we remember that there are some who find themselves working on projects whose value they doubt or whose likely outcome they disapprove.\nHelp them, Lord, to decide whether to stay on in the hope of effecting change or whether to leave.  Especially we pray for those forced by economic necessity to remain in uncongenial work.\nMay they know your forgiveness,\nand may the world of science and technology be ever open to your redeeming Spirit,\nthat your will may be fulfilled in all that we do.\nAmen.\n(David Welbourn)"
+  },
+  {
+    "objectID": "prayers/practicing-programming.html",
+    "href": "prayers/practicing-programming.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Dear Heavenly Father,\nWe start this day asking for your joy and strength in this moment when we are practicing these programming skills.\nPlease let this be a moment of true fellowship and character building in our community of learning.\nBe with us in any difficulties we face. Give us a disposition to help, and humility to be helped.\nGive us wisdom to discern your beauty and justice as we write these Python programs.\nMay everything we do and learn here be offered to you in praise, gratitude and service to our neighbors.\nIn Jesus name we pray. Amen."
+  },
+  {
+    "objectID": "prayers/new-unit.html",
+    "href": "prayers/new-unit.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Dear Heavenly Father,\nWe invite Your presence into this classroom.\nLet Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
+  },
+  {
+    "objectID": "prayers/god-the-maker.html",
+    "href": "prayers/god-the-maker.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "VERSE 1:\nWe bring our time, we bring our treasure,\nwe lay them down before Your throne.\nYou will make them something greater,\nmore than we could ever know. (chorus)\n\nVERSE 2:\nWe bring our gifts, we bring our power\nplace them in Your sov’reign hand.\nYou will take what we have given,\nYou will use it for Your plan. (chorus)\n\nCHORUS:\nGlory be to God, the Maker\nglory be to God, Creator\nTake our time, use our treasure\nturn them into something greater:\nGlory be to God, the Maker.\n\nVERSE 3:\nThough our hearts are weak from failure,\nbroken dreams and failed attempts,\nshow us that in ev’ry season,\nYou will fill our emptiness. (chorus)\n(God the Maker, The Porter’s Gate)"
+  },
+  {
+    "objectID": "lab-instructions.html",
+    "href": "lab-instructions.html",
+    "title": "Lab Instructions",
+    "section": "",
+    "text": "Remember that lab attendance is required. If you cannot come, please let us know in advance. Not attending the lab without legitimate reasons will unfortunately receive 0 points.\nPlease don’t bring food and drink to this lab. (For classes in the other room, NH253, this is fine).\n\n\n\n\nThe basic idea:\n\nPerson 1 acts as a coder (typing into the code)\nPerson 2 acts as a code reviewer\nAlternate the roles after each solving each problem\nBoth should discuss how to tackle the problem before coding\n\nLOTS of advantages\n\nMutual learning\nHelps spotting some stupid typos/mistakes we may end up writing (and these can difficult to detect later)\nWhile one gives attention to the “tactical” aspect of getting some small stuff done, the other is thinking about the bigger picture, the “strategical” aspect.\n\nIt takes some patience to just sit and look at someone writing. We are not trained in this kind of attention. But in the end it can be VERY satisfactory.\nIn the end, submit just one copy per pair\n\nPut down the names of both members as authors\nPut down the class A/B\nE.g., Frodo Baggins (Calvin-ID) A\n\n\n\n\n\n\nAt the top of each program file, include something like this:\n\n\"\"\"CS 108 - Lab 1.5\nUse a simple formula to estimate pi which is\naccurate to 6 digits.\n@author: Frodo Baggins (123456) A\n@author: Samwise Gamgee (654321) A\n@date: Spring, 2024\n\"\"\"\n\nThe template header is actually:\n\n\"\"\"CS 108 - Lab/Homework X.X\nDescribe the module here. Fix the lab number above and\nthe name/date below.\nDelete the second @author line if working solo.\n@author: YOUR-NAME (yourid123) A/B\n@author: PARTNER-NAME (theirid123) A/B\n@date: semester, year\n\"\"\"\n\n\n\n\nEach question carries 20 points\n\nTest for documentation (2 points)\n\nThe file name checking (e.g., Lab1_1.py)\nA brief description of the program file\nAuthorship (including the section)\n\nCorrectness (18 points for Lab1.1 and 16 points for others)\nCode documentation (2 points)\n\ni.e., concise and clear comments about the code\n\nE.g., print(pi)  # print out the estimated value of pi",
+    "crumbs": [
+      "Syllabus",
+      "Lab Instructions"
+    ]
+  },
+  {
+    "objectID": "lab-instructions.html#pair-programming",
+    "href": "lab-instructions.html#pair-programming",
+    "title": "Lab Instructions",
+    "section": "",
+    "text": "The basic idea:\n\nPerson 1 acts as a coder (typing into the code)\nPerson 2 acts as a code reviewer\nAlternate the roles after each solving each problem\nBoth should discuss how to tackle the problem before coding\n\nLOTS of advantages\n\nMutual learning\nHelps spotting some stupid typos/mistakes we may end up writing (and these can difficult to detect later)\nWhile one gives attention to the “tactical” aspect of getting some small stuff done, the other is thinking about the bigger picture, the “strategical” aspect.\n\nIt takes some patience to just sit and look at someone writing. We are not trained in this kind of attention. But in the end it can be VERY satisfactory.\nIn the end, submit just one copy per pair\n\nPut down the names of both members as authors\nPut down the class A/B\nE.g., Frodo Baggins (Calvin-ID) A",
+    "crumbs": [
+      "Syllabus",
+      "Lab Instructions"
+    ]
+  },
+  {
+    "objectID": "lab-instructions.html#dont-forget-headers-in-files",
+    "href": "lab-instructions.html#dont-forget-headers-in-files",
+    "title": "Lab Instructions",
+    "section": "",
+    "text": "At the top of each program file, include something like this:\n\n\"\"\"CS 108 - Lab 1.5\nUse a simple formula to estimate pi which is\naccurate to 6 digits.\n@author: Frodo Baggins (123456) A\n@author: Samwise Gamgee (654321) A\n@date: Spring, 2024\n\"\"\"\n\nThe template header is actually:\n\n\"\"\"CS 108 - Lab/Homework X.X\nDescribe the module here. Fix the lab number above and\nthe name/date below.\nDelete the second @author line if working solo.\n@author: YOUR-NAME (yourid123) A/B\n@author: PARTNER-NAME (theirid123) A/B\n@date: semester, year\n\"\"\"",
+    "crumbs": [
+      "Syllabus",
+      "Lab Instructions"
+    ]
+  },
+  {
+    "objectID": "lab-instructions.html#grading-example-for-lab-1",
+    "href": "lab-instructions.html#grading-example-for-lab-1",
+    "title": "Lab Instructions",
+    "section": "",
+    "text": "Each question carries 20 points\n\nTest for documentation (2 points)\n\nThe file name checking (e.g., Lab1_1.py)\nA brief description of the program file\nAuthorship (including the section)\n\nCorrectness (18 points for Lab1.1 and 16 points for others)\nCode documentation (2 points)\n\ni.e., concise and clear comments about the code\n\nE.g., print(pi)  # print out the estimated value of pi",
+    "crumbs": [
+      "Syllabus",
+      "Lab Instructions"
+    ]
+  },
+  {
+    "objectID": "prayers/kyrie-in-work.html",
+    "href": "prayers/kyrie-in-work.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Let us confess to God those things that are wrong in our work:\nThat the presence of God at work is often overlooked;\nThat creative people are often subjected to long, boring and unrelenting routines;\nThat skills are undeveloped through lack of training;\nThat resources are wasted in shoddy work and the production of unwanted goods;\nThat the maximisation of profit often excludes concern for people;\nThat men and women are discriminated against because of age, race, gender, disability, lack of skill and length of employment;\nThat the poor stand so little chance against the power of the rich, and the world’s destitute are forgotten.\n\n\nLord, have mercy upon us. Forgive us our sins and help us to amend our lives. Amen.\n(https://www.theologyofwork.org/work-in-worship)"
+  },
+  {
+    "objectID": "prayers/powers-of-the-world.html",
+    "href": "prayers/powers-of-the-world.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, we come to you asking for your wisdom to navigate the complex technological world you put us and your church.\nWe see the great powers that are laid today in the hands of big IT companies and institutions.\nGive us the grace and strength to resist these powers when they threaten our lives and the lives of our neighbors\nAnd, when we can’t, be with us as we suffer the brokenness of the culture we live in.\nJust as our Lord Jesus suffered, give us the same hope that he had - that you have the power to make all things new.\nLet this hope shine forth, so that more people may come and glorify you.\n\nLord, yours is the power, and you alone can do great things.\nWe are sure we shall see your goodness in the land of the living (Psalm 27:13-14).\nLet us be strong, hold heart and wait for you, always. Amen."
+  },
+  {
+    "objectID": "prayers/pray-vocational-doubt.html",
+    "href": "prayers/pray-vocational-doubt.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, we pray for ourselves in our daily study and work.\n\nWe give thanks for the skills we already have; we pray for wise and good use of these skills in building your kingdom.\n\nWe pray for those thinking about changing their study and/or work - especially those unhappy or insecure; those feeling undervalued or unfulfilled; those feeling that are in the wrong place; those who can’t wait for 5pm on Friday.\n\nWe pray for those with no sense of direction or purpose or vocation, for those drifting,\nfor those wanting to do a particular job, but unable through disability, illness, lack of confidence or lack of opportunity;\nfor those who are unemployed.\nWe pray for those at school or college now making decisions which will affect our working lives. We pray for all Careers Advisers.\n\nWe pray for those who are teaching us;\nfor our colleagues,\nfor our administrators."
+  },
+  {
+    "objectID": "prayers/prayer-for-automation.html",
+    "href": "prayers/prayer-for-automation.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, you reveal your glory in every thing you made\nLet us today engage with this creation so that we may participate in your beauty and wisdom\nMay the technology we use or even develop point us toward that,\nInstead of dragging us towards our own vicious desires and illusions of freedom\nHelp us, and our society, to know your ways and be still, for yours is the glory\nAnd our hearts are restless till they find rest in You.\nAmen."
+  },
+  {
+    "objectID": "prayers/prayer-responsibility.html",
+    "href": "prayers/prayer-responsibility.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "Lord, you rule the world with a good and rightful code.\nWe ask for your wisdom to see things correctly and represent them faithfully.\nFill us with your justice so that we may know how to reflect it in the way we code,\nGive us humility so that we may know the limits of our knowledge and its application in society,\nGive us the courage to stand firmly when we feel pressured to go beyond these limits,\nAnd give us responsibility as rulers we may be in the areas of society where you put us.\n\nLord, we want to reflect your good rule, so that people of all nations may fear your name.\nMake known to us the path of life;\nFor in your presence there is fullness of joy;\nand at your right hand are pleasures forevermore (Psalm 16).\nAmen."
   },
   {
     "objectID": "tips-resources.html",
@@ -93,131 +422,46 @@
     ]
   },
   {
-    "objectID": "prayers/prayer-responsibility.html",
-    "href": "prayers/prayer-responsibility.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "Lord, you rule the world with a good and rightful code.\nWe ask for your wisdom to see things correctly and represent them faithfully.\nFill us with your justice so that we may know how to reflect it in the way we code,\nGive us humility so that we may know the limits of our knowledge and its application in society,\nGive us the courage to stand firmly when we feel pressured to go beyond these limits,\nAnd give us responsibility as rulers we may be in the areas of society where you put us.\n\nLord, we want to reflect your good rule, so that people of all nations may fear your name.\nMake known to us the path of life;\nFor in your presence there is fullness of joy;\nand at your right hand are pleasures forevermore (Psalm 16).\nAmen."
-  },
-  {
-    "objectID": "prayers/prayer-for-automation.html",
-    "href": "prayers/prayer-for-automation.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, you reveal your glory in every thing you made\nLet us today engage with this creation so that we may participate in your beauty and wisdom\nMay the technology we use or even develop point us toward that,\nInstead of dragging us towards our own vicious desires and illusions of freedom\nHelp us, and our society, to know your ways and be still, for yours is the glory\nAnd our hearts are restless till they find rest in You.\nAmen."
-  },
-  {
-    "objectID": "prayers/pray-vocational-doubt.html",
-    "href": "prayers/pray-vocational-doubt.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we pray for ourselves in our daily study and work.\n\nWe give thanks for the skills we already have; we pray for wise and good use of these skills in building your kingdom.\n\nWe pray for those thinking about changing their study and/or work - especially those unhappy or insecure; those feeling undervalued or unfulfilled; those feeling that are in the wrong place; those who can’t wait for 5pm on Friday.\n\nWe pray for those with no sense of direction or purpose or vocation, for those drifting,\nfor those wanting to do a particular job, but unable through disability, illness, lack of confidence or lack of opportunity;\nfor those who are unemployed.\nWe pray for those at school or college now making decisions which will affect our working lives. We pray for all Careers Advisers.\n\nWe pray for those who are teaching us;\nfor our colleagues,\nfor our administrators."
-  },
-  {
-    "objectID": "prayers/powers-of-the-world.html",
-    "href": "prayers/powers-of-the-world.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we come to you asking for your wisdom to navigate the complex technological world you put us and your church.\nWe see the great powers that are laid today in the hands of big IT companies and institutions.\nGive us the grace and strength to resist these powers when they threaten our lives and the lives of our neighbors\nAnd, when we can’t, be with us as we suffer the brokenness of the culture we live in.\nJust as our Lord Jesus suffered, give us the same hope that he had - that you have the power to make all things new.\nLet this hope shine forth, so that more people may come and glorify you.\n\nLord, yours is the power, and you alone can do great things.\nWe are sure we shall see your goodness in the land of the living (Psalm 27:13-14).\nLet us be strong, hold heart and wait for you, always. Amen."
-  },
-  {
-    "objectID": "prayers/kyrie-in-work.html",
-    "href": "prayers/kyrie-in-work.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Let us confess to God those things that are wrong in our work:\nThat the presence of God at work is often overlooked;\nThat creative people are often subjected to long, boring and unrelenting routines;\nThat skills are undeveloped through lack of training;\nThat resources are wasted in shoddy work and the production of unwanted goods;\nThat the maximisation of profit often excludes concern for people;\nThat men and women are discriminated against because of age, race, gender, disability, lack of skill and length of employment;\nThat the poor stand so little chance against the power of the rich, and the world’s destitute are forgotten.\n\n\nLord, have mercy upon us. Forgive us our sins and help us to amend our lives. Amen.\n(https://www.theologyofwork.org/work-in-worship)"
-  },
-  {
-    "objectID": "lab-instructions.html",
-    "href": "lab-instructions.html",
-    "title": "Lab Instructions",
-    "section": "",
-    "text": "Remember that lab attendance is required. If you cannot come, please let us know in advance. Not attending the lab without legitimate reasons will unfortunately receive 0 points.\nPlease don’t bring food and drink to this lab. (For classes in the other room, NH253, this is fine).\n\n\n\n\nThe basic idea:\n\nPerson 1 acts as a coder (typing into the code)\nPerson 2 acts as a code reviewer\nAlternate the roles after each solving each problem\nBoth should discuss how to tackle the problem before coding\n\nLOTS of advantages\n\nMutual learning\nHelps spotting some stupid typos/mistakes we may end up writing (and these can difficult to detect later)\nWhile one gives attention to the “tactical” aspect of getting some small stuff done, the other is thinking about the bigger picture, the “strategical” aspect.\n\nIt takes some patience to just sit and look at someone writing. We are not trained in this kind of attention. But in the end it can be VERY satisfactory.\nIn the end, submit just one copy per pair\n\nPut down the names of both members as authors\nPut down the class A/B\nE.g., Frodo Baggins (Calvin-ID) A\n\n\n\n\n\n\nAt the top of each program file, include something like this:\n\n\"\"\"CS 108 - Lab 1.5\nUse a simple formula to estimate pi which is\naccurate to 6 digits.\n@author: Frodo Baggins (123456) A\n@author: Samwise Gamgee (654321) A\n@date: Spring, 2024\n\"\"\"\n\nThe template header is actually:\n\n\"\"\"CS 108 - Lab/Homework X.X\nDescribe the module here. Fix the lab number above and\nthe name/date below.\nDelete the second @author line if working solo.\n@author: YOUR-NAME (yourid123) A/B\n@author: PARTNER-NAME (theirid123) A/B\n@date: semester, year\n\"\"\"\n\n\n\n\nEach question carries 20 points\n\nTest for documentation (2 points)\n\nThe file name checking (e.g., Lab1_1.py)\nA brief description of the program file\nAuthorship (including the section)\n\nCorrectness (18 points for Lab1.1 and 16 points for others)\nCode documentation (2 points)\n\ni.e., concise and clear comments about the code\n\nE.g., print(pi)  # print out the estimated value of pi",
+    "text": "Open my eyes, that I may behold wondrous things out of your law. Psalm 119.18\n\nWelcome to CS-104-A, Applied Computing!\n\n\n\n\n\n\nWhy programming?\n\n\n\n\n\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing\n\n\n\n\n\n\n\n\n\n\n\n\nHow?\n\n\n\n\n\nWe will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.\nThe material is considered in the context of the reformed Christian perspective.\n\n\n\n\nLearning Outcomes\nThis course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:\n\nDesign algorithms and data types/structures to solve computational problems, using:\n\nprimitive data types, expressions and arrays/lists;\nbasic control structures: sequences, selection and repetition\nsubprograms (methods/functions;\nclasses;\n\nFind and fix syntactic and logical problems in programs;\nUse an Integrated Development Environment (IDE) to develop a program;\nUnderstand the wider implications of encoding intelligence in the form of algorithms.\n\n\n\nStaff\n\nProfessor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33@calvin.edu\nLab assistant: TBA\nGrader: TBA\n\n\n\nSchedule\n\n\n\n\n\n\nSchedule\n\n\n\n\n\nSchedule is subject to change. Updates will be made here and on Moodle.\n\n\n\n\n\n\n\n\n\n\nUnit\nClasses\nDay of Week\nContent\n\n\n\n\n\n09-02\nMonday\nLabor Day\n\n\n\n09-03\nTuesday\nNO LAB\n\n\n1 - Introduction\n09-04\nWednesday\nWelcome and introduction\n\n\n1 - Introduction\n09-06\nFriday\nVariables, Objects, Assignments\n\n\n1 - Introduction\n09-09\nMonday\nInput/Output\n\n\n1 - Introduction\n09-10\nTuesday\nLAB 1 - Introduction\n\n\n1 - Introduction\n09-11\nWednesday\nOperators and math\n\n\n2 - Types\n09-13\nFriday\nLists and tuples\n\n\n2 - Types\n09-16\nMonday\nDictionaries\n\n\n2 - Types\n09-17\nTuesday\nLAB 2 - Data types\n\n\n2 - Types\n09-18\nWednesday\nNumpy arrays\n\n\n3 - Conditionals\n09-20\nFriday\nIf-else\n\n\n3 - Conditionals\n09-23\nMonday\nComparison and boolean operators\n\n\n3 - Conditionals\n09-24\nTuesday\nLAB 3 - Conditionals\n\n\n4 - Loops\n09-25\nWednesday\nWhile and for\n\n\n4 - Loops\n09-27\nFriday\nIterating techniques\n\n\n5 - Functions\n09-30\nMonday\nFunctions\n\n\n4 - Loops\n10-01\nTuesday\nLAB 4 - Loops\n\n\n5 - Functions\n10-02\nWednesday\nVariable scope in functions\n\n\n5 - Functions\n10-04\nFriday\nString manipulation\n\n\n5 - Functions\n10-07\nMonday\nModules and namespaces\n\n\n5 - Functions\n10-08\nTuesday\nLAB 5 - Functions\n\n\n6 - Classes\n10-09\nWednesday\nClass attributes and methods\n\n\n6 - Classes\n10-11\nFriday\nOperator overloading\n\n\n6 - Classes\n10-14\nMonday\nInheritance\n\n\n6 - Classes\n10-15\nTuesday\nLAB 6 - Classes\n\n\n7 - Wrap-up\n10-16\nWednesday\nWrap-up\n\n\n\n10-18\nFriday\nFall Break\n\n\n\n\n\n\n\n\nCommunication\nOutside of class, we’ll use:\n\nOffice hours;\nMoodle:\n\nYou can use our Q&A Forum to post questions on assignments, concepts discussed in class, or when you have problems getting code to run. Post answers as well. You might be able to provide a good answer before the course staff even sees the question!\nWe also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. In general, don’t post code publicly. If you have to include code, make the post private first so the course staff can decide if it’s ok to share.\n\nEmail — Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).\n\nYou’ll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You’re free to schedule your work as best works for you, but we’ll be trying to observe a Sabbath in our own schedules.\n\n\nMaterials\n\n\n\n\n\n\nTexts\n\n\n\n\n\n\nZyBooks \nWe will be using an online text called Programming in Python 3 with ZyLabs. The text will cost $89 and can be accessed as follows:\n1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).\n2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`\n3.  Click *Subscribe*.\nYou’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the option to print a PDF version of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.\n\n\nWebsite and class handouts\nThis website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that will be posted on Perusall.\n\n\nPerspectives readings\nSseveral articles on programming that will be available on Perusall. We expect you to interact and discuss with these texts.\n\n\n\n\n\n\nImportant\n\n\n\nThe articles on reflections about programming that we are going to read are presenting lots of different opinions that may not reflect what I, myself, subscribe to. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don’t agree completely.\n\n\n\n\n\n\n\n\n\n\n\n\nWork Environment\n\n\n\n\n\nWe will use Thonny as the integrated development environment of our programming exercises in Python.\nThe labs in SB 354 & 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.\n\nInstall Thonny in your own machine Install the latest version of Thonny development environment for your system type. Thonny has a current version of Python built-in and should work without further configuration; or\nAccess the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:\n\nthe list of machines here: https://remote.cs.calvin.edu\nthe instructions for using those machines here: https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php\n\n\n\n\n\n\n\nActivities\nEvery week we will go through the following:\n\nPreparation reading (zyBooks textbook): you’ll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the “participation” activities in the specified sections as you go. You can skip the “challenge” activities.\nClass activities: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:\n\na programmer (runs the exercises in Thonny)\na recorder (writes the team’s answers to the exercises)\na manager/presenter (keeps the team on track; interacts with class)\n\nLab: we’ll go through a series of programming assignments during our lab classes every Tuesday. These are posted as assignments in zyBooks, where you and you partner will also submit your solutions.\n\nIf feasible, you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.\nThe lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.\n\nQuiz: usually on Wednesdays, we will have a 15 to 20 minute closed-notes quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.\n\nExceptionally at week 1, we won’t have a Quiz (too early for that).\n\nHomework: these will also be posted as assignments on our zyBooks course page. These will total 6 homework assignments during the course.\n\nPlus, every other week we will have a perspectives reading (on Perusall): you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.\n\n\nGrading\nWe will compute your final grade as follows:\n\n5% — Preparation readings (zyBooks) (6 in total)\n5% — Perspectives readings (Perusall) (3 in total)\n40% — Quizzes (6 in total)\n50% — Homeworks (6 in total)\n\nWe’ll throw out your lowest quiz score.\nCS 108L (1 credit)\n\n100% — Lab exercises (pair programming) (6 in total)\n\nYour grades will be available in the Moodle gradebook.\n\n\nStudy Sessions\nFor this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:\n\n4-8 hours of tutoring per week\nA nice place to do homework and ask questions\nAn entire room of people working through the same challenges\nA chance to make friends and study partners\n\nThe service is completely free and flexible. For more information, visit https://calvin.edu/go/tutor\n\n\nUse of Technology\nWe believe that technology is not neutral: we use them, but they also affect us. Consequently, technology in the classroom changes things. Studies suggest that internet-enabled electronic devices in the classroom reduces student performance. We will use technology in class, but with limits:\n\nYou may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.\nYou may use laptops to take notes or attempt programming tasks.\nBeyond those uses, technology use in class should be limited to critical messages only.\n\nFurthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.\nThis doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see this page.\n\n\nAcademic Integrity\nCode re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.\nThe student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit https://calvin.edu/directory/policies/academic-integrity-policy.\n\n\nSpecial Circumstances\nOccasionally there are special circumstances that require that course policies be adjusted for a particular student. In such cases, it is the responsibility of the student to inform us of the situation as soon as possible, so that the appropriate arrangements can be made. This includes, but is not limited to, students with documented disabilities.\nCalvin University is committed to providing access to all students. If you need additional accommodations to succeed in this class, please contact Disability Services in the Center for Student Success (disabilityservices@calvin.edu) as soon as possible to explore what arrangements can be made. The three of us (student, instructor, and Disability Services) will work together to come up with an appropriate solution.\nWe will give a grade of Incomplete (I) only in unusual circumstances that have been confirmed by the Student Life office.\n\n\nDiversity and Inclusion\nI intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.\nWe will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to Safer Spaces or the provost’s office.\n\n\nEtiquette and Wellness\nI like to understand education as forming a community of friends who love knowledge (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.\nWe are not just developing technical skill; we are also developing virtue and character through the acquisition of a technical skill. Please, take advantage of this opportunity.\nFurthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.\nAlso, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The Center for Counseling and Wellness sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!",
     "crumbs": [
-      "Syllabus",
-      "Lab Instructions"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "lab-instructions.html#pair-programming",
-    "href": "lab-instructions.html#pair-programming",
-    "title": "Lab Instructions",
+    "objectID": "prayers/psalm90.html",
+    "href": "prayers/psalm90.html",
+    "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "",
-    "text": "The basic idea:\n\nPerson 1 acts as a coder (typing into the code)\nPerson 2 acts as a code reviewer\nAlternate the roles after each solving each problem\nBoth should discuss how to tackle the problem before coding\n\nLOTS of advantages\n\nMutual learning\nHelps spotting some stupid typos/mistakes we may end up writing (and these can difficult to detect later)\nWhile one gives attention to the “tactical” aspect of getting some small stuff done, the other is thinking about the bigger picture, the “strategical” aspect.\n\nIt takes some patience to just sit and look at someone writing. We are not trained in this kind of attention. But in the end it can be VERY satisfactory.\nIn the end, submit just one copy per pair\n\nPut down the names of both members as authors\nPut down the class A/B\nE.g., Frodo Baggins (Calvin-ID) A",
+    "text": "Let your work be shown to your servants,\nand your glorious power to their children.\nLet the favor of the Lord our God be upon us,\nand establish the work of our hands upon us;\nyes, establish the work of our hands!\nPsalm 90:16-17"
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-09-slide.html",
+    "href": "classes/01 - Introduction/09-09-slide.html",
+    "title": "09-11 (Slides)",
+    "section": "",
+    "text": "09-11 (Slides)",
     "crumbs": [
       "Syllabus",
-      "Lab Instructions"
+      "Classes",
+      "01 - Introduction",
+      "09-11 (Slides)"
     ]
   },
   {
-    "objectID": "lab-instructions.html#dont-forget-headers-in-files",
-    "href": "lab-instructions.html#dont-forget-headers-in-files",
-    "title": "Lab Instructions",
+    "objectID": "classes/01 - Introduction/09-06-slide.html",
+    "href": "classes/01 - Introduction/09-06-slide.html",
+    "title": "09-11 (Slides)",
     "section": "",
-    "text": "At the top of each program file, include something like this:\n\n\"\"\"CS 108 - Lab 1.5\nUse a simple formula to estimate pi which is\naccurate to 6 digits.\n@author: Frodo Baggins (123456) A\n@author: Samwise Gamgee (654321) A\n@date: Spring, 2024\n\"\"\"\n\nThe template header is actually:\n\n\"\"\"CS 108 - Lab/Homework X.X\nDescribe the module here. Fix the lab number above and\nthe name/date below.\nDelete the second @author line if working solo.\n@author: YOUR-NAME (yourid123) A/B\n@author: PARTNER-NAME (theirid123) A/B\n@date: semester, year\n\"\"\"",
+    "text": "09-11 (Slides)",
     "crumbs": [
       "Syllabus",
-      "Lab Instructions"
+      "Classes",
+      "01 - Introduction",
+      "09-11 (Slides)"
     ]
-  },
-  {
-    "objectID": "lab-instructions.html#grading-example-for-lab-1",
-    "href": "lab-instructions.html#grading-example-for-lab-1",
-    "title": "Lab Instructions",
-    "section": "",
-    "text": "Each question carries 20 points\n\nTest for documentation (2 points)\n\nThe file name checking (e.g., Lab1_1.py)\nA brief description of the program file\nAuthorship (including the section)\n\nCorrectness (18 points for Lab1.1 and 16 points for others)\nCode documentation (2 points)\n\ni.e., concise and clear comments about the code\n\nE.g., print(pi)  # print out the estimated value of pi",
-    "crumbs": [
-      "Syllabus",
-      "Lab Instructions"
-    ]
-  },
-  {
-    "objectID": "prayers/god-the-maker.html",
-    "href": "prayers/god-the-maker.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "VERSE 1:\nWe bring our time, we bring our treasure,\nwe lay them down before Your throne.\nYou will make them something greater,\nmore than we could ever know. (chorus)\n\nVERSE 2:\nWe bring our gifts, we bring our power\nplace them in Your sov’reign hand.\nYou will take what we have given,\nYou will use it for Your plan. (chorus)\n\nCHORUS:\nGlory be to God, the Maker\nglory be to God, Creator\nTake our time, use our treasure\nturn them into something greater:\nGlory be to God, the Maker.\n\nVERSE 3:\nThough our hearts are weak from failure,\nbroken dreams and failed attempts,\nshow us that in ev’ry season,\nYou will fill our emptiness. (chorus)\n(God the Maker, The Porter’s Gate)"
-  },
-  {
-    "objectID": "prayers/new-unit.html",
-    "href": "prayers/new-unit.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nWe invite Your presence into this classroom.\nLet Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
-  },
-  {
-    "objectID": "prayers/practicing-programming.html",
-    "href": "prayers/practicing-programming.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nWe start this day asking for your joy and strength in this moment when we are practicing these programming skills.\nPlease let this be a moment of true fellowship and character building in our community of learning.\nBe with us in any difficulties we face. Give us a disposition to help, and humility to be helped.\nGive us wisdom to discern your beauty and justice as we write these Python programs.\nMay everything we do and learn here be offered to you in praise, gratitude and service to our neighbors.\nIn Jesus name we pray. Amen."
-  },
-  {
-    "objectID": "prayers/prayer-bad-jobs.html",
-    "href": "prayers/prayer-bad-jobs.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we remember that there are some who find themselves working on projects whose value they doubt or whose likely outcome they disapprove.\nHelp them, Lord, to decide whether to stay on in the hope of effecting change or whether to leave.  Especially we pray for those forced by economic necessity to remain in uncongenial work.\nMay they know your forgiveness,\nand may the world of science and technology be ever open to your redeeming Spirit,\nthat your will may be fulfilled in all that we do.\nAmen.\n(David Welbourn)"
-  },
-  {
-    "objectID": "prayers/prayer-information-technology.html",
-    "href": "prayers/prayer-information-technology.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we pray for those making international and national decisions about the ‘Information Super-Highway’;\nthat the whole range of considerations - political, economic, personal, sectional, communal - may be properly taken into account.\n\nLord, we pray for those setting up and administering national data-banks; we give thanks for the good they can do in co-ordinating information. We remember those who misuse the information they hold.\n\nLord, we pray for those involved in Research and Development in computers; we remember the power and responsibility they have for making changes in our world and our lives. We remember those who have lost their jobs as a result of new technology.\n\nLord, we pray for those who have boring keyboard jobs, those who suffer from Repetitive Strain Injury, or eyestrain. We pray for willingness to deal with the causes of such problems.\n\nLord, we pray for those in small computing businesses; the difficulties they face in chasing creditors; the stress on them, the risks they have to take - perhaps even with their own homes.\n\nLord, we pray for those who write computer games: some which are used to do much good at school, others to encourage people to gamble, some which are used just to make money. We pray for those who are addicted to computer and arcade games, and for their families; and for those who are anxious about the violence of some computer games.\n\nLord, we pray for those frightened of computers and other sorts of new technology; those who feel they cannot master using them; those who feel old or who lose their confidence in the face of change and new things.\n\nLord, we pray that technology may be the servant, not the controller of our lives.\n\n(From ‘Work in Worship’, Peterborough Diocese People and Work Programme)"
-  },
-  {
-    "objectID": "prayers/starting.html",
-    "href": "prayers/starting.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nAs we gather here today to embark on a new journey of learning, we invite Your presence into this classroom.\nBless each student with wisdom, understanding, and a thirst for knowledge. Let Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
-  },
-  {
-    "objectID": "prayers/go-and-work.html",
-    "href": "prayers/go-and-work.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Go and work\nHonor the One who is working on you.\nDo so by making beautiful things,\nBe serving in beautiful ways,\nBy speaking up for the weak whose beauty is being maligned,\nBy filling this city with the aroma of good and beautiful work\nReflect the beautiful work of your heavenly Father,\nNourished now by the grace and mercy of Christ,\nIn the power of the Holy Spirit.\nGod has already accomplished the great work.\nGod goes before you and behind you.\nGod works at your side.\n(Matthew Kaemingk & Cory B. Willson, Work and Worship, p. 140)"
   }
 ]

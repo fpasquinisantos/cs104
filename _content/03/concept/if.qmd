@@ -1,0 +1,34 @@
+# If statement
+
+::: columns
+::: {.column width="50%"}
+-   Until now we have been only looking at a sequential, step-by-step program flow.
+-   What if we want our code to execute different code given some conditions?
+:::
+
+::: {.column width="50%"}
+![](/img/flowchart1.jpg)
+:::
+:::
+
+::: columns
+::: {.column width="70%"}
+-   In Python, an if statement takes the following form:
+
+```{python}
+#| eval: false
+x=1
+if expression:
+  # statements executed if expression is true
+# statements following the if expression (execute independently of expression being true or false)
+```
+
+-   Attention to **indentation**: all lines that will be executed if the expression is true must start with a "tab" or 4 whitespaces
+
+-   Lines of code that are not indented ("inside the if") just are followed after it is finished
+:::
+
+::: {.column width="30%"}
+![](/img/ifflow1.png)
+:::
+:::

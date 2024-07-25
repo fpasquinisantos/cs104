@@ -1,0 +1,28 @@
+# For loops {.smaller data-stack-name="for"}
+
+```{python}
+#| eval: false
+for variable in <container>:
+    <loop statements>
+```
+
+-   This code will repeat through each item in the container (list,
+    tuple, set, etc)
+    -   `variable` is declared at the loop and will only be available
+        inside the loop.
+    -   Its value will vary with each iteration, assuming the current
+        value in the sequence/container
+-   Like the while loop, statements in the for loop body must be
+    indented and aligned in the same column!
+
+## Examples
+
+```{python}
+for name in ["Joe", "Amy", "Brad", "Zuki","Thandi",'Joe']:
+    print("Hi", name, "how are you?")
+```
+
+```{python}
+for val in (3, 11, 22, 0, -3):
+    print(val)
+```

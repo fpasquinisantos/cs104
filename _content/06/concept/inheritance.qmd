@@ -1,0 +1,49 @@
+# Class inheritance
+
+- You can derive new classes from old classes, which is called  **class inheritance**. This is useful if you want to add extra or different functionality but don't lose what you already implemented. See, for example, a class for an `Animal`:
+
+```{python}
+class Animal():
+  
+  def __init__(self, age, color):
+    self.age = age
+    self.color = color
+    
+  def crossbreed(self, other):
+    return Animal(0, self.color+' and '+other.color)
+  
+  def make_sound(self):
+    print("Animal speaks!")
+```
+
+- We can generate some derived classes by putting the **parent class** inside the parentheses in the class definition
+
+```{python}
+class Dog(Animal):  # Dog is a subclass of Animal
+  
+  def __init__(self, breed, age, color):   # reimplementing the constructor method
+    self.breed = breed
+    self.age = age
+    self.color = color
+    
+  def make_sound(self):   # reimplementing the make_sound method
+    print("Woof woof!")
+    
+    
+class Cat(Animal):
+  
+  def make_sound(self):
+    print("Meow!")
+    
+    
+# main chunk
+fido = Dog('boxer', 2, 'brown')
+whiskers = Cat(2, 'black')
+turtle = Animal(1, 'white')
+fido.make_sound()
+whiskers.make_sound()
+turtle.make_sound()
+```
+
+- We can treat our `Dog` and `Cat` as also members of the Animal class! This is what we call **polymorphism**. For example, if we call crossbreed in any of the `Dog` and Cat object
+  - But the problem now will be that we can crossbreed animals of different species... which is a mistake! :P

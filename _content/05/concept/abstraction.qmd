@@ -1,0 +1,15 @@
+# Abstraction {.smaller data-stack-name="abstraction"}
+
+-   Abstraction is the process of ignoring details to focus on the big picture
+
+-   Example: consider a television
+
+    -   Most people don't know how a TV works, but they can still use it
+    -   A TV can be abstracted as box with inputs and outputs as follows:
+
+![](/img/tvabstraction.png)
+
+---
+
+- Abstractions hide the details and make your solutions reach other people.
+  - Example: prefab mods in building games - you download the item and create it in your game.

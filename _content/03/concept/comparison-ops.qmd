@@ -1,0 +1,113 @@
+# Comparison operators {.smaller data-stack-name="comparison operators"}
+
+::: {.smaller}
+
+| Operator | Name                     |
+|----------|--------------------------|
+| ==       | Equal                    |
+| !=       | Not equal                |
+| \>       | Greater than             |
+| \<       | Less than                |
+| \>=      | Greater than or equal to |
+| \<=      | Less than or equal to    |
+
+:::
+
+-   Result will always be a Boolean object! (`True` or `False`)
+-   *In principle*, would works for numbers (`int`, `float`, `complex`), sequences (`list`, `tuple`, `string`) and dictionaries (`dict`)
+
+## Floating point comparisons
+
+```{python}
+a = 0.15 + 0.15
+b = 0.10 + 0.20
+
+print(a == b)
+print(a >= b)
+```
+
+What is happening here? How might we perform a reasonable comparison between these floating point numbers?
+
+------------------------------------------------------------------------
+
+One way to solve: use `math.isclose()`:
+
+```{python}
+import math
+
+a = 0.15 + 0.15
+b = 0.10 + 0.20
+
+print(math.isclose(a,b))
+```
+
+## Sequence comparison
+
+-   For equality and non-equality:
+
+```{python}
+a = "Hi"
+b = "Hi"
+c = "Hello"
+print(a == b)
+print(a == c)
+print(a != b)
+print(a != c)
+```
+
+```{python}
+a = [1,2]
+b = [1,2]
+print(a == b)
+```
+
+------------------------------------------------------------------------
+
+However, order matters:
+
+```{python}
+a = [1,2]
+b = [2,1]
+print(a == b)
+```
+
+*(after all, with strings it is also easy to see that `Hi` is different than `iH`).*
+
+If we need to ignore order, and compare only elements, we can **compare the sorted lists**:
+
+```{python}
+a = [1,2]
+b = [2,1]
+print(sorted(a) == sorted(b))
+```
+
+## Greater and smaller than
+
+Sequences follow a [lexicographical ordering](https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types): first the first two items are compared, and if they differ this determines the outcome of the comparison; if they are equal, the next two items are compared, and so on, until either sequence is exhausted.
+
+For example, all comparisons below are `True`:
+
+```{python}
+#| eval: false
+(1, 2, 3)              < (1, 2, 4)
+[1, 2, 3]              < [1, 2, 4]
+'ABC' < 'C' < 'Pascal' < 'Python'
+(1, 2, 3, 4)           < (1, 2, 4)
+(1, 2)                 < (1, 2, -1)
+(1, 2, 3)             == (1.0, 2.0, 3.0)
+(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
+```
+
+## Comparison operator chaining
+
+Differently from most other languages, Python supports operator chaining, like `2 < x < 5`.
+
+-   Chaining compares left to right, evaluating a \< b first
+-   If the result is true, then b \< c is evaluated next
+
+```{python}
+#| eval: false
+age = int(input('Please enter your age: '))
+if 12 < age < 20:
+  print('You are a teenager')
+```

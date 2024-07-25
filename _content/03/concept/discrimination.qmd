@@ -1,0 +1,57 @@
+# Conditionals are discriminations
+
+[Amy Ko reflects](https://criticallyconsciouscomputing.org/control) on the attempt to generate an algorithm for deciding over administrative issues.
+
+> "In 2006, the U.S. state of Indiana began a major digitization initiative to reduce administrative costs of its welfare system through automation.\
+This information the caseworker reviewed included things like:\
+- Proof of Indiana residency,\
+- How many people live in the applicant’s household,\
+- Whether the household has dependent children less than 18 years of age, and\
+- The gross earned monthly income of the household in the current or next month.\
+\
+The case worker:\
+- was available by phone for questions,\
+- to resolve any ambiguities in an application, and\
+- to help explain the state’s eligibility decisions.\
+\
+The process was not perfect, but the experience of applying for benefits involved interacting with a person who could guide the applicant through the process, fix any misinterpretations by the applicants about how to fill out the form, and address any exceptional circumstances not anticipated by the program, its processes, or the laws that shaped it.\
+\
+\Indiana’s digitization efforts sought to automate the application process, having applicants submit data through a website, then having an algorithm use that data to decide whether the applicant was eligible.
+\
+The hope was that the algorithm could replicate the caseworker’s eligibility decision, but do it more consistently, more quickly, and more fairly than a case worker could do, and possibly free caseworkers to spend their time handling more complex cases. [...]\
+\
+[However, what happened is that] fewer people were being approved, and residents had less clarity about why they were being denied. The decisions that the algorithm was making were, in general, *less flexible, less explainable, and less transparent than the decisions that caseworkers made**. The result was that Indiana denied more than a million applications for food stamps and other aid, a 54% increase in denials compared to the three years before the automation was launched. From the conservative governor’s standpoint, however, it was a success: the state and federal government had never spent less on food security for its citizens since the program had started.
+
+## Can't we just refine the logic?
+
+* The algorithm described failed because it couldn't deal with exceptional cases, personal histories, etc.
+  * Can't we just add these exceptions to the logic?
+  
+![](/img/elseif.png){width="50%"}
+
+There are reasons to believe this won't be sufficient.
+
+> Automating decision making can also be problematic when it completely **stamps out any room for discretion**. While human discretion presents its own issues, as described above, it can be useful when it is difficult or impossible to fully specify how decisions should be made in accordance with the goals and principles of the institution. Automation requires that an institution determine in advance all of the criteria that a decision-making scheme will take into account; there is no room to consider the relevance of additional details that might not have been considered or anticipated at the time that the software was developed.
+
+> Automated decision-making is thus likely to be much more brittle than decision-making that involves manual review because it limits the opportunity for decision subjects to introduce information into the decision-making process. People are confined to providing evidence that corresponds to a pre-established field in the software. Such constraints can result in absurd situations in which the strict application of decision-making rules leads to outcomes that are directly counter to the goals behind these rules. New evidence that would immediately reverse the assessment of a human decision maker may have no place in automated decision making. For example, in an automated system to assess people with illnesses to determine eligibility for a state-provided caregiver, one field asked if there were any foot problems. An assessor visited a certain person and filled out the field to indicate that they didn’t have any problems — because they were an amputee. - Solon Barocas, Moritz Hardt, Arvind Narayanan, [*When is automated decision making legitimate?*](https://fairmlbook.org/legitimacy.html)
+
+## The awkward student experiment
+
+* Philosopher Ludwig Wittgenstein (1889-1951) wrote: “no course of action could be determined by a rule, because *any* course of action can be made out to accord with the rule” (Philosophical Investigations §201a). In other words: **“rules do not contain the rules for its own application”**
+
+* Example: the **akward student experiment** (Harry Collins, "Changing Order"): “given the sequence ‘2, 4, 6, 8’, continue it in the same way.”
+
+> “We know how to go on in the ‘same way’ because we share a ‘form of life’. The rightness of ‘10, 12, 14, 16’ as the continuation of ‘2, 4, 6, 8’ resides in its rightness for everyone sharing our culture.” (Harry Collins)
+
+* In a similar way, an algorithm will follow rules in the way we think it should follow rules (i.e., ignoring lots of exceptional situations). But without a shared culture, for understanding context and then how to apply the rule, it will operate almost "blindly"...
+
+![](/img/wall-e-wall-e-mo.gif){width="50%"}
+
+## Discussion: programmers encode and standardize intelligence
+
+> “The power that algorithms offer is not without consequences. They take processes that we used to be able to see people do and hide them behind code. **They take procedures that used to be controlled by every individual who executed them and centralize and standardize this execution in the hands of software developers often in private organizations**. And this shift of power, from the collective to developers, had a price: the knowledge those individuals have of what they need is no longer brought to bear on the processes that algorithms automate. Instead, it’s up to those few developers to proactively learn that knowledge and **translate it into uniform step-by-step instructions that likely don’t account for the diversity of needs and contexts in the world.** The critical question about algorithms, then, is not how to automate something with an algorithm, but whether to and why.” - Amy J. Ko, Critically Conscious Computing
+
+* What are the **value judgements** when we encode intelligence in algorithms?
+    * **If-else** statements are **distinction judgments**, or in other words, **DISCRIMINATIONS**. Are these judgments fair? Do they really take what is needed into account?
+    
+* **As Christians**, are we being fair with the diversity and complexity of the world, or are we trying to code everything into simplistic operations just in order to better control life situations?

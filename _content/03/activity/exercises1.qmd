@@ -1,0 +1,68 @@
+# Exercises
+
+## Exercise 1: if versus elif
+
+-   What is the difference between an `elif` and a `if` just after another `if`?
+
+```{python}
+x = 4
+if x > 3:
+  print("Greater than 3")
+elif x < 5:
+  print("Less than 5")
+```
+
+```{python}
+x = 4
+if x > 3:
+  print("Greater than 3")
+if x < 5:
+  print("Less than 5")
+```
+
+
+
+
+## Exercise 2
+
+```{python}
+#| eval: false
+import turtle
+t = turtle.Turtle()
+choice = input("Choose between square, circle or both: ")
+if choice.lower() == "square" or choice.lower() == "both":
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+if choice.lower() == "circle" or choice.lower() == "both":
+  turtle.circle(50)
+print("Finished!")
+```
+
+-   Which code chunks will execute:
+    -   If the user types `square`?
+    -   If the user types `both`?
+    -   If the user types `potato`?
+-   Why are we setting `choice.lower()` in the comparison?
+
+## Exercise 3
+
+-   Identify the code chunks and write its fluxogram (note the nested ifs!)
+
+```{python}
+#| eval: false
+print("Lamp doesn't work!")
+ans = input("Is the lamp plugged in? ")
+if ans == "yes":
+  ans = input("Is the bulb burned out? ")
+  if ans == "yes":
+    print("Replace bulb!")
+  else:
+    print("Repair lamp!")
+else:
+  print("Plug in lamp!")
+```

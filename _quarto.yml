@@ -3,6 +3,12 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "!classes/02*/*"
+    - "!classes/03*/*"
+    - "!classes/04*/*"
+    - "!classes/05*/*"
+    - "!classes/06*/*"
+    - "!classes/07*/*"
     - "!*.test.qmd"
 
 website:

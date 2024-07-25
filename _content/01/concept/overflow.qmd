@@ -1,0 +1,37 @@
+::: {.content-visible unless-format="revealjs"}
+# Overflow
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.2 OVERFLOW</b>"}
+:::
+
+-   Integers and floats are representations in the memory of your computer. Therefore, there are value limits to these numbers.
+    -   If we pass the limit, we arrive at an **overflow**, and the number is not computed correctly.
+
+
+-   **For integers**, Python dynamically increases the use of memory as the number grows. Therefore, **in theory** there is a limit (computer memory will be full), but **in practice** this will almost never be the case.
+    -   For example, try `2147483647 ** 200`
+    -   This, however, is a Python feature. Other languages may not handle that.
+
+-   **For floats**, numbers are limited by the size of the mantissa and exponent.
+    -   Remember: for $1.2345 \times 10^7$, $1.2345$ is the mantissa, and $7$ is the exponent
+    -   In Python, maximum is about 3 digits for the exponent and 17 digits for the mantissa
+    -   For example, try: `2.0**2000`
+        -   `OverflowError`
+
+::: {style="font-size: 70%;"}
+More info at <https://docs.python.org/3/tutorial/floatingpoint.html>
+:::
+
+## So, be careful when mixing numeric types!
+
+-   On June 4, 1996 the European Space Agency launched the first Ariane 5 rocket:
+    -   the result of a decade of development, \$8 billion
+    -   Exploded 40 seconds after lift-off with a \$500 million satellite payload on board...
+-   Cause was a software error related to a **number type conversion and an overflow**
+
+::: {style="font-size: 70%;"}
+<http://www-users.math.umn.edu/~arnold/disasters/ariane.html>
+:::

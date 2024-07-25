@@ -1,0 +1,96 @@
+# Other programming paradigms
+
+-   We have seen basic declarative programming and object-oriented programming. But there are lots of other ways to develop a code...
+
+## Functional programming
+
+-   Computation is understood as just the evaluation of mathematical functions. Therefore, it avoids changing-state and mutable data.
+-   Example of languages commonly used in the functional paradigm are Lisp and Haskell.
+    -   For example, in Lisp, in order to calculate the expression $(2 * cos(0) * (4 + 6))$, you would type:
+
+```{lisp}
+(* 2 (cos 0) (+ 4 6))
+```
+
+![](/units/14/functional.png)
+
+- This paradigm is used a lot in areas such as:
+  - Data processing (transformation, filtering, and aggregation of data)
+  - Finances (quantitative analysis, risk management, and algorithmic trading)
+  - Scientific computing (numerical analysis, simulations, and modeling)
+  - AI in games
+
+## Aspect-Oriented programming
+
+- Aims to increase modularity by allowing the separation of cross-cutting concerns
+  - For example, logging, security, or transaction management - would you need to write code for doing that every time it is needed?
+  - AOP provides a solution: adding a decorator to a function establishing that it needs to "pass" through a certain aspect.
+  
+```{python}
+#| eval: false
+from aspectlib import Aspect
+
+def authorize(f):
+    def wrapper(*args, **kwargs):
+        if kwargs.get('username') == 'admin':
+            return f(*args, **kwargs)
+        else:
+            raise PermissionError("Unauthorized access")
+    return wrapper
+
+authorization_aspect = Aspect().around(authorize)
+
+@authorization_aspect
+def secret_info(username):
+    return "This is classified information"
+
+print(secret_info(username='admin'))  # Output: This is classified information
+print(secret_info(username='user'))   # Raises: PermissionError: Unauthorized access
+```
+
+## Parallel programming
+
+- Allows multiple tasks to run concurrently, potentially speeding up the execution of programs that can be divided into smaller tasks that can be executed simultaneously.
+- There are lots of libraries and approaches to that. For example, in Python, you can do:
+
+```{python}
+#| eval: false
+import multiprocessing
+
+def square(x):
+    return x**2
+
+if __name__ == '__main__':
+    numbers = [1, 2, 3, 4, 5]
+    with multiprocessing.Pool() as pool:
+        squared = pool.map(square, numbers)
+    print(squared)
+    # Output: [1, 4, 9, 16, 25]
+```
+
+
+## Reflective programming
+
+- Allows a program to examine and modify its own structure and behavior at runtime.
+- It is often used for debugging, testing, and frameworks that require runtime information about classes and objects.
+- For example, I can add methods to a Python class during runtime:
+
+```{python}
+#| eval: false
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+
+def new_method(self):
+    return f"New method called with x={self.x}"
+
+# Add a new method to MyClass at runtime
+MyClass.new_method = new_method
+
+# Create an instance of MyClass
+obj = MyClass(5)
+
+# Call the new method
+print(obj.new_method())
+```
+

@@ -1,0 +1,45 @@
+# The internet of things
+
+With the advent of this **digital object** as the standard way to process data across computer applications, came the idea of connecting all these objects in a worldwide network. This is the idea of Tim Berners-Lee, the creator of the HTML standard, who wrote in his book "Weaving the Web":
+
+::: columns
+::: {.column width="60%"}
+
+> "Suppose all the information stored on computers everywhere were linked, I thought. Suppose I could program my computer to create a space in which anything could be linked to anything. All the bits of information in every computer at CERN, and on the planet would be available to me and to anyone else. There would be a single , global information space."
+
+:::
+::: {.column width="40%"}
+![](/img/semantic-web.png)
+:::
+
+:::
+
+Yuk Hui, a philosopher of technology, understands that this could mean the total representation of the world as data and connection between these elements in order to give control to humans over reality. It is what he calls *interobjectivity*:
+
+> The development of data schemes, ontologies, and protocols brings objects and users closer to each other and shortens the temporal and geographical distance involved in information acquisition. It brings us a new convergence by which we can talk about the internet of things, social media, and so on. This totality we can call a technical system. (...) The ultimate expression of interobjectivity is the formation of technical systems that traverse all spatial and temporal obstacles. - Yuk Hui, "On the existence of digital objects", 2016
+
+Hui also understands that this means the totalization of the information system. We thus enter in the information age.
+
+- What are the consequences of this?
+
+## The interface bottleneck
+
+- Every meaningful action in the world is thus mediated by the interface: screens, spreadsheets, programming...
+  - This change is observed today in education (method and curriculum), science, work in general.
+
+![](/img/interface-bottleneck.png){width="75%"}
+
+## A hyperreal society
+
+- Albert Borgmann, following Jean Baudrillard, calls this an **instrumental hyperreality**.
+  - What are the effects of this over:
+    - Our society?
+    - The environment?
+    - Our psychology and overall health?
+    
+> "Digital devices make hands wither. They mean a liberation from the burden of matter. The human being of the future will no longer need hands. He will no longer need to handle something and work on it, as he will not has to deal more with material things, but only with intangible information. Instead of hands, fingers come in. The new human being passes his fingers [thus, *digital*], instead of acting. The atrophy of the hands makes him incapable of action.“ – Byung -Chul Han, "In the Swarm"
+
+- **Should there be meaning beyond the digital object?** Is there meaning in materiality, embodiment, presence?
+
+> "Nothing could be more absurd than to despise the body and yet yearn for its resurrection." - Wendell Berry
+    

@@ -1,0 +1,59 @@
+# A world of 0's and 1's
+
+-   Think about how much we can represent as digital information: numbers, text, images...
+    -   See, for example, how [integers](https://integer.exposed/) and [floats](https://float.exposed/0x44bf9400) are represented as binary numbers
+    -   The [ASCII table](https://www.asciitable.com/), for example, is used to represent text. And the [UNICODE](https://en.wikipedia.org/wiki/List_of_Unicode_characters) system is used for more character variety.
+    -   The [bitmap](https://paulbourke.net/dataformats/bitmaps/) format, for example, is also a way to represent an image with many triplets corresponding to red, green and blue color intensities.
+
+> "For computers to reason about data at all, they currently must reduce all information to bits. Bits are simply 1's and 0's, nothing more: the symbol 1 has no inherent meaning, nor does the symbol 0. The origin of the word"bit" was from the 1948 paper by Claude Shannon, who was trying to find a way to represent the theoretically smallest possible unit of information to solve problems of audio compression in telephones. \[...\] All that was left, from Shannon's perspective, was "pure" information, with no inherent meaning: two symbols with which to represent phone call audio, and anything else in the universe: 1 and 0, strung together in arbitrarily long sequences to represent anything." Amy J. Ko, "Encoding Information"
+
+-   How can we explain the success of this digital encoding? Basically, it is **the success of digital electronics**. Digital information is movable, stable and manipulable.
+
+> "How can we act remotely on little-known events, places and people? Answer: bringing home these events, places and people. How can you do this if you are far away? By inventing means that (a) make them movable so that they can be brought, (b) keep them stable so that they can be brought and carried without distortion, decomposition or deterioration, and (c) are combinable in such a way that, whatever the matter of which they are made, can be accumulated, aggregated or shuffled like a deck of cards. \[...\] The history of science \[and technology\] is largely the history of the mobilization of anything that can be made to move and embark on a journey home, entering the universal census." - Bruno Latour, Science in Action, p. 348 and 350
+
+-   For humans, it really doesn't help to code everything as simple 2-symbol sequences (0's and 1's) - it becomes illegible. But for automated machines, it is extremely efficient - from the point of view of **design**, **stability** and **speed**.
+    -   Thus, we need:
+        1.  Devices to convert reality to digital information - **sensors**
+        2.  Devices to let us manipulate this digital information - **interfaces** (screens, paper, etc)
+        3.  Devices to convert our digital information back to reality - **actuators**
+-   Thus we are kind of trapped in the **interface bottleneck**: everything we usually do in the world needs to be done through screens...
+
+# Should we really encode everything as information?
+
+-   How much are we losing by encoding things as information? Remeber: data is always a selective portrait of reality (full of **biases**).
+
+-   Data privacy is a big issue in today's society, called by sociologist Shoshanna Zuboff as [*The Age of Surveillance Capitalism*](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697). To have data about people and things is is to have power and value.
+
+-   Or, as philosopher Byung-Chul Han puts it, everything today is coerced into visibility and transparency [*The Transparency Society*](https://www.amazon.com/Transparency-Society-Byung-Chul-Han/dp/080479460X). "I am seen, therefore I am".
+
+> The secret things belong unto the LORD our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law. Deuteronomy 29:29
+
+## Moderating our curiosity
+
+-   To acknowledge and protect what should be hidden, we need to cultivate a **virtuous curiosity**.
+
+    -   Thomas Aquinas speaks of the difference between *studiositas* (virtue) and *curiositas* (vice) (see more in this [interesting article](https://www.jstor.org/stable/44504870)). There are at least 7 vices of curiosity:
+
+    ARROGANCE: seeking knowledge of things that no one is supposed to know;
+
+    NOSYNESS: seeking knowledge that may belong to some people, but not to us;
+
+    DISTRACTION: seeking knowledge of things that are not convenient to know at a certain time;
+
+    IMMODERATION: wanting to know something with an unhealthy desire (all forms of curiosity are failures of temperance, but this label helps to isolate this specific aspect);
+
+    IMPERTINENCE: seeking to know things in a more certain way than one can know, doing violence to the object of knowledge;
+
+    SUPERFICIALITY: disrespecting the object of knowledge, being content with a superficial understanding and quickly moving on to something else;
+
+    POSSESSIVENESS: delighting not in the object of knowledge, but in the act of knowing it. It resembles, on an intellectual level, the vice of greed.
+
+## Presence versus re-presence
+
+Furthermore, when we deal with digital information, we are only **dealing with past** - a frozen portrait of something that happened. To live in interfaces is [to live in the past](https://theconvivialsociety.substack.com/p/we-are-not-living-in-a-simulation).
+
+-   The contrast to this would be to live in the present. To live in the present, we acknowledge **presence**, and not **re-presence** (representations).
+
+-   Thus, as Christians seeking the common good, we would really have to think about an equilibrium between past and present, data and current life, virtual and material. Maybe we are living in a world where this can be quite unbalanced...
+
+> "Physical reality seems to recede in proportion as man's symbolic activity advances. Instead of dealing with things themselves, man is, in a sense, constantly talking to himself. He has become so involved in linguistic forms, in artistic images, in mythical symbols or in religious rites that he cannot see or know anything except through the interposition of an artificial medium." Ernest Cassirer, "An Essay on Man"

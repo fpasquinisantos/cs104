@@ -1,0 +1,51 @@
+# Example: tile drawing
+
+Let's use some loops to draw a tiled scenery using Turtle graphics!
+
+![](/img/scenery.png){width="60%"}
+
+Download the images for the three tiles we will be using: [grass](/units/05/activities/grass.gif), [sky](/units/05/activities/sky.gif) and [brick](/units/05/activities/brick.gif). Notice that all tiles are of size 42x42.
+
+Now, look at this starter code:
+
+```{python}
+#| eval: false
+import turtle
+
+tiles = {'b':'brick.gif', 'g':'grass.gif', 's': 'sky.gif'}
+
+for i in tiles:
+    turtle.register_shape(tiles[i])
+
+level = []
+f = open("level.txt", "r")
+for x in f:
+  level.append(x[0:len(x)-1])
+  
+pen = turtle.Turtle()
+```
+
+It is loading a file called `level.txt`. This file could have different arrangements of characters, which are depicting the three types of blocks. For example, your `level.txt` file could be:
+
+```
+ssssssss
+sssbbsss
+ssssssss
+sbbssbbs
+ssssssss
+gggggggg
+gggggggg
+gggggggg
+```
+
+These characters are loaded and stored in the list of lists (matrix!) `level`.
+
+Now, how can we draw these tiles in the screen? To make the turtle "print" an image --- for example, a grass tile ---, you have to set:
+
+```{python}
+#| eval: false
+pen.shape(level['g']) # sets the shape of the turtle of type 'grass'
+pen.stamp() # "stamps" the turtle
+```
+
+Let's then construct a loop to draw all the tiles in the matrix `level`!

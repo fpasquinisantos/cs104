@@ -1,0 +1,37 @@
+# Functions are mediators of action
+
+- Functions, as every technological tool, give us the power to do something. However...
+
+- **I only have the power to do something with a tool if I submit to the rules of the tool**
+
+![](/img/hammer-rules.PNG){width="50%"}
+
+- **I only have the power to do something with a technology if I submit to the world that makes the technology possible.**
+
+![](/img/hammer-world.PNG){width="50%"}
+
+- Let's represent this as a network of mediators:
+
+![](/img/medialities.PNG){width="65%"}
+
+- Can you think about more actors in this network? (By the way, this type of analysis is commonly referred as [Actor-Network Theory](https://en.wikipedia.org/wiki/Actor%E2%80%93network_theory))
+
+- Thus: **one doesn’t simply 'use' a technology**. You also 'use' the whole world around the technology. If someone does something, everyone is also doing something. The actor is the network, the network is the actor. This is also referred to as an [assemblage](https://en.wikipedia.org/wiki/Assemblage_(philosophy)
+
+![](/img/frodo.gif){width="30%"}
+
+- Think about more examples...
+
+> “Technology produces, defines and constrains a series of subsequent options that can be selected by the user, and the selection of these options depends, in turn, on a broader technological application. In short, we are not free to use various technologies in the way we choose, [since] whoever chooses is shaped by the choices being made or contemplated. Moral vision, and therefore also moral evaluation, is enveloped by a set of values that are imposed by technological potential rather than the other way around.” –George Grant, Technology and Empire
+
+- How does that happen in programming? To achieve something with programming, you need:
+  - A standardized programming language (eg. Python)
+  - Other libraries and functions implemented in Python
+  - A Python compiler/interpreter
+  - An operating system which runs Python, its compiler/interpreters, and its libraries (Windows, Linux, Mac)
+  - A PC or other similar device, which requires:
+  - Microelectronics and hardware industry
+  - Industrial standards and interfaces (IEEE, ISO), etc.
+  - What more?
+  
+- Question: **is it a good thing to rely on all the mediators around our technology? Could we be accomplices in propagation of evil?**

@@ -1,0 +1,55 @@
+# Example: a nasty list error
+
+Let's pickup from yesterday's lab about TextBlob processing.
+
+```{python}
+#| eval: false
+from textblob import TextBlob
+
+creation = "In the beginning God created the heaven and the earth. \
+And the earth was waste and void; and darkness was upon the face of the deep: and the spirit of God moved upon the face of the waters."
+
+b = TextBlob(creation)
+```
+
+Suppose we now want to create a list whose indexes do not count the words with certain lengths, but rather add these words to a list. We want to know which words from the text have a certain size.
+
+For that, we try to create a list with 20 positions (corresponding to word lengths) containing an empty list.
+
+Then, as we pass through every word of the text, we add the word to the list in the corresponding position:
+
+```{python}
+#| eval: false
+words_of_each_length = [[]]*20   # creating a list with 20 lists
+for aWord in b.words:
+  words_of_each_length[len(aWord)].append(aWord) # appending to the list in the corresponding position according to length
+```
+
+Now, try to check the lists corresponding to words of size 2 and 3, like `print(words_of_each_length[3])` and `print(words_of_each_length[4])`
+
+What happened??? The lists are the same and contain all words???
+
+![](/img/nastyerror.PNG)
+
+Remember we talked about how **LISTS ARE MUTABLE**, so that's why we need to copy?
+
+So, our error happened when we did `words_of_each_length = [[]]*20`
+
+Check the ids of the lists in each position of our greater list:
+
+```{python}
+#| eval: false
+print(id(words_of_each_length[3]))
+print(id(words_of_each_length[4]))
+```
+
+They are the same! We have been adding words to the same list, which is repeated in every position of `words_of_each_length`.
+
+How to fix that? Well, we need to **make sure each list is a different list**. Using the multiplier `*20` won't do. There are many ways to do that, and we will see some syntax later, but a possible solution is to declare the list as:
+
+```{python}
+#| eval: false
+words_of_each_length = [[] for i in range(20)]
+```
+
+Now, check the ids of each element. This should work by now. Whew!

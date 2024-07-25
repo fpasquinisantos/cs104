@@ -1,0 +1,47 @@
+# While loops {data-stack-name="while"}
+
+::: columns
+::: {.column width="50%"}
+-   Conditional iteration tests a condition to determine if a loop
+    should continue
+-   Called **continuation condition**
+
+```{python}
+#| eval: false
+while <condition>:
+    <loop statements>
+```
+:::
+
+::: {.column width="50%"}
+![](/img/whileloop.PNG)
+:::
+:::
+
+## Examples
+
+```{python}
+x = 10
+while x > 0:
+    print(x)
+    x = x - 1
+```
+
+```{python}
+#| eval: false
+count = 0
+while (count < 10):
+   # Point A
+   print ("Olá...", count)
+   count = count + 1
+   # Point B
+# Point C
+```
+
+Consider the following affirmations and say if they are right or wrong:
+
+1.  `count < 10` is always `True` at point C.
+2.  `count < 10` is always `False` at point B.
+3.  `count < 10` is always `True` at point A.
+4.  `count < 10` is always `False` at point C.
+5.  `count < 10` is always `True` at point B.

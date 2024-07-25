@@ -1,0 +1,80 @@
+# Variable scope {.smaller data-stack-name="variable scope"}
+
+- Every Python variable has a scope, defining where it is created and who/when this variable can be accessed
+
+- **GLOBAL SCOPE**: all functions have access to them.
+  - These are created in the program's main code chunk ("outside functions")
+- **LOCAL SCOPE**: only the function who created it has access to it
+  - Parameters are also local variables
+  - Local variables cease to exist when the function finishes!
+  
+```{python}
+a = 5 # a is a global variable
+b = a + 1 # b is a global variable
+
+def fun(d): # d, as a parameter, is a local variable
+  c = 7 + a + d # c is a local variable
+  print(c)
+
+
+fun(1)
+```
+
+## Scope rules
+- Variables in different scopes can have the same names!
+
+```{python}
+a = 5
+
+def fun1():
+  a = 1
+  print(a)
+
+def fun2():
+  a = 3
+  print(a)
+
+print(a)
+```
+
+## Scope rules
+- Local variables **have precedence** over global variables!
+
+```{python}
+a = 5
+
+def fun1():
+  a = 1
+  print(a)
+
+def fun2():
+  a = 3
+  print(a)
+
+fun1()
+fun2()
+print(a)
+```
+
+## Example
+- What are the local and global variables in the following program?
+
+```{python}
+x=4
+
+def main():
+  f1(3)
+  f2(3)
+  print(x)
+
+def f1(a):
+  x = 10
+  print('f1',a+x)
+  
+def f2(a):
+  c=10
+  print('f2',a+x+c)
+
+main()
+```
+

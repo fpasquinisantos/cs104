@@ -1,0 +1,36 @@
+# Pattern: accumulator {data-stack-name="accumulators"}
+
+-   An **accumulator** is the name we give to a variable that is updated
+    at each loop.
+-   For example, identify the accumulator variables in the following
+    code:
+
+```{python}
+#| eval: false
+product = 1
+count = 0
+while count < 5:
+  number = int(input("Enter an integer:"))
+  product *= number
+print("The total product is", product)
+```
+
+------------------------------------------------------------------------
+
+## Example: Fibonacci sequence
+
+```{python}
+#| eval: false
+acc1 = 1
+acc2 = 1
+fib = [1, 1]
+length_fib = 10
+i = 1
+while i < length_fib:
+    next_number = acc1 + acc2
+    fib.append(next_number)
+    acc1 = acc2
+    acc2 = next_number
+    i += 1
+print("The Fibonnaci sequence is", fib)
+```

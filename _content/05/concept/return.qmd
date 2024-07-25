@@ -1,0 +1,59 @@
+# Output: `return` statement {.smaller data-stack-name="return"}
+
+- Function outputs are specified with a `return` statement
+
+```{python}
+def cumulative_sum(n):
+  total = 0
+  for i in range(1,n+1):
+    total += i
+  return total
+
+print("Cumulative sum from 1 to 4 is", cumulative_sum(4))
+```
+
+- Notice that the function call `cumulative_sum(4)` will evaluate to the integer number `10`.
+  - In other words, the function returns an object of type `int`.
+  - Try "playing" with these calls. For example, call `cumulative_sum(cumulative_sum(4))`
+  
+## `return` always exits the function!
+
+```{python}
+def compute_it(x, y, z):
+    print("Calling compute_it")
+    w = x + y / z
+    return w
+    print("Done!") # this will never be executed
+    
+y = compute_it(1,2,3)
+```
+
+## What if I don't use `return`?
+- If a function has no return statement, Python returns from the function after the last statement is executed
+- The output of a function without `return` is the null object, which in Python is called `None`. For example:
+
+```{python}
+def hello():
+  print("Hello World!")
+
+x = hello() # assigning the output of function hello() to x
+print(x)
+x = print("Hello") # assigning the output of the built-in function print() to x
+print(x)
+```
+
+## Returning multiple values
+- It is possible to return multiple values as a tuple:
+
+```{python}
+def cumulatives(n):
+  c_sum = 0
+  c_prod = 1
+  for i in range(1,n+1):
+    c_sum += i
+    c_prod *= i
+  return c_sum, c_prod
+
+a, b = cumulatives(4)
+print("Cumulative sum is", a, "and cumulative product is", b)
+```

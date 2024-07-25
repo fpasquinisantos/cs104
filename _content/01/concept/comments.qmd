@@ -1,0 +1,58 @@
+::: {.content-visible unless-format="revealjs"}
+# Comments
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.6 COMMENTS</b>"}
+:::
+
+You can add a comment to a single line:
+
+```{python}
+#| eval: false
+# Comment on a single line
+name = "Pied Piper" # Comment after code
+```
+
+Or, when commenting in multiple lines:
+
+```{python}
+#| eval: false
+# This is a comment written over
+# more than one line
+# simply using multiple '#'s
+
+print("Hello, World!")
+```
+
+or
+
+```{python}
+#| eval: false
+"""
+This is a string written over
+more than one line
+"""
+
+print("Hello, World!")
+```
+
+This last case just "states" a multi-line string that will not be printed if just provided in the middle of the code. Therefore it works as a kind of comment.
+
+::: {.callout-tip title="Tip: enabling and disabling parts of the code"}
+A common practice in programming is adding comment tags (#) to parts of the code you want to temporarily not execute, but don't want to delete completely. Speaking rigorously, you shouldn't do that because that is not the purpose of comments, however, it still helps a lot! Many IDEs, furthermore, have buttons to enable and disable comments given some selected parts of code.
+
+For example, suppose you don't want to ask the user for input and just test with some fixed number (goes faster when executing code for tests):
+
+```{python}
+#| eval: false
+# x = int(input("Please enter your age: "))
+x = 18
+print("Your age is", x)
+```
+
+If you want to "toggle" again user input, just un-comment the input line and comment (or delete) the `x = 18` line!
+:::
+
+For more detail, check this [guide](https://realpython.com/documenting-python-code/). (Later in the course we will go through the docstring stuff for documenting user defined functions.)

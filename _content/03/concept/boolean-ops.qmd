@@ -1,0 +1,59 @@
+# Boolean operators {data-stack-name="boolean operators"}
+
+-   These receive only Booleans as operands and give a Boolean as result.
+
+ ![](/img/boolops.png)
+ 
+## Examples
+
+Example 1
+
+```{python}
+#| eval: false
+if (x >= 1) and (x <=10):
+  print('x is between 1 and 10 inclusive')
+```
+
+Example 2
+
+```{python}
+#| eval: false
+if not (x == ''):
+  print('x is not the empty string')
+```
+
+Example 3
+
+```{python}
+#| eval: false
+if (x < 1) or (x > 10):
+  print('x is not between 1 and 10')
+```
+
+Example 4
+
+```{python}
+#| eval: false
+message = "you fool!"
+if "fool" not in message:
+  print("Message does not contain offensive language")
+```
+
+## Short-circuit evaluations
+
+In `(A and B)`, if A is false, then so is the expression, and there is no need to evaluate B.
+
+In `(A or B)`, if A is true, then so is the expression, and there is no need to evaluate B.
+
+Keep an eye on that!
+
+## Remember precedence order!
+
+1.  Parentheses: `()`
+2.  Exponents: `**`
+3.  Multiplication, divisions and modulus: `* / // %`
+4.  Addition and subtraction: `+ -`
+5.  Comparisons: `<= < >= > == != is in`
+6.  Boolean `not`
+7.  Boolean `and`
+8.  Boolean `or`

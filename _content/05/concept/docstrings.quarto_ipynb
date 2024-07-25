@@ -1,0 +1,52 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Docstrings {.smaller data-stack-name=\"docstrings\"}\n",
+        "\n",
+        "- The PEP8 standard requires **docstrings** for functions, describing what the function does. \n",
+        "  - This comment should appear after the `def` line\n",
+        "  - The `'''` that ends a multiline docstring should be on a line by itself\n",
+        "  - These docstrings can be accessed in many IDEs, facilitating development\n"
+      ],
+      "id": "9e394e3f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "def cube_volume(side_length):\n",
+        "    ''' Compute the volume of a cube\n",
+        "        Parameter: side_length is side length of cube\n",
+        "        returns: volume\n",
+        "    '''\n",
+        "    volume = side_length ** 3\n",
+        "    return volume"
+      ],
+      "id": "6f6a436b",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Using docstrings in development\n",
+        "\n",
+        "![](/img/docstring.png)"
+      ],
+      "id": "59bae2dc"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

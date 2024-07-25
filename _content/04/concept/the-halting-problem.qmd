@@ -1,0 +1,31 @@
+# Infinite loops
+
+-   If a loop termination condition is never met, we have an "infinite loop"
+
+```{python}
+#| eval: false
+count = 0
+while (count < 9):
+   print('The count is:', count)
+print("Good bye!")
+```
+
+-   In this case, notice we didn't update the **counting variable**
+    (also called **iterator** or **loop variable**)
+
+# The Halting Problem
+
+-   Is it possible to be sure that a program is not stuck?
+-   Impressively, Alan Turing proved that NO! Computer programs are *undecidable*.
+
+{{< video https://www.youtube.com/watch?v=92WHN-pAFCs >}}
+
+# Discussion: what is enough?
+
+-   In some sense, that means that there is not always an mathematical/algorithmic answer to the question: "is it enough?"
+
+-   Maybe we can say that, as society gets more control over reality, nothing is enough. We enter in what sociologist Hartmut Rosa explored as an [**acceleration society**](https://www.amazon.com/Social-Acceleration-Modernity-Directions-Critical/dp/0231148356). We don't know any halt.
+
+> "Pure activity does nothing more than prolong what already exists. (...) Activity that follows the stupidity of mechanics is poor in interruptions. Machines cannot pause. Despite all its computational performance, the computer is stupid, in that it lacks the ability to hesitate. (...) Possibly the computer counts faster than the human brain, and without repulsion welcomes an immensity of data, because it is free from any *alterity*. It is a positive machine. Precisely because of its autistic self-relation, because of the lack of nativity, the *idiot savant* generates those performances that only a computational machine would be capable of. In the thrust of that general positivation of the world, both man and society become a *machine of autistic performance*." - Byung-Chul Han, "The Burnout Society"
+
+> "... our hearts are restless till they find rest in Thee." - Augustine of Hippo, *Confessions*

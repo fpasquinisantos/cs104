@@ -1,0 +1,16 @@
+# The `self` argument
+- Everytime you want to reference an attribute of the object inside of a class method, you call `self`
+
+- For example, what is `self` referring to in this example?
+
+```{python}
+#| eval: false
+class Dog():
+  
+  def crossbreed(self, dog):
+    if self.breed == dog.breed:
+      puppy = Dog(self.breed,0,Dog.average_color(self.color, dog.color))
+    else:
+      puppy = Dog('mutt',0,Dog.average_color(self.color, dog.color))
+    return puppy
+```

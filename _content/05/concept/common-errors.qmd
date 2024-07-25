@@ -1,0 +1,35 @@
+# Exercises: where are the errors?
+
+- What are the problems in the following code and how can we correct them?
+
+```{python}
+#| eval: false
+def xyz(p1, 'hello'):
+    print(p1)
+```
+
+- PS: *printing a value in a function is not the same thing as returning it*
+  - What is the difference between printing and returning?
+  
+- Now, repeat with these (point error and correct it):
+
+```{python}
+#| eval: false
+x1 = int(input())
+x2 = int(input())
+res = add(x1, x2)
+print("The sum is: ", res)
+
+def add(a, b):
+  c = a + b
+  return c
+```
+
+```{python}
+#| eval: false
+def fun(x):
+  print(x, end=' ')
+  fun(x-1)
+
+fun(10)
+```

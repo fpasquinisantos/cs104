@@ -1,0 +1,20 @@
+# Constructor method: `__init__()`
+
+- The special method `__init__` is important in almost class. It is called the constructor method and runs automatically when user instantiates an object.
+- It is important to include the `self` parameter - this refers to the object itself!
+
+```{python}
+class Dog(): # definition of the class ("blueprint")
+  
+  def __init__(self, breed, age, color):
+    self.breed = breed
+    self.age = age
+    self.color = color
+    
+    
+# main code chunk
+a = Dog('pug', 3, 'black')
+b = Dog('boxer', 2, 'white')
+print(a.breed)
+```
+

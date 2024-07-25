@@ -1,0 +1,17 @@
+# Membership operators {data-name="membership operators"}
+
+-   The membership operators in returns `True` if the left operand matches the value of some element in a **container**
+
+```{python}
+sizes = [3, 5, 7, 9.5, 10, 10.5, 11]
+if 10 in sizes:
+  print('Sizes include size 10')
+```
+
+It can also be used to check whether a substring is part of a larger string:
+
+```{python}
+data = '123abc456'
+if 'abc' in data:
+  print('abc found in data')
+```

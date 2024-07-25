@@ -58,8 +58,6 @@ This course introduces computing as a problem solving discipline with a particul
 -   Use an Integrated Development Environment (IDE) to develop a program;
 -   Understand the wider implications of encoding intelligence in the form of algorithms.
 
-The course technologies are based on the Python programming language, and a modern IDE. The material is considered in the context of the reformed Christian perspective.
-
 # Staff
 
 -   Professor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33\@calvin.edu
@@ -68,7 +66,50 @@ The course technologies are based on the Python programming language, and a mode
 
 # Schedule
 
+::: {.callout-note collapse=true}
 
+# Schedule
+
+Schedule is subject to change. Updates will be made here and on Moodle.
+
+<style>
+tr:nth-child(even) {
+  background-color: #EFEFEF!important;
+}
+</style>
+
+| Unit             | Classes | Day of Week | Content                            |
+|------------------|---------|-------------|------------------------------------|
+|                  | 09-02   | Monday      | *Labor Day*                        |
+|                  | 09-03   | Tuesday     | *NO LAB*                           |
+| 1 - Introduction | 09-04   | Wednesday   | Welcome and introduction           |
+| 1 - Introduction | 09-06   | Friday      | Variables, Objects, Assignments    |
+| 1 - Introduction | 09-09   | Monday      | Input/Output                       |
+| 1 - Introduction | 09-10   | Tuesday     | LAB 1 - Introduction               |
+| 1 - Introduction | 09-11   | Wednesday   | Operators and math                 |
+|     2 - Types    | 09-13   | Friday      | Lists and tuples                   |
+|     2 - Types    | 09-16   | Monday      | Dictionaries                       |
+|     2 - Types    | 09-17   | Tuesday     | LAB 2 - Data types                 |
+|     2 - Types    | 09-18   | Wednesday   | Numpy arrays                       |
+| 3 - Conditionals | 09-20   | Friday      | If-else                            |
+| 3 - Conditionals | 09-23   | Monday      | Comparison and   boolean operators |
+| 3 - Conditionals | 09-24   | Tuesday     | LAB 3 - Conditionals               |
+|     4 - Loops    | 09-25   | Wednesday   | While and for                      |
+|     4 - Loops    | 09-27   | Friday      | Iterating techniques               |
+|   5 - Functions  | 09-30   | Monday      | Functions                          |
+|     4 - Loops    | 10-01   | Tuesday     | LAB 4 - Loops                      |
+|   5 - Functions  | 10-02   | Wednesday   | Variable scope in functions        |
+|   5 - Functions  | 10-04   | Friday      | String manipulation                |
+|   5 - Functions  | 10-07   | Monday      | Modules and namespaces             |
+|   5 - Functions  | 10-08   | Tuesday     | LAB 5 - Functions                  |
+|    6 - Classes   | 10-09   | Wednesday   | Class attributes and   methods     |
+|    6 - Classes   | 10-11   | Friday      | Operator overloading               |
+|    6 - Classes   | 10-14   | Monday      | Inheritance                        |
+|    6 - Classes   | 10-15   | Tuesday     | LAB 6 - Classes                    |
+|    7 - Wrap-up   | 10-16   | Wednesday   | Wrap-up                            |
+|                  | 10-18   | Friday      | *Fall Break*                       |
+
+:::
 
 # Communication
 
@@ -127,7 +168,7 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
 
 :::
 
-## Activities
+# Activities
 
 Every week we will go through the following:
 

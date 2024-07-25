@@ -1,0 +1,62 @@
+# The ethics of automation
+
+- Algorithms are formal specifications of automation. And loops enable us to scale those.
+
+> "Digital computers were invented as a way of replacing people with something faster, less error prone, and tireless, mirroring the productivity values of the industrial revolution." - Amy Ko, *Computers*
+
+- When is this good? When to automate? When to not automate?
+
+> “The key question isn't 'How much will be automated?' It's how we'll conceive of whatever can't be automated at a given time” - Jaron Lanier, *Who Owns the Future?*
+
+## Narratives about automation...
+
+::: columns
+::: {.column width="60%"}
+
+> A golem is an animated, anthropomorphic being in Jewish folklore, which is entirely created from inanimate matter, usually clay or mud. The most famous golem narrative involves Judah Loew ben Bezalel, the late 16th-century rabbi of Prague.
+In Modern Hebrew, golem is used to mean "dumb" or "helpless", or a pupa. Similarly, it is often used today as a metaphor for a mindless lunk or entity that serves a man under controlled conditions but is hostile to him under other conditions.
+
+:::
+::: {.column width="40%"}
+![](/img/golem.png){width="70%"}
+:::
+:::
+
+- Disney's [The Sorcerer's Apprentice](https://disney.fandom.com/wiki/The_Sorcerer%27s_Apprentice) - a tale about dumb automation
+- The job displacement debate - will automation take over?
+
+- What are your opinions about automation?
+
+![](/img/opinions-automation.png){width="20%"}
+
+## Ancient narratives about work
+
+- In the Akkadian Epic of Atrahasis humans were created so that they could “assume the drudgery of the god.”
+- In the Sumerian myth Enki and Ninmah they were created so that the gods would “be freed from their toil.”
+- In the Babylonian Enuma Elish the god Marduk creates man “on whom the toil of the gods [would] be laid that they may rest.”71 
+
+- These myths carry not only the etiological account of humankind but also lay judgment on the nature and purpose of human labor --- it is in essence just a burden, and we need to pass it along to the less powerful.
+
+> "What has a man from all the toil and striving of heart with which he toils beneath the sun? For all his days are full of sorrow, and his work is a vexation. Even in the night his heart does not rest. This also is vanity.\
+There is nothing better for a person than that he should eat and drink and find enjoyment in his toil. This also, I saw, is from the hand of God, for apart from him who can eat or who can have enjoyment? For to the one who pleases him God has given wisdom and knowledge and joy, but to the sinner he has given the business of gathering and collecting, only to give to one who pleases God. This also is vanity and a striving after wind. Ecclesiastes 2.22-26
+
+- In the Genesis account, God is not burdened by his work but rather takes delight in it. And humanity, rather than being created to relieve him from work, was made to share in it. **The principle connecting humanity’s origin with the purpose of work is not delegation but participation**.
+
+## Delegation
+
+- By delegating everything to machines, we alienate ourselves from life, from meaning, from purpose.
+
+> “Our contact with reality has been attenuated to the pushing of buttons and the turning of handles. The results are guaranteed by machinery that is not of our design and often beyond our understanding. Hence the feelings of liberation and enrichment quickly fade; the new devices lose their glamour and meld into the conspicuous periphery of normalcy; boredom replaces exhilaration.” Albert Borgmann, Technology and the Character of Contemporary Life
+
+## Engagement
+
+- Instead of disengaging, technology should help us to **engage more with the world and how it reveals God's glory to us**. This doesn't exclude automation, but gives it a purpose.
+
+- What are ways you can think of about engaging more with...
+  - People/Community?
+  - Places?
+  - Nature?
+  - Your body?
+  - Art? (including skillful practices - cooking, crafting...?)
+  - Specific moments of life? (see James K. A. Smith's ["How to Inhabit Time"](https://www.amazon.com/How-Inhabit-Time-Understanding-Faithfully/dp/1587435233))
+  - The reality of suffering, misery, and "creation's groaning and waiting for redemption"?

@@ -1,0 +1,20 @@
+# Docstrings {.smaller data-stack-name="docstrings"}
+
+- The PEP8 standard requires **docstrings** for functions, describing what the function does. 
+  - This comment should appear after the `def` line
+  - The `'''` that ends a multiline docstring should be on a line by itself
+  - These docstrings can be accessed in many IDEs, facilitating development
+
+```{python}
+def cube_volume(side_length):
+    ''' Compute the volume of a cube
+        Parameter: side_length is side length of cube
+        returns: volume
+    '''
+    volume = side_length ** 3
+    return volume
+```
+
+## Using docstrings in development
+
+![](/img/docstring.png)

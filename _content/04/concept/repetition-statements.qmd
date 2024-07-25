@@ -1,0 +1,30 @@
+# Repetition statements
+
+-   Natural and computer languages can describe things that are repeated.
+
+> "For the LORD is good and his love endures forever; his faithfulness continues through all generations." Psalm 100?5
+
+-   In computer science, repetition is portrayed with the metaphor of a loop.
+
+![](/img/ouroboros.gif){width="30%"}
+
+> One aspect of the LOOP, and in many ways its defining quality, is the minimal means that result in automated infinite production. Is it when writing a simple FOR statement for the first time, counting to, say, 10 and printing 
+to the screen at each iteration, that the novice programmer “Beheld the living traces and the sky-pointing proportions of the mighty Pan”? \
+- Wilfried Hou Je Bek, "Loops", in "Software studies: a lexicon"
+
+### How we we rule with loops?
+
+-   Every time we use a loop, we are pronouncing a judgment about **what similar and what is different**.
+-   Every time we use a loop, we are pronouncing a judgment about **what can be scaled**.
+
+![](/img/scaling.gif)
+
+## Two types of loops
+
+1. **Definite iteration**: Loops that repeat a predefined number of times - the FOR statement
+2. **Indefinite iteration**: Loops that continue until a condition occurs - the WHILE statement
+    
+> "Although often interchangeable, FOR is like a tourist that knows when it will 
+be home (but with the power to RETURN earlier), WHILE is like a traveller 
+away for as long as there is no hard reason to come back, potentially forever." \
+- Wilfried Hou Je Bek, "Loops", in "Software studies: a lexicon"

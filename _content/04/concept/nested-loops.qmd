@@ -1,0 +1,37 @@
+# Nested loops
+
+Loops can also be placed inside of loops.
+
+```{python}
+#| eval: false
+for x in range(5):
+    print(x, end=' ')
+    for y in range(x,4):
+        print(y, end=' ')
+    print()
+```
+
+*You can visualize this code at [http://www.pythontutor.com/visualize.html](http://www.pythontutor.com/visualize.html)*
+
+What will this print?
+
+
+
+
+
+
+
+## Example: matrix creation
+
+```{python}
+#| eval: false
+mat = []
+lines = int(input("Enter the number of lines: "))
+cols = int(input("Enter the number of columns: "))
+for i in range(cols):
+  line = []
+  for j in range(lines):
+    x = float(input(f"Enter the number at line {i} and col {j}: "))
+    line.append(x)
+  mat.append(line)
+```

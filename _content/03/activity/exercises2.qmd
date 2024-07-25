@@ -1,0 +1,14 @@
+# Exercises
+
+## Exercise 1: selecting pH values
+Write a program that prompts the user to enter a pH value. Then, print an indication of whether the pH given indicates an acid (value < 7.0), base (value > 7.0) or neutral (value is 7.0) substance.
+
+Assuming that pH values range from 0.0 to 14.0, update your program so that only valid pH values are considered.
+
+## Exercise 2: getting the highest grade
+Design and implement a program that inputs student grades from three students (`A` to `F`) and prints the highest one. (To make the problem more “interesting”, don’t use the max function to solve this problem.)
+
+## Exercise 3: are you a horse?
+Implement an algorithm that would take an user to a series of questions to let him know if he is a horse. The procedure will follow the flowchart:
+
+![](/img/amIahorse.jpg)

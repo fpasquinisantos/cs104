@@ -1,0 +1,14 @@
+# Ranges {.smaller data-stack-name="range"}
+
+-   `range` is a data type that offers an iterable sequence of integers
+
+To create a range, you can use 1 to 3 arguments:
+
+-   `range(stop)`: integer sequence will go from `0` to `stop - 1`
+    -   Example: `list(range(4))` is `[0,1,2,3]`
+-   `range(start,stop)`: integer sequence will go from `start` to
+    `stop - 1`
+    -   Example: `list(range(3, 7))` is `[3,4,5,6]`
+-   `range(start,stop, step)`: integer sequence will go from `start` to
+    `stop` summing `step` at each stage
+    -   Example: `list(range(1,10,3))` is `[1,4,7]`

@@ -1,0 +1,19 @@
+# The `__str__` method
+
+- This method is usually implemented to returns a string representation of an object’s state.
+  - Attention: you don't "print", you just return a string!
+  - When you call "print" with your object, it will "convert" it to a string representation
+
+```{python}
+class Dog():
+  
+  def __str__(self):
+    return f'breed: {self.breed}, age: {self.age}, color: {self.color}'
+  
+a = Dog()
+a.breed = 'boxer'
+a.age = '2'
+a.color = 'white'
+print(str(a))
+print(a)
+```

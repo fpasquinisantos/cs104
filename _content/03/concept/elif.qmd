@@ -1,0 +1,17 @@
+# Multi-way selection {data-name="elif"}
+
+-   You can also use the word `elif` in case you need to check a condition after other condition is `False`. In this way, we have multiple branches, for more than two alternatives.
+
+```{python}
+#| eval: false
+if grade >= 90:
+    print('A')
+elif grade >= 80:
+    print('B')
+elif grade >= 70:
+    print('C')
+elif grade >= 60:
+    print('D')
+else:
+    print('F')
+```

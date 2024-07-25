@@ -1,0 +1,39 @@
+# Break and continue
+
+-   A `break` statement in a loop causes an immediate exit of the loop.
+
+```{python}
+#| eval: false
+sum = 0.0
+while True:
+    data = input('Enter a number: ')
+    if data == '':
+        break
+    sum += float(data)
+print('The sum is', sum)
+```
+
+-   What does this code do?
+
+
+
+
+
+
+
+
+```{python}
+i = 0
+while i < 5:
+    i += 1
+    if i==2:
+        continue
+    print(i)
+```
+
+-   What does this code do?
+
+
+
+
+- Breaks and continues can sometimes simplify a loop's structure and improve readability!

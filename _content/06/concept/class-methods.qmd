@@ -1,0 +1,18 @@
+# Class methods and variables
+- You can declare variables and methods that are pertaining to the class itself, not to specific instances. In that case, you just don't use the parameter `self`.
+- To use those, you don't call the method on the object (like `x.method()`), but on the class itself (like `Dog.average_color`).
+
+- Following our last example:
+
+```{python}
+class Dog():
+  
+  max_age = 20
+  
+  def average_color(c1, c2):
+    return c1 + ' and ' + c2
+
+
+print(Dog.max_age)
+print(Dog.average_color('black','white'))
+```
