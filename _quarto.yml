@@ -24,5 +24,6 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    toc_depth: 2
+    toc-depth: 4
+    toc-expand: 4 
     toc_float: true

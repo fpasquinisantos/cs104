@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CS 104 (Applied Computing) at Calvin University - Syllabus</title>
+<title>Syllabus – CS 104 (Applied Computing) at Calvin University</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./lab-instructions.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -45,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,44 +76,44 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">CS 104 (Applied Computing) at Calvin University</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Syllabus</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Syllabus</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Syllabus</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -114,10 +122,332 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lab-instructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab Instructions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tips-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Success Tips and Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Classes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">01</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/01/09-04-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-04 (Slides)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/01/09-06-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/01/09-06-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/01/09-09-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/01/09-09-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-11</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">02</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-11-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-11-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-13-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-13-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-13</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-16-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/02/09-16-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-16</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">03</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-18-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-18</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-18-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-18</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-20-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-20</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-20-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-20</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-23-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-23</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/03/09-23-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-23</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">04</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-25-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-25</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-25-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-25</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-27-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-27</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-27-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-27</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-30-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-30</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/04/09-30-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">09-30</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">05</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-02-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-02-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-04-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-04</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-04-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-04</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-07-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-07</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/05/10-07-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-07</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">06</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-09-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-09-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-11-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-11-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-14-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-14</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/06/10-14-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-14</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">07</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/07/10-16-handout.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classes/07/10-16-slide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10-16</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="4">
@@ -126,23 +456,19 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
   <li><a href="#staff" id="toc-staff" class="nav-link" data-scroll-target="#staff">Staff</a></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
-  <ul class="collapse">
-  <li><a href="#textbook" id="toc-textbook" class="nav-link" data-scroll-target="#textbook">Textbook</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
   <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a></li>
-  <li><a href="#work-environment" id="toc-work-environment" class="nav-link" data-scroll-target="#work-environment">Work Environment</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
+  <ul>
+  <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
   </ul></li>
-  <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a>
-  <ul class="collapse">
-  <li><a href="#schedule-and-deadlines" id="toc-schedule-and-deadlines" class="nav-link" data-scroll-target="#schedule-and-deadlines">Schedule and deadlines</a></li>
   <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
-  </ul></li>
+  <li><a href="#study-sessions" id="toc-study-sessions" class="nav-link" data-scroll-target="#study-sessions">Study Sessions</a></li>
   <li><a href="#use-of-technology" id="toc-use-of-technology" class="nav-link" data-scroll-target="#use-of-technology">Use of Technology</a></li>
   <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">Academic Integrity</a></li>
-  <li><a href="#etiquette-and-wellness" id="toc-etiquette-and-wellness" class="nav-link" data-scroll-target="#etiquette-and-wellness">Etiquette and Wellness</a></li>
-  <li><a href="#accomodations" id="toc-accomodations" class="nav-link" data-scroll-target="#accomodations">Accomodations</a></li>
+  <li><a href="#special-circumstances" id="toc-special-circumstances" class="nav-link" data-scroll-target="#special-circumstances">Special Circumstances</a></li>
   <li><a href="#diversity-and-inclusion" id="toc-diversity-and-inclusion" class="nav-link" data-scroll-target="#diversity-and-inclusion">Diversity and Inclusion</a></li>
-  <li><a href="#study-sessions" id="toc-study-sessions" class="nav-link" data-scroll-target="#study-sessions">Study Sessions</a></li>
+  <li><a href="#etiquette-and-wellness" id="toc-etiquette-and-wellness" class="nav-link" data-scroll-target="#etiquette-and-wellness">Etiquette and Wellness</a></li>
   </ul>
 </nav>
     </div>
@@ -164,10 +490,79 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+
+<blockquote class="blockquote">
+<p>Open my eyes, that I may behold wondrous things out of your law. <em>Psalm 119.18</em></p>
+</blockquote>
+<p>Welcome to CS-104-A, Applied Computing!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Why programming?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Creation:
+<ul>
+<li>Computing is part of God’s world
+<ul>
+<li>it reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)</li>
+<li>it is enabling science today (study of God’s world)</li>
+<li>it is enabling new technology today (building culture for God’s glory)</li>
+</ul></li>
+<li>The process of breaking down a problem into precise steps can be a form of developing intellectual virtue</li>
+<li>Through discovery and automation, it can enable human flourishing</li>
+<li>There is joy in the process (creative, rewarding, fun)</li>
+</ul></li>
+<li>Fall:
+<ul>
+<li>It is being centralized into few powerful actors, harming cultural diversity and freedom</li>
+<li>It is alienating people from God’s good created order</li>
+<li>It is being misused for Mammon</li>
+<li>Constantly idolized</li>
+</ul></li>
+<li>Redemption:
+<ul>
+<li>We’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:
+<ul>
+<li>imagining</li>
+<li>designing</li>
+<li>regulating</li>
+<li>using</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>We will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.</p>
+<p>The material is considered in the context of the reformed Christian perspective.</p>
+</div>
+</div>
+</div>
+<section id="learning-outcomes" class="level1">
+<h1>Learning Outcomes</h1>
 <p>This course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:</p>
 <ul>
 <li>Design algorithms and data types/structures to solve computational problems, using:
@@ -183,48 +578,89 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>The course technologies are based on the Python programming language, and a modern IDE. The material is considered in the context of the reformed Christian perspective.</p>
 </section>
-<section id="staff" class="level2">
-<h2 class="anchored" data-anchor-id="staff">Staff</h2>
+<section id="staff" class="level1">
+<h1>Staff</h1>
 <ul>
 <li>Professor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33@calvin.edu</li>
-<li>Lab assistant: Grace&nbsp;Van Farowe,&nbsp;gev22@calvin.edu</li>
-<li>Grader: Edom Maru,&nbsp;eam43@calvin.edu</li>
+<li>Lab assistant: TBA</li>
+<li>Grader: TBA</li>
 </ul>
 </section>
-<section id="materials" class="level2">
-<h2 class="anchored" data-anchor-id="materials">Materials</h2>
-<section id="textbook" class="level3">
-<h3 class="anchored" data-anchor-id="textbook">Textbook</h3>
-<ul>
-<li><p><a href="http://learn.zybooks.com/">ZyBooks</a>&nbsp;— We will be using an online text called&nbsp;<em>Programming in Python 3 with ZyLabs</em>. The text will cost $77 and can be accessed as follows:</p>
-<ol type="1">
-<li>Sign up at&nbsp;<a href="http://learn.zybooks.com/">learn.zybooks.com</a>&nbsp;(see Zyante’s&nbsp;<a href="https://www.zybooks.com/privacy-policy/">privacy policy</a>). Note that you must use your Calvin e-mail address (e.g.,&nbsp;<code>xyz27@calvin.edu</code>).</li>
-<li>Enter zyBook code:&nbsp;<code>**CALVINCS104Fall2023**</code></li>
-<li>Click&nbsp;<em>Subscribe</em>.</li>
-</ol></li>
-</ul>
-<p>You’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the&nbsp;<a href="https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-">option to print a PDF version</a>&nbsp;of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.</p>
-<ul>
-<li><a href="https://cs.calvin.edu/courses/cs/108/kvlinden/resources/pogil/Activities%20for%20CS1%20in%20Python%20-%20Student.pdf"><em>Activities for CS1 in Python</em></a>, T. Shepherd, C. Mayfield &amp; H. Hu, Creative Commons — These are available online or, optionally, in paper form from the book store. We will use those for the POGIL Activities usually on Fridays.</li>
-<li>Several articles on programming that will be availabe on <a href="https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing">Perusall</a>. These will form our perspective readings and we expect you to interact and discuss on these texts.</li>
-</ul>
+<section id="schedule" class="level1">
+<h1>Schedule</h1>
 </section>
-<section id="communication" class="level3">
-<h3 class="anchored" data-anchor-id="communication">Communication</h3>
+<section id="communication" class="level1">
+<h1>Communication</h1>
 <p>Outside of class, we’ll use:</p>
 <ul>
+<li>Office hours;</li>
 <li>Moodle:
 <ul>
-<li>After each class, you will be invited to answer a <strong>feedback form</strong> on Moodle, to inform about your progress in the course and what is still not clear to you. This won’t be graded, but will be a nice way to give me feedback and orient my next classes in a way that is good for you.</li>
-<li>Besides that, you can also use our <strong>Q&amp;A Forum</strong> to post <em>questions</em>&nbsp;on assignments, concepts discussed in class, or when you have problems getting code to run. Post <em>answers</em>&nbsp;as well. You might be able to provide a good answer before the course staff even sees the question!</li>
+<li>You can use our <strong>Q&amp;A Forum</strong> to post <em>questions</em>&nbsp;on assignments, concepts discussed in class, or when you have problems getting code to run. Post <em>answers</em>&nbsp;as well. You might be able to provide a good answer before the course staff even sees the question!</li>
 <li>We also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. <strong>In general, don’t post code publicly</strong>. If you have to include code, make the post private first so the course staff can decide if it’s ok to share.</li>
 </ul></li>
 <li>Email — Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).</li>
 </ul>
 <p>You’ll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You’re free to schedule your work as best works for you, but we’ll be trying to observe a Sabbath in our own schedules.</p>
 </section>
-<section id="work-environment" class="level3">
-<h3 class="anchored" data-anchor-id="work-environment">Work Environment</h3>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Texts
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="zybooks" class="level4">
+<h4 class="anchored" data-anchor-id="zybooks"><a href="http://learn.zybooks.com/"><strong>ZyBooks</strong></a>&nbsp;</h4>
+<p>We will be using an online text called&nbsp;<em>Programming in Python 3 with ZyLabs</em>. The text will cost $89 and can be accessed as follows:</p>
+<pre><code>1.  Sign up at&nbsp;[learn.zybooks.com](http://learn.zybooks.com/)&nbsp;(see Zyante's&nbsp;[privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g.,&nbsp;`xyz27@calvin.edu`).
+2.  Enter zyBook code:&nbsp;`**CALVINCS108PasquiniSantosSpring2024**`
+3.  Click&nbsp;*Subscribe*.</code></pre>
+<p>You’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the&nbsp;<a href="https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-">option to print a PDF version</a>&nbsp;of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.</p>
+</section>
+<section id="website-and-class-handouts" class="level4">
+<h4 class="anchored" data-anchor-id="website-and-class-handouts">Website and class handouts</h4>
+<p>This website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that will be posted on Perusall.</p>
+</section>
+<section id="perspectives-readings" class="level4">
+<h4 class="anchored" data-anchor-id="perspectives-readings">Perspectives readings</h4>
+<p>Sseveral articles on programming that will be available on <a href="https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing"><strong>Perusall</strong></a>. We expect you to interact and discuss with these texts.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The articles on reflections about programming that we are going to read are presenting <strong>lots of different opinions that may not reflect what I, myself, subscribe to</strong>. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don’t agree completely.</p>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Work Environment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>We will use <a href="https://thonny.org/">Thonny</a> as the integrated development environment of our programming exercises in Python.</p>
 <p>The labs in SB 354 &amp; 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.</p>
 <ol type="1">
@@ -235,15 +671,15 @@ ul.task-list li input[type="checkbox"] {
 <li>the instructions for using those machines here: <a href="https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php" class="uri">https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php</a></li>
 </ul></li>
 </ol>
-</section>
-</section>
+</div>
+</div>
+</div>
 <section id="activities" class="level2">
 <h2 class="anchored" data-anchor-id="activities">Activities</h2>
 <p>Every week we will go through the following:</p>
 <ol type="1">
 <li><p><strong>Preparation reading (zyBooks textbook)</strong>: you’ll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the “participation” activities in the specified sections as you go. You can skip the “challenge” activities.</p></li>
-<li><p><strong>Perspectives reading (Perusall)</strong>: you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.</p></li>
-<li><p><strong>POGIL Activity</strong>: when introducing a new Unit on <strong>every Friday</strong>, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning).&nbsp;We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:</p>
+<li><p><strong>Class activities</strong>: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:</p>
 <ul>
 <li>a programmer (runs the exercises in Thonny)</li>
 <li>a recorder (writes the team’s answers to the exercises)</li>
@@ -254,91 +690,33 @@ ul.task-list li input[type="checkbox"] {
 <li>If feasible, <em>you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well</em>. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.</li>
 <li>The lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.</li>
 </ul></li>
-<li><p><strong>Quizzes</strong>: usually <strong>on Wednesdays</strong>, we will have a 15 to 20 minute <strong>closed-notes</strong> quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.</p>
+<li><p><strong>Quiz</strong>: usually <strong>on Wednesdays</strong>, we will have a 15 to 20 minute <strong>closed-notes</strong> quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.</p>
 <ul>
 <li>Exceptionally at week 1, we won’t have a Quiz (too early for that).</li>
 </ul></li>
+<li><p><strong>Homework</strong>: these will also be posted as assignments on our <a href="https://learn.zybooks.com/zybook/CALVINCS104Fall2023">zyBooks</a> course page. These will total 6 homework assignments during the course.</p></li>
 </ol>
-<p>Every other week, starting week 2, you will also have <strong>homework</strong>: these will also be posted as assignments on our <a href="https://learn.zybooks.com/zybook/CALVINCS104Fall2023">zyBooks</a> course page. These will total 3 homework assignments during the course.</p>
-<section id="schedule-and-deadlines" class="level3">
-<h3 class="anchored" data-anchor-id="schedule-and-deadlines">Schedule and deadlines</h3>
-<p>Our schedule and the activities deadlines will be posted on our <a href="classes.html">Class Schedule</a> page and on the introduction pages of each module in this website. Where some tool we use is also supporting a calendar schedule, the deadlines will be there too (Moodle, zyBooks, Perusall).</p>
-<p>Unless stated otherwise, the assignment submissions are <strong>due by midnight</strong> of the due date. The Moodle calendar will list these due dates/times.</p>
-<section id="late-work-policy" class="level4">
-<h4 class="anchored" data-anchor-id="late-work-policy">Late work policy</h4>
-<p><em>Anything submitted after the dealine is late, unless you have made prior arrangements with us.</em> For each late assignment, you will be charged 10% for each business-day that you are late (e.g., if an assignment is due on Friday, you may turn it in on Monday at 10% off, Tuesday at 20% off and so on) and you need to email us to tell us which assignment you’re submitting late and how late it is. We will not accept work that is more than one week late unless you talk to us about the circumstances and negotiate a late-submission plan. We will generally grant up to 30% for these negotiated plans. We will also grant you 4 grace days with no penalty, no questions asked. Please note that grace days do not apply to the quizzes or the final project, and that we do not accept or negotiate for late work after the last day of class. If there are exceptional circumstances, please talk to us so we can work something out.</p>
+<p>Plus, every other week we will have a <strong>perspectives reading (on Perusall)</strong>: you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.</p>
 </section>
 </section>
-<section id="grading" class="level3">
-<h3 class="anchored" data-anchor-id="grading">Grading</h3>
+<section id="grading" class="level1">
+<h1>Grading</h1>
 <p>We will compute your final grade as follows:</p>
 <ul>
-<li>5% — Preparation readings (zyBooks)</li>
-<li>5% — Perspectives readings (Perusall)</li>
-<li>10% — Lab exercises</li>
-<li>35% — Quizzes</li>
-<li>45% — Homeworks</li>
+<li>5% — Preparation readings (zyBooks) (6 in total)</li>
+<li>5% — Perspectives readings (Perusall) (3 in total)</li>
+<li>40% — Quizzes (6 in total)</li>
+<li>50% — Homeworks (6 in total)</li>
 </ul>
 <p>We’ll throw out your lowest quiz score.</p>
-<p>Your grades will be available in the Moodle gradebook, generally before the next assignment of a similar type is due.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-How to succeed in this course?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><strong>Help others to succeed.</strong> The last thing we want to reinforce in our education is the idea that success only depends on individual effort. You’ll see that programming is much easier when done in community. Two or more people looking at the same code is twice or more the attention to details that is necessary for avoiding mistakes, remembering syntax and keeping objectives on track.
+<p><strong>CS 108L (1 credit)</strong></p>
 <ul>
-<li>This doesn’t mean to be carried by our teammates - i.e., letting them do all the work for you. Insist in participating. <strong>Don’t split tasks and exercises.</strong> It may be easy to get good grades in courses that involve group work, but though it may solve your problem now (i.e., passing the course), <strong>this will be really a problem in the future</strong>, where you may be required to take the lead in solving a programming problem, for example. I’ve seen lots of cases like this in academic education and it is really awful.</li>
-</ul></li>
-<li><strong>Don’t neglect textbook readings.</strong> In all my experience and a little of data analysis in courses I teach, there is a <strong>very clear correlation between low engagement with the textbook and low grades</strong>. So, <strong>be active</strong> in your reading. I know that everything around us today encourage us to just skim through texts, but that is not a good way to study. Think with the text. Ask questions. Annotate. Focus. You can do it.
-<ul>
-<li>The same applies for classes. Reading and listening aren’t passive. They are <strong>active abilities</strong> that can and have to be developed.</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</section>
-</section>
-<section id="use-of-technology" class="level2">
-<h2 class="anchored" data-anchor-id="use-of-technology">Use of Technology</h2>
-<p>We believe that technology is not neutral: we use them, but they also affect us. Consequently, <strong>technology in the classroom changes things</strong>. Studies suggest that&nbsp;<a href="https://www.insidehighered.com/news/2018/07/27/class-cellphone-and-laptop-use-lowers-exam-scores-new-study-shows">internet-enabled electronic devices in the classroom reduces student performance</a>. We&nbsp;<em>will</em>&nbsp;use technology in class, but with limits:</p>
-<ul>
-<li>You may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.</li>
-<li>You may use laptops to take notes or attempt programming tasks.</li>
-<li>Beyond those uses, technology use in class should be limited to critical messages only.</li>
+<li>100% — Lab exercises (pair programming) (6 in total)</li>
 </ul>
-<p>Furthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.</p>
-<p>This doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see <a href="https://calvin.edu/offices-services/provost/rac/writing-with-integrity/ai-text-generators/index.html">this page</a>.</p>
+<p>Your grades will be available in the Moodle gradebook.</p>
 </section>
-<section id="academic-integrity" class="level2">
-<h2 class="anchored" data-anchor-id="academic-integrity">Academic Integrity</h2>
-<p>Code re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.</p>
-<p>The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit&nbsp;<a href="https://calvin.edu/directory/policies/academic-integrity-policy" class="uri">https://calvin.edu/directory/policies/academic-integrity-policy</a>.</p>
-</section>
-<section id="etiquette-and-wellness" class="level2">
-<h2 class="anchored" data-anchor-id="etiquette-and-wellness">Etiquette and Wellness</h2>
-<p>I like to understand education as forming <strong>a community of friends who love knowledge</strong> (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.</p>
-<p>We are not just developing technical skill; we are also developing virtue and character <em>through the</em> acquisition of a technical skill. Please, take advantage of this opportunity.</p>
-<p>Furthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.</p>
-<p>Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The <a href="https://calvin.edu/offices-services/counseling-and-wellness/">Center for Counseling and Wellness</a> sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!</p>
-</section>
-<section id="accomodations" class="level2">
-<h2 class="anchored" data-anchor-id="accomodations">Accomodations</h2>
-<p>Calvin University is committed to providing access to all students. If you are a student with a documented disability, please notify a disability coordinator in the Center for Student Success (located in Spoelhof University Center 360) to discuss necessary accommodations. If you have an accommodation memo, please talk to me in the first two weeks of class</p>
-</section>
-<section id="diversity-and-inclusion" class="level2">
-<h2 class="anchored" data-anchor-id="diversity-and-inclusion">Diversity and Inclusion</h2>
-<p>I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.</p>
-<p>We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to&nbsp;<a href="https://calvin.edu/offices-services/safer-spaces/">Safer Spaces</a>&nbsp;or the&nbsp;<a href="http://www.calvin.edu/go/comments-on-faculty/">provost’s office</a>.</p>
-</section>
-<section id="study-sessions" class="level2">
-<h2 class="anchored" data-anchor-id="study-sessions">Study Sessions</h2>
+<section id="study-sessions" class="level1">
+<h1>Study Sessions</h1>
 <p>For this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:</p>
 <ul>
 <li>4-8 hours of tutoring per week</li>
@@ -347,6 +725,40 @@ How to succeed in this course?
 <li>A chance to make friends and study partners</li>
 </ul>
 <p>The service is completely free and flexible. For more information, visit&nbsp;<a href="https://calvin.edu/go/tutor" class="uri">https://calvin.edu/go/tutor</a></p>
+</section>
+<section id="use-of-technology" class="level1">
+<h1>Use of Technology</h1>
+<p>We believe that technology is not neutral: we use them, but they also affect us. Consequently, <strong>technology in the classroom changes things</strong>. Studies suggest that <a href="https://www.insidehighered.com/news/2018/07/27/class-cellphone-and-laptop-use-lowers-exam-scores-new-study-shows">internet-enabled electronic devices in the classroom reduces student performance</a>. We <em>will</em> use technology in class, but with limits:</p>
+<ul>
+<li>You may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.</li>
+<li>You may use laptops to take notes or attempt programming tasks.</li>
+<li>Beyond those uses, technology use in class should be limited to critical messages only.</li>
+</ul>
+<p>Furthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.</p>
+<p>This doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see <a href="https://calvin.edu/offices-services/provost/rac/writing-with-integrity/ai-text-generators/index.html">this page</a>.</p>
+</section>
+<section id="academic-integrity" class="level1">
+<h1>Academic Integrity</h1>
+<p>Code re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.</p>
+<p>The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit&nbsp;<a href="https://calvin.edu/directory/policies/academic-integrity-policy" class="uri">https://calvin.edu/directory/policies/academic-integrity-policy</a>.</p>
+</section>
+<section id="special-circumstances" class="level1">
+<h1>Special Circumstances</h1>
+<p>Occasionally there are special circumstances that require that course policies be adjusted for a particular student. In such cases, it is the responsibility of the student to inform us of the situation as soon as possible, so that the appropriate arrangements can be made. This includes, but is not limited to, students with documented disabilities.</p>
+<p>Calvin University is committed to providing access to all students. If you need additional accommodations to succeed in this class, please contact Disability Services in the Center for Student Success (disabilityservices@calvin.edu) as soon as possible to explore what arrangements can be made. The three of us (student, instructor, and Disability Services) will work together to come up with an appropriate solution.</p>
+<p>We will give a grade of Incomplete (I) only in unusual circumstances that have been confirmed by the Student Life office.</p>
+</section>
+<section id="diversity-and-inclusion" class="level1">
+<h1>Diversity and Inclusion</h1>
+<p>I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.</p>
+<p>We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to <a href="https://calvin.edu/offices-services/safer-spaces/">Safer Spaces</a>&nbsp;or the&nbsp;<a href="http://www.calvin.edu/go/comments-on-faculty/">provost’s office</a>.</p>
+</section>
+<section id="etiquette-and-wellness" class="level1">
+<h1>Etiquette and Wellness</h1>
+<p>I like to understand education as forming <strong>a community of friends who love knowledge</strong> (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.</p>
+<p>We are not just developing technical skill; we are also developing virtue and character <em>through the</em> acquisition of a technical skill. Please, take advantage of this opportunity.</p>
+<p>Furthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.</p>
+<p>Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The <a href="https://calvin.edu/offices-services/counseling-and-wellness/">Center for Counseling and Wellness</a> sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!</p>
 
 
 </section>
@@ -387,18 +799,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -430,11 +831,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -444,8 +884,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -457,7 +906,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -501,6 +1073,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -526,6 +1099,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -585,7 +1184,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lab-instructions.html" class="pagination-link" aria-label="Lab Instructions">
+        <span class="nav-page-text">Lab Instructions</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
+
 
 
 

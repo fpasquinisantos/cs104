@@ -7,7 +7,7 @@ format:
 
 > Open my eyes, that I may behold wondrous things out of your law. *Psalm 119.18*
 
-Welcome to CS-108-A, Introduction to Computing!
+Welcome to CS-104-A, Applied Computing!
 
 ::: {.callout-note collapse=true}
 
@@ -15,10 +15,11 @@ Welcome to CS-108-A, Introduction to Computing!
 
 - Creation:
   - Computing is part of God’s world
-    - reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)
-    - is enabling science today (study of God’s world)
+    - it reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)
+    - it is enabling science today (study of God’s world)
+    - it is enabling new technology today (building culture for God's glory)
   - The process of breaking down a problem into precise steps can be a form of developing intellectual virtue
-  - Through automation, it can enable human flourishing
+  - Through discovery and automation, it can enable human flourishing
   - There is joy in the process (creative, rewarding, fun)
 - Fall:
   - It is being centralized into few powerful actors, harming cultural diversity and freedom
