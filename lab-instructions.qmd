@@ -1,0 +1,64 @@
+# Lab Instructions
+
+- Remember that **lab attendance is required**. If you cannot come, please let us know in advance. Not attending the lab without legitimate reasons will unfortunately receive 0 points.
+- Please don't bring food and drink to this lab. (For classes in the other room, NH253, this is fine).
+
+## Pair programming
+
+- The basic idea:
+  - Person 1 acts as a coder (typing into the code)
+  - Person 2 acts as a code reviewer
+  - Alternate the roles after each solving each problem
+  - Both should discuss how to tackle the problem before coding
+  
+- LOTS of advantages
+  - Mutual learning
+  - Helps spotting some stupid typos/mistakes we may end up writing (and these can difficult to detect later)
+  - While one gives attention to the "tactical" aspect of getting some small stuff done, the other is thinking about the bigger picture, the "strategical" aspect.
+  
+- It takes some patience to just sit and look at someone writing. We are not trained in this kind of attention. But in the end it can be VERY satisfactory.
+
+- In the end, submit just one copy per pair
+  - Put down the names of both members as authors
+  - Put down the class A/B
+  - E.g., Frodo Baggins (Calvin-ID) A
+  
+
+## Don't forget headers in files
+
+- At the top of each program file, include something like this:
+
+```
+"""CS 108 - Lab 1.5
+Use a simple formula to estimate pi which is
+accurate to 6 digits.
+@author: Frodo Baggins (123456) A
+@author: Samwise Gamgee (654321) A
+@date: Spring, 2024
+"""
+```
+
+- The template header is actually:
+
+```
+"""CS 108 - Lab/Homework X.X
+Describe the module here. Fix the lab number above and
+the name/date below.
+Delete the second @author line if working solo.
+@author: YOUR-NAME (yourid123) A/B
+@author: PARTNER-NAME (theirid123) A/B
+@date: semester, year
+"""
+```
+
+## Grading example for Lab 1
+
+- Each question carries 20 points
+  - Test for documentation (2 points)
+    - The file name checking (e.g., Lab1_1.py)
+    - A brief description of the program file
+    - Authorship (including the section)
+  - Correctness (18 points for Lab1.1 and 16 points for others)
+  - Code documentation  (2 points)
+    - i.e., concise and clear comments about the code
+        - E.g., `print(pi)  # print out the estimated value of pi`

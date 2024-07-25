@@ -1,0 +1,45 @@
+# Success Tips and Resources
+
+## How to Succeed in This Class
+
+**A word to the wise**: Starting early is essential to success in programming. Newcomers sometimes think that they can start an assignment at the last minute and do reasonably well. Programming isn’t like writing a paper, where you can have partially developed arguments and missing information but still have something to submit. In programming, it either works or it doesn’t, and it is often very easy to tell.
+
+*   come to class and lab
+*   come to study sessions and drop by when prof is in lab
+*   take small steps
+*   use the autograder often
+*   discuss why something worked or didn’t work
+*   take frequent breaks
+*   make your own cheat-sheet of syntax and concepts you’ve learned
+
+**Help others to succeed.** The last thing we want to reinforce in our education is the idea that success only depends on individual effort. You'll see that programming is much easier when done in community. Two or more people looking at the same code is twice or more the attention to details that is necessary for avoiding mistakes, remembering syntax and keeping objectives on track.
+    -   This doesn't mean to be carried by our teammates - i.e., letting them do all the work for you. Insist in participating. **Don't split tasks and exercises.** It may be easy to get good grades in courses that involve group work, but though it may solve your problem now (i.e., passing the course), **this will be really a problem in the future**, where you may be required to take the lead in solving a programming problem, for example. I've seen lots of cases like this in academic education and it is really awful.
+
+**Don't neglect textbook readings.** In all my experience and a little of data analysis in courses I teach, there is a **very clear correlation between low engagement with the textbook and low grades**. So, **be active** in your reading. I know that everything around us today encourage us to just skim through texts, but that is not a good way to study. Think with the text. Ask questions. Annotate. Focus. You can do it.
+    -   The same applies for classes. Reading and listening aren't passive. They are **active abilities** that can and have to be developed.
+
+## Tutorials
+
+*   The [official Python tutorial](https://docs.python.org/3/tutorial/index.html)
+*   [Codecademy’s “Learn Python” Tutorial](https://www.codecademy.com/learn/learn-python)
+*   [futurecoder python tutorial](https://futurecoder.io/): nicely done, but only covers the basics
+*   [educative python tutorial](https://www.educative.io/courses/learn-python-3-from-scratch): not quite as slick as futurecoder, but it covers some important things that are missing there.
+*   [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp) and [Quiz](https://www.w3schools.com/python/python_quiz.asp)
+*   Kaggle [tutorials](https://www.kaggle.com/learn):
+    *   [learn python](https://www.kaggle.com/learn/python)
+    *   [learn pandas](https://www.kaggle.com/learn/pandas)
+
+## References
+
+*   [Python standard library](https://docs.python.org/3/library/index.html)
+
+## Tools
+
+*   [PythonTutor](https://pythontutor.com/)
+*   Some [Python practice problems](https://cs.calvin.edu/courses/cs/108/resources/python_problems/index.html)
+
+## Other interesting things
+
+*   [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+*   [float.exposed](https://float.exposed/0x40000000) and [integer.exposed](https://integer.exposed/#0x0000)
+*   How `int`s and `float`s (and other binary numbers) work: an [interactive tutorial](https://dennisforbes.ca/articles/understanding-floating-point-numbers.html), and a very comprehensive [reference](https://www3.ntu.edu.sg/home/ehchua/programming/java/datarepresentation.html)

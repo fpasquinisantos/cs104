@@ -1,0 +1,68 @@
+::: {.content-visible unless-format="revealjs"}
+# Computation <a href="/units/01/show/computation-p.qmd" target="_blank">{{< bi play-btn >}}</a>
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>1.2 COMPUTATION</b>"}
+:::
+
+-   We use programs to **compute** numbers.
+
+::: {.content-visible when-format="revealjs"}
+::: columns
+::: {.column width="33%"}
+![](/img/fred-flintstone-abacus.gif)
+:::
+
+::: {.column width="33%"}
+![](/img/Poser-une-multiplication.gif)
+:::
+
+::: {.column width="33%"}
+![](/img/calculator.gif)
+:::
+:::
+:::
+
+## Automatic computation {data-name="automatic computation"}
+
+-   Charles Babbage is known for developing the first automatic computer machine (1820's)
+    -   "the faster and more reliably one could calculate, the more money businesses could make."
+
+::: columns
+::: {.column width="70%"}
+![](/img/Babbage-Analytical-Engine.jpg){width="45%"}
+:::
+
+::: {.column width="30%"}
+![](/img/Charles_Babbage_-_1860.jpg){width="45%"}
+:::
+:::
+
+-   Ada Lovelace, daughter of Lord Byron, became enamoured by Babbage's machine and developed the first **algorithm**, to calculate a sum of numbers:
+
+::: columns
+::: {.column width="30%"}
+![](/img/adaalgorithm.png)
+:::
+
+::: {.column width="30%"}
+![](/img/lovelace.jpg)
+:::
+:::
+
+## Algorithm {data-name="algorithm"}
+
+-   Basically, a program: a description of a series of operations.
+-   But with some specific features:
+    1.  Precise and unambiguous steps
+    2.  Definite results
+    3.  Finite
+    4.  Generalizable (works with a range of possible inputs)
+    5.  Usually expressed through abstract/mathematical notation
+
+## STEM today is programming computations {data-name="STEM programming"}
+
+-   For complex calculations, we don't rely anymore on pressing calculator buttons. We have to make automatic computation programs
+
+[![](/img/animation_example_1.gif)](https://blogs.mathworks.com/pick/2021/03/26/animation-playback-controls-in-live-scripts-r2021a/)

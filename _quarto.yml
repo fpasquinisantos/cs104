@@ -13,6 +13,10 @@ website:
   sidebar:
     contents:
       - "index.qmd"
+      - "lab-instructions.qmd"
+      - "tips-resources.qmd"
+      - auto: "classes/"
+        icon: "person-workspace"
   page-navigation: true
 
 format:
