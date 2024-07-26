@@ -39,6 +39,8 @@
 :::
 :::
 
+---
+
 -   Ada Lovelace, daughter of Lord Byron, became enamoured by Babbage's machine and developed the first **algorithm**, to calculate a sum of numbers:
 
 ::: columns
