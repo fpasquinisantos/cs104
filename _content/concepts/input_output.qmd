@@ -1,0 +1,103 @@
+::: {.content-visible unless-format="revealjs"}
+# Input and Output
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+## Input and Output {data-name="<b>1.6 INPUT/OUTPUT</b>"}
+:::
+
+-   Programming is nothing without the design of an **interface**!
+    -   I have to be able to **input** data in the program, and
+    -   I have to be able to get results (**output**) from the program.
+
+::: {.content-visible when-format="revealjs"}
+![](/img/vending-machine.gif){align="center"}
+:::
+
+## Graphical input/output {data-name="graphical I/O"}
+
+-   Also called Graphical User Interface (GUI) - we'll study it in Unit 10
+-   Kind of mimics the way we use mechanical input and output
+-   Traditionally, [WIMP](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/wimp) (Windows, Icons, Menus and Pointers)
+
+![](/img/ui.jpg){width=30%}
+
+## Text input/output {data-name="text I/O"}
+
+-   Even simpler, however, it is a good start for programming!
+
+```{python}
+#| echo: true
+#| eval: false
+name = input("Please enter your name:")
+reverse = name[::-1]
+print("Your name in reverse is", reverse)
+```
+
+The command-line interface will ask for input from our keyboard, and then:
+
+![](/img/ioexample.png){width="40%"}
+
+## Python text output: `print()` {data-name="print"}
+
+-   Put what you want to print between the parentheses: `print("Hello World")`
+-   If you want to jump to a new line, use `\n`: `print("Hello\nWorld")`
+-   You can also pass multiple arguments by separating them with commas: `print("x has the value:", x, "\nand y has the value:", y)`
+
+## Python text input: `input()` {data-name="input"}
+
+-   The command waits until the user types some text in the command-line interface and finishes with ENTER
+-   The term `input()` "turns" into the text entered, and is **ALWAYS** an object the type `string`!
+-   Thus, it needs to be saved into a variable: `x = input()`
+    -   After the user types "Hi", for example, it is as if: `x = "Hi"`
+-   You can customize an input message by passing a string:
+
+```{python}
+#| echo: true
+#| eval: false
+x = input("Please enter your name: ")
+```
+
+## Input of numeric values {data-name="input numbers"}
+
+-   Now, suppose we want to calculate the sum of two numbers:
+
+```{python}
+#| echo: true
+#| eval: false
+x = input("Please enter first number: ")
+y = input("Please enter second number: ")
+z = x + y
+print("The sum is", z)
+```
+
+What happened???
+
+::: {.content-visible when-format="revealjs"}
+
+![](/img/wellwellwell.png)
+
+:::
+
+## Converting string to number types {data-name="converting numbers"}
+
+-   You can convert a string to a number using the methods `int()` and `float()`
+    -   The string that goes inside the parentheses (which we call the "argument" of the method) will be turned to an integer/float
+
+```{python}
+#| echo: true
+#| eval: false
+xstring = input("Please enter your age: ")
+x = int(xstring)
+print("Your age is ", x)
+```
+
+-   Just make things shorter by chaining one method into another!
+
+```{python}
+#| echo: true
+#| eval: false
+x = int(input("Please enter your age: "))
+print("Your age is ", x)
+```

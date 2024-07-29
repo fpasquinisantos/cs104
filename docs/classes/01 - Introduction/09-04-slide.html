@@ -28,6 +28,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -332,8 +397,155 @@
 <h1>09-04 (Slides)</h1>
 
 </section>
-<section id="section" class="slide level2" data-name="<b>1.1 PROGRAM</b>">
-<h2></h2>
+<section class="slide level2">
+
+<div class="smaller">
+<blockquote>
+<p>Dear Heavenly Father,<br>
+As we gather here today to embark on a new journey of learning, we invite Your presence into this classroom.<br>
+Bless each student with wisdom, understanding, and a thirst for knowledge. Let Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.<br>
+May this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.<br>
+Guide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.<br>
+Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.<br>
+Amen.</p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="introductions" class="title-slide slide level1 center">
+<h1>Introductions</h1>
+
+</section>
+<section id="why-programming" class="slide level2">
+<h2>Why programming?</h2>
+<ul>
+<li>Creation:
+<ul>
+<li>Computing is part of God’s world
+<ul>
+<li>it reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)</li>
+<li>it is enabling science today (study of God’s world)</li>
+<li>it is enabling new technology today (building culture for God’s glory)</li>
+</ul></li>
+<li>The process of breaking down a problem into precise steps can be a form of developing intellectual virtue</li>
+<li>Through discovery and automation, it can enable human flourishing</li>
+<li>There is joy in the process (creative, rewarding, fun)</li>
+</ul></li>
+<li>Fall:
+<ul>
+<li>It is being centralized into few powerful actors, harming cultural diversity and freedom</li>
+<li>It is alienating people from God’s good created order</li>
+<li>It is being misused for Mammon</li>
+<li>Constantly idolized</li>
+</ul></li>
+<li>Redemption:
+<ul>
+<li>We’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:
+<ul>
+<li>imagining</li>
+<li>designing</li>
+<li>regulating</li>
+<li>using</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="lets-know-each-other" class="slide level2">
+<h2>Let’s know each other</h2>
+<p>Stand up and sit when someone says what you would say:</p>
+<ul>
+<li>1st round: major</li>
+<li>2nd round: favorite sport</li>
+<li>3rd round: favorite board game</li>
+</ul>
+</section>
+<section id="who-am-i" class="slide level2">
+<h2>Who am I?</h2>
+<h3 id="prof.-fernando-santos">Prof.&nbsp;Fernando Santos</h3>
+<ul>
+<li>From São Carlos, Brazil
+<ul>
+<li>Portuguese, not Spanish!</li>
+<li>Cerrado (“brazilian savannah”), not jungle!</li>
+</ul></li>
+<li>Major in computer engineering, PhD in complex systems modeling</li>
+<li>Married to Jemima, dad of Suzana (6) and Natanael (4)</li>
+</ul>
+</section>
+<section id="our-relationship" class="slide level2">
+<h2>Our relationship</h2>
+<p>Heidelberg Catechism Q&amp;A 107:</p>
+<p>When god forbids envy, hatred, and anger, he commands us to [h] love our neighbor as ourselves; to show [i] patience, peace, [j] meekness, [k] mercy, and all kindness, towards him, [l] and prevent his hurt as much as in us lies’ and that we [m] do good, even to our enemies.</p>
+<p>[a]:&nbsp;<a href="https://biblia.com/bible/esv/Matt%205.21">Mat. 5:21</a>,<a href="https://biblia.com/bible/esv/Mat.%205.22">22</a>;&nbsp;<a href="https://biblia.com/bible/esv/Prov.%2012.18">Prov. 12:18</a>;&nbsp;<a href="https://biblia.com/bible/esv/Matt%2026.52">Mat. 26:52</a><br>
+[b]:&nbsp;<a href="https://biblia.com/bible/esv/Eph.%204.26">Eph. 4:26</a>;&nbsp;<a href="https://biblia.com/bible/esv/Rom.%2012.19">Rom. 12:19</a>;&nbsp;<a href="https://biblia.com/bible/esv/Matt%205.39">Mat. 5:39</a>,<a href="https://biblia.com/bible/esv/Mat.%205.40">40</a><br>
+[c]:&nbsp;<a href="https://biblia.com/bible/esv/Matt%204.5">Mat. 4:5</a>,<a href="https://biblia.com/bible/esv/Mat.%204.6">6</a>,<a href="https://biblia.com/bible/esv/Mat.%204.7">7</a>;&nbsp;<a href="https://biblia.com/bible/esv/Col.%202.23">Col. 2:23</a><br>
+[d]:&nbsp;<a href="https://biblia.com/bible/esv/Gen.%209.6">Gen.&nbsp;9:6</a>;&nbsp;<a href="https://biblia.com/bible/esv/Matt%2026.52">Mat. 26:52</a>;&nbsp;<a href="https://biblia.com/bible/esv/Rom.%2013.4">Rom. 13:4</a><br>
+[e]:&nbsp;<a href="https://biblia.com/bible/esv/James%201.20">James 1:20</a>;&nbsp;<a href="https://biblia.com/bible/esv/Gal.%205.20">Gal. 5:20</a><br>
+[f]:&nbsp;<a href="https://biblia.com/bible/esv/Rom.%201.29">Rom. 1:29</a>;&nbsp;<a href="https://biblia.com/bible/esv/1%20John%202.9">1John 2:9</a><br>
+[g]:&nbsp;<a href="https://biblia.com/bible/esv/1%20John%203.15">1John 3:15</a><br>
+[h]:&nbsp;<a href="https://biblia.com/bible/esv/Matt%2022.39">Mat. 22:39</a>;&nbsp;<a href="https://biblia.com/bible/esv/Matt%207.12">Mat. 7:12</a><br>
+[i]:&nbsp;<a href="https://biblia.com/bible/esv/Rom.%2012.10">Rom. 12:10</a><br>
+[j]:&nbsp;<a href="https://biblia.com/bible/esv/Eph.%204.2">Eph. 4:2</a>;&nbsp;<a href="https://biblia.com/bible/esv/Gal.%206.1">Gal. 6:1</a>,<a href="https://biblia.com/bible/esv/Gal%206.2">2</a>;&nbsp;<a href="https://biblia.com/bible/esv/Matt%205.5">Mat. 5:5</a>;&nbsp;<a href="https://biblia.com/bible/esv/Rom.%2012.18">Rom. 12:18</a><br>
+[k]:&nbsp;<a href="https://biblia.com/bible/esv/Exod.%2023.5">Ex. 23:5</a><br>
+[l]:&nbsp;<a href="https://biblia.com/bible/esv/Matt%205.45">Mat. 5:45</a><br>
+[m]:&nbsp;<a href="https://biblia.com/bible/esv/Rom.%2012.20">Rom. 12:20</a></p>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>How can I make this course lovely to you?
+<ul>
+<li>Sometimes, it is even not lovely to me…</li>
+<li>Together we can make it!</li>
+</ul></li>
+<li>Let’s make “a community of people who love knowledge”
+<ul>
+<li>Not easy! We need God.</li>
+<li>Get to know each other more. Change seats whenever you can!</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>Come to my office in the next days to grab a treat and present yourself!</li>
+</ul>
+</section>
+<section id="syllabus-bingo" class="slide level2">
+<h2>Syllabus Bingo</h2>
+<style>
+table, td, th {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+</style>
+<table class="caption-top">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 40%">
+<col style="width: 25%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Quizzes</td>
+<td style="text-align: center;">Websites I need to register</td>
+<td style="text-align: center;">Study sessions</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Software we are using</td>
+<td style="text-align: center;">Office hours</td>
+<td style="text-align: center;">ChatGPT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Readings</td>
+<td style="text-align: center;">Diversity and inclusion</td>
+<td style="text-align: center;">Schedule</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="program" class="title-slide slide level1 center" data-stack-name="program">
+<h1>Program</h1>
 <ul>
 <li>Programming = writing programs. What are programs?</li>
 </ul>
@@ -349,7 +561,7 @@
 </figure>
 </div>
 </section>
-<section id="programs-are-forms-of-wisdom" class="slide level2" data-name="form of wisdom">
+<section id="programs-are-forms-of-wisdom" class="slide level2">
 <h2>Programs are forms of wisdom</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -365,12 +577,13 @@
 <p>22 “The Lord brought me forth as the first of his works, before his deeds of old; 23 I was formed long ages ago, at the very beginning, when the world came to be. 24 When there were no watery depths, I was given birth, when there were no springs overflowing with water; 25 before the mountains were settled in place, before the hills, I was given birth, 26 before he made the world or its fields or any of the dust of the earth. 27 I was there when he set the heavens in place, when he marked out the horizon on the face of the deep, 28 when he established the clouds above and fixed securely the fountains of the deep, 29 when he gave the sea its boundary so the waters would not overstep his command, and when he marked out the foundations of the earth. 30 Then I was constantly at his side. I was filled with delight day after day, rejoicing always in his presence, 31 rejoicing in his whole world and delighting in mankind. Proverbs 8.22-31</p>
 </blockquote>
 </section>
-<section id="drawing-as-a-program" class="slide level2" data-name="drawing as example">
+<section id="drawing-as-a-program" class="slide level2">
 <h2>Drawing as a program</h2>
 
-<img data-src="../..\img/Turtle-animation.gif" class="r-stretch"></section>
-<section id="section-1" class="slide level2" data-name="<b>1.2 COMPUTATION</b>">
-<h2></h2>
+<img data-src="../..\img/Turtle-animation.gif" class="r-stretch"></section></section>
+<section>
+<section id="computation" class="title-slide slide level1 center" data-stack-name="computation">
+<h1>Computation</h1>
 <ul>
 <li>We use programs to <strong>compute</strong> numbers.</li>
 </ul>
@@ -383,7 +596,7 @@
 <p><img data-src="../..\img/calculator.gif"></p>
 </div></div>
 </section>
-<section id="automatic-computation" class="slide level2" data-name="automatic computation">
+<section id="automatic-computation" class="slide level2">
 <h2>Automatic computation</h2>
 <ul>
 <li>Charles Babbage is known for developing the first automatic computer machine (1820’s)
@@ -397,6 +610,9 @@
 </div><div class="column" style="width:30%;">
 <p><img data-src="../..\img/Charles_Babbage_-_1860.jpg" style="width:45.0%"></p>
 </div></div>
+</section>
+<section class="slide level2">
+
 <ul>
 <li>Ada Lovelace, daughter of Lord Byron, became enamoured by Babbage’s machine and developed the first <strong>algorithm</strong>, to calculate a sum of numbers:</li>
 </ul>
@@ -406,9 +622,10 @@
 </div><div class="column" style="width:30%;">
 <p><img data-src="../..\img/lovelace.jpg"></p>
 </div></div>
-</section>
-<section id="algorithm" class="slide level2 scrollable" data-name="algorithm">
-<h2>Algorithm</h2>
+</section></section>
+<section>
+<section id="algorithm" class="title-slide slide level1 center scrollable" data-stack-name="algorithm">
+<h1>Algorithm</h1>
 <ul>
 <li>Basically, a program: a description of a series of operations.</li>
 <li>But with some specific features:
@@ -421,21 +638,22 @@
 </ol></li>
 </ul>
 </section>
-<section id="stem-today-is-programming-computations" class="slide level2" data-name="STEM programming">
+<section id="stem-today-is-programming-computations" class="slide level2">
 <h2>STEM today is programming computations</h2>
 <ul>
 <li>For complex calculations, we don’t rely anymore on pressing calculator buttons. We have to make automatic computation programs</li>
 </ul>
 <p><a href="https://blogs.mathworks.com/pick/2021/03/26/animation-playback-controls-in-live-scripts-r2021a/"><img data-src="../..\img/animation_example_1.gif"></a></p>
-</section>
-<section id="section-2" class="slide level2" data-name="<b>1.3 CODE</b>">
-<h2></h2>
+</section></section>
+<section>
+<section id="code" class="title-slide slide level1 center" data-stack-name="code">
+<h1>Code</h1>
 <ul>
 <li>Initially, computer operators had to set the program manually to run…</li>
 </ul>
 
 <img data-src="../..\img/eniac.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
-<section id="punched-cards" class="slide level2" data-name="punched cards">
+<section id="punched-cards" class="slide level2">
 <h2>Punched cards</h2>
 <ul>
 <li>At the end of the 1800s, Herman Hollerith invented the punched card, to be automatically read by a machine.</li>
@@ -448,7 +666,7 @@
 <p><img data-src="../..\img/piano002.gif"></p>
 </div></div>
 </section>
-<section id="grace-hoppers-proposal" class="slide level2" data-name="programming language">
+<section id="grace-hoppers-proposal" class="slide level2">
 <h2>Grace Hopper’s proposal</h2>
 <ul>
 <li>Later, in 1949, Grace Hopper invented the first programming language: COBOL (COmmon Business-Oriented Language)
@@ -469,7 +687,7 @@
 </ul>
 
 <img data-src="../..\img/code.png" style="width:70.0%" class="r-stretch"></section>
-<section id="python-programming-language" class="slide level2" data-name="python">
+<section id="python-programming-language" class="slide level2">
 <h2>Python programming language</h2>
 <ul>
 <li>Invented in the early 1990s by Guido van Rossum, named after Monty Python’s Flying Circus</li>
@@ -485,8 +703,48 @@
 <section class="slide level2">
 
 
+<img data-src="../..\img/pythonmeme.png" class="r-stretch"></section></section>
+<section>
+<section id="the-pictionary-game" class="title-slide slide level1 center">
+<h1>The pictionary game</h1>
+<ul>
+<li>How difficult it is to describe to someone how to draw something?
+<ul>
+<li>Instructions may be ambiguous</li>
+<li>Different backgrounds, ways of interpreting…</li>
+</ul></li>
+<li>So happens with programming. The drama of programming is the drama of all human communication/expression…</li>
+</ul>
 
-<img data-src="../..\img/pythonmeme.png" class="r-stretch"><div class="quarto-auto-generated-content">
+<img data-src="../..\img/putpasta.png" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"></section>
+<section id="example-drawing-a-rectangle" class="slide level2">
+<h2>Example: Drawing a rectangle</h2>
+<ul>
+<li><p>Say to a computer <strong>“Draw a red rectangle in the top left corner of the screen.”</strong></p>
+<ul>
+<li>What shade of red, precisely?</li>
+<li>How big should the rectangle be?</li>
+<li>Exactly in the top left, or with some padding, and how much?</li>
+<li>When should it be drawn?</li>
+<li>What is the “top” of the screen on a mobile device that can be rotated?</li>
+</ul></li>
+<li><p>Code in Javascript:</p></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource javascript number-lines code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a></a><span class="co">// Get the canvas on the webpage that we want to render to.</span></span>
+<span id="cb1-2"><a></a><span class="kw">let</span> c <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"myCanvas"</span>)<span class="op">;</span></span>
+<span id="cb1-3"><a></a><span class="co">// Ask the canvas for an object that knows how to render 2-dimensional graphics onto the canvas.</span></span>
+<span id="cb1-4"><a></a><span class="kw">let</span> renderer <span class="op">=</span> c<span class="op">.</span><span class="fu">getContext</span>(<span class="st">"2d"</span>)<span class="op">;</span></span>
+<span id="cb1-5"><a></a><span class="co">// Set the color to render, then draw a 100 x 100 pixel rectangle.</span></span>
+<span id="cb1-6"><a></a>renderer<span class="op">.</span><span class="at">fillStyle</span> <span class="op">=</span> <span class="st">"rgb(255, 0, 0)"</span><span class="op">;</span></span>
+<span id="cb1-7"><a></a>renderer<span class="op">.</span><span class="fu">fillRect</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Notice that many things that do not matter when we give instructions to other people actually do matter for the computer. And vice-versa…
+<ul>
+<li>Why is that?</li>
+</ul></li>
+</ul>
+
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
@@ -524,8 +782,8 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
-'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":false,"barhtml":{"header":"","footer":""},"scale":0.5},
-'smaller': true,
+'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":false,"barhtml":{"header":"<div class='menubar'><ul class='menu'></ul><div>","footer":""},"scale":0.67},
+'smaller': false,
  
         // Display controls in the bottom right corner
         controls: false,

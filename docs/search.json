@@ -1,10 +1,153 @@
 [
   {
-    "objectID": "classes/01 - Introduction/09-04-slide.html#section",
-    "href": "classes/01 - Introduction/09-04-slide.html#section",
+    "objectID": "classes/01 - Introduction/09-06-slide.html#retrieval",
+    "href": "classes/01 - Introduction/09-06-slide.html#retrieval",
     "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Programming = writing programs. What are programs?",
+    "section": "Retrieval",
+    "text": "Retrieval",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#objects-and-variables-1",
+    "href": "classes/01 - Introduction/09-06-slide.html#objects-and-variables-1",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Objects and Variables",
+    "text": "Objects and Variables\n\nPython syntax specifies some ways to represent different types of data. A data representation in Python is called an “object”.\n\n\n\n\n\n\n\n\n\nType\nObject type in Python\nExample\n\n\n\n\nInteger number\nint\n123\n\n\nDecimal number (floating point)\nfloat\n3.14\n\n\nLogic value\nbool\nTrue, False\n\n\nText\nstring\n\"Hello World!\"",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#variables",
+    "href": "classes/01 - Introduction/09-06-slide.html#variables",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Variables",
+    "text": "Variables\n\nVariables are names we set to refer to objects.\n\nA not-so-good metaphor: variables are containers for objects\nA better metaphor: objects are houses, variables are addresses of these houses\n\n\n\nx = 123  # a variable x that contains the integer value 123\nx = x + 1  # x is updated with the value of x + 1, becoming 124...\nhello = \"Hello World!\"  # a variable that contains the string \"Hello World!\"\nis_done = True  # a variable is_done with the logic value True",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#objects-x-variables",
+    "href": "classes/01 - Introduction/09-06-slide.html#objects-x-variables",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Objects x variables",
+    "text": "Objects x variables\n\nIt is very important to differentiate!\nWhich of the following are variables and which are objects?\n\n\"hello\"\n\nhello\n\n132\n\nvar_1\n\ntruev\n\nTrue",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#variable-naming-conventions-in-python",
+    "href": "classes/01 - Introduction/09-06-slide.html#variable-naming-conventions-in-python",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Variable naming conventions in Python",
+    "text": "Variable naming conventions in Python\n\nThey MUST start with a letter or with _ (underline)\nThey are case sensitive (‘C’ is different from ‘c’)\nThey can’t contain: { ( + - * / \\ ; . , ?\nThey can’t have names of words already reserved for other purposes in Python:\n\n\n\nWhat happens if?\n\n\nTrue = 123\n\n\n\"Hello\" = world\n\n\n1stcar = 2000",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#assignments-1",
+    "href": "classes/01 - Introduction/09-06-slide.html#assignments-1",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Assignments",
+    "text": "Assignments\nWhen Python sees the operator = it does the following:\n\nEvaluates the right-hand side (rhs)\n\nThe right of the assignment operator can be:\n\nObjects: age = 21\nVariables: my_cost = your_cost\nExpressions: x = (x + 1) * y\n\n\nAssigns the resulting object to the variable on the left-hand side (lhs)\n\nOnly a single variable is allowed on the left side!\nFor example, x + 1 = 2 is WRONG SYNTAX!",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-06-slide.html#compound-assignment-operators",
+    "href": "classes/01 - Introduction/09-06-slide.html#compound-assignment-operators",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Compound assignment operators",
+    "text": "Compound assignment operators\n\nPython and other languages make available a shortcut for performing operations in variables and updating them.\nFor example,\n\n\nw = 5\nw += 1\nprint(w)\n\nis the same as:\n\nw = 5\nw = w + 1\nprint(w)\n\nYou can use compound assignment with all operators!\n\ny += 1 # add then assign value\ny -= 1 # subtract then assign value\ny *= 2 # multiply then assign value\ny /= 3 # divide then assign value\ny // = 5 # floor divide then assign value\ny **= 2 # increase to the power of then assign value\ny %= 3 # return remainder then assign value\n\nExample: what will this expression do?\n\nx *= y - 2",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-06 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#why-programming",
+    "href": "classes/01 - Introduction/09-04-slide.html#why-programming",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Why programming?",
+    "text": "Why programming?\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#lets-know-each-other",
+    "href": "classes/01 - Introduction/09-04-slide.html#lets-know-each-other",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Let’s know each other",
+    "text": "Let’s know each other\nStand up and sit when someone says what you would say:\n\n1st round: major\n2nd round: favorite sport\n3rd round: favorite board game",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#who-am-i",
+    "href": "classes/01 - Introduction/09-04-slide.html#who-am-i",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Who am I?",
+    "text": "Who am I?\nProf. Fernando Santos\n\nFrom São Carlos, Brazil\n\nPortuguese, not Spanish!\nCerrado (“brazilian savannah”), not jungle!\n\nMajor in computer engineering, PhD in complex systems modeling\nMarried to Jemima, dad of Suzana (6) and Natanael (4)",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#our-relationship",
+    "href": "classes/01 - Introduction/09-04-slide.html#our-relationship",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Our relationship",
+    "text": "Our relationship\nHeidelberg Catechism Q&A 107:\nWhen god forbids envy, hatred, and anger, he commands us to [h] love our neighbor as ourselves; to show [i] patience, peace, [j] meekness, [k] mercy, and all kindness, towards him, [l] and prevent his hurt as much as in us lies’ and that we [m] do good, even to our enemies.\n[a]: Mat. 5:21,22; Prov. 12:18; Mat. 26:52\n[b]: Eph. 4:26; Rom. 12:19; Mat. 5:39,40\n[c]: Mat. 4:5,6,7; Col. 2:23\n[d]: Gen. 9:6; Mat. 26:52; Rom. 13:4\n[e]: James 1:20; Gal. 5:20\n[f]: Rom. 1:29; 1John 2:9\n[g]: 1John 3:15\n[h]: Mat. 22:39; Mat. 7:12\n[i]: Rom. 12:10\n[j]: Eph. 4:2; Gal. 6:1,2; Mat. 5:5; Rom. 12:18\n[k]: Ex. 23:5\n[l]: Mat. 5:45\n[m]: Rom. 12:20",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#syllabus-bingo",
+    "href": "classes/01 - Introduction/09-04-slide.html#syllabus-bingo",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Syllabus Bingo",
+    "text": "Syllabus Bingo\n\n\n\n\n\n\n\n\n\nQuizzes\nWebsites I need to register\nStudy sessions\n\n\nSoftware we are using\nOffice hours\nChatGPT\n\n\nReadings\nDiversity and inclusion\nSchedule",
     "crumbs": [
       "Syllabus",
       "Classes",
@@ -39,24 +182,11 @@
     ]
   },
   {
-    "objectID": "classes/01 - Introduction/09-04-slide.html#section-1",
-    "href": "classes/01 - Introduction/09-04-slide.html#section-1",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "We use programs to compute numbers.",
-    "crumbs": [
-      "Syllabus",
-      "Classes",
-      "01 - Introduction",
-      "09-04 (Slides)"
-    ]
-  },
-  {
     "objectID": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
     "href": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
     "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "Automatic computation",
-    "text": "Automatic computation\n\nCharles Babbage is known for developing the first automatic computer machine (1820’s)\n\n“the faster and more reliably one could calculate, the more money businesses could make.”\n\n\n\n\n\n\n\n\n\nAda Lovelace, daughter of Lord Byron, became enamoured by Babbage’s machine and developed the first algorithm, to calculate a sum of numbers:",
+    "text": "Automatic computation\n\nCharles Babbage is known for developing the first automatic computer machine (1820’s)\n\n“the faster and more reliably one could calculate, the more money businesses could make.”",
     "crumbs": [
       "Syllabus",
       "Classes",
@@ -91,11 +221,11 @@
     ]
   },
   {
-    "objectID": "classes/01 - Introduction/09-04-slide.html#section-2",
-    "href": "classes/01 - Introduction/09-04-slide.html#section-2",
+    "objectID": "classes/01 - Introduction/09-04-slide.html#code-1",
+    "href": "classes/01 - Introduction/09-04-slide.html#code-1",
     "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Initially, computer operators had to set the program manually to run…",
+    "section": "Code",
+    "text": "Code\n\nInitially, computer operators had to set the program manually to run…",
     "crumbs": [
       "Syllabus",
       "Classes",
@@ -156,11 +286,17 @@
     ]
   },
   {
-    "objectID": "prayers/go-and-work.html",
-    "href": "prayers/go-and-work.html",
+    "objectID": "classes/01 - Introduction/09-04-slide.html#example-drawing-a-rectangle",
+    "href": "classes/01 - Introduction/09-04-slide.html#example-drawing-a-rectangle",
     "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Go and work\nHonor the One who is working on you.\nDo so by making beautiful things,\nBe serving in beautiful ways,\nBy speaking up for the weak whose beauty is being maligned,\nBy filling this city with the aroma of good and beautiful work\nReflect the beautiful work of your heavenly Father,\nNourished now by the grace and mercy of Christ,\nIn the power of the Holy Spirit.\nGod has already accomplished the great work.\nGod goes before you and behind you.\nGod works at your side.\n(Matthew Kaemingk & Cory B. Willson, Work and Worship, p. 140)"
+    "section": "Example: Drawing a rectangle",
+    "text": "Example: Drawing a rectangle\n\nSay to a computer “Draw a red rectangle in the top left corner of the screen.”\n\nWhat shade of red, precisely?\nHow big should the rectangle be?\nExactly in the top left, or with some padding, and how much?\nWhen should it be drawn?\nWhat is the “top” of the screen on a mobile device that can be rotated?\n\nCode in Javascript:\n\n// Get the canvas on the webpage that we want to render to.\nlet c = document.getElementById(\"myCanvas\");\n// Ask the canvas for an object that knows how to render 2-dimensional graphics onto the canvas.\nlet renderer = c.getContext(\"2d\");\n// Set the color to render, then draw a 100 x 100 pixel rectangle.\nrenderer.fillStyle = \"rgb(255, 0, 0)\";\nrenderer.fillRect(0, 0, 100, 100);\n\nNotice that many things that do not matter when we give instructions to other people actually do matter for the computer. And vice-versa…\n\nWhy is that?",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
   },
   {
     "objectID": "classes/01 - Introduction/index.html",
@@ -235,48 +371,6 @@
     ]
   },
   {
-    "objectID": "prayers/starting.html",
-    "href": "prayers/starting.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nAs we gather here today to embark on a new journey of learning, we invite Your presence into this classroom.\nBless each student with wisdom, understanding, and a thirst for knowledge. Let Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
-  },
-  {
-    "objectID": "prayers/prayer-information-technology.html",
-    "href": "prayers/prayer-information-technology.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we pray for those making international and national decisions about the ‘Information Super-Highway’;\nthat the whole range of considerations - political, economic, personal, sectional, communal - may be properly taken into account.\n\nLord, we pray for those setting up and administering national data-banks; we give thanks for the good they can do in co-ordinating information. We remember those who misuse the information they hold.\n\nLord, we pray for those involved in Research and Development in computers; we remember the power and responsibility they have for making changes in our world and our lives. We remember those who have lost their jobs as a result of new technology.\n\nLord, we pray for those who have boring keyboard jobs, those who suffer from Repetitive Strain Injury, or eyestrain. We pray for willingness to deal with the causes of such problems.\n\nLord, we pray for those in small computing businesses; the difficulties they face in chasing creditors; the stress on them, the risks they have to take - perhaps even with their own homes.\n\nLord, we pray for those who write computer games: some which are used to do much good at school, others to encourage people to gamble, some which are used just to make money. We pray for those who are addicted to computer and arcade games, and for their families; and for those who are anxious about the violence of some computer games.\n\nLord, we pray for those frightened of computers and other sorts of new technology; those who feel they cannot master using them; those who feel old or who lose their confidence in the face of change and new things.\n\nLord, we pray that technology may be the servant, not the controller of our lives.\n\n(From ‘Work in Worship’, Peterborough Diocese People and Work Programme)"
-  },
-  {
-    "objectID": "prayers/prayer-bad-jobs.html",
-    "href": "prayers/prayer-bad-jobs.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we remember that there are some who find themselves working on projects whose value they doubt or whose likely outcome they disapprove.\nHelp them, Lord, to decide whether to stay on in the hope of effecting change or whether to leave.  Especially we pray for those forced by economic necessity to remain in uncongenial work.\nMay they know your forgiveness,\nand may the world of science and technology be ever open to your redeeming Spirit,\nthat your will may be fulfilled in all that we do.\nAmen.\n(David Welbourn)"
-  },
-  {
-    "objectID": "prayers/practicing-programming.html",
-    "href": "prayers/practicing-programming.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nWe start this day asking for your joy and strength in this moment when we are practicing these programming skills.\nPlease let this be a moment of true fellowship and character building in our community of learning.\nBe with us in any difficulties we face. Give us a disposition to help, and humility to be helped.\nGive us wisdom to discern your beauty and justice as we write these Python programs.\nMay everything we do and learn here be offered to you in praise, gratitude and service to our neighbors.\nIn Jesus name we pray. Amen."
-  },
-  {
-    "objectID": "prayers/new-unit.html",
-    "href": "prayers/new-unit.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Dear Heavenly Father,\nWe invite Your presence into this classroom.\nLet Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen."
-  },
-  {
-    "objectID": "prayers/god-the-maker.html",
-    "href": "prayers/god-the-maker.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "VERSE 1:\nWe bring our time, we bring our treasure,\nwe lay them down before Your throne.\nYou will make them something greater,\nmore than we could ever know. (chorus)\n\nVERSE 2:\nWe bring our gifts, we bring our power\nplace them in Your sov’reign hand.\nYou will take what we have given,\nYou will use it for Your plan. (chorus)\n\nCHORUS:\nGlory be to God, the Maker\nglory be to God, Creator\nTake our time, use our treasure\nturn them into something greater:\nGlory be to God, the Maker.\n\nVERSE 3:\nThough our hearts are weak from failure,\nbroken dreams and failed attempts,\nshow us that in ev’ry season,\nYou will fill our emptiness. (chorus)\n(God the Maker, The Porter’s Gate)"
-  },
-  {
     "objectID": "lab-instructions.html",
     "href": "lab-instructions.html",
     "title": "Lab Instructions",
@@ -319,41 +413,6 @@
       "Syllabus",
       "Lab Instructions"
     ]
-  },
-  {
-    "objectID": "prayers/kyrie-in-work.html",
-    "href": "prayers/kyrie-in-work.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Let us confess to God those things that are wrong in our work:\nThat the presence of God at work is often overlooked;\nThat creative people are often subjected to long, boring and unrelenting routines;\nThat skills are undeveloped through lack of training;\nThat resources are wasted in shoddy work and the production of unwanted goods;\nThat the maximisation of profit often excludes concern for people;\nThat men and women are discriminated against because of age, race, gender, disability, lack of skill and length of employment;\nThat the poor stand so little chance against the power of the rich, and the world’s destitute are forgotten.\n\n\nLord, have mercy upon us. Forgive us our sins and help us to amend our lives. Amen.\n(https://www.theologyofwork.org/work-in-worship)"
-  },
-  {
-    "objectID": "prayers/powers-of-the-world.html",
-    "href": "prayers/powers-of-the-world.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we come to you asking for your wisdom to navigate the complex technological world you put us and your church.\nWe see the great powers that are laid today in the hands of big IT companies and institutions.\nGive us the grace and strength to resist these powers when they threaten our lives and the lives of our neighbors\nAnd, when we can’t, be with us as we suffer the brokenness of the culture we live in.\nJust as our Lord Jesus suffered, give us the same hope that he had - that you have the power to make all things new.\nLet this hope shine forth, so that more people may come and glorify you.\n\nLord, yours is the power, and you alone can do great things.\nWe are sure we shall see your goodness in the land of the living (Psalm 27:13-14).\nLet us be strong, hold heart and wait for you, always. Amen."
-  },
-  {
-    "objectID": "prayers/pray-vocational-doubt.html",
-    "href": "prayers/pray-vocational-doubt.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, we pray for ourselves in our daily study and work.\n\nWe give thanks for the skills we already have; we pray for wise and good use of these skills in building your kingdom.\n\nWe pray for those thinking about changing their study and/or work - especially those unhappy or insecure; those feeling undervalued or unfulfilled; those feeling that are in the wrong place; those who can’t wait for 5pm on Friday.\n\nWe pray for those with no sense of direction or purpose or vocation, for those drifting,\nfor those wanting to do a particular job, but unable through disability, illness, lack of confidence or lack of opportunity;\nfor those who are unemployed.\nWe pray for those at school or college now making decisions which will affect our working lives. We pray for all Careers Advisers.\n\nWe pray for those who are teaching us;\nfor our colleagues,\nfor our administrators."
-  },
-  {
-    "objectID": "prayers/prayer-for-automation.html",
-    "href": "prayers/prayer-for-automation.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, you reveal your glory in every thing you made\nLet us today engage with this creation so that we may participate in your beauty and wisdom\nMay the technology we use or even develop point us toward that,\nInstead of dragging us towards our own vicious desires and illusions of freedom\nHelp us, and our society, to know your ways and be still, for yours is the glory\nAnd our hearts are restless till they find rest in You.\nAmen."
-  },
-  {
-    "objectID": "prayers/prayer-responsibility.html",
-    "href": "prayers/prayer-responsibility.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Lord, you rule the world with a good and rightful code.\nWe ask for your wisdom to see things correctly and represent them faithfully.\nFill us with your justice so that we may know how to reflect it in the way we code,\nGive us humility so that we may know the limits of our knowledge and its application in society,\nGive us the courage to stand firmly when we feel pressured to go beyond these limits,\nAnd give us responsibility as rulers we may be in the areas of society where you put us.\n\nLord, we want to reflect your good rule, so that people of all nations may fear your name.\nMake known to us the path of life;\nFor in your presence there is fullness of joy;\nand at your right hand are pleasures forevermore (Psalm 16).\nAmen."
   },
   {
     "objectID": "tips-resources.html",
@@ -426,42 +485,9 @@
     "href": "index.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Open my eyes, that I may behold wondrous things out of your law. Psalm 119.18\n\nWelcome to CS-104-A, Applied Computing!\n\n\n\n\n\n\nWhy programming?\n\n\n\n\n\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing\n\n\n\n\n\n\n\n\n\n\n\n\nHow?\n\n\n\n\n\nWe will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.\nThe material is considered in the context of the reformed Christian perspective.\n\n\n\n\nLearning Outcomes\nThis course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:\n\nDesign algorithms and data types/structures to solve computational problems, using:\n\nprimitive data types, expressions and arrays/lists;\nbasic control structures: sequences, selection and repetition\nsubprograms (methods/functions;\nclasses;\n\nFind and fix syntactic and logical problems in programs;\nUse an Integrated Development Environment (IDE) to develop a program;\nUnderstand the wider implications of encoding intelligence in the form of algorithms.\n\n\n\nStaff\n\nProfessor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33@calvin.edu\nLab assistant: TBA\nGrader: TBA\n\n\n\nSchedule\n\n\n\n\n\n\nSchedule\n\n\n\n\n\nSchedule is subject to change. Updates will be made here and on Moodle.\n\n\n\n\n\n\n\n\n\n\nUnit\nClasses\nDay of Week\nContent\n\n\n\n\n\n09-02\nMonday\nLabor Day\n\n\n\n09-03\nTuesday\nNO LAB\n\n\n1 - Introduction\n09-04\nWednesday\nWelcome and introduction\n\n\n1 - Introduction\n09-06\nFriday\nVariables, Objects, Assignments\n\n\n1 - Introduction\n09-09\nMonday\nInput/Output\n\n\n1 - Introduction\n09-10\nTuesday\nLAB 1 - Introduction\n\n\n1 - Introduction\n09-11\nWednesday\nOperators and math\n\n\n2 - Types\n09-13\nFriday\nLists and tuples\n\n\n2 - Types\n09-16\nMonday\nDictionaries\n\n\n2 - Types\n09-17\nTuesday\nLAB 2 - Data types\n\n\n2 - Types\n09-18\nWednesday\nNumpy arrays\n\n\n3 - Conditionals\n09-20\nFriday\nIf-else\n\n\n3 - Conditionals\n09-23\nMonday\nComparison and boolean operators\n\n\n3 - Conditionals\n09-24\nTuesday\nLAB 3 - Conditionals\n\n\n4 - Loops\n09-25\nWednesday\nWhile and for\n\n\n4 - Loops\n09-27\nFriday\nIterating techniques\n\n\n5 - Functions\n09-30\nMonday\nFunctions\n\n\n4 - Loops\n10-01\nTuesday\nLAB 4 - Loops\n\n\n5 - Functions\n10-02\nWednesday\nVariable scope in functions\n\n\n5 - Functions\n10-04\nFriday\nString manipulation\n\n\n5 - Functions\n10-07\nMonday\nModules and namespaces\n\n\n5 - Functions\n10-08\nTuesday\nLAB 5 - Functions\n\n\n6 - Classes\n10-09\nWednesday\nClass attributes and methods\n\n\n6 - Classes\n10-11\nFriday\nOperator overloading\n\n\n6 - Classes\n10-14\nMonday\nInheritance\n\n\n6 - Classes\n10-15\nTuesday\nLAB 6 - Classes\n\n\n7 - Wrap-up\n10-16\nWednesday\nWrap-up\n\n\n\n10-18\nFriday\nFall Break\n\n\n\n\n\n\n\n\nCommunication\nOutside of class, we’ll use:\n\nOffice hours;\nMoodle:\n\nYou can use our Q&A Forum to post questions on assignments, concepts discussed in class, or when you have problems getting code to run. Post answers as well. You might be able to provide a good answer before the course staff even sees the question!\nWe also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. In general, don’t post code publicly. If you have to include code, make the post private first so the course staff can decide if it’s ok to share.\n\nEmail — Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).\n\nYou’ll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You’re free to schedule your work as best works for you, but we’ll be trying to observe a Sabbath in our own schedules.\n\n\nMaterials\n\n\n\n\n\n\nTexts\n\n\n\n\n\n\nZyBooks \nWe will be using an online text called Programming in Python 3 with ZyLabs. The text will cost $89 and can be accessed as follows:\n1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).\n2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`\n3.  Click *Subscribe*.\nYou’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the option to print a PDF version of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.\n\n\nWebsite and class handouts\nThis website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that will be posted on Perusall.\n\n\nPerspectives readings\nSseveral articles on programming that will be available on Perusall. We expect you to interact and discuss with these texts.\n\n\n\n\n\n\nImportant\n\n\n\nThe articles on reflections about programming that we are going to read are presenting lots of different opinions that may not reflect what I, myself, subscribe to. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don’t agree completely.\n\n\n\n\n\n\n\n\n\n\n\n\nWork Environment\n\n\n\n\n\nWe will use Thonny as the integrated development environment of our programming exercises in Python.\nThe labs in SB 354 & 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.\n\nInstall Thonny in your own machine Install the latest version of Thonny development environment for your system type. Thonny has a current version of Python built-in and should work without further configuration; or\nAccess the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:\n\nthe list of machines here: https://remote.cs.calvin.edu\nthe instructions for using those machines here: https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php\n\n\n\n\n\n\n\nActivities\nEvery week we will go through the following:\n\nPreparation reading (zyBooks textbook): you’ll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the “participation” activities in the specified sections as you go. You can skip the “challenge” activities.\nClass activities: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:\n\na programmer (runs the exercises in Thonny)\na recorder (writes the team’s answers to the exercises)\na manager/presenter (keeps the team on track; interacts with class)\n\nLab: we’ll go through a series of programming assignments during our lab classes every Tuesday. These are posted as assignments in zyBooks, where you and you partner will also submit your solutions.\n\nIf feasible, you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.\nThe lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.\n\nQuiz: usually on Wednesdays, we will have a 15 to 20 minute closed-notes quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.\n\nExceptionally at week 1, we won’t have a Quiz (too early for that).\n\nHomework: these will also be posted as assignments on our zyBooks course page. These will total 6 homework assignments during the course.\n\nPlus, every other week we will have a perspectives reading (on Perusall): you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.\n\n\nGrading\nWe will compute your final grade as follows:\n\n5% — Preparation readings (zyBooks) (6 in total)\n5% — Perspectives readings (Perusall) (3 in total)\n40% — Quizzes (6 in total)\n50% — Homeworks (6 in total)\n\nWe’ll throw out your lowest quiz score.\nCS 108L (1 credit)\n\n100% — Lab exercises (pair programming) (6 in total)\n\nYour grades will be available in the Moodle gradebook.\n\n\nStudy Sessions\nFor this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:\n\n4-8 hours of tutoring per week\nA nice place to do homework and ask questions\nAn entire room of people working through the same challenges\nA chance to make friends and study partners\n\nThe service is completely free and flexible. For more information, visit https://calvin.edu/go/tutor\n\n\nUse of Technology\nWe believe that technology is not neutral: we use them, but they also affect us. Consequently, technology in the classroom changes things. Studies suggest that internet-enabled electronic devices in the classroom reduces student performance. We will use technology in class, but with limits:\n\nYou may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.\nYou may use laptops to take notes or attempt programming tasks.\nBeyond those uses, technology use in class should be limited to critical messages only.\n\nFurthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.\nThis doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see this page.\n\n\nAcademic Integrity\nCode re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.\nThe student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit https://calvin.edu/directory/policies/academic-integrity-policy.\n\n\nSpecial Circumstances\nOccasionally there are special circumstances that require that course policies be adjusted for a particular student. In such cases, it is the responsibility of the student to inform us of the situation as soon as possible, so that the appropriate arrangements can be made. This includes, but is not limited to, students with documented disabilities.\nCalvin University is committed to providing access to all students. If you need additional accommodations to succeed in this class, please contact Disability Services in the Center for Student Success (disabilityservices@calvin.edu) as soon as possible to explore what arrangements can be made. The three of us (student, instructor, and Disability Services) will work together to come up with an appropriate solution.\nWe will give a grade of Incomplete (I) only in unusual circumstances that have been confirmed by the Student Life office.\n\n\nDiversity and Inclusion\nI intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.\nWe will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to Safer Spaces or the provost’s office.\n\n\nEtiquette and Wellness\nI like to understand education as forming a community of friends who love knowledge (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.\nWe are not just developing technical skill; we are also developing virtue and character through the acquisition of a technical skill. Please, take advantage of this opportunity.\nFurthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.\nAlso, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The Center for Counseling and Wellness sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!",
+    "text": "Open my eyes, that I may behold wondrous things out of your law. Psalm 119.18\n\nWelcome to CS-104-A, Applied Computing!\n\n\n\n\n\n\nWhy programming?\n\n\n\n\n\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing\n\n\n\n\n\n\n\n\n\n\n\n\nHow?\n\n\n\n\n\nWe will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.\nThe material is considered in the context of the reformed Christian perspective.\n\n\n\n\nLearning Outcomes\nThis course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:\n\nDesign algorithms and data types/structures to solve computational problems, using:\n\nprimitive data types, expressions and arrays/lists;\nbasic control structures: sequences, selection and repetition\nsubprograms (methods/functions;\nclasses;\n\nFind and fix syntactic and logical problems in programs;\nUse an Integrated Development Environment (IDE) to develop a program;\nUnderstand the wider implications of encoding intelligence in the form of algorithms.\n\n\n\nStaff\n\nProfessor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33@calvin.edu\nLab assistant: TBA\nGrader: TBA\n\n\n\nSchedule\n\n\n\n\n\n\nSchedule\n\n\n\n\n\nSchedule is subject to change. Updates will be made here and on Moodle.\n\n\n\n\n\n\n\n\n\n\nUnit\nClasses\nDay of Week\nContent\n\n\n\n\n\n09-02\nMonday\nLabor Day\n\n\n\n09-03\nTuesday\nNO LAB\n\n\n1 - Introduction\n09-04\nWednesday\nWelcome and introduction\n\n\n1 - Introduction\n09-06\nFriday\nVariables, Objects, Assignments\n\n\n1 - Introduction\n09-09\nMonday\nInput/Output\n\n\n1 - Introduction\n09-10\nTuesday\nLAB 1 - Introduction\n\n\n1 - Introduction\n09-11\nWednesday\nOperators and math\n\n\n2 - Types\n09-13\nFriday\nLists and tuples\n\n\n2 - Types\n09-16\nMonday\nDictionaries\n\n\n2 - Types\n09-17\nTuesday\nLAB 2 - Data types\n\n\n2 - Types\n09-18\nWednesday\nNumpy arrays\n\n\n3 - Conditionals\n09-20\nFriday\nIf-else\n\n\n3 - Conditionals\n09-23\nMonday\nComparison and boolean operators\n\n\n3 - Conditionals\n09-24\nTuesday\nLAB 3 - Conditionals\n\n\n4 - Loops\n09-25\nWednesday\nWhile and for\n\n\n4 - Loops\n09-27\nFriday\nIterating techniques\n\n\n5 - Functions\n09-30\nMonday\nFunctions\n\n\n4 - Loops\n10-01\nTuesday\nLAB 4 - Loops\n\n\n5 - Functions\n10-02\nWednesday\nVariable scope in functions\n\n\n5 - Functions\n10-04\nFriday\nString manipulation\n\n\n5 - Functions\n10-07\nMonday\nModules and namespaces\n\n\n5 - Functions\n10-08\nTuesday\nLAB 5 - Functions\n\n\n6 - Classes\n10-09\nWednesday\nClass attributes and methods\n\n\n6 - Classes\n10-11\nFriday\nOperator overloading\n\n\n6 - Classes\n10-14\nMonday\nInheritance\n\n\n6 - Classes\n10-15\nTuesday\nLAB 6 - Classes\n\n\n7 - Wrap-up\n10-16\nWednesday\nWrap-up\n\n\n\n10-18\nFriday\nFall Break\n\n\n\n\n\n\n\n\nCommunication\nOutside of class, we’ll use:\n\nOffice hours;\nMoodle:\n\nYou can use our Q&A Forum to post questions on assignments, concepts discussed in class, or when you have problems getting code to run. Post answers as well. You might be able to provide a good answer before the course staff even sees the question!\nWe also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. In general, don’t post code publicly. If you have to include code, make the post private first so the course staff can decide if it’s ok to share.\n\nEmail — Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).\n\nYou’ll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You’re free to schedule your work as best works for you, but we’ll be trying to observe a Sabbath in our own schedules.\n\n\nMaterials\n\n\n\n\n\n\nTexts\n\n\n\n\n\n\nZyBooks \nWe will be using an online text called Programming in Python 3 with ZyLabs. The text will cost $89 and can be accessed as follows:\n1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).\n2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`\n3.  Click *Subscribe*.\nYou’ll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the “Assignments” tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the option to print a PDF version of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.\n\n\nWebsite and class handouts\nThis website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that will be posted on Perusall.\n\n\nPerspectives readings\nSseveral articles on programming that will be available on Perusall. We expect you to interact and discuss with these texts.\n\n\n\n\n\n\nImportant\n\n\n\nThe articles on reflections about programming that we are going to read are presenting lots of different opinions that may not reflect what I, myself, subscribe to. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don’t agree completely.\n\n\n\n\n\n\n\n\n\n\n\n\nWork Environment\n\n\n\n\n\nWe will use Thonny as the integrated development environment of our programming exercises in Python.\nThe labs in SB 354 & 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.\n\nInstall Thonny in your own machine Install the latest version of Thonny development environment for your system type. Thonny has a current version of Python built-in and should work without further configuration; or\nAccess the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:\n\nthe list of machines here: https://remote.cs.calvin.edu\nthe instructions for using those machines here: https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php\n\n\n\n\n\n\n\nActivities\n\nPreparation reading (zyBooks textbook): you’ll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the “participation” activities in the specified sections as you go. You can skip the “challenge” activities.\nPerspectives reading (on Perusall): every other week, you’ll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.\nClass activities: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:\n\na programmer (runs the exercises in Thonny)\na recorder (writes the team’s answers to the exercises)\na manager/presenter (keeps the team on track; interacts with class)\n\nLab: we’ll go through a series of programming assignments during our lab classes every Tuesday. These are posted as assignments in zyBooks, where you and you partner will also submit your solutions.\n\nIf feasible, you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It’s wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.\nThe lab is configured to support the course work, but if you’re prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See “Getting Started” for more information.\n\nQuiz: usually on Wednesdays, we will have a 15 to 20 minute closed-notes quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.\n\nExceptionally at week 1, we won’t have a Quiz (too early for that).\n\nHomework: these will also be posted as assignments on our zyBooks course page. These will total 6 homework assignments during the course.\n\nPlus, every other week we will have a\n\n\nGrading\nWe will compute your final grade as follows:\n\n5% — Preparation readings (zyBooks) (6 in total)\n5% — Perspectives readings (Perusall) (3 in total)\n40% — Quizzes (6 in total)\n50% — Homeworks (6 in total)\n\nWe’ll throw out your lowest quiz score.\nCS 108L (1 credit)\n\n100% — Lab exercises (pair programming) (6 in total)\n\nYour grades will be available in the Moodle gradebook.\n\n\nStudy Sessions\nFor this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:\n\n4-8 hours of tutoring per week\nA nice place to do homework and ask questions\nAn entire room of people working through the same challenges\nA chance to make friends and study partners\n\nThe service is completely free and flexible. For more information, visit https://calvin.edu/go/tutor\n\n\nUse of Technology\nWe believe that technology is not neutral: we use them, but they also affect us. Consequently, technology in the classroom changes things. Studies suggest that internet-enabled electronic devices in the classroom reduces student performance. We will use technology in class, but with limits:\n\nYou may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.\nYou may use laptops to take notes or attempt programming tasks.\nBeyond those uses, technology use in class should be limited to critical messages only.\n\nFurthermore, in general, it’s not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won’t be healthy and won’t put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God’s glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God’s wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.\nThis doesn’t mean I’m all against the use of generative AI. But we need to do that responsibly. There’s always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see this page.\n\n\nAcademic Integrity\nCode re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you’ve copied code with attribution, we’ll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we’ll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.\nThe student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit https://calvin.edu/directory/policies/academic-integrity-policy.\n\n\nSpecial Circumstances\nOccasionally there are special circumstances that require that course policies be adjusted for a particular student. In such cases, it is the responsibility of the student to inform us of the situation as soon as possible, so that the appropriate arrangements can be made. This includes, but is not limited to, students with documented disabilities.\nCalvin University is committed to providing access to all students. If you need additional accommodations to succeed in this class, please contact Disability Services in the Center for Student Success (disabilityservices@calvin.edu) as soon as possible to explore what arrangements can be made. The three of us (student, instructor, and Disability Services) will work together to come up with an appropriate solution.\nWe will give a grade of Incomplete (I) only in unusual circumstances that have been confirmed by the Student Life office.\n\n\nDiversity and Inclusion\nI intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.\nWe will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I’ll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to Safer Spaces or the provost’s office.\n\n\nEtiquette and Wellness\nI like to understand education as forming a community of friends who love knowledge (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.\nWe are not just developing technical skill; we are also developing virtue and character through the acquisition of a technical skill. Please, take advantage of this opportunity.\nFurthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.\nAlso, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The Center for Counseling and Wellness sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!",
     "crumbs": [
       "Syllabus"
-    ]
-  },
-  {
-    "objectID": "prayers/psalm90.html",
-    "href": "prayers/psalm90.html",
-    "title": "CS 104 (Applied Computing) at Calvin University",
-    "section": "",
-    "text": "Let your work be shown to your servants,\nand your glorious power to their children.\nLet the favor of the Lord our God be upon us,\nand establish the work of our hands upon us;\nyes, establish the work of our hands!\nPsalm 90:16-17"
-  },
-  {
-    "objectID": "classes/01 - Introduction/09-09-slide.html",
-    "href": "classes/01 - Introduction/09-09-slide.html",
-    "title": "09-11 (Slides)",
-    "section": "",
-    "text": "09-11 (Slides)",
-    "crumbs": [
-      "Syllabus",
-      "Classes",
-      "01 - Introduction",
-      "09-11 (Slides)"
-    ]
-  },
-  {
-    "objectID": "classes/01 - Introduction/09-06-slide.html",
-    "href": "classes/01 - Introduction/09-06-slide.html",
-    "title": "09-11 (Slides)",
-    "section": "",
-    "text": "09-11 (Slides)",
-    "crumbs": [
-      "Syllabus",
-      "Classes",
-      "01 - Introduction",
-      "09-11 (Slides)"
     ]
   }
 ]

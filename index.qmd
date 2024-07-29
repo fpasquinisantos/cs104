@@ -170,28 +170,28 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
 
 # Activities
 
-Every week we will go through the following:
-
 1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the "participation" activities in the specified sections as you go. You can skip the "challenge" activities.
 
-3.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+2. **Perspectives reading (on Perusall)**: *every other week*, you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
+
+2.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
 
     -   a programmer (runs the exercises in Thonny)
     -   a recorder (writes the team's answers to the exercises)
     -   a manager/presenter (keeps the team on track; interacts with class)
 
-4.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+3.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
 
     -   If feasible, *you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
     -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
 
-5.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
+4.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
 
     -   Exceptionally at week 1, we won't have a Quiz (too early for that).
 
-6. **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
+5. **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
 
-Plus, every other week we will have a **perspectives reading (on Perusall)**: you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
+Plus, every other week we will have a 
 
 # Grading
 

@@ -1,0 +1,71 @@
+Here is the TeX content converted to Markdown with answer lines set as comments:
+
+---
+
+### Python Built-In Functions
+
+You can use *functions* to perform specific operations. Some functions require values, known as *arguments*, to perform their operation. Functions may also *return* a result. For example:
+
+```python
+name = input("What's your name? ")
+```
+
+`input` is a function, `"What's your name? "` is an argument, and the return value (typed by the user) is stored in `name`.
+
+The following table shows additional examples of functions. They were written by a scientist to set up an experiment.
+
+**Do not type anything yet! Read the questions first!**
+
+| Python code | Shell output |
+|-------------|--------------|
+| `input("enter the mass in grams: ")` | <!-- **Answer:** enter the mass in grams: 100 -->
+| `mass = input("enter another mass in grams: ")` | <!-- **Answer:** enter another mass in grams: 10 -->
+| `mass` | <!-- **Answer:** '10' -->
+| `unit = input("enter the units for mass: ")` | <!-- **Answer:** enter the units for mass: g -->
+| `print(mass, unit)` | <!-- **Answer:** 10 g -->
+| `print(mass / 2)` | <!-- **Answer:** TypeError -->
+| `ten = 10` | <!-- **Answer:** -->
+| `print(ten / 2)` | <!-- **Answer:** 5.0 -->
+| `abs(-1)` | <!-- **Answer:** 1 -->
+| `abs(-1 * ten)` | <!-- **Answer:** 10 -->
+
+---
+
+### 15 min
+
+#### List the names of the three functions used in the examples.
+
+<!-- **Answer:** input, print, abs -->
+
+#### What are the arguments of the first use of the `print` function?
+<!-- **Answer:** mass, unit -->
+
+---
+
+#### Type each line of code in a Python Shell, one line at a time, and write the corresponding output (if observed) in the right column of the table. If an error occurs, write what type of error it was (i.e., the first word of the last line of the error message).
+
+Place an asterisk (*) next to any output for which you were surprised, and note what was unexpected about the output. Don't worry yet about *understanding* any strange output you may see; we will discuss what it all means by the end of class.
+
+---
+
+#### Which function delayed execution until additional input was entered?
+
+<!-- **Answer:** The input function. -->
+
+#### Which term, *user* or *programmer*, best defines the role of the person who entered the additional input? Explain.
+
+<!-- **Answer:** User is a better term; programs are ultimately written to be used by non-programmers. -->
+
+#### Based on the Shell output, what does the word `mass` represent, and how did it get its value?
+
+<!-- **Answer:** (Answers may vary) Its value is 10, which the user entered as input. -->
+
+#### What does the word `ten` represent, and how did it get its value?
+
+<!-- **Answer:** Its value is 10 based on the statement `ten = 10`. -->
+
+#### Do the values of `mass` and `ten` both represent a number? Explain why or why not.
+
+<!-- **Answer:** Although they both appear to represent a numerical value, `mass` divided by 2 gives an error, while `ten` divided by 2 gives the expected numerical outcome. -->
+
+---

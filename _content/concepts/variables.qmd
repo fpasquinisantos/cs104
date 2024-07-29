@@ -1,0 +1,150 @@
+::: {.content-visible unless-format="revealjs"}
+# Objects and Variables
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+## Objects and Variables {data-name="<b>1.4 OBJECTS</b>"}
+:::
+
+-   Python syntax specifies some ways to represent different types of data. A data representation in Python is called an "object".
+
+| Type                            | Object type in Python | Example          |
+|---------------------------------|-----------------------|------------------|
+| Integer number                  | `int`                 | `123`            |
+| Decimal number (floating point) | `float`               | `3.14`           |
+| Logic value                     | `bool`                | `True`, `False`  |
+| Text                            | `string`              | `"Hello World!"` |
+
+## Variables {data-name="variables"}
+
+-   Variables are names we set to refer to objects.
+    -   A not-so-good metaphor: variables are containers for objects
+    -   A better metaphor: objects are houses, variables are addresses of these houses
+
+```{python}
+x = 123  # a variable x that contains the integer value 123
+x = x + 1  # x is updated with the value of x + 1, becoming 124...
+hello = "Hello World!"  # a variable that contains the string "Hello World!"
+is_done = True  # a variable is_done with the logic value True
+```
+
+## Objects x variables {data-name="differences"}
+
+-   It is **very important** to differentiate!
+-   Which of the following are variables and which are objects?
+
+```         
+"hello"
+
+hello
+
+132
+
+var_1
+
+truev
+
+True
+```
+
+## Variable naming conventions in Python {data-name="naming"}
+
+-   They MUST start with a letter or with \_ (underline)
+-   They are case sensitive ('C' is different from 'c')
+-   They can't contain: `{ ( + - * / \ ; . , ?`
+-   They can't have names of words already reserved for other purposes in Python:
+
+![](/img/reserved.png){width=80%}
+
+-   What happens if?
+
+```{python}
+#| error: true
+#| eval: false
+True = 123
+```
+
+```{python}
+#| error: true
+#| eval: false
+"Hello" = world
+```
+
+```{python}
+#| error: true
+#| eval: false
+1stcar = 2000
+```
+
+::: {.content-visible unless-format="revealjs"}
+# Assignments
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+## Assignments {data-name="<b>1.5 ASSIGNMENTS</b>"}
+:::
+
+When Python sees the operator `=` it does the following:
+
+1.  Evaluates the **right-hand side** (rhs)
+
+    -   The right of the assignment operator can be:
+
+        -   Objects: `age = 21`
+
+        -   Variables: `my_cost = your_cost`
+
+        -   Expressions: `x = (x + 1) * y`
+
+2.  Assigns the resulting object to the variable on the **left-hand side** (lhs)
+
+    -   Only a **single variable** is allowed on the left side!
+
+    -   For example, `x + 1 = 2` is WRONG SYNTAX!
+
+## Compound assignment operators {data-name="compound assignment"}
+
+-   Python and other languages make available a shortcut for performing operations in variables and updating them.
+-   For example,
+
+```{python}
+#| echo: true
+#| eval: false
+w = 5
+w += 1
+print(w)
+```
+
+is the same as:
+
+```{python}
+#| echo: true
+#| eval: false
+w = 5
+w = w + 1
+print(w)
+```
+
+You can use compound assignment with all operators!
+
+```{python}
+#| echo: true
+#| eval: false
+y += 1 # add then assign value
+y -= 1 # subtract then assign value
+y *= 2 # multiply then assign value
+y /= 3 # divide then assign value
+y // = 5 # floor divide then assign value
+y **= 2 # increase to the power of then assign value
+y %= 3 # return remainder then assign value
+```
+
+Example: what will this expression do?
+
+```{python}
+#| echo: true
+#| eval: false
+x *= y - 2
+```
