@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "objectID": "classes/01 - Introduction/09-06-slide.html#retrieval",
     "href": "classes/01 - Introduction/09-06-slide.html#retrieval",
     "title": "CS 104 (Applied Computing) at Calvin University",
@@ -94,6 +95,11 @@
     "objectID": "classes/01 - Introduction/09-04-slide.html#why-programming",
     "href": "classes/01 - Introduction/09-04-slide.html#why-programming",
     "title": "CS 104 (Applied Computing) at Calvin University",
+=======
+    "objectID": "classes/01 - Introduction/09-04-slide.html#why-programming",
+    "href": "classes/01 - Introduction/09-04-slide.html#why-programming",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
     "section": "Why programming?",
     "text": "Why programming?\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing",
     "crumbs": [
@@ -148,6 +154,22 @@
     "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "Syllabus Bingo",
     "text": "Syllabus Bingo\n\n\n\n\n\n\n\n\n\nQuizzes\nWebsites I need to register\nStudy sessions\n\n\nSoftware we are using\nOffice hours\nChatGPT\n\n\nReadings\nDiversity and inclusion\nSchedule",
+<<<<<<< HEAD
+=======
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html#program-1",
+    "href": "classes/01 - Introduction/09-04-slide.html#program-1",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "Program",
+    "text": "Program\n\nProgramming = writing programs. What are programs?",
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
     "crumbs": [
       "Syllabus",
       "Classes",
@@ -182,6 +204,22 @@
     ]
   },
   {
+<<<<<<< HEAD
+=======
+    "objectID": "classes/01 - Introduction/09-04-slide.html#section",
+    "href": "classes/01 - Introduction/09-04-slide.html#section",
+    "title": "CS 104 (Applied Computing) at Calvin University",
+    "section": "",
+    "text": "We use programs to compute numbers.",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+  },
+  {
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
     "objectID": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
     "href": "classes/01 - Introduction/09-04-slide.html#automatic-computation",
     "title": "CS 104 (Applied Computing) at Calvin University",
@@ -221,8 +259,13 @@
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "classes/01 - Introduction/09-04-slide.html#code-1",
     "href": "classes/01 - Introduction/09-04-slide.html#code-1",
+=======
+    "objectID": "classes/01 - Introduction/09-04-slide.html#section-1",
+    "href": "classes/01 - Introduction/09-04-slide.html#section-1",
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
     "title": "CS 104 (Applied Computing) at Calvin University",
     "section": "Code",
     "text": "Code\n\nInitially, computer operators had to set the program manually to run…",
@@ -286,6 +329,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "classes/01 - Introduction/09-04-slide.html#example-drawing-a-rectangle",
     "href": "classes/01 - Introduction/09-04-slide.html#example-drawing-a-rectangle",
     "title": "CS 104 (Applied Computing) at Calvin University",
@@ -299,6 +343,8 @@
     ]
   },
   {
+=======
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
     "objectID": "classes/01 - Introduction/index.html",
     "href": "classes/01 - Introduction/index.html",
     "title": "01 - Introduction",
@@ -489,5 +535,21 @@
     "crumbs": [
       "Syllabus"
     ]
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "classes/01 - Introduction/09-04-slide.html",
+    "href": "classes/01 - Introduction/09-04-slide.html",
+    "title": "09-04 (Slides)",
+    "section": "",
+    "text": "Dear Heavenly Father,\nAs we gather here today to embark on a new journey of learning, we invite Your presence into this classroom.\nBless each student with wisdom, understanding, and a thirst for knowledge. Let Your light shine upon us, illuminating the path of learning, so we may contemplate your beauty and love in everything you made.\nMay this classroom be a place of respect, fellowship, and growth. Help us to be open to new ideas, to embrace challenges, and to support one another in our academic endeavors. Bless this class so that it may be a space where minds are enriched, friendships are formed, and hearts are touched.\nGuide our imaginations and desires towards your love and justice, so that we may respond adequately to your call to be Christ’s agents of renewal in the world.\nThrough our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.\nAmen.\n\n\n\n\n\nCreation:\n\nComputing is part of God’s world\n\nit reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)\nit is enabling science today (study of God’s world)\nit is enabling new technology today (building culture for God’s glory)\n\nThe process of breaking down a problem into precise steps can be a form of developing intellectual virtue\nThrough discovery and automation, it can enable human flourishing\nThere is joy in the process (creative, rewarding, fun)\n\nFall:\n\nIt is being centralized into few powerful actors, harming cultural diversity and freedom\nIt is alienating people from God’s good created order\nIt is being misused for Mammon\nConstantly idolized\n\nRedemption:\n\nWe’re called to follow Jesus in showing God’s glory through our cultural activity, which includes computing and its virtuous practice on:\n\nimagining\ndesigning\nregulating\nusing\n\n\n\n\n\n\nStand up and sit when someone says what you would say:\n\n1st round: major\n2nd round: favorite sport\n3rd round: favorite board game\n\n\n\n\n\n\n\nFrom São Carlos, Brazil\n\nPortuguese, not Spanish!\nCerrado (“brazilian savannah”), not jungle!\n\nMajor in computer engineering, PhD in complex systems modeling\nMarried to Jemima, dad of Suzana (6) and Natanael (4)\n\n\n\n\n\nHeidelberg Catechism Q&A 107:\nWhen god forbids envy, hatred, and anger, he commands us to [h] love our neighbor as ourselves; to show [i] patience, peace, [j] meekness, [k] mercy, and all kindness, towards him, [l] and prevent his hurt as much as in us lies’ and that we [m] do good, even to our enemies.\n[a]: Mat. 5:21,22; Prov. 12:18; Mat. 26:52\n[b]: Eph. 4:26; Rom. 12:19; Mat. 5:39,40\n[c]: Mat. 4:5,6,7; Col. 2:23\n[d]: Gen. 9:6; Mat. 26:52; Rom. 13:4\n[e]: James 1:20; Gal. 5:20\n[f]: Rom. 1:29; 1John 2:9\n[g]: 1John 3:15\n[h]: Mat. 22:39; Mat. 7:12\n[i]: Rom. 12:10\n[j]: Eph. 4:2; Gal. 6:1,2; Mat. 5:5; Rom. 12:18\n[k]: Ex. 23:5\n[l]: Mat. 5:45\n[m]: Rom. 12:20\n\n\nHow can I make this course lovely to you?\n\nSometimes, it is even not lovely to me…\nTogether we can make it!\n\nLet’s make “a community of people who love knowledge”\n\nNot easy! We need God.\nGet to know each other more. Change seats whenever you can!\n\n\n\n\nCome to my office in the next days to grab a treat and present yourself!\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuizzes\nWebsites I need to register\nStudy sessions\n\n\nSoftware we are using\nOffice hours\nChatGPT\n\n\nReadings\nDiversity and inclusion\nSchedule",
+    "crumbs": [
+      "Syllabus",
+      "Classes",
+      "01 - Introduction",
+      "09-04 (Slides)"
+    ]
+>>>>>>> 42ba81bb4707b0e0240a5662a82bb8a36f51fed6
   }
 ]
