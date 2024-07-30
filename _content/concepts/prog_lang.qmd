@@ -1,4 +1,24 @@
-# The pictionary game
+# Python programming language {data-stack-name="python"}
+
+##
+
+-   Invented in the early 1990s by Guido van Rossum, named after Monty Python's Flying Circus
+-   Open source project
+-   High-level, general-purpose language
+-   Widely available, easy to learn, rich in tools and libraries, and portable
+
+::: {.content-visible when-format="revealjs"}
+
+---
+
+![https://spectrum.ieee.org/top-programming-languages-2022](/img/ieelanguages.png)
+---
+
+![](/img/pythonmeme.png)
+:::
+
+
+## The pictionary game
 
 -   How difficult it is to describe to someone how to draw something?
     -   Instructions may be ambiguous
@@ -16,6 +36,8 @@
     -   Exactly in the top left, or with some padding, and how much?
     -   When should it be drawn?
     -   What is the "top" of the screen on a mobile device that can be rotated?
+
+---
 
 -   Code in Javascript:
 

@@ -16,8 +16,8 @@ Objectives for this unit:
 - Declare and initialize variables with different data types (e.g., integers, floats, strings).
 - Identify and apply the rules for naming variables in Python.
 - Convert between data types (int(), float(), str()).
-- Perform basic variable assignments.
-- Use multiple assignments to assign values to several variables simultaneously.
+- Understand the rules for the "=" operator for assignments.
+- Understand the rules for compound assignments.
 - Swap values between variables using assignment.
 
 ## Input and output

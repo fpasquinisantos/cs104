@@ -14,6 +14,9 @@ format:
       scale: 0.5
 revealjs-plugins:
     - simplemenu
+title: "09-09 (Slides)"
 ---
 
-# 09-09 (Slides)
+# Retrieval
+
+{{< include /_content/concepts/input_output.qmd >}}

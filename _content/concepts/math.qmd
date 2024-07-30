@@ -1,0 +1,154 @@
+# Operators {data-stack-name="operators"}
+
+##
+
+| Operation                       | Operator |  Example  | Evaluates to |
+|---------------------------------|:--------:|:---------:|:------------:|
+| Addition                        |   `+`    |  `2 + 2`  |     `4`      |
+| Subtraction                     |   `-`    |  `4 - 1`  |     `3`      |
+| Multiplication                  |   `*`    | `1.5 * 2` |    `3.0`     |
+| Division                        |   `/`    |  `5 / 2`  |    `2.5`     |
+| Floor Division                  |   `//`    |  `5 // 2`  |     `2`      |
+| Modulus (remainder of division) |   `%`    |  `5 % 2`  |     `1`      |
+| Exponent                        |   `**`   |  `3**3`   |     `27`     |
+
+## Resulting types
+
+-   If any of the operands is a float, result will be a float. Otherwise (both are integer), result is an integer.
+
+-   However, there is an exception: result of a **division** (not floor division) is ***always*** a float. Careful with that! (why? we'll see in a moment)
+
+## Operator precedence
+
+-   Always be careful with expressions using more than one operator! For example:
+
+```{python}
+#| echo: true
+#| eval: false
+a = 3
+b = 6
+c = a + b * 2
+print(c)
+```
+
+-   This evaluates as $a + (b \times 2) = 3 + (6 * 2) = 3 + 12 = 15$
+
+Python operator **precedence order**:
+
+1.  Parentheses: `()`
+2.  Exponents: `**`
+3.  Multiplication, divisions and modulus: `* / // %`
+4.  Addition and subtraction: `+ -`
+5.  Comparisons: `<= < >= > == != is` (next week)
+6.  Boolean `not` (next week)
+7.  Boolean `and` (next week)
+8.  Boolean `or` (next week)
+
+## Operators in strings
+
+-   Python also permits using SOME operators with strings. In a metaphorical way...
+
+| String Operation | Metaphor       | Operator |         Example         | Evaluates to  |
+|---------------|---------------|:-------------:|:-------------:|:-------------:|
+| Concatenation    | Addition       |   `+`    | `"Hey" + " " + "apple"` | `"Hey apple"` |
+| Repetition       | Multiplication |   `*`    |       `"na" * 4`        | `"nananana"`  |
+
+-   Other operators are not supported. Multiplication of a string with another string is also not supported. Both wouldn't make so much sense...
+
+## Evaluating operations in strings
+
+It is also possible to evaluate an expression coded as a string. For example:
+
+```{python}
+#| echo: true
+expression = "2 * (4 + 6) / 3 - 5"
+result = eval(expression)
+print(result)
+```
+
+# Math module {data-stack-name="math module"}
+
+##
+
+For other mathematical operations, you can import Python's math module. Two ways to do that:
+
+::: columns
+::: {.column width="50%"}
+-   Import the whole module and use as needed: need to use the module name followed by a dot (.) before using a function or variable from the module.
+
+```{python}
+#| echo: true
+#| eval: false
+import math
+r = 3
+circumference = 2 * r * math.pi
+```
+:::
+
+::: {.column width="50%"}
+-   Import only the functions and variables you will need. Then, no need to use the qualifier "math."
+
+```{python}
+#| echo: true
+#| eval: false
+from math import pi
+r = 3
+circumference = 2 * r * pi
+```
+:::
+:::
+
+Some functions in the math module (documentation [here](https://docs.python.org/3/library/math.html))
+
+| Method          | Explanation                   |
+|-----------------|-------------------------------|
+| math.cos(x)     | Returns cosine of x (rads)    |
+| math.sin(x)     | Returns sine of x (rads)      |
+| math.tan(x)     | Returns tangent of x (rads)   |
+| math.degrees(x) | Converts x radians to degrees |
+| math.radians(x) | Converts x degrees to rads    |
+| math.sqrt(x)    | Returns square root of x      |
+
+-   You can also try to import all of the modules resources by using
+
+```{python}
+#| echo: true
+#| eval: false
+from math import *
+```
+
+-   However, this is not recommended due to **"namespace pollution"** (having lots of names referenced that are actually not used)
+
+
+# Overflow {data-stack-name="overflow"}
+
+##
+
+-   Integers and floats are representations in the memory of your computer. Therefore, there are value limits to these numbers.
+    -   If we pass the limit, we arrive at an **overflow**, and the number is not computed correctly.
+
+
+-   **For integers**, Python dynamically increases the use of memory as the number grows. Therefore, **in theory** there is a limit (computer memory will be full), but **in practice** this will almost never be the case.
+    -   For example, try `2147483647 ** 200`
+    -   This, however, is a Python feature. Other languages may not handle that.
+
+-   **For floats**, numbers are limited by the size of the mantissa and exponent.
+    -   Remember: for $1.2345 \times 10^7$, $1.2345$ is the mantissa, and $7$ is the exponent
+    -   In Python, maximum is about 3 digits for the exponent and 17 digits for the mantissa
+    -   For example, try: `2.0**2000`
+        -   `OverflowError`
+
+::: {style="font-size: 70%;"}
+More info at <https://docs.python.org/3/tutorial/floatingpoint.html>
+:::
+
+## So, be careful when mixing numeric types!
+
+-   On June 4, 1996 the European Space Agency launched the first Ariane 5 rocket:
+    -   the result of a decade of development, \$8 billion
+    -   Exploded 40 seconds after lift-off with a \$500 million satellite payload on board...
+-   Cause was a software error related to a **number type conversion and an overflow**
+
+::: {style="font-size: 70%;"}
+<http://www-users.math.umn.edu/~arnold/disasters/ariane.html>
+:::

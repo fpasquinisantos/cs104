@@ -1,5 +1,7 @@
 # Program {data-stack-name="program"}
 
+##
+
 -   Programming = writing programs. What are programs?
 
 ::: columns
@@ -29,6 +31,8 @@
 :::
 
 # Computation {data-stack-name="computation"}
+
+##
 
 -   We use programs to **compute** numbers.
 
@@ -79,6 +83,8 @@
 
 # Algorithm {data-stack-name="algorithm"}
 
+##
+
 -   Basically, a program: a description of a series of operations.
 -   But with some specific features:
     1.  Precise and unambiguous steps
@@ -99,6 +105,8 @@
 
 
 # Code {data-stack-name="code"}
+
+##
 
 -   Initially, computer operators had to set the program manually to run...
 
@@ -135,21 +143,3 @@
     -   Notice the origin of the word - [codex](https://www.britannica.com/topic/codex-manuscript)
 
 ![](/img/code.png){width=70%}
-
-## Python programming language
-
--   Invented in the early 1990s by Guido van Rossum, named after Monty Python's Flying Circus
--   Open source project
--   High-level, general-purpose language
--   Widely available, easy to learn, rich in tools and libraries, and portable
-
-::: {.content-visible when-format="revealjs"}
-
----
-
-![https://spectrum.ieee.org/top-programming-languages-2022](/img/ieelanguages.png)
----
-
-![](/img/pythonmeme.png)
-:::
-

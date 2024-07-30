@@ -1,11 +1,6 @@
-::: {.content-visible unless-format="revealjs"}
-# Objects and Variables
+# Objects and Variables {data-stack-name="objects and variables"}
 
-:::
-
-::: {.content-visible when-format="revealjs"}
-## Objects and Variables {data-name="<b>1.4 OBJECTS</b>"}
-:::
+## Object
 
 -   Python syntax specifies some ways to represent different types of data. A data representation in Python is called an "object".
 
@@ -16,7 +11,7 @@
 | Logic value                     | `bool`                | `True`, `False`  |
 | Text                            | `string`              | `"Hello World!"` |
 
-## Variables {data-name="variables"}
+## Variables
 
 -   Variables are names we set to refer to objects.
     -   A not-so-good metaphor: variables are containers for objects
@@ -29,7 +24,7 @@ hello = "Hello World!"  # a variable that contains the string "Hello World!"
 is_done = True  # a variable is_done with the logic value True
 ```
 
-## Objects x variables {data-name="differences"}
+## Objects x variables
 
 -   It is **very important** to differentiate!
 -   Which of the following are variables and which are objects?
@@ -48,7 +43,7 @@ truev
 True
 ```
 
-## Variable naming conventions in Python {data-name="naming"}
+## Variable naming conventions in Python
 
 -   They MUST start with a letter or with \_ (underline)
 -   They are case sensitive ('C' is different from 'c')
@@ -56,6 +51,8 @@ True
 -   They can't have names of words already reserved for other purposes in Python:
 
 ![](/img/reserved.png){width=80%}
+
+--- 
 
 -   What happens if?
 
@@ -77,14 +74,9 @@ True = 123
 1stcar = 2000
 ```
 
-::: {.content-visible unless-format="revealjs"}
-# Assignments
+# Assignments {data-stack-name="assignments"}
 
-:::
-
-::: {.content-visible when-format="revealjs"}
-## Assignments {data-name="<b>1.5 ASSIGNMENTS</b>"}
-:::
+##
 
 When Python sees the operator `=` it does the following:
 
@@ -127,6 +119,8 @@ w = w + 1
 print(w)
 ```
 
+---
+
 You can use compound assignment with all operators!
 
 ```{python}
@@ -141,6 +135,8 @@ y **= 2 # increase to the power of then assign value
 y %= 3 # return remainder then assign value
 ```
 
+---
+
 Example: what will this expression do?
 
 ```{python}
@@ -148,3 +144,31 @@ Example: what will this expression do?
 #| eval: false
 x *= y - 2
 ```
+
+# Converting basic objects {data-stack-name="conversion"}
+
+#### **1. Converting to Integer**
+- **From Float:** `int(3.14)` results in `3`
+- **From String:** `int("42")` results in `42`
+- **Invalid Conversion:** `int("hello")` raises a `ValueError`
+
+#### **2. Converting to Float**
+- **From Integer:** `float(7)` results in `7.0`
+- **From String:** `float("3.14")` results in `3.14`
+- **Invalid Conversion:** `float("abc")` raises a `ValueError`
+
+#### **3. Converting to String**
+- **From Integer:** `str(123)` results in `"123"`
+- **From Float:** `str(9.99)` results in `"9.99"`
+
+## Example Code
+
+```python
+# Convert float to integer
+num = int(5.7)  # 5
+
+# Convert integer to string
+text = str(123)  # "123"
+
+# Convert string to float
+pi = float("3.14159")  # 3.14159

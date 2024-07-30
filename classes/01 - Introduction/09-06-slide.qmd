@@ -3,33 +3,34 @@ execute:
   echo: true
 format:
   revealjs:
-    menu: 
-      openButton: false
+    menu: false
     slide-level: 2
     navigation-mode: linear
     transition: slide
     scrollable: true
-    smaller: true
     simplemenu:
-      scale: 0.5
+        barhtml:
+            header: "<div class='menubar'><ul class='menu'></ul></div>"
+        scale: 0.67
 revealjs-plugins:
     - simplemenu
+title: "09-06 (Slides)"
 ---
 
-# 09-06 (Slides)
-
----
+::: {.smaller}
 
 {{< include /_prayers/go-and-work.qmd >}}
 
-## Retrieval
+:::
+
+# Retrieval
 
 {{< include /_content/questions/prog_def_t1.md >}}
 
----
-
 {{< include /_content/questions/prog_def_t2.md >}}
 
----
+{{< include /_content/questions/prog_lang_t1.md >}}
+
+{{< include /_content/questions/prog_lang_t2.md >}}
 
 {{< include /_content/concepts/variables.qmd >}}

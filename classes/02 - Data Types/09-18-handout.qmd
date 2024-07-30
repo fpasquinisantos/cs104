@@ -1,0 +1,14 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+title: "09-18 (Handout)"
+---
+
+# Retrieval
+
+{{< include /_content/pogil/numpy.qmd >}}
+
+{{< include /_content/concepts/numpy.qmd >}}

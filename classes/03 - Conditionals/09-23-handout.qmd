@@ -4,6 +4,11 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
+title: "09-24 (Handout)"
 ---
 
-# 09-23
+# Retrieval
+
+{{< include /_content/pogil/comparison.qmd >}}
+
+{{< include /_content/concepts/comparison.qmd >}}

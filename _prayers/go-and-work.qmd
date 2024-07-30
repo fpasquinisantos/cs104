@@ -1,9 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
-
 > Go and work\
 > Honor the One who is working on you.\
 > Do so by making beautiful things,\

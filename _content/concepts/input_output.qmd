@@ -1,21 +1,19 @@
-::: {.content-visible unless-format="revealjs"}
-# Input and Output
+# Input and Output {data-stack-name="input and output"}
 
-:::
-
-::: {.content-visible when-format="revealjs"}
-## Input and Output {data-name="<b>1.6 INPUT/OUTPUT</b>"}
-:::
+##
 
 -   Programming is nothing without the design of an **interface**!
     -   I have to be able to **input** data in the program, and
     -   I have to be able to get results (**output**) from the program.
 
+
 ::: {.content-visible when-format="revealjs"}
+
 ![](/img/vending-machine.gif){align="center"}
+
 :::
 
-## Graphical input/output {data-name="graphical I/O"}
+## Graphical input/output
 
 -   Also called Graphical User Interface (GUI) - we'll study it in Unit 10
 -   Kind of mimics the way we use mechanical input and output
@@ -23,7 +21,7 @@
 
 ![](/img/ui.jpg){width=30%}
 
-## Text input/output {data-name="text I/O"}
+## Text input/output
 
 -   Even simpler, however, it is a good start for programming!
 
@@ -39,13 +37,17 @@ The command-line interface will ask for input from our keyboard, and then:
 
 ![](/img/ioexample.png){width="40%"}
 
-## Python text output: `print()` {data-name="print"}
+# Python text output: `print()` {data-stack-name='print'}
+
+##
 
 -   Put what you want to print between the parentheses: `print("Hello World")`
 -   If you want to jump to a new line, use `\n`: `print("Hello\nWorld")`
 -   You can also pass multiple arguments by separating them with commas: `print("x has the value:", x, "\nand y has the value:", y)`
 
-## Python text input: `input()` {data-name="input"}
+# Python text input: `input()` {data-stack-name='input'}
+
+##
 
 -   The command waits until the user types some text in the command-line interface and finishes with ENTER
 -   The term `input()` "turns" into the text entered, and is **ALWAYS** an object the type `string`!
@@ -59,7 +61,7 @@ The command-line interface will ask for input from our keyboard, and then:
 x = input("Please enter your name: ")
 ```
 
-## Input of numeric values {data-name="input numbers"}
+## Input of numeric values
 
 -   Now, suppose we want to calculate the sum of two numbers:
 
@@ -80,7 +82,9 @@ What happened???
 
 :::
 
-## Converting string to number types {data-name="converting numbers"}
+# Converting string to number types {data-stack-name="converting numbers"}
+
+##
 
 -   You can convert a string to a number using the methods `int()` and `float()`
     -   The string that goes inside the parentheses (which we call the "argument" of the method) will be turned to an integer/float

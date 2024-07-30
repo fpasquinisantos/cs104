@@ -4,6 +4,11 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
+title: "10-11 (Handout)"
 ---
 
-# 10-11
+# Retrieval
+
+{{< include /_content/pogil/classes2.qmd >}}
+
+{{< include /_content/concepts/classes2.qmd >}}

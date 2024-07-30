@@ -10,15 +10,12 @@ format:
     scrollable: true
     simplemenu:
         barhtml:
-            header: "<div class='menubar'><ul class='menu'></ul><div>"
+            header: "<div class='menubar'><ul class='menu'></ul></div>"
         scale: 0.67
 revealjs-plugins:
     - simplemenu
+title: "09-04 (Slides)"
 ---
-
-# 09-04 (Slides)
-
---- 
 
 ::: {.smaller}
 

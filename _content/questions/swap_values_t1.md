@@ -1,0 +1,3 @@
+- Write a Python code snippet to swap the values of two variables, a and b, initially holding the values 10 and 20, respectively.
+
+\TextField[multiline=true, width=\linewidth, height=5em]{}

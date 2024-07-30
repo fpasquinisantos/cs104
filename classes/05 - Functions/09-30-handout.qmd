@@ -1,0 +1,14 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+title: "09-30 (Handout)"
+---
+
+# Retrieval
+
+{{< include /_content/pogil/functions1.qmd >}}
+
+{{< include /_content/concepts/functions1.qmd >}}

@@ -1,0 +1,142 @@
+# Python Calculator (POGIL, 15 min)
+
+In a Python Shell window, `>>>` is a *prompt* indicating that the interpreter is waiting for input. All text entered after the prompt will be executed immediately as Python code.
+
+If you type a Python *expression* (code that results in a value) after the prompt, Python will show the value of that expression, similar to a calculator. You can use Python's `math` module to perform more complex mathematical operations like logarithms and trigonometric operations.
+
+**Do not type anything yet! Read the questions first!**
+
+| Python code               | Predicted output          | Actual output          |
+|---------------------------|---------------------------|------------------------|
+| `2 + 3`                   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `3 * 4 + 2`               | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `3 * 4 + 2.0`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `3(4 + 2)`                | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `3 * (4 + 2)`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `5 / 10`                  | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `5 / 10.0`                | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `5 / 9`                   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `2 ** 4`                  | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `abs(-2) ** 4`            | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.pow(2, 4)`          | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `import math`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.pow(2, 4)`          | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `sqrt(4)`                 | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.sqrt(4)`            | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.cos(0)`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.pi`                 | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `math.sin(math.pi / 2)`   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+
+1. In the middle "Predicted output" column, write what value you expect will be displayed, based on your team's experience using a calculator. If there are any lines you are not confident about, place an asterisk next to your predicted output.
+
+2. Open a Python Shell on your computer. Type each Python expression at the prompt, one line at a time, and write the corresponding Python output in the third column above. If an error occurs, write what type of error it was (i.e., the first word of the last line of the error message).
+
+3. What does the `**` operator do?
+
+\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+   <!-- Answer: It raises a number to a power. -->
+
+4. Based on the Python code in the expressions table, identify four examples of:
+   - Mathematical operators: \TextField[width=3cm]{}
+   - Mathematical functions: \TextField[width=3cm]{}
+
+5. For addition and multiplication to produce an output with a decimal value, what type of number must be part of the input? Provide justification for your team's answer.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: At least one of the numbers must have a decimal value. For example, `3 * 4 + 2` is the integer value 14, but `3 * 4 + 2.0` is the decimal value 14.0. -->
+
+6. Does division follow the same rule as in the previous question? Provide justification for your team's answer.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: No; when dividing integers, the result is always a decimal number. The same is true even when there is no remainder, e.g., `8 / 4` is `2.0`. -->
+
+1. The output of the expressions table displayed three different errors. Explain the reason for each:
+   - `TypeError`: \TextField[width=3cm]{}
+   - 1st `NameError`: \TextField[width=3cm]{}
+   - 2nd `NameError`: \TextField[width=3cm]{}
+
+2. Identify two differences between using a Python built-in function (e.g., `abs`) and a function from the `math` module.
+
+\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+   <!-- Answer: 
+   - Need to `import math` first.
+   - All function names start with `math.` before the function. -->
+
+# Dividing Numbers (POGIL, 15 min)
+
+| 9 / 4 | *evaluates to* | 2.25 |
+|-------|----------------|------|
+| 10 / 4 | *evaluates to* | 2.5  |
+| 11 / 4 | *evaluates to* | 2.75 |
+| 12 / 4 | *evaluates to* | 3.0  |
+| 13 / 4 | *evaluates to* | 3.25 |
+| 14 / 4 | *evaluates to* | 3.5  |
+| 15 / 4 | *evaluates to* | 3.75 |
+| 16 / 4 | *evaluates to* | 4.0  |
+
+| 9 // 4 | *evaluates to* | 2 |
+|--------|----------------|---|
+| 10 // 4 | *evaluates to* | 2 |
+| 11 // 4 | *evaluates to* | 2 |
+| 12 // 4 | *evaluates to* | 3 |
+| 13 // 4 | *evaluates to* | 3 |
+| 14 // 4 | *evaluates to* | 3 |
+| 15 // 4 | *evaluates to* | 3 |
+| 16 // 4 | *evaluates to* | 4 |
+
+| 9 % 4 | *evaluates to* | 1 |
+|-------|----------------|---|
+| 10 % 4 | *evaluates to* | 2 |
+| 11 % 4 | *evaluates to* | 3 |
+| 12 % 4 | *evaluates to* | 0 |
+| 13 % 4 | *evaluates to* | 1 |
+| 14 % 4 | *evaluates to* | 2 |
+| 15 % 4 | *evaluates to* | 3 |
+| 16 % 4 | *evaluates to* | 0 |
+
+1. For each operator in the tables, identify the symbol and describe the type of numerical result.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: `/` decimal ~~~~~ `//` integer ~~~~~ `%` integer -->
+
+2. If the result of the `/` operator were rounded to the nearest integer, would this be the same as the result of the `//` operator? Explain how the results in Table~A compare to Table~B.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: No, the pattern is off by two rows. The 0.75 values would round up, but in the second table they round down. (0.5 values might round up or down depending on rounding rules.) -->
+
+3. If the table included more rows, list all numbers `// 4` would evaluate to 2 and all the numbers `// 4` would evaluate to 4.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: 8, 9, 10, and 11 evaluate to 2. 16, 17, 18, and 19 evaluate to 4. -->
+
+4. Based on the results of Table~C, propose another number `% 4` evaluates to 0, and explain what all these numbers have in common.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: Other numbers include 0, 4, 8, 20, 24. All of these numbers are multiples of four. -->
+
+5. Consider the expressions in Table~C that evaluate to 1. How do the left *operands* in these expressions (i.e., 9, 13) differ from those that evaluate to 0?
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: They each differ by one; they are one higher than a multiple of four. -->
+
+6. Describe the reason for the repeated sequence of numbers (0, 1, 2, 3) for the result of `% 4`.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: The difference (remainder) increases by one until the number is exactly divisible by 4. -->
+
+7. Imagine that you are given candy mints to divide evenly among your team members.
+
+   - If your team receives 11 mints, how many mints would each student get, and how many are left over? Write a Python expression to compute each result.
+
+\TextField[width=\linewidth]{}
+     <!-- Answer: `11 / 3` is 3 and `11 % 3` is 2 ~~or~~ `11 / 4` is 2 and `11 % 4` is 3 -->
+
+   - If your team receives 2 mints, how many mints would each student get, and how many are left over? Write a Python expression to compute this result.
+
+\TextField[width=\linewidth]{}
+     <!-- Answer: `2 / 3` is 0 and `2 % 3` is 2 ~~or~~ `2 / 4` is 0 ~~and~~ `2 % 4` is 2 -->
+
+8. Python has three division operators: "floor division", "remainder", and "true division". Which operator (symbol) corresponds to each name?
+
+\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+   <!-- Answer: `//` is floor division, because it throws away the decimal place (i.e., it "floors" the result by rounding towards negative infinity). `%` is the remainder operator, which is sometimes called the modulo operator. `/` is true division, because it gives you the mathematically correct answer. -->

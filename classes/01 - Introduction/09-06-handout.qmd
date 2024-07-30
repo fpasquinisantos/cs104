@@ -4,15 +4,18 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
+title: "09-06 (Handout)"
 ---
-
-# 09-06 (Handout)
 
 # Retrieval
 
 {{< include /_content/questions/prog_def_t1.md >}}
 
 {{< include /_content/questions/prog_def_t2.md >}}
+
+{{< include /_content/questions/prog_lang_t1.md >}}
+
+{{< include /_content/questions/prog_lang_t2.md >}}
 
 {{< include /_content/pogil/variables.qmd >}}
 

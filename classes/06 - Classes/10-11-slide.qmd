@@ -14,6 +14,9 @@ format:
       scale: 0.5
 revealjs-plugins:
     - simplemenu
+title: "10-11 (Slides)"
 ---
 
-# 10-11
+# Retrieval
+
+{{< include /_content/concepts/classes2.qmd >}}
