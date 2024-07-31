@@ -4,11 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-09 (Handout)"
+title: "09-09-HO-Input-Output"
 ---
 
 # Retrieval
 
 {{< include /_content/pogil/input_output.qmd >}}
-
-{{< include /_content/concepts/input_output.qmd >}}

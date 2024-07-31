@@ -14,27 +14,27 @@ The following table shows additional examples of functions. They were written by
 
 | Python code | Shell output |
 |-------------|--------------|
-| `input("enter the mass in grams: ")` | <!-- **Answer:** enter the mass in grams: 100 -->
-| `mass = input("enter another mass in grams: ")` | <!-- **Answer:** enter another mass in grams: 10 -->
-| `mass` | <!-- **Answer:** '10' -->
-| `unit = input("enter the units for mass: ")` | <!-- **Answer:** enter the units for mass: g -->
-| `print(mass, unit)` | <!-- **Answer:** 10 g -->
-| `print(mass / 2)` | <!-- **Answer:** TypeError -->
-| `ten = 10` | <!-- **Answer:** -->
-| `print(ten / 2)` | <!-- **Answer:** 5.0 -->
-| `abs(-1)` | <!-- **Answer:** 1 -->
-| `abs(-1 * ten)` | <!-- **Answer:** 10 -->
+| `input("enter the mass in grams: ")` | \TextField[width=2.5cm, name=io_ans1]{} |
+| `mass = input("enter another mass in grams: ")` | \TextField[width=2.5cm, name=io_ans2]{} |
+| `mass` | \TextField[width=2.5cm, name=io_ans3]{} |
+| `unit = input("enter the units for mass: ")` | \TextField[width=2.5cm, name=io_ans4]{} |
+| `print(mass, unit)` | \TextField[width=2.5cm, name=io_ans5]{} |
+| `print(mass / 2)` | \TextField[width=2.5cm, name=io_ans6]{} |
+| `ten = 10` | \TextField[width=2.5cm, name=io_ans7]{} |
+| `print(ten / 2)` | \TextField[width=2.5cm, name=io_ans8]{} |
+| `abs(-1)` | \TextField[width=2.5cm, name=io_ans9]{} |
+| `abs(-1 * ten)` | \TextField[width=2.5cm, name=io_ans10]{} |
 
 ---
 
 List the names of the three functions used in the examples.
 
-\TextField[width=\linewidth]{}
+\TextField[width=\linewidth, name=io_ans11]{}
 <!-- **Answer:** input, print, abs -->
 
 What are the arguments of the first use of the `print` function?
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=io_ans12]{}
 <!-- **Answer:** mass, unit -->
 
 ---
@@ -47,25 +47,25 @@ Place an asterisk ( * ) next to any output for which you were surprised, and not
 
 Which function delayed execution until additional input was entered?
 
-\TextField[width=\linewidth]{}
+\TextField[width=\linewidth, name=io_ans13]{}
 <!-- **Answer:** The input function. -->
 
 Which term, *user* or *programmer*, best defines the role of the person who entered the additional input? Explain.
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=io_ans14]{}
 <!-- **Answer:** User is a better term; programs are ultimately written to be used by non-programmers. -->
 
 Based on the Shell output, what does the word `mass` represent, and how did it get its value?
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=io_ans15]{}
 <!-- **Answer:** (Answers may vary) Its value is 10, which the user entered as input. -->
 
 What does the word `ten` represent, and how did it get its value?
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=io_ans16]{}
 <!-- **Answer:** Its value is 10 based on the statement `ten = 10`. -->
 
 Do the values of `mass` and `ten` both represent a number? Explain why or why not.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=io_ans17]{}
 <!-- **Answer:** Although they both appear to represent a numerical value, `mass` divided by 2 gives an error, while `ten` divided by 2 gives the expected numerical outcome. -->

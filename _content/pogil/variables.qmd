@@ -1,3 +1,5 @@
+\Form
+
 # Thonny IDE (POGIL, 15 min)
 
 Thonny is an integrated development environment (IDE) for Python designed for learning and teaching programming. It is freely available at [https://thonny.org/](https://thonny.org/).
@@ -21,13 +23,13 @@ Based on the screenshot:
 
 Identify the number of lines corresponding to:
 
-1. The program (in the Editor): \TextField[width=3cm]{}
+1. The program (in the Editor): \TextField[name=var_ans1, width=3cm]{}
    <!-- **Answer:** The source file contains six total lines; the 7th line is blank and doesn't count. -->
-2. The output of the program: \TextField[width=3cm]{}
+2. The output of the program: \TextField[name=var_ans2, width=3cm]{}
    <!-- **Answer:** The program displays three lines ("Welcome...", "What's...", and "Monty..."). -->
 
 What is the symbol at the start of a line of program text not displayed as output?
-\TextField[width=1.5cm]{}
+\TextField[name=var_ans3, width=1.5cm]{}
    <!-- **Answer:** The pound sign: # -->
 
 ---
@@ -36,12 +38,12 @@ Consider the three program lines (in the Editor) that do not include text displa
 
 1. A *comment* line (starts with a pound sign: `#`)
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans4, width=\linewidth, multiline=true]{}
    <!-- **Answer:** They are used to describe the purpose and/or behavior of the code. -->
-2. A blank line
+1. A blank line
    <!-- **Answer:** They make the code easier to read. -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans5, width=\linewidth]{}
 
 ---
 
@@ -60,7 +62,7 @@ print(name, "is a great name!")
 
 What was required before the third line of the program output was displayed?
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans6, width=\linewidth]{}
    <!-- **Answer:** An answer needed to be entered (typed). -->
 
 ---
@@ -70,19 +72,19 @@ In the Shell window, what is the color of:
 1. The program's output?
    <!-- **Answer:** black -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans7, width=\linewidth]{}
 
 2. The user's input?
    <!-- **Answer:** blue -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans8, width=\linewidth]{}
 
 ---
 
 Based on your experience so far, what is the difference between the text in the Editor window and the text in the Shell window?
    <!-- **Answer:** The editor contains a series of statements or commands which make up the program. The shell (or terminal) contains the program output text and an interface for program input. -->
 
-\TextField[multiline=true,width=\linewidth, height=2.5em]{}
+\TextField[name=var_ans9, multiline=true,width=\linewidth, height=2.5em]{}
 
 ---
 
@@ -91,32 +93,32 @@ Based on your experience so far, what is the difference between the text in the 
 1. Line 1:
    <!-- **Answer:** a comment to describe the purpose of the code -->
    
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans10, width=\linewidth]{}
 
 2. Line 2:
    <!-- **Answer:** displays a message -->
       
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans11, width=\linewidth]{}
 
 3. Line 3:
    <!-- **Answer:** a blank line to make the code easier to read -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans12, width=\linewidth]{}
 
 4. Line 4:
    <!-- **Answer:** a comment to describe the purpose of the code -->
    
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans13, width=\linewidth]{}
 
 5. Line 5:
    <!-- **Answer:** gets input from the user -->
    
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans14, width=\linewidth]{}
 
 6. Line 6:
    <!-- **Answer:** displays the final output -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans15, width=\linewidth]{}
 
 ## Variables and Assignments (POGIL, 15 min)
 
@@ -153,62 +155,62 @@ Selecting concise yet descriptive variable names is considered good programming 
 
 Pick one assignment statement from the table above, and identify the following:
 
-1. the variable being assigned: \TextField[width=3cm]{}
+1. the variable being assigned: \TextField[name=var_ans16, width=3cm]{}
    <!-- **Answer:** data -->
-2. the assignment operator: \TextField[width=3cm]{}
+2. the assignment operator: \TextField[name=var_ans17, width=3cm]{}
    <!-- **Answer:** = -->
-3. the value of the variable immediately after the assignment: \TextField[width=3cm]{}
+3. the value of the variable immediately after the assignment: \TextField[name=var_ans18, width=3cm]{}
    <!-- **Answer:** 12 -->
 
 Similar to the previous exercises, type each line of code in a Python Shell and write the corresponding output in the space above. If an error occurs, write what type of error. Place an asterisk (*) next to any output for which you were surprised.
 
 Circle each *successful* assignment statement in the table above. How many are there?
-\TextField[width=1.5cm]{}
+\TextField[name=var_ans19, width=1.5cm]{}
 
 What is the observed output of a successful assignment statement?
-\TextField[width=1.5cm]{}
+\TextField[name=var_ans20, width=1.5cm]{}
    <!-- **Answer:** There is no error message (there is no output at all). -->
 
 After the successful execution of an assignment statement, how can you confirm the value of this variable?
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans21, width=\linewidth]{}
    <!-- **Answer:** You can type back the variable name to see its current value. -->
 
 Based on the table's output, indicate whether each statement below is true or false:
 
-1. Variable names in Python can start with a number. \TextField[width=1.5cm]{}
+1. Variable names in Python can start with a number. \TextField[name=var_ans22, width=1.5cm]{}
    <!-- **Answer:** false -->
-1. Variable names in Python must start with a lower-case letter. \TextField[width=1.5cm]{}
+1. Variable names in Python must start with a lower-case letter. \TextField[name=var_ans23, width=1.5cm]{}
    <!-- **Answer:** false -->
-2. Variable names in Python may not include spaces. \TextField[width=1.5cm]{}
+2. Variable names in Python may not include spaces. \TextField[name=var_ans24, width=1.5cm]{}
    <!-- **Answer:** true -->
-3. Variable names in Python are case-sensitive. \TextField[width=1.5cm]{}
+3. Variable names in Python are case-sensitive. \TextField[name=var_ans25, width=1.5cm]{}
    <!-- **Answer:** true -->
 
 Each of the following assignment statements has an error. Write a valid line of Python code that corrects the assignment statement. Double-check your code using a computer.
 
 1. `3 + 4 = answer`
    
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans26, width=\linewidth]{}
 
    <!-- **Answer:** `answer = 3 + 4` -->
 2. `oh well = 3 + 4`
    <!-- **Answer:** `oh_well = 3 + 4` -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans27, width=\linewidth]{}
 
 3. `2x = 7`
    <!-- **Answer:** `x2 = 7` -->
 
-\TextField[width=\linewidth]{}
+\TextField[name=var_ans28, width=\linewidth]{}
 
 
 Predict the value of the variable `mass` after executing all lines of code in the table. Then test your prediction on a computer, and explain the result.
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[name=var_ans29, multiline=true, width=\linewidth, height=2.5em]{}
    <!-- **Answer:** The value is 373, because `mass` was only assigned one time. The other lines did not change the value of `mass`. -->
 
 Write a line of Python code to assign the current value of `mass` to the variable `temp`. Show output that confirms that you have done this correctly, and explain the code.
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[name=var_ans30, multiline=true, width=\linewidth, height=2.5em]{}
    <!-- **Answer:** The correct line is `temp = mass`. To verify the result, simply type `temp`. The assignment operation reads from right to left. -->

@@ -7,7 +7,7 @@ format:
 
 Objectives for this unit:
 
-## Programming
+## Introduction to programming
 - Understand what are programs, codes and algorithms.
 - Understand what is a programming language and how it can be tricky to use them.
 

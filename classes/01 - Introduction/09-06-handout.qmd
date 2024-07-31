@@ -3,8 +3,11 @@ format:
   pdf:
     toc: false
     number-sections: true
-    colorlinks: true
-title: "09-06 (Handout)"
+    number-depth: 1
+    pdf-engine: pdflatex
+    hyperrefoptions:
+      - pdfwindowui
+title: "09-06-HO-Variables"
 ---
 
 # Retrieval
@@ -18,5 +21,3 @@ title: "09-06 (Handout)"
 {{< include /_content/questions/prog_lang_t2.md >}}
 
 {{< include /_content/pogil/variables.qmd >}}
-
-{{< include /_content/concepts/variables.qmd >}}

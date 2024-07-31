@@ -14,7 +14,7 @@ format:
         scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-06 (Slides)"
+title: "09-06-SL-Variables"
 ---
 
 ::: {.smaller}

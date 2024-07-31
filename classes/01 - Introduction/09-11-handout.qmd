@@ -4,11 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-11 (Handout)"
+title: "09-11-HO-Math"
 ---
 
 # Retrieval
 
 {{< include /_content/pogil/math.qmd >}}
-
-{{< include /_content/concepts/math.qmd >}}

@@ -4,11 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-24 (Handout)"
+title: "09-23-HO-Comp-Operators"
 ---
 
 # Retrieval
 
 {{< include /_content/pogil/comparison.qmd >}}
-
-{{< include /_content/concepts/comparison.qmd >}}

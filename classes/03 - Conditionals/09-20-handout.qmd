@@ -4,11 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-20 (Handout)"
+title: "09-20-HO-If-Else"
 ---
 
 # Retrieval
 
 {{< include /_content/pogil/ifelse.qmd >}}
-
-{{< include /_content/concepts/ifelse.qmd >}}

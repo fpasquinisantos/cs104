@@ -48,10 +48,14 @@ Python operator **precedence order**:
 
 -   Python also permits using SOME operators with strings. In a metaphorical way...
 
+::: {.smaller}
+
 | String Operation | Metaphor       | Operator |         Example         | Evaluates to  |
 |---------------|---------------|:-------------:|:-------------:|:-------------:|
 | Concatenation    | Addition       |   `+`    | `"Hey" + " " + "apple"` | `"Hey apple"` |
 | Repetition       | Multiplication |   `*`    |       `"na" * 4`        | `"nananana"`  |
+
+:::
 
 -   Other operators are not supported. Multiplication of a string with another string is also not supported. Both wouldn't make so much sense...
 
@@ -98,6 +102,8 @@ circumference = 2 * r * pi
 :::
 :::
 
+---
+
 Some functions in the math module (documentation [here](https://docs.python.org/3/library/math.html))
 
 | Method          | Explanation                   |
@@ -109,6 +115,8 @@ Some functions in the math module (documentation [here](https://docs.python.org/
 | math.radians(x) | Converts x degrees to rads    |
 | math.sqrt(x)    | Returns square root of x      |
 
+---
+
 -   You can also try to import all of the modules resources by using
 
 ```{python}
@@ -119,7 +127,6 @@ from math import *
 
 -   However, this is not recommended due to **"namespace pollution"** (having lots of names referenced that are actually not used)
 
-
 # Overflow {data-stack-name="overflow"}
 
 ##
@@ -127,10 +134,13 @@ from math import *
 -   Integers and floats are representations in the memory of your computer. Therefore, there are value limits to these numbers.
     -   If we pass the limit, we arrive at an **overflow**, and the number is not computed correctly.
 
+---
 
 -   **For integers**, Python dynamically increases the use of memory as the number grows. Therefore, **in theory** there is a limit (computer memory will be full), but **in practice** this will almost never be the case.
     -   For example, try `2147483647 ** 200`
     -   This, however, is a Python feature. Other languages may not handle that.
+
+---
 
 -   **For floats**, numbers are limited by the size of the mantissa and exponent.
     -   Remember: for $1.2345 \times 10^7$, $1.2345$ is the mantissa, and $7$ is the exponent

@@ -3,18 +3,18 @@ execute:
   echo: true
 format:
   revealjs:
-    menu: 
-      openButton: false
+    menu: false
     slide-level: 2
     navigation-mode: linear
     transition: slide
     scrollable: true
-    smaller: true
     simplemenu:
-      scale: 0.5
+        barhtml:
+            header: "<div class='menubar'><ul class='menu'></ul></div>"
+        scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-18 (Slides)"
+title: "09-18-SL-Numpy"
 ---
 
 # Retrieval

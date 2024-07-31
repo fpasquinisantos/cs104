@@ -4,11 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-16 (Handout)"
+title: "09-16-HO-Dictionaries"
 ---
 
 # Retrieval
 
 {{< include /_content/pogil/dictionaries.qmd >}}
-
-{{< include /_content/concepts/dictionaries.qmd >}}

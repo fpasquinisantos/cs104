@@ -8,24 +8,24 @@ If you type a Python *expression* (code that results in a value) after the promp
 
 | Python code               | Predicted output          | Actual output          |
 |---------------------------|---------------------------|------------------------|
-| `2 + 3`                   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `3 * 4 + 2`               | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `3 * 4 + 2.0`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `3(4 + 2)`                | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `3 * (4 + 2)`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `5 / 10`                  | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `5 / 10.0`                | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `5 / 9`                   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `2 ** 4`                  | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `abs(-2) ** 4`            | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.pow(2, 4)`          | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `import math`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.pow(2, 4)`          | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `sqrt(4)`                 | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.sqrt(4)`            | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.cos(0)`             | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.pi`                 | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
-| `math.sin(math.pi / 2)`   | \TextField[width=2.5cm]{} | \TextField[width=2.5cm]{} |
+| `2 + 3`                   | \TextField[width=2.5cm, name=ma_ans1]{} | \TextField[width=2.5cm, name=ma_ans2]{} |
+| `3 * 4 + 2`               | \TextField[width=2.5cm, name=ma_ans3]{} | \TextField[width=2.5cm, name=ma_ans4]{} |
+| `3 * 4 + 2.0`             | \TextField[width=2.5cm, name=ma_ans5]{} | \TextField[width=2.5cm, name=ma_ans6]{} |
+| `3(4 + 2)`                | \TextField[width=2.5cm, name=ma_ans7]{} | \TextField[width=2.5cm, name=ma_ans8]{} |
+| `3 * (4 + 2)`             | \TextField[width=2.5cm, name=ma_ans9]{} | \TextField[width=2.5cm, name=ma_ans10]{} |
+| `5 / 10`                  | \TextField[width=2.5cm, name=ma_ans11]{} | \TextField[width=2.5cm, name=ma_ans12]{} |
+| `5 / 10.0`                | \TextField[width=2.5cm, name=ma_ans13]{} | \TextField[width=2.5cm, name=ma_ans14]{} |
+| `5 / 9`                   | \TextField[width=2.5cm, name=ma_ans15]{} | \TextField[width=2.5cm, name=ma_ans16]{} |
+| `2 ** 4`                  | \TextField[width=2.5cm, name=ma_ans17]{} | \TextField[width=2.5cm, name=ma_ans18]{} |
+| `abs(-2) ** 4`            | \TextField[width=2.5cm, name=ma_ans19]{} | \TextField[width=2.5cm, name=ma_ans20]{} |
+| `math.pow(2, 4)`          | \TextField[width=2.5cm, name=ma_ans21]{} | \TextField[width=2.5cm, name=ma_ans22]{} |
+| `import math`             | \TextField[width=2.5cm, name=ma_ans23]{} | \TextField[width=2.5cm, name=ma_ans24]{} |
+| `math.pow(2, 4)`          | \TextField[width=2.5cm, name=ma_ans25]{} | \TextField[width=2.5cm, name=ma_ans26]{} |
+| `sqrt(4)`                 | \TextField[width=2.5cm, name=ma_ans27]{} | \TextField[width=2.5cm, name=ma_ans28]{} |
+| `math.sqrt(4)`            | \TextField[width=2.5cm, name=ma_ans29]{} | \TextField[width=2.5cm, name=ma_ans30]{} |
+| `math.cos(0)`             | \TextField[width=2.5cm, name=ma_ans31]{} | \TextField[width=2.5cm, name=ma_ans32]{} |
+| `math.pi`                 | \TextField[width=2.5cm, name=ma_ans33]{} | \TextField[width=2.5cm, name=ma_ans34]{} |
+| `math.sin(math.pi / 2)`   | \TextField[width=2.5cm, name=ma_ans35]{} | \TextField[width=2.5cm, name=ma_ans36]{} |
 
 1. In the middle "Predicted output" column, write what value you expect will be displayed, based on your team's experience using a calculator. If there are any lines you are not confident about, place an asterisk next to your predicted output.
 
@@ -33,31 +33,31 @@ If you type a Python *expression* (code that results in a value) after the promp
 
 3. What does the `**` operator do?
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=ma_ans37]{}
    <!-- Answer: It raises a number to a power. -->
 
 4. Based on the Python code in the expressions table, identify four examples of:
-   - Mathematical operators: \TextField[width=3cm]{}
-   - Mathematical functions: \TextField[width=3cm]{}
+   - Mathematical operators: \TextField[width=3cm, name=ma_ans38]{}
+   - Mathematical functions: \TextField[width=3cm, name=ma_ans39]{}
 
 5. For addition and multiplication to produce an output with a decimal value, what type of number must be part of the input? Provide justification for your team's answer.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans40]{}
    <!-- Answer: At least one of the numbers must have a decimal value. For example, `3 * 4 + 2` is the integer value 14, but `3 * 4 + 2.0` is the decimal value 14.0. -->
 
 6. Does division follow the same rule as in the previous question? Provide justification for your team's answer.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans41]{}
    <!-- Answer: No; when dividing integers, the result is always a decimal number. The same is true even when there is no remainder, e.g., `8 / 4` is `2.0`. -->
 
 1. The output of the expressions table displayed three different errors. Explain the reason for each:
-   - `TypeError`: \TextField[width=3cm]{}
-   - 1st `NameError`: \TextField[width=3cm]{}
-   - 2nd `NameError`: \TextField[width=3cm]{}
+   - `TypeError`: \TextField[width=3cm, name=ma_ans42]{}
+   - 1st `NameError`: \TextField[width=3cm, name=ma_ans43]{}
+   - 2nd `NameError`: \TextField[width=3cm, name=ma_ans44]{}
 
 2. Identify two differences between using a Python built-in function (e.g., `abs`) and a function from the `math` module.
 
-\TextField[multiline=true, width=\linewidth, height=2.5em]{}
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=ma_ans45]{}
    <!-- Answer: 
    - Need to `import math` first.
    - All function names start with `math.` before the function. -->
@@ -90,53 +90,55 @@ If you type a Python *expression* (code that results in a value) after the promp
 | 11 % 4 | *evaluates to* | 3 |
 | 12 % 4 | *evaluates to* | 0 |
 | 13 % 4 | *evaluates to* | 1 |
-| 14 % 4 | *evaluates to* | 2 |
+| 14 % 4 | *
+
+evaluates to* | 2 |
 | 15 % 4 | *evaluates to* | 3 |
 | 16 % 4 | *evaluates to* | 0 |
 
 1. For each operator in the tables, identify the symbol and describe the type of numerical result.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans46]{}
    <!-- Answer: `/` decimal ~~~~~ `//` integer ~~~~~ `%` integer -->
 
 2. If the result of the `/` operator were rounded to the nearest integer, would this be the same as the result of the `//` operator? Explain how the results in Table~A compare to Table~B.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans47]{}
    <!-- Answer: No, the pattern is off by two rows. The 0.75 values would round up, but in the second table they round down. (0.5 values might round up or down depending on rounding rules.) -->
 
 3. If the table included more rows, list all numbers `// 4` would evaluate to 2 and all the numbers `// 4` would evaluate to 4.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans48]{}
    <!-- Answer: 8, 9, 10, and 11 evaluate to 2. 16, 17, 18, and 19 evaluate to 4. -->
 
 4. Based on the results of Table~C, propose another number `% 4` evaluates to 0, and explain what all these numbers have in common.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans49]{}
    <!-- Answer: Other numbers include 0, 4, 8, 20, 24. All of these numbers are multiples of four. -->
 
 5. Consider the expressions in Table~C that evaluate to 1. How do the left *operands* in these expressions (i.e., 9, 13) differ from those that evaluate to 0?
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans50]{}
    <!-- Answer: They each differ by one; they are one higher than a multiple of four. -->
 
 6. Describe the reason for the repeated sequence of numbers (0, 1, 2, 3) for the result of `% 4`.
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans51]{}
    <!-- Answer: The difference (remainder) increases by one until the number is exactly divisible by 4. -->
 
 7. Imagine that you are given candy mints to divide evenly among your team members.
 
    - If your team receives 11 mints, how many mints would each student get, and how many are left over? Write a Python expression to compute each result.
 
-\TextField[width=\linewidth]{}
+\TextField[width=\linewidth, name=ma_ans52]{}
      <!-- Answer: `11 / 3` is 3 and `11 % 3` is 2 ~~or~~ `11 / 4` is 2 and `11 % 4` is 3 -->
 
    - If your team receives 2 mints, how many mints would each student get, and how many are left over? Write a Python expression to compute this result.
 
-\TextField[width=\linewidth]{}
+\TextField[width=\linewidth, name=ma_ans53]{}
      <!-- Answer: `2 / 3` is 0 and `2 % 3` is 2 ~~or~~ `2 / 4` is 0 ~~and~~ `2 % 4` is 2 -->
 
 8. Python has three division operators: "floor division", "remainder", and "true division". Which operator (symbol) corresponds to each name?
 
-\TextField[multiline=true, width=\linewidth, height=3.75em]{}
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ma_ans54]{}
    <!-- Answer: `//` is floor division, because it throws away the decimal place (i.e., it "floors" the result by rounding towards negative infinity). `%` is the remainder operator, which is sometimes called the modulo operator. `/` is true division, because it gives you the mathematically correct answer. -->
