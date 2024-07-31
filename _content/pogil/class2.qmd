@@ -1,0 +1,83 @@
+# Object-Oriented
+
+Edit the `Atom` class further to include the variable `avogadros`, the method `grams_to_atoms`, and the modified `"__main__"` block of code.
+Note that **class variables** (like `avogadros`) are typically defined before the `__init__` method.
+
+```python
+class Atom:
+    """An element from the periodic table."""
+
+    avogadros = 6.02E23
+
+    def __init__(self, symbol, atomic, mass, isotope=12):
+        """Constructs an Atom with the given values."""
+        self.symbol = symbol
+        self.atomic = atomic
+        self.mass = mass
+        self.isotope = isotope
+
+    def grams_to_moles(self, weight):
+        """Converts the mass of an element in grams to number of moles."""
+        moles = weight / self.mass
+        return moles
+
+    def grams_to_atoms(self, weight):
+        """Converts the mass of an element in grams to number of atoms."""
+        answer = Atom.avogadros * self.grams_to_moles(weight)
+        print("{:.1f} g is {:.1e} atoms of {}".format(weight, answer, self.symbol))
+        return answer
+
+if __name__ == "__main__":
+
+    oxygen = Atom('O', 8, 15.999, 16)
+    carbon = Atom('C', 6, 12.001)
+    oxygen.neutrons()
+    oxygen.isotope = 18
+    oxygen.neutrons()
+    oxygen.grams_to_atoms(24)
+    carbon.grams_to_atoms(24)
+```
+
+## Questions (15 min)
+
+1. **Examine the `grams_to_moles` method:**
+
+   - **Identify the three main variables used in `grams_to_moles`:**  
+     <!-- Answer: `self`, `grams`, `moles` -->
+
+   - **For each variable, what is its scope? (local or global):**  
+     <!-- Answer: local, local, local -->
+
+2. **What determines whether a variable is defined as an attribute or a local variable?**  
+   <!-- Answer: The `self` parameter defines (stores) all the attributes. Local variables, like `moles`, are defined in methods directly. -->
+
+3. **Now examine the `grams_to_atoms` method:**
+
+   - **What variable was initialized in the `Atom` class outside the constructor and methods?**  
+     <!-- Answer: `Atom.avogadros` -->
+
+   - **How does the syntax of a class variable differ from an attribute (instance variable)?**  
+     <!-- Answer: It uses the class name in the identifier rather than `self` or the object name. -->
+
+4. **Would it be possible to rewrite the `grams_to_atoms` method as a global function instead? If so, explain how the function would differ.**  
+   <!-- Answer: Yes; simply define the function outside of the class. Rename the parameter `self` to `atom` to avoid confusion. -->
+
+5. **How would you rewrite the line `oxygen.grams_to_atoms(24)` to call the global function defined in the previous question?**  
+   <!-- Answer: `grams_to_atoms(oxygen, 24)` -->
+
+6. **Consider the built-in `str` class:**
+
+   - **Given the statement `s = "Hello"`, what data is stored in the `str` object?**  
+     <!-- Answer: The word Hello. -->
+
+   - **Show an example line of code that calls the `upper` method on the object `s`.**  
+     <!-- Answer: `print(s.upper())` -->
+
+   - **If the `upper` method were defined as a global function instead, how would you call it?**  
+     <!-- Answer: `print(upper(s))` -->
+
+7. **Based on the previous two questions, explain what the term "object-oriented" means.**  
+   <!-- Answer: It means that methods are built into objects, as opposed to being standalone functions. We call those methods through the objects. -->
+
+8. **Summarize the advantages you perceive for writing code as methods in classes instead of global functions.**  
+   <!-- Answer: Either way, we have to pass the object to the function. It's easier to think about the object first, and then call methods that take the remaining parameters. -->

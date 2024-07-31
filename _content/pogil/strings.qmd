@@ -1,0 +1,58 @@
+# Common String Methods (POGIL, 15 min)
+
+Like lists, strings have *methods* (built-in functions) that can be called using dot notation.  
+See [Python String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods) for more details.
+
+| Python code                   | Shell output                                            |
+|-------------------------------|---------------------------------------------------------|
+| `dna = "CTGACGACTT"`          | <!-- Answer: -->                                       |
+| `dna.lower()`                 | <!-- Answer: 'ctgacgactt' -->                          |
+| `print(dna)`                  | <!-- Answer: CTGACGACTT -->                            |
+| `lowercase = dna.lower()`     | <!-- Answer: -->                                       |
+| `print(lowercase)`            | <!-- Answer: ctgacgactt -->                            |
+| `dnalist = list(dna)`         | <!-- Answer: -->                                       |
+| `print(dnalist)`              | <!-- Answer: ['C', 'T', 'G', 'A', 'C', 'G', 'A', 'C', 'T', 'T'] --> |
+| `dnalist.reverse()`           | <!-- Answer: -->                                       |
+| `print(dnalist)`              | <!-- Answer: ['T', 'T', 'C', 'A', 'G', 'C', 'A', 'G', 'T', 'C'] --> |
+| `type(dna)`                   | <!-- Answer: <class 'str'> -->                          |
+| `dna = dna.split("A")`        | <!-- Answer: -->                                       |
+| `print(dna)`                  | <!-- Answer: ['CTG', 'CG', 'CTT'] -->                  |
+| `type(dna)`                   | <!-- Answer: <class 'list'> -->                         |
+| `dna.replace("C", "g")`       | <!-- Answer: AttributeError: 'list' object has no 'replace' --> |
+| `print(dna[0])`               | <!-- Answer: CTG -->                                   |
+| `type(dna[0])`                | <!-- Answer: <class 'str'> -->                          |
+| `dna[0].replace("C", "g")`    | <!-- Answer: 'gTG' -->                                 |
+| `print(dna)`                  | <!-- Answer: ['CTG', 'CG', 'CTT'] -->                  |
+
+1. **Does the `lower` method change the contents of the `dna` string?**  
+   Justify your answer.  
+   <!-- Answer: No, it does not. The next line of code prints `dna`, which is unchanged. -->
+
+2. **Describe the `list` function—what does `list(dna)` return in the code?**  
+   <!-- Answer: It returns a list of the individual characters. Each element of the list is a string of length 1. (Note that Python does not have a character data type.) -->
+
+3. **Why is it possible to call the `replace` method on `dna[0]` but not `dna`?**  
+   <!-- Answer: The `list` data type does not include a replace method. However, strings allow you to "find and replace" any text. -->
+
+4. **Name several other string methods not shown in the code.** (Read the documentation.)  
+   <!-- Answer: There are dozens of string methods; the model only uses `lower`, `split`, and `replace`. -->
+
+5. **Consider the application of a method on a variable:**
+
+   - **Does a string variable change after applying a method?**  
+     Provide justification.  
+     <!-- Answer: No it doesn't; neither `lower` nor `replace` modify the string. -->
+
+   - **Does a list variable change after applying a method?**  
+     Provide justification.  
+     <!-- Answer: It might; for example, the `reverse` method changes the list. -->
+
+   - **Identify the data type that is *immutable* (i.e., the value never changes).**  
+     <!-- Answer: String -->
+
+6. **Write a single statement to change the final contents of `dna` to `['CTG', 'cc', 'CTT']`.**  
+   Confirm that your code works in a Python Shell.  
+   <!-- Answer: `dna[1] = 'cc'` -->
+
+7. **Why do you think Python has a `replace` method for strings but not for lists?**  
+   <!-- Answer: Answers may vary. One reason might be that lists are more complex than strings: they can store any type of data, not just characters. Another reason might be that there are fewer applications of replacing data in lists than patterns in text. -->

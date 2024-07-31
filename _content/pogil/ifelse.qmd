@@ -1,0 +1,62 @@
+# `if`/`else` Statements (POGIL, 15 min)
+
+An `if` statement makes it possible to control what code will be executed in a program, based on a condition. For example:
+
+```python
+number = int(input("Enter an integer: "))
+if number < 0:
+    print(number, "is negative")
+else:
+    print(number, "is a fine number")
+print("Until next time...")
+```
+
+Python uses *indentation* to define the structure of programs. The line indented under the `if` statement is executed only when `number < 0` is `True`. Likewise, the line indented under the `else` statement is executed only when `number < 0` is `False`. The flowchart on the right illustrates this behavior.
+
+![if-else](../../img/if-else.png){width=40%}
+
+1. What is the Boolean expression in the example?
+
+\TextField[width=\linewidth, name=ifelse_ans1]
+   <!-- number < 0 -->
+
+2. Enter this short program into a Python Editor. What is the output when the user enters the number 5? What is the output when the user enters the number -5?
+
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ifelse_ans2]{}
+   <!--
+   5 is a fine number               -5 is negative
+   Until next time...               Until next time...
+   -->
+
+3. After an if-condition, what syntax differentiates between (1) statements that are executed based on the condition and (2) statements that are always executed, regardless of the condition?
+
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ifelse_ans3]{}
+   <!-- The indentation; statements that are indented under the if are based on the condition, and statements indented at the same level (later in the program) are always executed. -->
+
+4. Enter the line `    print("Hello")` into a Python Editor (where each space is represented by `\s`), save the file as `hello.py`, and run the program. What happens if you indent code inconsistently?
+
+\TextField[width=\linewidth, name=ifelse_ans4]{}
+   <!-- SyntaxError: unexpected indent -->
+
+
+5. Based on the program in the example, what must each line preceding an indented block of code end with?
+
+\TextField[width=\linewidth, name=ifelse_ans5]{}
+   <!-- A colon. -->
+
+6. Write an `if` statement that first determines whether `number` is even or odd, and then prints the message `"(number) is even"` or `"(number) is odd"`. (Hint: use the `%` operator.)
+
+\TextField[multiline=true, width=\linewidth, height=5em, name=ifelse_ans6]{}
+<!--
+   ```python
+   if number % 2 == 0:
+       print(number, "is even")
+   else:
+       print(number, "is odd")
+   ```
+-->
+
+7. Does an `if` statement always need to be followed by an `else` statement? Why or why not? Give an example.
+
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=ifelse_ans7]{}
+   <!-- No; you can have an if statement without an else. For example, you could determine that a number is even and print a message, without printing a different message if it's odd. -->

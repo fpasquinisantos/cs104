@@ -1,0 +1,212 @@
+# Flow of Execution (POGIL, 20 min)
+
+In addition to using Python's built-in functions (e.g., `print`, `abs`) and functions defined in other modules (e.g., `math.sqrt`), you can write your own functions.
+
+```python
+def model_one():
+    word = input("Enter a word: ")
+    L = len(word)
+    ans = word * L
+    print(ans)
+
+def main():
+    print("Starting main...")
+    model_one()
+    print("All done!")
+
+main()
+```
+
+1. **Based on the program in `funcs1.py`:**
+
+   - **What is the Python keyword for defining a function?**  
+     <!-- Answer: `def` -->
+
+   - **On what line is the `model_one` function**  
+     <!-- defined? Answer: 1 -->  
+     <!-- called? Answer: 9 -->
+
+   - **On what line is the `main` function**  
+     <!-- defined? Answer: 7 -->  
+     <!-- called? Answer: 12 -->
+
+2. **Open a web browser and go to [PythonTutor.com](http://pythontutor.com). Click on "Visualize your code", and type (or paste) the program above. Make sure the line numbers match.**
+
+3. **Click the "Visualize Execution" button. As you step through the program, pay attention to what is happening on the** **left side** **of the visualization.**
+
+   - **What does the** **red** **arrow indicate?**  
+     <!-- Answer: The next line to execute. -->
+
+   - **What does the** **green** **arrow indicate?**  
+     <!-- Answer: The line that just executed. -->
+
+4. **Notice the order in which the program runs:**
+
+   - **After line 12 of the program executes (Step 3), what is the next line that executes?**  
+     <!-- Answer: Line 7 -->
+
+   - **After line 9 of the program executes (Step 6), what is the next line that executes?**  
+     <!-- Answer: Line 1 -->
+
+5. **Go back to the beginning of the program execution. This time as you step through the program, pay attention to what changes on the** **right side** **of the visualization.**
+
+   - **Describe what changes in the visualization after Step 1.**
+
+     <!-- Answer: Under Frames, a box labeled "Global Frame" appears. Inside the box, it lists `model_one` with an arrow pointing to `function model_one()` under Objects. -->
+
+   - **Describe what changes in the visualization after Step 2.**
+
+     <!-- Answer: The name `main` is added to the "Global Frame" box, with an arrow pointing to `function main()` under Objects. -->
+
+6. **In general, what happens on the right side of the visualization when a function is called?**
+
+   <!-- Answer: A box with the function name appears under Frames. -->
+
+7. **In terms of execution order, what is the effect of calling a function?**
+
+   <!-- Answer: The code for the function will begin executing. -->
+
+8. **Draw the right side of the visualization for Step 11 in the space below.**
+
+9. **Notice that the variable `ans` is printed from within the `model_one` function. What happens if you try to `print(ans)` inside the main function?**
+
+   <!-- Answer: `NameError: name 'ans' is not defined` -->
+
+10. **Explain what happened in the previous question in terms of frames in the visualization.**
+
+    <!-- Answer: The variable `ans` never shows up in the frame for `main`, because it is local to `model_one`. When `model_one` finishes executing, everything associated with its frame disappears. -->
+
+11. **In the space below, write a definition for a function called `str_to_list` that prompts the user to enter a word. The function should use `list(word)` to convert the string to a list, then print the list.**
+
+    ```python
+    def str_to_list():
+        word = input("Enter a word: ")
+        ans = list(word)
+        print(ans)
+    ```
+
+12. **Edit the program in Python Tutor so that, instead of defining and calling the function `model_one`, it defines and calls the function `str_to_list`. Verify your changes by visualizing the execution, and draw a picture of the right side immediately after the list is printed.**
+
+Here's the Markdown version with the answers included as comments:
+
+---
+
+# Passing Arguments (POGIL, 15 min)
+
+Instead of using `input` inside a function to get data, we can define a function to take a *parameter* (variable). When we call the function, we need to provide an *argument* (value). Change the program in Python Tutor as follows:
+
+```python
+def model_two(word):
+    ans = word * len(word)
+    print(ans)
+
+def main():
+    print("Starting main...")
+    w = input("Enter a word: ")
+    model_two(w)
+    print("All done!")
+
+main()
+```
+
+1. **Underline the parameter in the `model_two` function definition, then circle each use of the parameter inside the function.**  
+   <!-- Answer: Two uses of the parameter `word` should be circled in line 2 -->
+
+2. **Find the `model_two` function call in `main`, and underline the argument being passed by the function call.**  
+   <!-- Answer: `word` should be underlined on line 1, and `w` should be underlined on line 8 -->
+
+3. **Visualize the execution of `model_two` until Step 8.**
+
+   - **How does the frame for `model_two` at this point in the execution differ from the frame for `model_one` previously?**
+
+     <!-- Answer: The parameter `word` is already showing with a value in the frame for `model_two`. -->
+
+   - **Write the implied assignment statement to show how the parameter `word` gets its value.**
+
+     <!-- Answer: `word = w` (more precisely, whatever value that `w` had) -->
+
+   - **When a variable is used as an argument, does the name of the variable need to be the same as the parameter variable name?**
+
+     <!-- Answer: No -->
+
+4. **Assume that `s1 = "Hi"` and `s2 = "ya"`. In the function call `model_two(s1 + s2)`:**
+
+   - **What is the argument for the function call?**  
+     <!-- Answer: `s1 + s2` (the expression) -->
+
+   - **Write the implied assignment statement that happens during the call.**  
+     <!-- Answer: `word = s1 + s2` -->
+
+   - **What will be the value of parameter `word` when `model_two` begins executing?**  
+     <!-- Answer: `"Hiya"` -->
+
+   - **Predict the output that will be produced by the function call.**  
+     <!-- Answer: `HiyaHiyaHiyaHiya` -->
+
+5. **Review the two implied assignment statements that you have written. What exactly gets "passed" when you call a function?**
+
+   <!-- Answer: The value of the argument is passed; it gets assigned to the parameter. Note that the argument itself is not passed. -->
+
+6. **Change `model_two` so that, instead of multiplying `word` by the length of `word`, it will multiply by an integer passed as the second argument to the function. Write the new version of `model_two` in the space below. Use `times` for the name of the new integer parameter.**
+
+   ```python
+   def model_two(word, times):
+       ans = word * times
+       print(ans)
+   ```
+
+7. **How does the call to `model_two` in `main` need to change so that it matches the new function definition? Give an example.**
+
+   <!-- Answer: A second argument (of type `int`) must be added to the function call: `model_two("Hi", 2)` -->
+
+8. **Before the call to `model_two` in `main`, add a line of code to get an integer from standard input. Modify the `model_two` function call so that this new value is passed as another argument. Visualize the execution to verify that the updated program still runs correctly.**
+
+Here's the Markdown version with the answers included as comments:
+
+---
+
+# Returning Values (POGIL, 10 min)
+
+Functions may optionally send a value back to the calling function using a `return` statement. Change the program in Python Tutor as follows:
+
+```python
+def model_three(word):
+    ans = word * len(word)
+    return ans
+
+def main():
+    print("Starting main...")
+    w = input("Enter a word: ")
+    result = model_three(w)
+    print(result)
+    print("All done!")
+
+main()
+```
+
+1. **Aside from the function name, how does line 8 in `funcs3.py` differ from line 8 in `passing-args.tex`?**  
+   <!-- Answer: It is now an assignment statement. -->
+
+2. **At what step number (in the simulation) has `model_three` completed its execution, but control has not yet returned to the `main` function?**  
+   <!-- Answer: Step 11. -->
+
+   In the space below, draw the frame for `model_three` after this step.
+
+   ```markdown
+   ![Frame for model_three after Step 11](model3.png)
+   ```
+
+3. **In general, what value will be returned by `model_three`?**  
+   <!-- Answer: Whatever is the value of the variable `ans`. -->
+
+4. **What changes in the frame for `main` at Step 12 of the execution?**  
+   <!-- Answer: The variable `result` has been added to the frame. It has the value returned by `model_three`. -->
+
+5. **Edit `model_three` and delete the return statement at the end of the function. Visualize the execution. What value is returned by a function when there is no return statement?**  
+   <!-- Answer: The value `None`. -->
+
+6. **Edit `model_three` again, and add the return statement back to the end of the function. Then change line 8 so that `model_three` is still called but there is no assignment to `result`. What do you predict will happen in `main` after the `model_three` function call completes?**  
+   <!-- Answer: Because `result` is not being assigned the value returned by the `model_three` function call, trying to print the value of `result` will cause a `NameError`. -->
+
+7. **Why is a function that returns the value of a variable more useful than a function that simply prints the value of that variable?**  
+   <!-- Answer: Printing a value to the screen only benefits the program in that moment. If you instead return the value and assign it to a variable, you can continue using it in the calling function. -->

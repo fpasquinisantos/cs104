@@ -1,0 +1,165 @@
+# `for` Statements (POGIL, 15 min)
+
+A `for` loop executes the same block of code "for each item in a sequence". Create a new file named `loops.py`, and enter the following code:
+
+```python
+print("hello")
+for x in [2, 7, 1]:
+    print("the number is", x)
+print("goodbye")
+```
+
+![for loop](../../img/for_loop.png){width="40%"}
+
+
+1. Run the `loops.py` program. How many times does the indented line of code execute under the `for` loop?  
+   <!-- 3 times -->
+
+2. How many times does the line of code NOT indented execute after the `for` loop?  
+   <!-- 1 time -->
+
+3. Identify the value of `x` each time the indented line of code is executed. 
+
+   1st time: <!-- x = 2 -->
+   2nd time: <!-- x = 7 -->
+   3rd time: <!-- x = 1 -->
+
+4. Modify the list `[2, 7, 1]` in the following ways, and rerun the program each time. Indicate how many times the `for` loop executes.
+
+   - Non-consecutive numbers: `[5, -7, 0]` <!-- 3 times -->
+   - Numbers decreasing in value: `[3, 2, 1, 0]` <!-- 4 times -->
+   - All have the same value: `[4, 4]` <!-- 2 times -->
+   - Single value in a list: `[8]` <!-- 1 time -->
+
+5. In general, what determines the number of times that the loop repeats?  
+   <!-- The length of the list. -->
+
+6. What determines the value of the variable `x`? Explain your answer in terms of what is assigned (`x = ...`) each time the loop runs.  
+   <!-- The value `x` is selected from the list. Each time the loop runs, the next value from the list is assigned to `x`. -->
+
+7. Modify the program as follows:
+
+   - Write a statement that assigns `[0, 1, 2, 3, 4]` to the variable `numbers`.  
+     <!-- `numbers = [0, 1, 2, 3, 4]` -->
+
+   - Rewrite the `for x ...` statement to use the variable `numbers` instead.  
+     <!-- `for x in numbers:` -->
+
+   - Does the assignment need to come before or after the `for` statement?  
+     <!-- Before -->
+
+8. Add the following code at the end of your program:
+
+   ```python
+   for c in "Hi!":
+       print(c)
+   ```
+
+   - What is the output of this `for` statement?  
+     <!--
+     ```
+     H
+     i
+     !
+     ```
+     -->
+
+   - What determined how many times `print(c)` was called?  
+     <!-- The length of the string -->
+
+   - Explain what a `for` statement does with strings.  
+     <!-- It iterates over each character -->
+
+9. What other data types (besides lists and strings) can a `for` loop handle? Experiment by adding examples to your `loops.py` program. Summarize here what works and what doesn't.  
+   <!--
+   Tuples work similar to lists. Dictionaries give you the keys.
+
+   Numbers don't work; you can loop over integers and floats.
+   -->
+# The `range` Function (POGIL, 15 min)
+
+The Python `range` function generates a sequence of numbers. It can take up to three arguments: start, stop, and step.
+
+Fill in the table below by typing the code into a Python Shell:
+
+| Python code             | Shell output                                  |
+|-------------------------|-----------------------------------------------|
+| `range(5)`              | \TextField[width=2.5cm, name=range_ans1]{}   |
+| `list(range(5))`        | \TextField[width=2.5cm, name=range_ans2]{}   |
+| `x = range(3)`          | \TextField[width=2.5cm, name=range_ans3]{}   |
+| `print(x)`              | \TextField[width=2.5cm, name=range_ans4]{}   |
+| `print(list(x))`        | \TextField[width=2.5cm, name=range_ans5]{}   |
+| `list(range(5, 10))`    | \TextField[width=2.5cm, name=range_ans6]{}   |
+| `list(range(-3, 4))`    | \TextField[width=2.5cm, name=range_ans7]{}   |
+| `list(range(4, 10, 2))` | \TextField[width=2.5cm, name=range_ans8]{}   |
+| `for i in range(5):`    | \TextField[width=2.5cm, name=range_ans9]{}   |
+
+1. Explain the difference in output between the first two lines of code (with and without the `list` function).  
+   <!-- The first line of output describes the range as a function. The second line shows the actual range of values as a list. -->
+
+2. If the argument of the `range` function specifies a single number `(x)`:
+
+   - What will be the first number listed?  
+     <!-- 0 -->
+
+   - What will be the last number listed?  
+     <!-- x - 1 -->
+
+   - How many numbers will be in the list?  
+     <!-- x -->
+
+   - Use the `range` function to generate the sequence 0, 1, 2, 3.  
+     <!-- `range(4)` -->
+
+3. If the argument of the `range` function specifies two numbers `(x, y)`:
+
+   - What will be the first number listed?  
+     <!-- x -->
+
+   - What will be the last number listed?  
+     <!-- y - 1 -->
+
+   - How many numbers will be in the list?  
+     <!-- y - x -->
+
+   - Use the `range` function to generate the sequence 1, 2, 3, 4.  
+     <!-- `range(1, 5)` -->
+
+4. If the argument of the `range` function specifies three numbers `(x, y, z)`:
+
+   - What will be the first number listed?  
+     <!-- x -->
+
+   - What does the third argument represent?  
+     <!-- how much to add each time -->
+
+   - How many numbers will be in the list?  
+     <!-- `⌈(y - x) / z⌉` -->
+
+   - Use the `range` function to generate the sequence 1, 3, 5, 7.  
+     <!-- `range(1, 8, 2)` or `range(1, 9, 2)` -->
+
+5. In your Editor, make a copy of the `for` loop code. Then modify the `for` statement so that the number of times the loop executes is determined by a variable named `times`.
+
+   - How did you change the `for` statement?  
+     <!-- `for i in range(times):  # no need for list() conversion` -->
+
+   - How would you cause the loop to print the values 0 to 5?  
+     <!-- Add this line before the loop: `times = 6` -->
+
+6. Consider the two different types of `for` statements used:
+
+   - If you wanted to execute a loop 100 times, which type of `for` statement would you choose and why?  
+     <!-- `for i in range(number)`, so that you don't have to specify the list. -->
+
+   - If you wanted to use each item of an existing list inside the loop, which type of `for` statement would you choose and why?  
+     <!-- `for i in list`, since the list exists already and might not be a range. -->
+
+7. Does the `range` function work with strings? If so, show an example. If not, show how to print the letters A to Z in a loop.  
+   <!-- The arguments to `range` must be integers. You can use the built-in function `chr` to convert integers to their corresponding Unicode characters:
+   ```python
+   for i in range(65, 91):
+       print(chr(i))
+   ``` -->
+
+   

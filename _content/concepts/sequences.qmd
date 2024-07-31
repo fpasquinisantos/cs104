@@ -1,0 +1,413 @@
+::: {.content-visible unless-format="revealjs"}
+# Built-in types
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.1 BUILT-IN TYPES</b>"}
+:::
+
+-   Object types are the ways we have to **represent information** in our programming.
+-   Python has some [built-in types](https://docs.python.org/3/library/stdtypes.html) we have already seen, but now we will see more.
+
+Some of them are:
+
+* **Numeric types**: `int`, `float`, `complex`
+* **Boolean types** (logic): `bool` (`True` and `False`)
+* **Sequence types**: `list`, `tuple`, `str`, `range`, `bytes`, and others
+* **Mapping type**: `dict`
+* **Set types**: `set`, `frozenset`
+
+It is always useful to consult documentation on each to see what you can and can't do with them.
+
+## Container types {.smaller}
+
+-   Some of these stand for objects that are collection of other objects. These are called **containers**.
+-   For example, you may have a variable pointing to a single number (a numeric type). But you can also a variable pointing to a collection of numbers, or strings, or even other collections of numbers.
+-   Think like "drawers" or "boxes" in a bookshelf
+
+![](/img/shelf.jpg)
+
+## Subscriptable types {.smaller}
+
+-   Remember our metaphor: *objects are buildings, variables are addresses*
+    -   As we have types of houses (residential, commercial), we also have types of objects (integer, float, string)
+-   How is an address when we have a condo or apartment building - i.e., multiple "houses" in the same address?
+    -   "1234 Smith Ave **Apt 101**"
+-   It is also possible to have containers whose contents can be accessed by some "complement". These are called **subscripts**.
+    -   To access a value, we write the variable followed by some value inside square brackets `[]`
+
+---
+
+For example, a Python `list`:
+
+```{python}
+condo = ["room 1", "room 2", "room 3"]
+print(condo[0])
+```
+
+Notice that if we try to "subscript" an object which is not subscriptable, we get an error:
+
+```{python}
+# | error: true
+house = 3
+print(house[0])
+```
+
+## Sequence vs mapping types {.smaller}
+
+-   In **sequence types** such as lists, tuples and strings, **subscripts are integer numbers**, which are called **indexes**.
+    -   **Attention:** indexes always starts at zero!
+    -   index 0 is for 1st element, index 1 is for 2nd, and so on...
+
+```{python}
+condo = "room 1", "room 2", "room 3"
+print(condo[0])
+print(condo[1])
+print(condo[2])
+```
+-   If the index can't be found, we will have an error:
+
+```{python}
+# | error: true
+condo = "room 1", "room 2", "room 3"
+print(condo[4])
+```
+
+-   In **mapping types**, however, **subscripts can be any kind of object** (given that it is an *immutable* object --- e.g., lists are not allowed), which are called, in this case, **keys**.
+-   This is the case of the dictionary type (`dict`):
+
+```{python}
+band = {"vocals": "John Anderson", "guitar":"Steve Howe", "bass": "Chris Squire", "keyboard": "Rick Wakeman"}
+print(band["vocals"])
+print(band["guitar"])
+```
+
+## Type properties {.smaller data-stack-name="type properties"}
+
+-   **Subscriptable** types: containers whose objects can be accessed using square brackets `[]`;
+-   **Ordered** types: containers whose elements are ordered and thus can be accessed by an index (integer number);
+-   **Immutable** types: objects whose elements cannot be changed;
+-   **Callable** types: functions and classes (check, for example, `type(print)` or `type(math.cos)`)
+    -   You "call" these objects to execute some code by typing the object followed by parenthesis (and eventually pass some information inside the parenthesis): `print("hi")`
+    -   See what happens if you try calling a non-callable object:
+
+```{python}
+# | error: true
+a = 1
+a()
+```
+
+---
+
+Testing some syntax...
+
+```{python}
+# | error: true
+a = 1
+a[0]
+```
+
+```{python}
+# | error: true
+a = 1
+a(0)
+```
+
+```{python}
+# | error: true
+a = 1
+a{0}
+```
+
+## Summarizing properties {.smaller}
+| Type                 | Container             | Subscriptable              | Ordered (sequence) | Mutable |
+|---------------|---------------|---------------|---------------|---------------|
+| Numbers and booleans | No                    | No                         | No      | No      |
+| Lists                | Yes                   | Yes (integers)             | Yes     | Yes     |
+| Tuples               | Yes                   | Yes (integers)             | Yes     | No      |
+| Strings              | Yes (only characters) | Yes (integers)             | Yes     | No      |
+| Dictionaries         | Yes                   | Yes (immutable objects) | No      | Yes     |
+| Sets                 | Yes (only immutable objects)                  | No                         | No      | Yes     |
+
+::: {.content-visible unless-format="revealjs"}
+# Object methods
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.2 OBJECT METHODS</b>"}
+:::
+
+* Some objects also have some built-in methods that can be called to perform various operations...
+* To do that, you type the object or the variable which is pointing to it, add a '`.``', and then type the method.
+
+For example, to find the index of an element of a list:
+```{python}
+a = ["you", "shall", "not", "pass"]
+inot = a.index("not")
+print("index of the word 'not' is ",inot)
+```
+
+## Sequence methods {.smaller .scrollable}
+
+Remember: sequences are ordered and subscriptable with integers (the indexes).
+The methods below thus work for all of these types: lists, tuples and strings.
+
+| Operation            | Result                                                                           |
+|----------------------|----------------------------------------------------------------------------------|
+| x in s               | True if an item of s is equal to x, else False                                   |
+| x not in s           | False if an item of s is equal to x, else True                                   |
+| s + t                | the concatenation of s and t                                                     |
+| s * n or n * s       | equivalent to adding s to itself n times                                         |
+| s[i]                 | ith item of s, origin 0                                                          |
+| s[i:j]               | slice of s from i to j                                                           |
+| s[i:j:k]             | slice of s from i to j with step k                                               |
+| len(s)               | length of s                                                                      |
+| min(s)               | smallest item of s                                                               |
+| max(s)               | largest item of s                                                                |
+| s.index(x[, i[, j]]) | index of the first occurrence of x in s (at or after index i and before index j) |
+| s.count(x)           | total number of occurrences of x in s                                            |
+
+## Unpacking sequences
+
+All sequence types can also be unpacked in multiple variables. For example:
+
+```{python}
+s = ["I", "am", "your", "father"]
+a, b, c, d = s
+print(a)
+print(b)
+```
+
+```{python}
+s = "hi!"
+ch1, ch2, ch3 = s
+print(ch1, ch2, ch3)
+```
+
+But careful: you will get an error if you don't match the length:
+
+```{python}
+# | error: true
+a = [1, 2, 3]
+v1, v2, v3, v4 = a
+```
+
+::: {.content-visible unless-format="revealjs"}
+# Lists
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.5 LISTS</b>"}
+:::
+
+Mutable sequences, represented as values separated with commas and enclosed with square brackets `[]`.
+
+* It is possible to **initialize an empty list** with `x = []`
+    
+## What can go in?
+
+* Lists and tuples can be a collection of items of any type.
+
+```{python}
+x = (1, 3.33333, "hello", True, 4)
+```
+
+* You can even make tuples of tuples, lists of lists, lists of tuples...
+  -   For example: a 3x3 matrix - a 3-element list of 3-element lists
+
+```{python}
+mat = [[1,2,3],
+      [4,5,6],
+      [7,8,9]]
+print(mat[0][1]) # accessing value in row 0 and column 1
+```
+
+::: {.content-visible when-format="revealjs"}
+
+## List methods {.smaller .scrollable}
+
+| Operation             | Result                                                                                |
+|-----------------------|---------------------------------------------------------------------------------------|
+| `s.append(x)`           | appends x to the end of the sequence (same as `s[len(s):len(s)] = [x]`)                 |
+| `s.clear()`             | removes all items from s (same as `del s[:]`)                                           |
+| `s.copy()`              | creates a shallow copy of s (same as `s[:]`)                                            |
+| `s.extend(t)` or `s += t` | extends s with the contents of t (for the most part the same as `s[len(s):len(s)] = t)` |
+| `s *= n`                | updates s with its contents repeated n times                                          |
+| `s.insert(i, x)`        | inserts x into s at the index given by i (same as `s[i:i] = [x]`)                       |
+| `s.pop()` or `s.pop(i)`   | retrieves the item at i and also removes it from s                                    |
+| `s.remove(x)`          | remove the first item from s where `s[i]` is equal to `x`                                 |
+| `s.reverse()`           | reverses the items of s in place                                                      |
+
+:::
+
+## Changing versus copying {.smaller}
+
+When dealing with mutable objects, it is *very important* to check if an operation is changing the object or making a copy of it.
+
+For example:
+
+```{python}
+a = [1,2,3]
+b = a
+a[1] = 5
+print(b)
+```
+
+* What happened here? Wasn't `b` supposed to remain `[1,2,3]`?
+
+* **`a` and `b` are pointing to the same object** (the list `[1,2,3]`). If we change something in `a`, we change in `b` and vice-versa.
+
+* You can check that with the function `id()`, which finds an unique integer identifier for each object.
+
+```{python}
+print(id(a))
+print(id(b))
+```
+
+---
+
+It is different if we make a copy of the object.
+
+```{python}
+a = [1,2,3]
+b = a.copy()
+a[1] = 5
+print(a)
+print(b)
+```
+
+* Look at the different ids: they are different objects, and thus are independent of each other.
+
+```{python}
+print(id(a))
+print(id(b))
+```
+
+* This happens because lists are *mutable objects* (just as dictionaries, as we'll see).
+  - *Mutable objects need to be copied. Immutable objects don't.*
+
+::: {.content-visible unless-format="revealjs"}
+# Tuples
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.3 TUPLES</b>"}
+:::
+
+*   As every sequence type, it is ordered and subscriptable with integer indexes.
+*   Immutable, represented just as values separated with commas, or separated with commas and enclosed with parentheses:
+
+```{python}
+fruits = "banana", "apple", "orange"
+```
+
+or
+
+```{python}
+fruits = ("banana", "apple", "orange")
+```
+
+## Why immutables? {.smaller}
+
+Why use tuples since they can't change?
+
+* They uses less memory and demands less processing.
+* They don't need to be copied when attributing to a new variable (see later).
+
+### What if I *really* want to change?
+
+```{python}
+# | error: true
+fruits[1] = "pineapple" # try changing "apple" to "pineapple"
+```
+
+-   To "change" a tuple, for example, you would basically need to either:
+
+    1.  Create a new tuple (with the changes you want), or
+    2.  Convert the tuple to a **list**, change the value you want (lists are mutable), and convert it back to a tuple.
+        -   Which would mean creating a new list object (from the tuple), and then creating a new tuple object (from the list)... which can be actually very inefficient and costly...
+
+::: {.content-visible unless-format="revealjs"}
+# Strings
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.4 STRINGS</b>"}
+:::
+
+* Are immutable, but unlike tuples, they **only permit characters as its contents**. Specified with `""`.
+
+```{python}
+a = "Hello World"
+print(a[1])
+print(a[4:9])
+```
+
+Important: since they can't change, all the methods applied to immutable objects are *making copies of them*! For example:
+
+```{python}
+a = "Hello"
+b = a.upper()
+print(b)
+print(id(a))
+print(id(b))
+```
+
+::: {.content-visible when-format="revealjs"}
+
+## String methods {.smaller .scrollable}
+
+| Operation      | Description                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------------|
+| capitalize()   | Converts the first character to upper case                                                    |
+| casefold()     | Converts string into lower case                                                               |
+| center()       | Returns a centered string                                                                     |
+| count()        | Returns the number of times a specified value occurs in a string                              |
+| encode()       | Returns an encoded version of the string                                                      |
+| endswith()     | Returns true if the string ends with the specified value                                      |
+| expandtabs()   | Sets the tab size of the string                                                               |
+| find()         | Searches the string for a specified value and returns the position of where it was found      |
+| format()       | Formats specified values in a string                                                          |
+| format_map()   | Formats specified values in a string                                                          |
+| index()        | Searches the string for a specified value and returns the position of where it was found      |
+| isalnum()      | Returns True if all characters in the string are alphanumeric                                 |
+| isalpha()      | Returns True if all characters in the string are in the alphabet                              |
+| isascii()      | Returns True if all characters in the string are ascii characters                             |
+| isdecimal()    | Returns True if all characters in the string are decimals                                     |
+| isdigit()      | Returns True if all characters in the string are digits                                       |
+| isidentifier() | Returns True if the string is an identifier                                                   |
+| islower()      | Returns True if all characters in the string are lower case                                   |
+| isnumeric()    | Returns True if all characters in the string are numeric                                      |
+| isprintable()  | Returns True if all characters in the string are printable                                    |
+| isspace()      | Returns True if all characters in the string are whitespaces                                  |
+| istitle()      | Returns True if the string follows the rules of a title                                       |
+| isupper()      | Returns True if all characters in the string are upper case                                   |
+| join()         | Converts the elements of an iterable into a string                                            |
+| ljust()        | Returns a left justified version of the string                                                |
+| lower()        | Converts a string into lower case                                                             |
+| lstrip()       | Returns a left trim version of the string                                                     |
+| maketrans()    | Returns a translation table to be used in translations                                        |
+| partition()    | Returns a tuple where the string is parted into three parts                                   |
+| replace()      | Returns a string where a specified value is replaced with a specified value                   |
+| rfind()        | Searches the string for a specified value and returns the last position of where it was found |
+| rindex()       | Searches the string for a specified value and returns the last position of where it was found |
+| rjust()        | Returns a right justified version of the string                                               |
+| rpartition()   | Returns a tuple where the string is parted into three parts                                   |
+| rsplit()       | Splits the string at the specified separator, and returns a list                              |
+| rstrip()       | Returns a right trim version of the string                                                    |
+| split()        | Splits the string at the specified separator, and returns a list                              |
+| splitlines()   | Splits the string at line breaks and returns a list                                           |
+| startswith()   | Returns true if the string starts with the specified value                                    |
+| strip()        | Returns a trimmed version of the string                                                       |
+| swapcase()     | Swaps cases, lower case becomes upper case and vice versa                                     |
+| title()        | Converts the first character of each word to upper case                                       |
+| translate()    | Returns a translated string                                                                   |
+| upper()        | Converts a string into upper case                                                             |
+| zfill()        | Fills the string with a specified number of 0 values at the beginning                         |
+
+:::

@@ -1,0 +1,175 @@
+# The `while` Statements (15 min)
+
+A more general looping structure is the `while` statement. Add the code below to your current `loops.py` program:
+
+```python
+i = 0
+while i < 3:
+    print("the number is", i)
+    i = i + 1
+print("goodbye")
+```
+
+![](../../img/while_loop.PNG){width="40%"}
+
+1. What must the value of the Boolean expression (after the `while`) be in order for the first print statement to execute?  
+   <!-- Answer: True -->
+
+2. Circle the statement that changes the variable `i` in the above code.  
+   \ifdefined\Teacher\textcolor{answers}{~\pans{i = i + 1}~ is circled}\fi
+
+3. What happens to the value of the variable `i` during the execution of the loop?  
+   <!-- Answer: It increments by one each time the loop body is executed. -->
+
+4. Explain why the loop body does not execute again after it outputs "the number is 2".  
+   <!-- Answer: The variable `i` then becomes 3, which causes the condition `i < 3` to be false. -->
+
+5. Reverse the order of the statements in the loop body:
+
+```python
+while i < 3:
+    i = i + 1
+    print("the number is", i)
+```
+
+   - How does the order impact the output displayed by the `print` function?  
+     <!-- Answer: It prints the numbers 1, 2, 3 instead of 0, 1, 2. -->
+
+   - Does the order impact the total number of lines that are output?  
+     <!-- Answer: No it does not---either way, there are 3 lines. -->
+
+6. Identify three different ways to modify the code so that the loop only executes twice.  
+   <!-- Answer: You can change the first line to `i = 1`.  
+   Or you can change the condition to `i < 2`.  
+   Or you can change the last line to `i = i + 2`. -->
+
+7. Describe the three parts of a `while` loop that control the number of times the loop executes.  
+   <!-- Answer: The first part initializes the variable or condition.  
+   The second part tests whether the end has been reached.  
+   The third part updates the variable or condition. -->
+
+8. Comment out the statement `i = i + 1`, and run the module.  
+   Then press Ctrl-C (hold down the Ctrl key and press C).  
+   Describe the behavior you see, and explain why it happened.  
+   <!-- Answer: It prints "the number is 0" forever, until you press Ctrl-C.  
+   Then it displays "KeyboardInterrupt" as an error message.  
+   This all happened because the value of `i` never changed. -->
+
+9. Consider the function `add(n)` that prompts the user for `n` numbers and returns the sum of these values.  
+   For example, when `add(5)` is called, the user is asked to input five numbers.  
+   If the user inputs 3, 1, 5, 2, and 4, the function would return the value 15.
+
+   - Describe the variable that needs to be initialized before the loop begins.  
+     <!-- Answer: i = 0 -->
+
+   - Describe the Boolean expression that must be true for the loop to continue.  
+     <!-- Answer: i < n -->
+
+   - Describe what will need to change so that the loop will eventually end.  
+     <!-- Answer: i = i + 1 -->
+
+   - Now list what else needs to happen inside the body of the loop for you to calculate the sum of the user input.  
+     <!-- Answer: 1) Prompt the user to input a number, and 2) add that number to a running total. -->
+
+   - Given your previous answer, are there any other values that need to be initialized before the start of the loop?  
+     <!-- Answer: Yes, the running total should be initialized to zero. -->
+
+# Nested `for` Loops (15 min)
+
+**Example A**  
+We typically use a `for` loop to examine the contents of a list:
+
+```python
+groceries = ["Apples", "Milk", "Flour", "Chips"]
+for item in groceries:
+    print("Don't forget the", item)
+```
+
+**Example B**  
+If a list contains another list, we need a `for` loop that contains another `for` loop. For example, to count the "spaces" in the `grid`:
+
+```python
+count = 0
+for row in grid:  # outer loop
+    print("row =", row)
+    for cell in row:  # inner loop
+        print("cell =", cell)
+        if cell == ' ':
+            count += 1
+print(count, "spaces remaining")
+```
+
+1. **As a team, discuss the two examples. Predict how many times each of the following lines will execute. Then run the code and check your answers based on the output.**
+
+   - **How many times does Line 3 execute?**  
+     ~ Predicted: <!-- Answer: -->  
+     ~ Actual: 4
+
+   - **How many times does Line 6 execute?**  
+     ~ Predicted: <!-- Answer: -->  
+     ~ Actual: 6
+
+   - **How many times does Line 8 execute?**  
+     ~ Predicted: <!-- Answer: -->  
+     ~ Actual: 42
+
+   - **How many times does Line 10 execute?**  
+     ~ Predicted: <!-- Answer: -->  
+     ~ Actual: 22
+
+2. **What determined how many times the `for item` loop would run?**  
+   <!-- Answer: Number of groceries -->
+
+3. **Answer the following questions in terms of `grid`.**
+
+   - **What determined how many times the `for row` loop would run?**  
+     <!-- Answer: The number of rows in the grid -->
+
+   - **What determined how many times the `for cell` loop would run?**  
+     <!-- Answer: The total number of cells in the grid (i.e., number of rows * number of cols) -->
+
+4. **Predict how many times the `print` statement will execute in the example below. Then run the code to verify your answer.**  
+   ~ Predicted: <!-- Answer: -->  
+   ~ Actual: 42 times
+
+   ```python
+   for i in range(6):
+       for j in range(7):
+           print(i, '+', j, '=', i + j)
+   ```
+
+5. **Rewrite the nested `for` loops from Lines 4–10 using the `range` function. Replace the variables `row` and `cell` with `i` and `j`, respectively. For simplicity, you may omit the `print` statements in your answer.**
+
+   ```python
+   count = 0
+   for i in range(len(grid)):  # outer loop
+       for j in range(len(grid[i])):  # inner loop
+           if grid[i][j] == ' ':
+               count += 1
+   ```
+
+6. **Write a `for` loop (using `range`) that computes the factorial of a given integer `n`. Recall that `n! = n * (n-1) * (n-2) * ... * 1`. Store your result in a variable named `fact`.**
+
+   ```python
+   fact = 1
+   for i in range(n, 0, -1):
+       fact *= i
+   ```
+
+7. **Write nested loops that compute and display the factorial of each integer from 1 to 20. Use your code from the previous question as the inner loop. Your output should be in this format:**
+
+   ```
+       The factorial of 1 is 1
+       The factorial of 2 is 2
+       The factorial of 3 is 6
+       The factorial of 4 is 24
+       The factorial of 5 is 120
+   ```
+
+   ```python
+   for n in range(1, 21):
+       fact = 1
+       for i in range(n, 0, -1):
+           fact *= i
+       print("The factorial of", n, "is", fact)
+   ```

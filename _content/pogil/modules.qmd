@@ -1,0 +1,80 @@
+# Multiple Modules (POGIL, 15 min)
+
+Create a new file `move.py`, and enter the code:
+
+```python
+# move.py
+print(f"in move: __name__ == {__name__}")
+
+angle = 68
+print(f"will always execute: angle == {angle}")
+
+if True:
+    angle = -39
+    print(f"only if True: angle == {angle}")
+```
+
+Run `move.py`, and record the output below. 
+
+```markdown
+| Output Line 1 | `in move: __name__ == __main__` |
+| -------------- | ------------------------------ |
+| Output Line 2 | `will always execute: angle == 68` |
+| Output Line 3 | `only if True: angle == -39` |
+```
+
+Create a new file `stop.py` (in the same directory), and enter the code:
+
+```python
+# stop.py
+import move
+
+print(f"in stop: __name__ == {__name__}")
+
+angle = 74
+print(f"from module: angle == {angle}")
+```
+
+Run `stop.py`, and record the output below. Draw an arrow from each line of output to its corresponding print statement in the code.
+
+```markdown
+| Output Line 1 | `in move: __name__ == move` | Arrow to Line 7 of `move.py` |
+| -------------- | ---------------------------- | ------------------------------ |
+| Output Line 2 | `will always execute: angle == 74` | Arrow to Line 8 of `move.py` |
+| Output Line 3 | `in stop: __name__ == __main__` | Arrow to Line 3 of `stop.py` |
+| Output Line 4 | `from module: angle == -11` | Arrow to Line 4 of `stop.py` |
+```
+
+1. **Upon execution of `move.py`:**
+
+   - **What is the value of the variable `__name__`?**  
+     <!-- Answer: `__main__` -->
+
+   - **Does the output correspond solely to the print statements contained in this file?**  
+     <!-- Answer: yes -->
+
+2. **Upon execution of `stop.py`:**
+
+   - **What is the value of the variable `__name__` from the print statement in `move`?**  
+     <!-- Answer: `move` -->
+
+   - **What is the value of the variable `__name__` from the print statement in `stop`?**  
+     <!-- Answer: `__main__` -->
+
+   - **Does the output correspond solely to the print statements contained in this file?**  
+     <!-- Answer: no -->
+
+3. **What was the reason to include the `import move` statement in `stop.py`?**  
+   <!-- Answer: To use the angle function defined in `move.py`. -->
+
+4. **Based on the output of `stop.py`, describe what happens (as a side effect) when another module is imported.**  
+   <!-- Answer: All the code in the imported file, including top-level print statements, is executed. -->
+
+5. **What line in `move.py` did not print when `stop.py` was executed? Why?**  
+   <!-- Answer: The print "only if True" statement inside `if __name__ == "__main__"` was False because `__name__ == "move"` that time. -->
+
+6. **In order for the output of `stop.py` to correspond solely to the print statements contained in `stop.py`, what modifications need to be made to `move.py`?**  
+   <!-- Answer: Move all the print statements inside `if __name__ == "__main__"`. -->
+
+7. **Describe what code in general to include inside `if __name__ == "__main__"`, and why.**  
+   <!-- Answer: Code that you don't want to be executed when the module is imported. -->

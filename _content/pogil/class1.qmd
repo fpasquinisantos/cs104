@@ -1,0 +1,168 @@
+# Attributes and Methods (POGIL, 15 min)
+
+Previously you have used built-in types like `int`, `str`, and `list`. Each of these types comes with its own *methods*, such as `isdigit` and `append`. You can create new types of data, and methods to go with them, by defining a `class`. Classes specify the *attributes* (instance variables) and methods (functions) that each object belonging to the class will have.
+
+```python
+class Atom:
+    """An element from the periodic table."""
+
+    def neutrons(self):
+        """Returns the number of neutrons the element has"""
+        number = self.isotope - self.atomic
+        print("{} has {} neutrons".format(self.symbol, number))
+        return number
+
+    def grams_to_moles(self, grams):
+        """Converts the mass of an element in grams to moles"""
+        moles = grams / self.mass
+        print("{.1f} g is {.1f} moles of {}".format(grams, moles, self.symbol))
+        return moles
+
+if __name__ == "__main__":
+
+    oxygen = Atom()  # create an Atom object
+    oxygen.symbol = 'O'
+    oxygen.atomic = 8
+    oxygen.mass = 15.999
+    oxygen.isotope = 16
+    carbon = Atom()  # create another Atom object
+    carbon.symbol = 'C'
+    carbon.mass = 12.001
+    oxygen.neutrons()
+    oxygen.grams_to_moles(24)
+    carbon.grams_to_moles(24)
+```
+
+1. **Examine the class definition (the top half of the code):**
+
+   - **What is the name of the class?**  
+     <!-- Answer: Atom -->
+
+   - **What are the names of the two methods?**  
+     <!-- Answer: `neutrons` and `grams_to_moles` -->
+
+   - **What is the name of the first parameter for all methods?**  
+     <!-- Answer: `self` -->
+
+2. **Now examine the `"__main__"` block of code:**
+
+   - **How many different `Atom` objects were created?**  
+     <!-- Answer: two -->
+
+   - **Identify the variable name of each object.**  
+     <!-- Answer: oxygen and carbon -->
+
+   - **How many attributes were assigned in the `oxygen` object? List the names.**  
+     <!-- Answer: 4: symbol, atomic, mass, isotope -->
+
+   - **How do the number of arguments for each method call differ from the number of parameters specified in the method definition?**  
+     <!-- Answer: one less -->
+
+3. **How does the syntax referencing an attribute differ inside vs. outside the class definition?**  
+   <!-- Answer: inside class: `self.identifier` vs. outside class: `object.identifier` -->
+
+4. **When the `grams_to_moles` method is called (in the last two lines), what is the value of the `self` parameter?**  
+   <!-- Answer: In this example, `oxygen` or `carbon` (depending on which object was before the method call). -->
+
+5. **Enter the expression `type(oxygen)` in a Python Shell. What class does the `oxygen` object belong to? Explain the meaning and significance of the output.**  
+   <!-- Answer: The output is `<class '__main__.Atom'>`, meaning that `oxygen` belongs to the `Atom` class from the `__main__` module. It's significant because we are the ones who defined this data type. -->
+
+6. **Write code to create a new `Atom` object called `hydrogen`, and assign one of the attributes listed in Question \ref{attribute}c.**  
+   <!-- Answer: 
+   ```python
+   hydrogen = Atom()
+   hydrogen.symbol = 'H'
+   ``` -->
+
+7. **Call the `neutrons` method on `carbon` in a Python Shell. What is the reason for the error?**  
+   <!-- Answer: The attributes `self.symbol`, `self.isotope`, and `self.atomic` have not yet been assigned. -->
+
+Here's the Markdown version with the answers included as comments:
+
+---
+
+# Constructors (POGIL, 15 min)
+
+For each class defined, you can provide a *constructor* that initializes attributes of a new object. In Python, the constructor is always named `__init__` (with two underscores before and after the word `init`). The constructor is called automatically when you create a new object.
+
+Add the following constructor to the top of your `Atom` class. By convention, the constructor is typically the first method in a class definition. Also edit the `"__main__"` block of code as shown.
+
+```python
+class Atom:
+    """An element from the periodic table."""
+
+    def __init__(self, symbol, atomic, mass, isotope=12):
+        """Constructs an Atom with the given values."""
+        self.symbol = symbol
+        self.atomic = atomic
+        self.mass = mass
+        self.isotope = isotope
+
+    # ... previous methods from Model 1 ...
+
+if __name__ == "__main__":
+
+    oxygen = Atom('O', 8, 15.999, 16)
+    carbon = Atom('C', 6, 12.001)
+    oxygen.neutrons()
+    carbon.neutrons()
+    oxygen.grams_to_moles(24)
+    carbon.grams_to_moles(24)
+```
+
+1. **What is always the name of the constructor?**  
+   <!-- Answer: `__init__` -->
+
+2. **Although there is no direct call to the constructor, explain how you know this method is executed when an object is created.**  
+   <!-- Answer: The instance variables have a value when used in the methods `neutrons` and `grams_to_moles`. There is no error message this time. -->
+
+3. **Consider your answer to Question~\ref{error}. What is one advantage of defining a constructor for a class?**  
+   <!-- Answer: It automatically initializes the attributes so that methods don't error if they aren't called in the correct order. -->
+
+4. **In a Python Shell, try to create a new `Atom` object called `hydrogen` with only two arguments. Write your statement in the space below. What is the reason for the error you see?**  
+   <!-- Answer:
+   ```python
+   hydrogen = Atom('H', 1)
+   ```
+   Based on the definition of `__init__`, at least three parameters are required to define an `Atom` object. -->
+
+5. **When creating an object of the `Atom` class, what is the value of `isotope` if:**
+
+   - **three arguments are given?**  
+     <!-- Answer: 12 -->
+
+   - **four arguments are given?**  
+     <!-- Answer: the value of the last argument -->
+
+6. **Print the value of `self.isotope` in a Python shell.**
+
+   - **What is the reason for the error?**  
+     <!-- Answer: NameError: 'self' is not defined -->
+
+   - **In order to eliminate this error, what should be printed instead?**  
+     <!-- Answer: `oxygen.isotope` -->
+
+7. **For each line below, what is the value of `self`?**
+
+   - **`oxygen = Atom('O', 8, 15.999, 16)`**  
+     <!-- Answer: The object that will be assigned to `oxygen` -->
+
+   - **`carbon = Atom('C', 6, 12.001)`**  
+     <!-- Answer: The object that will be assigned to `carbon` -->
+
+   - **`oxygen.neutrons()`**  
+     <!-- Answer: The object currently referenced by `oxygen` -->
+
+   - **`carbon.neutrons()`**  
+     <!-- Answer: The object currently referenced by `carbon` -->
+
+8. **Recall that a variable may be "local" (defined within a function), "global" (defined in the non-indented or `"__main__"` block of code), or "built-in" (part of Python itself).**
+
+   - **Explain why the `isotope` attribute is not a global variable.**  
+     <!-- Answer: it's defined in the `__init__` function (not `__main__`) -->
+
+   - **Explain why the `isotope` attribute is not a local variable.**  
+     <!-- Answer: it's used outside the constructor in other methods -->
+
+   - **How is each method of the class able to access the `isotope` attribute?**  
+     <!-- Answer: Through the `self` parameter, which is a local variable in each method. -->

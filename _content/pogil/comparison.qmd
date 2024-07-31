@@ -1,0 +1,155 @@
+# Comparison Operators (POGIL, 10 min)
+
+In Python, a comparison (e.g., `100 < 200`) will yield a *Boolean* value of either `True` or `False`. Most data types (including `int`, `float`, `str`, `list`, and `tuple`) can be compared using the following operators:
+
+| Operator | Meaning                |
+|----------|------------------------|
+| `<`      | less than              |
+| `<=`     | less than or equal     |
+| `>`      | greater than           |
+| `>=`     | greater than or equal  |
+| `==`     | equal                  |
+| `!=`     | not equal              |
+
+Type the following code, one line at a time, into a Python Shell. Record the output for each line (if any) in the second column.
+
+| Python code              | Shell output                  |
+|--------------------------|-------------------------------|
+| `type(True)`             | \TextField[width=2.5cm, name=comp_ans1]{}  |
+| `type(true)`             | \TextField[width=2.5cm, name=comp_ans2]{}  |
+| `type(3 < 4)`            | \TextField[width=2.5cm, name=comp_ans3]{}  |
+| `print(3 < 4)`           | \TextField[width=2.5cm, name=comp_ans4]{}  |
+| `three = 3`              | \TextField[width=2.5cm, name=comp_ans5]{}  |
+| `four = 4`               | \TextField[width=2.5cm, name=comp_ans6]{}  |
+| `print(three == four)`   | \TextField[width=2.5cm, name=comp_ans7]{}  |
+| `check = three > four`   | \TextField[width=2.5cm, name=comp_ans8]{}  |
+| `print(check)`           | \TextField[width=2.5cm, name=comp_ans9]{}  |
+| `type(check)`            | \TextField[width=2.5cm, name=comp_ans10]{} |
+| `print(three = four)`    | \TextField[width=2.5cm, name=comp_ans11]{} |
+| `three = four`           | \TextField[width=2.5cm, name=comp_ans12]{} |
+| `print(three == four)`   | \TextField[width=2.5cm, name=comp_ans13]{} |
+
+1. What is the name of the data type for Boolean values? 
+
+\TextField[width=\linewidth, name=comp_ans14]{}
+   <!-- bool -->
+
+2. Do the words `True` and `False` need to be capitalized? Explain how you know.
+
+\TextField[width=\linewidth, name=comp_ans15]{}
+   <!-- Yes, because type(true) resulted in NameError: name 'true' is not defined. -->
+
+3. For each of the following terms, identify examples from the table:
+   1. Boolean variables: \TextField[width=3.5cm, name=comp_ans16]{}
+      <!-- check -->
+   2. Boolean operators:  \TextField[width=3.5cm, name=comp_ans17]{}
+      <!-- <, ==, > -->
+   3. Boolean expressions:  \TextField[width=2.5cm, name=comp_ans18]{}
+      <!-- 3 < 4, three == four, three > four -->
+
+4. Explain why the same expression `three == four` had two different results.  
+
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=comp_ans19]{}
+   <!-- The two variables were initially different values, so the first comparison was False. But later on, the value of four was assigned to three, so the second comparison was True. -->
+
+5. What is the difference between the `=` operator and the `==` operator?
+
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=comp_ans20]{}
+   <!-- The = operator assigns a value to a variable, and the == operator compares two values. -->
+
+6. Write a Boolean expression that uses the `!=` operator and evaluates to `False`.  
+
+\TextField[width=\linewidth, name=comp_ans21]{}
+   <!-- 5 != 5 -->
+
+# Boolean operators (POGIL, 20 min)
+
+Expressions may include Boolean operators to implement basic logic. If all three operators appear in the same expression, Python will evaluate `not` first, then `and`, and finally `or`. If there are multiple of the same operator, they are evaluated from left to right.
+
+**Do not type anything yet! Read the questions first!**
+
+| Python code                               | Predicted output | Actual output |
+|-------------------------------------------|------------------|---------------|
+| `print(a < b and b < c)`                  | \TextField[width=2.5cm, name=bool_ops1]{}  | \TextField[width=2.5cm, name=bool_ops2]{}  |
+| `print(a < b or b < c)`                   | \TextField[width=2.5cm, name=bool_ops3]{}  | \TextField[width=2.5cm, name=bool_ops4]{}  |
+| `print(a < b and b > c)`                  | \TextField[width=2.5cm, name=bool_ops5]{}  | \TextField[width=2.5cm, name=bool_ops6]{}  |
+| `print(a < b or b > c)`                   | \TextField[width=2.5cm, name=bool_ops7]{}  | \TextField[width=2.5cm, name=bool_ops8]{}  |
+| `print(not a < b)`                        | \TextField[width=2.5cm, name=bool_ops9]{}  | \TextField[width=2.5cm, name=bool_ops10]{} |
+| `print(a > b or not a > c and b > c)`     | \TextField[width=2.5cm, name=bool_ops11]{} | \TextField[width=2.5cm, name=bool_ops12]{} |
+
+1. What data type is the result of `a < b`? What data type is the result of `a < b and b < c`?  
+
+\TextField[width=\linewidth, name=bool_ans30]{}
+   <!-- The type of each is `bool`; both are Boolean expressions. -->
+
+2. Predict the output of each print statement, based on the variables `a = 3`, `b = 4`, and `c = 5`. Then execute each line in a Python Shell to check your work.
+
+3. Based on the variables in question 2, what is the value of `a < b`? What is the value of `b < c`?  
+
+\TextField[width=\linewidth, name=bool_ans31]{}
+   <!-- They are both true. -->
+
+4. If two `True` Boolean expressions are combined using the `and` operator, what is the resulting Boolean value?  
+
+\TextField[width=\linewidth, name=bool_ans32]{}
+   <!-- True and True is True. -->
+
+5. Using the variables defined in question 2, write an expression that will combine two `False` Boolean expressions using the `or` operator. Check your work using a Python Shell.  
+
+\TextField[width=\linewidth, name=bool_ans33]{}
+   <!-- `a > b or a > c` -->
+
+6. Assuming `P` and `Q` each represent a Boolean expression that evaluates to the Boolean value indicated, complete the following table. Compare your team's answers with another team's, and resolve any inconsistencies.
+
+| `P`    | `Q`    | `P and Q` | `P or Q` |
+|--------|--------|-----------|----------|
+| False  | False  | \TextField[width=2.5cm, name=bool_ops13]{} | \TextField[width=2.5cm, name=bool_ops14]{} |
+| False  | True   | \TextField[width=2.5cm, name=bool_ops15]{} | \TextField[width=2.5cm, name=bool_ops16]{} |
+| True   | False  | \TextField[width=2.5cm, name=bool_ops17]{} | \TextField[width=2.5cm, name=bool_ops18]{} |
+| True   | True   | \TextField[width=2.5cm, name=bool_ops19]{} | \TextField[width=2.5cm, name=bool_ops20]{} |
+
+7. Assume that two Boolean expressions are combined using the `and` operator. If the value of the first expression is `False`, is it necessary to determine the value of the second expression? Explain why or why not.  
+
+\TextField[width=\linewidth, name=bool_ans34]{}
+   <!-- It is unnecessary, because "false and anything" is false. -->
+
+8. Assume that two Boolean expressions are combined using the `or` operator. If the value of the first expression is `True`, is it necessary to determine the value of the second expression? Explain why or why not.  
+
+\TextField[width=\linewidth, name=bool_ans35]{}
+   <!-- It is unnecessary, because "true or anything" is true. -->
+
+9.  Examine the last row of the table in question 2. Evaluate the Boolean expression following the order of precedence rules explained. Show your work by rewriting the line at each step and replacing portions with either `True` or `False`.
+
+   ```
+   a > b or not a > c and b > c
+   ```
+
+\TextField[multiline=true, width=\linewidth, height=5em, name=bool_ans36]{}
+   <!--
+   ```
+   False or not a > c and b > c
+   False or not False and b > c
+   False or True and b > c
+   False or True and False
+   False or False
+   False
+   ```
+   -->
+
+10. Suppose you wanted to execute the statement `sum = x + y` only when both `x` and `y` are positive. Determine the appropriate operators, and write a single Boolean expression for the if-condition.  
+
+\TextField[width=\linewidth, name=bool_ans37]{}
+    <!-- `x > 0 and y > 0` -->
+
+11. Rewrite the expression from question 10 using the `not` operator. Your answer should yield the same result as in question 10, not the opposite. Describe in words what the new expression means.  
+
+\TextField[multiline=true, width=\linewidth, height=2.5em, name=bool_ans38]{}
+    <!-- `not (x <= 0 or y <= 0)`
+    In other words, "both x and y are positive" is equivalent to "neither x nor y is negative/zero". -->
+
+12. Suppose that your team needs to execute the statement `sum = x + y` except when both `x` and `y` are positive. Write a Boolean expression for this condition. How is it different from the previous question?  
+
+\TextField[multiline=true, width=\linewidth, height=3.75em, name=bool_ans39]{}
+    <!-- `not (x > 0 and y > 0)`
+    To represent "except when" logic, we simply negate the original condition. The previous question negated each of the operators as well, which is known as De Morgan's law. -->
+
