@@ -1,0 +1,3 @@
+# Activity:
+
+- What's a program to make our turtle draw random circles around the screen?

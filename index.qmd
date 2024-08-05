@@ -9,40 +9,36 @@ format:
 
 Welcome to CS-104-A, Applied Computing!
 
-::: {.callout-note collapse=true}
-
+::: {.callout-note collapse="true"}
 ## Why programming?
 
-- Creation:
-  - Computing is part of God’s world
-    - it reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)
-    - it is enabling science today (study of God’s world)
-    - it is enabling new technology today (building culture for God's glory)
-  - The process of breaking down a problem into precise steps can be a form of developing intellectual virtue
-  - Through discovery and automation, it can enable human flourishing
-  - There is joy in the process (creative, rewarding, fun)
-- Fall:
-  - It is being centralized into few powerful actors, harming cultural diversity and freedom
-  - It is alienating people from God's good created order
-  - It is being misused for Mammon
-  - Constantly idolized
-- Redemption:
-  - We’re called to follow Jesus in showing God's glory through our cultural activity, which includes computing and its virtuous practice on:
-    - imagining
-    - designing
-    - regulating
-    - using
-
+-   Creation:
+    -   Computing is part of God’s world
+        -   it reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)
+        -   it is enabling science today (study of God’s world)
+        -   it is enabling new technology today (building culture for God's glory)
+    -   The process of breaking down a problem into precise steps can be a form of developing intellectual virtue
+    -   Through discovery and automation, it can enable human flourishing
+    -   There is joy in the process (creative, rewarding, fun)
+-   Fall:
+    -   It is being centralized into few powerful actors, harming cultural diversity and freedom
+    -   It is alienating people from God's good created order
+    -   It is being misused for Mammon
+    -   Constantly idolized
+-   Redemption:
+    -   We’re called to follow Jesus in showing God's glory through our cultural activity, which includes computing and its virtuous practice on:
+        -   imagining
+        -   designing
+        -   regulating
+        -   using
 :::
 
-::: {.callout-note collapse=true}
-
+::: {.callout-note collapse="true"}
 ## How?
 
 We will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.
 
 The material is considered in the context of the reformed Christian perspective.
-
 :::
 
 # Learning Outcomes
@@ -60,55 +56,55 @@ This course introduces computing as a problem solving discipline with a particul
 
 # Staff
 
--   Professor Fernando Pasquini Santos - office hours: at NH291, Tuesdays 9-9:50am, 4-5pm, fs33\@calvin.edu
+-   Professor Fernando Pasquini Santos - fs33\\\*\\\*at\\\*\\\*calvin.edu
+    -   office hours: at NH291, Mondays 4-5 pm, Wednesdays 11-12 am
 -   Lab assistant: TBA
 -   Grader: TBA
 
 # Schedule
 
-::: {.callout-note collapse=true}
-
+::: {.callout-note collapse="true"}
 # Schedule
 
 Schedule is subject to change. Updates will be made here and on Moodle.
 
+```{=html}
 <style>
 tr:nth-child(even) {
   background-color: #EFEFEF!important;
 }
 </style>
-
-| Unit             | Classes | Day of Week | Content                            |
-|------------------|---------|-------------|------------------------------------|
-|                  | 09-02   | Monday      | *Labor Day*                        |
-|                  | 09-03   | Tuesday     | *NO LAB*                           |
-| 1 - Introduction | 09-04   | Wednesday   | Welcome and introduction           |
-| 1 - Introduction | 09-06   | Friday      | Variables, Objects, Assignments    |
-| 1 - Introduction | 09-09   | Monday      | Input/Output                       |
-| 1 - Introduction | 09-10   | Tuesday     | LAB 1 - Introduction               |
-| 1 - Introduction | 09-11   | Wednesday   | Operators and math                 |
-|     2 - Types    | 09-13   | Friday      | Lists and tuples                   |
-|     2 - Types    | 09-16   | Monday      | Dictionaries                       |
-|     2 - Types    | 09-17   | Tuesday     | LAB 2 - Data types                 |
-|     2 - Types    | 09-18   | Wednesday   | Numpy arrays                       |
-| 3 - Conditionals | 09-20   | Friday      | If-else                            |
-| 3 - Conditionals | 09-23   | Monday      | Comparison and   boolean operators |
-| 3 - Conditionals | 09-24   | Tuesday     | LAB 3 - Conditionals               |
-|     4 - Loops    | 09-25   | Wednesday   | While and for                      |
-|     4 - Loops    | 09-27   | Friday      | Iterating techniques               |
-|   5 - Functions  | 09-30   | Monday      | Functions                          |
-|     4 - Loops    | 10-01   | Tuesday     | LAB 4 - Loops                      |
-|   5 - Functions  | 10-02   | Wednesday   | Variable scope in functions        |
-|   5 - Functions  | 10-04   | Friday      | String manipulation                |
-|   5 - Functions  | 10-07   | Monday      | Modules and namespaces             |
-|   5 - Functions  | 10-08   | Tuesday     | LAB 5 - Functions                  |
-|    6 - Classes   | 10-09   | Wednesday   | Class attributes and   methods     |
-|    6 - Classes   | 10-11   | Friday      | Operator overloading               |
-|    6 - Classes   | 10-14   | Monday      | Inheritance                        |
-|    6 - Classes   | 10-15   | Tuesday     | LAB 6 - Classes                    |
-|    7 - Wrap-up   | 10-16   | Wednesday   | Wrap-up                            |
-|                  | 10-18   | Friday      | *Fall Break*                       |
-
+```
+| Unit             | Classes | Day of Week | Content                          |
+|------------------|---------|-------------|----------------------------------|
+|                  | 09-02   | Monday      | *Labor Day*                      |
+|                  | 09-03   | Tuesday     | *NO LAB*                         |
+| 1 - Introduction | 09-04   | Wednesday   | Welcome and introduction         |
+| 1 - Introduction | 09-06   | Friday      | Variables, Objects, Assignments  |
+| 1 - Introduction | 09-09   | Monday      | Input/Output                     |
+| 1 - Introduction | 09-10   | Tuesday     | LAB 1 - Introduction             |
+| 1 - Introduction | 09-11   | Wednesday   | Operators and math               |
+| 2 - Types        | 09-13   | Friday      | Lists and tuples                 |
+| 2 - Types        | 09-16   | Monday      | Dictionaries                     |
+| 2 - Types        | 09-17   | Tuesday     | LAB 2 - Data types               |
+| 2 - Types        | 09-18   | Wednesday   | Numpy arrays                     |
+| 3 - Conditionals | 09-20   | Friday      | If-else                          |
+| 3 - Conditionals | 09-23   | Monday      | Comparison and boolean operators |
+| 3 - Conditionals | 09-24   | Tuesday     | LAB 3 - Conditionals             |
+| 4 - Loops        | 09-25   | Wednesday   | While and for                    |
+| 4 - Loops        | 09-27   | Friday      | Iterating techniques             |
+| 5 - Functions    | 09-30   | Monday      | Functions                        |
+| 4 - Loops        | 10-01   | Tuesday     | LAB 4 - Loops                    |
+| 5 - Functions    | 10-02   | Wednesday   | Variable scope in functions      |
+| 5 - Functions    | 10-04   | Friday      | String manipulation              |
+| 5 - Functions    | 10-07   | Monday      | Modules and namespaces           |
+| 5 - Functions    | 10-08   | Tuesday     | LAB 5 - Functions                |
+| 6 - Classes      | 10-09   | Wednesday   | Class attributes and methods     |
+| 6 - Classes      | 10-11   | Friday      | Operator overloading             |
+| 6 - Classes      | 10-14   | Monday      | Inheritance                      |
+| 6 - Classes      | 10-15   | Tuesday     | LAB 6 - Classes                  |
+| 7 - Wrap-up      | 10-16   | Wednesday   | Wrap-up                          |
+|                  | 10-18   | Friday      | *Fall Break*                     |
 :::
 
 # Communication
@@ -117,25 +113,26 @@ Outside of class, we'll use:
 
 -   Office hours;
 -   Moodle:
-    - You can use our **Q&A Forum** to post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run. Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
-    - We also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
+    -   You can use our **Q&A Forum** to post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run. Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
+    -   We also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
 -   Email --- Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).
 
 You'll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You're free to schedule your work as best works for you, but we'll be trying to observe a Sabbath in our own schedules.
 
 # Materials
 
-:::: {.callout-note collapse=true}
-
+::: {.callout-note collapse="true"}
 # Texts
 
 #### [**ZyBooks**](http://learn.zybooks.com/) 
 
 We will be using an online text called *Programming in Python 3 with ZyLabs*. The text will cost \$89 and can be accessed as follows:
 
-    1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).
-    2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`
-    3.  Click *Subscribe*.
+```         
+1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).
+2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`
+3.  Click *Subscribe*.
+```
 
 You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
 
@@ -147,14 +144,12 @@ This website will be constantly updated with concepts and activities we will fol
 
 Sseveral articles on programming that will be available on [**Perusall**](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing). We expect you to interact and discuss with these texts.
 
-::: {.callout-important}
+::: callout-important
 The articles on reflections about programming that we are going to read are presenting **lots of different opinions that may not reflect what I, myself, subscribe to**. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don't agree completely.
 :::
-
 :::
 
-::: {.callout-note collapse=true}
-
+::: {.callout-note collapse="true"}
 # Work Environment
 
 We will use [Thonny](https://thonny.org/) as the integrated development environment of our programming exercises in Python.
@@ -165,33 +160,32 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
 2.  Access the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:
     -   the list of machines here: <https://remote.cs.calvin.edu>
     -   the instructions for using those machines here: <https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php>
-
 :::
 
 # Activities
 
 1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the "participation" activities in the specified sections as you go. You can skip the "challenge" activities.
 
-2. **Perspectives reading (on Perusall)**: *every other week*, you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
+2.  **Perspectives reading (on Perusall)**: *every other week*, you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
 
-2.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+3.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
 
     -   a programmer (runs the exercises in Thonny)
     -   a recorder (writes the team's answers to the exercises)
     -   a manager/presenter (keeps the team on track; interacts with class)
 
-3.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+4.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
 
     -   If feasible, *you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
     -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
 
-4.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
+5.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
 
     -   Exceptionally at week 1, we won't have a Quiz (too early for that).
 
-5. **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
+6.  **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
 
-Plus, every other week we will have a 
+Plus, every other week we will have a
 
 # Grading
 

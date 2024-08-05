@@ -1,0 +1,94 @@
+::: {.content-visible unless-format="revealjs"}
+# Lists
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.5 LISTS</b>"}
+:::
+
+Mutable sequences, represented as values separated with commas and enclosed with square brackets `[]`.
+
+* It is possible to **initialize an empty list** with `x = []`
+    
+## What can go in?
+
+* Lists and tuples can be a collection of items of any type.
+
+```{python}
+x = (1, 3.33333, "hello", True, 4)
+```
+
+* You can even make tuples of tuples, lists of lists, lists of tuples...
+  -   For example: a 3x3 matrix - a 3-element list of 3-element lists
+
+```{python}
+mat = [[1,2,3],
+      [4,5,6],
+      [7,8,9]]
+print(mat[0][1]) # accessing value in row 0 and column 1
+```
+
+::: {.content-visible when-format="revealjs"}
+
+## List methods {.smaller .scrollable}
+
+| Operation             | Result                                                                                |
+|-----------------------|---------------------------------------------------------------------------------------|
+| `s.append(x)`           | appends x to the end of the sequence (same as `s[len(s):len(s)] = [x]`)                 |
+| `s.clear()`             | removes all items from s (same as `del s[:]`)                                           |
+| `s.copy()`              | creates a shallow copy of s (same as `s[:]`)                                            |
+| `s.extend(t)` or `s += t` | extends s with the contents of t (for the most part the same as `s[len(s):len(s)] = t)` |
+| `s *= n`                | updates s with its contents repeated n times                                          |
+| `s.insert(i, x)`        | inserts x into s at the index given by i (same as `s[i:i] = [x]`)                       |
+| `s.pop()` or `s.pop(i)`   | retrieves the item at i and also removes it from s                                    |
+| `s.remove(x)`          | remove the first item from s where `s[i]` is equal to `x`                                 |
+| `s.reverse()`           | reverses the items of s in place                                                      |
+
+:::
+
+## Changing versus copying {.smaller}
+
+When dealing with mutable objects, it is *very important* to check if an operation is changing the object or making a copy of it.
+
+For example:
+
+```{python}
+a = [1,2,3]
+b = a
+a[1] = 5
+print(b)
+```
+
+* What happened here? Wasn't `b` supposed to remain `[1,2,3]`?
+
+* **`a` and `b` are pointing to the same object** (the list `[1,2,3]`). If we change something in `a`, we change in `b` and vice-versa.
+
+* You can check that with the function `id()`, which finds an unique integer identifier for each object.
+
+```{python}
+print(id(a))
+print(id(b))
+```
+
+---
+
+It is different if we make a copy of the object.
+
+```{python}
+a = [1,2,3]
+b = a.copy()
+a[1] = 5
+print(a)
+print(b)
+```
+
+* Look at the different ids: they are different objects, and thus are independent of each other.
+
+```{python}
+print(id(a))
+print(id(b))
+```
+
+* This happens because lists are *mutable objects* (just as dictionaries, as we'll see).
+  - *Mutable objects need to be copied. Immutable objects don't.*

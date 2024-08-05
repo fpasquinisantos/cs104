@@ -1,0 +1,33 @@
+# The pictionary game
+
+-   How difficult it is to describe to someone how to draw something?
+    -   Instructions may be ambiguous
+    -   Different backgrounds, ways of interpreting...
+-   So happens with programming. The drama of programming is the drama of all human communication/expression...
+
+![](/img/putpasta.png){width="40%" fig-align="center"}
+
+## Example: Drawing a rectangle
+
+-   Say to a computer **"Draw a red rectangle in the top left corner of the screen."**
+
+    -   What shade of red, precisely?
+    -   How big should the rectangle be?
+    -   Exactly in the top left, or with some padding, and how much?
+    -   When should it be drawn?
+    -   What is the "top" of the screen on a mobile device that can be rotated?
+
+-   Code in Javascript:
+
+```{javascript}
+// Get the canvas on the webpage that we want to render to.
+let c = document.getElementById("myCanvas");
+// Ask the canvas for an object that knows how to render 2-dimensional graphics onto the canvas.
+let renderer = c.getContext("2d");
+// Set the color to render, then draw a 100 x 100 pixel rectangle.
+renderer.fillStyle = "rgb(255, 0, 0)";
+renderer.fillRect(0, 0, 100, 100);
+```
+
+-   Notice that many things that do not matter when we give instructions to other people actually do matter for the computer. And vice-versa...
+    -   Why is that?

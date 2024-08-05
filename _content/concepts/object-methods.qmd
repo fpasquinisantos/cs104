@@ -1,0 +1,63 @@
+::: {.content-visible unless-format="revealjs"}
+# Object methods
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.2 OBJECT METHODS</b>"}
+:::
+
+* Some objects also have some built-in methods that can be called to perform various operations...
+* To do that, you type the object or the variable which is pointing to it, add a '`.``', and then type the method.
+
+For example, to find the index of an element of a list:
+```{python}
+a = ["you", "shall", "not", "pass"]
+inot = a.index("not")
+print("index of the word 'not' is ",inot)
+```
+
+## Sequence methods {.smaller .scrollable}
+
+Remember: sequences are ordered and subscriptable with integers (the indexes).
+The methods below thus work for all of these types: lists, tuples and strings.
+
+| Operation            | Result                                                                           |
+|----------------------|----------------------------------------------------------------------------------|
+| x in s               | True if an item of s is equal to x, else False                                   |
+| x not in s           | False if an item of s is equal to x, else True                                   |
+| s + t                | the concatenation of s and t                                                     |
+| s * n or n * s       | equivalent to adding s to itself n times                                         |
+| s[i]                 | ith item of s, origin 0                                                          |
+| s[i:j]               | slice of s from i to j                                                           |
+| s[i:j:k]             | slice of s from i to j with step k                                               |
+| len(s)               | length of s                                                                      |
+| min(s)               | smallest item of s                                                               |
+| max(s)               | largest item of s                                                                |
+| s.index(x[, i[, j]]) | index of the first occurrence of x in s (at or after index i and before index j) |
+| s.count(x)           | total number of occurrences of x in s                                            |
+
+## Unpacking sequences
+
+All sequence types can also be unpacked in multiple variables. For example:
+
+```{python}
+s = ["I", "am", "your", "father"]
+a, b, c, d = s
+print(a)
+print(b)
+```
+
+```{python}
+s = "hi!"
+ch1, ch2, ch3 = s
+print(ch1, ch2, ch3)
+```
+
+But careful: you will get an error if you don't match the length:
+
+```{python}
+# | error: true
+a = [1, 2, 3]
+v1, v2, v3, v4 = a
+```

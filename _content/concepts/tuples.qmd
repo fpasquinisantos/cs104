@@ -1,0 +1,41 @@
+::: {.content-visible unless-format="revealjs"}
+# Tuples
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.3 TUPLES</b>"}
+:::
+
+*   As every sequence type, it is ordered and subscriptable with integer indexes.
+*   Immutable, represented just as values separated with commas, or separated with commas and enclosed with parentheses:
+
+```{python}
+fruits = "banana", "apple", "orange"
+```
+
+or
+
+```{python}
+fruits = ("banana", "apple", "orange")
+```
+
+## Why immutables? {.smaller}
+
+Why use tuples since they can't change?
+
+* They uses less memory and demands less processing.
+* They don't need to be copied when attributing to a new variable (see later).
+
+### What if I *really* want to change?
+
+```{python}
+# | error: true
+fruits[1] = "pineapple" # try changing "apple" to "pineapple"
+```
+
+-   To "change" a tuple, for example, you would basically need to either:
+
+    1.  Create a new tuple (with the changes you want), or
+    2.  Convert the tuple to a **list**, change the value you want (lists are mutable), and convert it back to a tuple.
+        -   Which would mean creating a new list object (from the tuple), and then creating a new tuple object (from the list)... which can be actually very inefficient and costly...

@@ -1,0 +1,15 @@
+# Discussion: Hospitable code
+
+Professor Victor Norman, from Calvin, wrote a nice [article](https://cs.calvin.edu/documents/christian/TeachingHospitableCode.pdf) calling attention to an important practice: we should always aim to write **hospitable code**.
+
+You should read the whole article when you have time, but just to summarize some of the points:
+
+1.  Not only the function, but also the form of the code matters, to me and to God.
+2.  A common saying in the software development community: "code is written once, but read a thousand times".
+3.  Therefore, because you care for your neighbor, you should serve them by making your code hospitable: "code that welcomes the reader to come in and be comfortable, to enjoy the cleanliness of the code, to feel at home, and to see that the space has been carefully prepared with guests in mind."
+
+## Hospitable code in the scientific and engineering community?
+
+There is a [common perception](https://towardsdatascience.com/7-reasons-why-scientific-software-are-not-well-designed-5b9f38e0027d) that software written for scientific and engineering communities are the worst documented and organized ever. People usually think that since we are dealing with experts, it would be a waste of time to just make things clean and organized.
+
+-   Thus, reflect: as Christians, is it really a waste of time to make things beautiful and welcoming? Or is it just getting to final result that matters?

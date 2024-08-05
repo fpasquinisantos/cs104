@@ -1,0 +1,131 @@
+::: {.content-visible unless-format="revealjs"}
+# Built-in types
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>3.1 BUILT-IN TYPES</b>"}
+:::
+
+-   Object types are the ways we have to **represent information** in our programming.
+-   Python has some [built-in types](https://docs.python.org/3/library/stdtypes.html) we have already seen, but now we will see more.
+
+Some of them are:
+
+* **Numeric types**: `int`, `float`, `complex`
+* **Boolean types** (logic): `bool` (`True` and `False`)
+* **Sequence types**: `list`, `tuple`, `str`, `range`, `bytes`, and others
+* **Mapping type**: `dict`
+* **Set types**: `set`, `frozenset`
+
+It is always useful to consult documentation on each to see what you can and can't do with them.
+
+## Container types {.smaller}
+
+-   Some of these stand for objects that are collection of other objects. These are called **containers**.
+-   For example, you may have a variable pointing to a single number (a numeric type). But you can also a variable pointing to a collection of numbers, or strings, or even other collections of numbers.
+-   Think like "drawers" or "boxes" in a bookshelf
+
+![](/img/shelf.jpg)
+
+## Subscriptable types {.smaller}
+
+-   Remember our metaphor: *objects are buildings, variables are addresses*
+    -   As we have types of houses (residential, commercial), we also have types of objects (integer, float, string)
+-   How is an address when we have a condo or apartment building - i.e., multiple "houses" in the same address?
+    -   "1234 Smith Ave **Apt 101**"
+-   It is also possible to have containers whose contents can be accessed by some "complement". These are called **subscripts**.
+    -   To access a value, we write the variable followed by some value inside square brackets `[]`
+
+---
+
+For example, a Python `list`:
+
+```{python}
+condo = ["room 1", "room 2", "room 3"]
+print(condo[0])
+```
+
+Notice that if we try to "subscript" an object which is not subscriptable, we get an error:
+
+```{python}
+# | error: true
+house = 3
+print(house[0])
+```
+
+## Sequence vs mapping types {.smaller}
+
+-   In **sequence types** such as lists, tuples and strings, **subscripts are integer numbers**, which are called **indexes**.
+    -   **Attention:** indexes always starts at zero!
+    -   index 0 is for 1st element, index 1 is for 2nd, and so on...
+
+```{python}
+condo = "room 1", "room 2", "room 3"
+print(condo[0])
+print(condo[1])
+print(condo[2])
+```
+-   If the index can't be found, we will have an error:
+
+```{python}
+# | error: true
+condo = "room 1", "room 2", "room 3"
+print(condo[4])
+```
+
+-   In **mapping types**, however, **subscripts can be any kind of object** (given that it is an *immutable* object --- e.g., lists are not allowed), which are called, in this case, **keys**.
+-   This is the case of the dictionary type (`dict`):
+
+```{python}
+band = {"vocals": "John Anderson", "guitar":"Steve Howe", "bass": "Chris Squire", "keyboard": "Rick Wakeman"}
+print(band["vocals"])
+print(band["guitar"])
+```
+
+## Type properties {.smaller data-stack-name="type properties"}
+
+-   **Subscriptable** types: containers whose objects can be accessed using square brackets `[]`;
+-   **Ordered** types: containers whose elements are ordered and thus can be accessed by an index (integer number);
+-   **Immutable** types: objects whose elements cannot be changed;
+-   **Callable** types: functions and classes (check, for example, `type(print)` or `type(math.cos)`)
+    -   You "call" these objects to execute some code by typing the object followed by parenthesis (and eventually pass some information inside the parenthesis): `print("hi")`
+    -   See what happens if you try calling a non-callable object:
+
+```{python}
+# | error: true
+a = 1
+a()
+```
+
+---
+
+Testing some syntax...
+
+```{python}
+# | error: true
+a = 1
+a[0]
+```
+
+```{python}
+# | error: true
+a = 1
+a(0)
+```
+
+```{python}
+# | error: true
+a = 1
+a{0}
+```
+
+## Summarizing properties {.smaller}
+| Type                 | Container             | Subscriptable              | Ordered (sequence) | Mutable |
+|---------------|---------------|---------------|---------------|---------------|
+| Numbers and booleans | No                    | No                         | No      | No      |
+| Lists                | Yes                   | Yes (integers)             | Yes     | Yes     |
+| Tuples               | Yes                   | Yes (integers)             | Yes     | No      |
+| Strings              | Yes (only characters) | Yes (integers)             | Yes     | No      |
+| Dictionaries         | Yes                   | Yes (immutable objects) | No      | Yes     |
+| Sets                 | Yes (only immutable objects)                  | No                         | No      | Yes     |

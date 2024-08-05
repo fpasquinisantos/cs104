@@ -1,0 +1,71 @@
+# Activity: representing information
+
+What data structure would you use to represent the following? Write down and discuss with your colleagues.
+
+-   The first names of all the students in this course
+
+-   An address book entry (name, email, major, ...)
+
+-   A person's ethnicity
+
+-   A coordinate point, e.g., (0, 0)
+
+-   The atomic number of every element in the periodic table
+
+-   A bag with different colored pieces to be drawn randomly? (For example, in a game like \[The Quacks of Quedlinburg\](https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg)
+
+# Discusion: value judgements in representations
+
+-   Every representation is **a selective portrait of a reality** according to certain interests of who represents it. You can depict only certain parts, at certain moments, and with a certain structure.
+
+- Thus, we can ask: **are we encoding reality correctly?**
+
+-   Remember our data types characteristics:
+    -   Numeric, boolean, containers...
+    -   Immutable / Mutable
+    -   Ordered / Non-ordered
+    -   Callable / Non-callable
+
+**Programmers are encoders.** Everytime we represent some thing with a data structure, we are supposing that this thing is correctly portrayed with this structure.
+
+-   For example, is a list of people's name something we can "order"? And for what purpose are we doing that?
+
+-   For example, can emotion be represented with a number? A boolean value? A dictionary indicating multiple aspects of an emotion?
+
+Thus, we also need to acknowledge that data can be:
+
+-   **imprecise** (including: what it can mean for someone may not mean the same thing for another);
+
+-   **ambiguous** (may mean multiple things depending on the context);
+
+-   **not comprehensive** enough (or what we call *biased* - it is limited to some specific population or situation and thus is not generalizable);
+
+-   **distorted** ("artifacts" - we cannot always be sure it is being transmitted or recorded faithfully);
+
+-   or even **not timely enough** (things changed since we got them).
+
+This happens because we **limited, situated and always see things from our perspective**. This is not bad, however, we need to acknowledge this limitedness. We are not possessors of an all-encompassing truth.
+
+> "Through the confusion of tongues, through non-communication, God prevents man from constructing \[for himself\] a truth valid for all men. In this way, man's truth will always be partial and contestable" (Jacques Ellul, *The Meaning of the City*, p. 19).
+
+# Activity: give examples of cases above:
+
+- imprecise information:
+- ambiguous information:
+- not comprhensive information:
+- distorted information:
+- non-timely information:
+
+# Encoding: ruling with justice
+
+- Remember the origin of the word **code**: a *corpus* of law;
+- When we encode things, we are setting a rule;
+- Thus, we are reflecting our kingly vocation as human beings;
+- The Bible talks a lot about **JUSTICE** as the virtue of a king.
+
+-   To encode correctly, we need to **see correctly**. And to see correctly, we need a fundamental orientation of heart towards God and his wisdom.
+
+> For the Lord grants wisdom! From his mouth come knowledge and understanding. He grants a treasure of common sense to the honest. He is a shield to those who walk with integrity. He guards the paths of the just and protects those who are faithful to him. Then you will understand what is right, just, and fair, and you will find the right way to go. Proverbs 2.6-10
+
+-   We also need a broad knowledge base: *"[In ICT design,] one needs to have as broad a knowledge base as possible. It is the outer parameters that one must have knowledge about."* (Jacob and Ebrahimpur 2001, 78)
+    - Sociologist Harry Collins calls that [**interactional expertise**](https://en.wikipedia.org/wiki/Interactional_expertise) - you are not an expert practitioner in the area, but you are informed enough to talk meaninfully with its practicioners.

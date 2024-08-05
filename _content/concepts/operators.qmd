@@ -1,0 +1,72 @@
+::: {.content-visible unless-format="revealjs"}
+# Operators
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.1 OPERATORS</b>"}
+:::
+
+| Operation                       | Operator |  Example  | Evaluates to |
+|---------------------------------|:--------:|:---------:|:------------:|
+| Addition                        |   `+`    |  `2 + 2`  |     `4`      |
+| Subtraction                     |   `-`    |  `4 - 1`  |     `3`      |
+| Multiplication                  |   `*`    | `1.5 * 2` |    `3.0`     |
+| Division                        |   `/`    |  `5 / 2`  |    `2.5`     |
+| Floor Division                  |   `//`    |  `5 // 2`  |     `2`      |
+| Modulus (remainder of division) |   `%`    |  `5 % 2`  |     `1`      |
+| Exponent                        |   `**`   |  `3**3`   |     `27`     |
+
+## Resulting types
+
+-   If any of the operands is a float, result will be a float. Otherwise (both are integer), result is an integer.
+
+-   However, there is an exception: result of a **division** (not floor division) is ***always*** a float. Careful with that! (why? we'll see in a moment)
+
+## Operator precedence
+
+-   Always be careful with expressions using more than one operator! For example:
+
+```{python}
+#| echo: true
+#| eval: false
+a = 3
+b = 6
+c = a + b * 2
+print(c)
+```
+
+-   This evaluates as $a + (b \times 2) = 3 + (6 * 2) = 3 + 12 = 15$
+
+Python operator **precedence order**:
+
+1.  Parentheses: `()`
+2.  Exponents: `**`
+3.  Multiplication, divisions and modulus: `* / // %`
+4.  Addition and subtraction: `+ -`
+5.  Comparisons: `<= < >= > == != is` (next week)
+6.  Boolean `not` (next week)
+7.  Boolean `and` (next week)
+8.  Boolean `or` (next week)
+
+## Operators in strings
+
+-   Python also permits using SOME operators with strings. In a metaphorical way...
+
+| String Operation | Metaphor       | Operator |         Example         | Evaluates to  |
+|---------------|---------------|:-------------:|:-------------:|:-------------:|
+| Concatenation    | Addition       |   `+`    | `"Hey" + " " + "apple"` | `"Hey apple"` |
+| Repetition       | Multiplication |   `*`    |       `"na" * 4`        | `"nananana"`  |
+
+-   Other operators are not supported. Multiplication of a string with another string is also not supported. Both wouldn't make so much sense...
+
+## Evaluating operations in strings
+
+It is also possible to evaluate an expression coded as a string. For example:
+
+```{python}
+#| echo: true
+expression = "2 * (4 + 6) / 3 - 5"
+result = eval(expression)
+print(result)
+```

@@ -1,0 +1,46 @@
+::: {.content-visible unless-format="revealjs"}
+# Programming Style
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>2.7 PROGRAMMING STYLE</b>"}
+:::
+
+- Like in any language, style and form makes a BIG difference. One could say that it doesn't matter once it works, however, that is a very narrow way to understand human expression...
+
+- Sometimes there are multiple ways to write code that works, but many of them are not be *hospitable*. As an example:
+
+```{python}
+#| eval: false
+prime_numbers = [x for x in range(2, 101) if all(x % y != 0 for y in range(2, int(x**0.5) + 1))
+```
+
+This is very concise, however, it is not readable. It is a monster of an expression!
+
+What would happen if we just rewrite it like this?
+
+```{python}
+#| eval: false
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+prime_numbers = [x for x in range(2, 101) if is_prime(x)]
+```
+
+It is more code, however, it is much more readable... (Don't care about not understanding all the syntax now, we'll see that later).
+
+- **Some programming style tips:**
+    -   Lack of comments is a problem. But too much commenting is also a problem.
+    -   Bad naming of variables and functions: for example, abstract names as "variable1", or names that don't reflect exactly what is their purpose.
+    -   Spacing usually doesn't matter for the working of code, but it can be a problem for reading.
+    -   **Follow community standards**. Read other people's code and learn. Develop a common understanding.
+        -   *Isn't it good to find yourself in known territory, with same languages, habits, food?*
+        -   An interesting question: could there be some "strange" habits in Python programming for people with cultural backgrounds different from American, white and men?
+    
+Python has a nice [style guide](https://peps.python.org/pep-0008/) available. It is good to consult it once in a while.
