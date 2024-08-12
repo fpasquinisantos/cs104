@@ -3,13 +3,19 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "!classes/02*/*"
-    - "!classes/03*/*"
-    - "!classes/04*/*"
-    - "!classes/05*/*"
-    - "!classes/06*/*"
-    - "!classes/07*/*"
+    - "!slides/02*/*"
+    - "!slides/03*/*"
+    - "!slides/04*/*"
+    - "!slides/05*/*"
+    - "!slides/06*/*"
+    - "!slides/07*/*"
     - "!*.test.qmd"
+    - "!handouts/02*/*"
+    - "!handouts/03*/*"
+    - "!handouts/04*/*"
+    - "!handouts/05*/*"
+    - "!handouts/06*/*"
+    - "!handouts/07*/*"
 
 website:
   title: "CS 104 (Applied Computing) at Calvin University"
@@ -21,7 +27,7 @@ website:
       - "index.qmd"
       - "lab-instructions.qmd"
       - "tips-resources.qmd"
-      - auto: "classes/"
+      - auto: "slides/"
         icon: "person-workspace"
   page-navigation: true
 

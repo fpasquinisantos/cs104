@@ -1,0 +1,20 @@
+---
+format:
+  docx:
+    toc: false
+    number-sections: true
+    number-depth: 1
+title: "09-06 - Variables"
+---
+
+# Retrieval
+
+{{< include /_content/questions/prog_def_t1.md >}}
+
+{{< include /_content/questions/prog_def_t2.md >}}
+
+{{< include /_content/questions/prog_lang_t1.md >}}
+
+{{< include /_content/questions/prog_lang_t2.md >}}
+
+{{< include /_content/pogil/variables.qmd >}}

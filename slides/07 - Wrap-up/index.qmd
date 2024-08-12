@@ -1,0 +1,13 @@
+---
+title: "07 - Wrap-up"
+format:
+  html:
+    toc-expand: 4
+---
+
+Objectives for this unit:
+
+## Wrap-up
+-   Explore some programming communities in the web such as Github and StackOverflow.
+-   Reflect on our role as programmers: values, contexts and virtues.
+-   Explore other applications of programming.

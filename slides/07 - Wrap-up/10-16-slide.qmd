@@ -1,0 +1,22 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    menu: false
+    slide-level: 2
+    navigation-mode: linear
+    transition: slide
+    scrollable: true
+    simplemenu:
+        barhtml:
+            header: "<div class='menubar'><ul class='menu'></ul></div>"
+        scale: 0.67
+revealjs-plugins:
+    - simplemenu
+title: "10-16 (Slides)"
+---
+
+# Retrieval
+
+{{< include /_content/wrapup.qmd >}}
