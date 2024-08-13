@@ -4,9 +4,9 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-18-HO-Numpy"
+title: "09-18 - Numpy"
 ---
 
-# Retrieval
+# Quiz 2 (in class)
 
 {{< include /_content/pogil/numpy.qmd >}}

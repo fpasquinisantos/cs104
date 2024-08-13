@@ -1,0 +1,1 @@
+You have a total of 345 minutes. Write a Python code snippet to convert this total into hours and minutes. Explain how the modulus operator is used in your code to achieve the conversion.

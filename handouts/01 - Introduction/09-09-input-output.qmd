@@ -9,4 +9,16 @@ title: "09-09 - Input/Output"
 
 # Retrieval
 
+{{< include /_content/questions/var_obj_m1.md >}}
+
+{{< include /_content/questions/vtypes_t1.md >}}
+
+{{< include /_content/questions/name_var_t2.md >}}
+
+{{< include /_content/questions/var_assignment_t1.md >}}
+
+{{< include /_content/questions/assignment_compound_m2.md >}}
+
+{{< include /_content/questions/swap_values_t2.md >}}
+
 {{< include /_content/pogil/input_output.qmd >}}

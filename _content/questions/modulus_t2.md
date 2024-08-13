@@ -1,0 +1,1 @@
+You have a positive integer number. Write a Python code snippet to determine and print the remainder when number is divided by 7. Explain how the modulus operator is used in your code to achieve this.

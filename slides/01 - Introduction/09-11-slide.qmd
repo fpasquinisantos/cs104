@@ -17,6 +17,14 @@ revealjs-plugins:
 title: "09-11 - Math operations"
 ---
 
-# Retrieval
+::: {.smaller}
+
+{{< include /_prayers/god-the-maker.qmd >}}
+
+:::
+
+# Quiz 1 (in class)
+
+---
 
 {{< include /_content/concepts/math.qmd >}}

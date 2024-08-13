@@ -398,11 +398,106 @@
 </div>
 
 </section>
-<section id="retrieval" class="title-slide slide level1 center">
-<h1>Retrieval</h1>
+<section class="slide level2">
 
+<div class="smaller">
+<blockquote>
+<p>VERSE 1:<br>
+We bring our time, we bring our treasure,<br>
+we lay them down before Your throne.<br>
+You will make them something greater,<br>
+more than we could ever know. (chorus)<br>
+<br>
+VERSE 2:<br>
+We bring our gifts, we bring our power<br>
+place them in Your sov’reign hand.<br>
+You will take what we have given,<br>
+You will use it for Your plan. (chorus)<br>
+<br>
+CHORUS:<br>
+Glory be to God, the Maker<br>
+glory be to God, Creator<br>
+Take our time, use our treasure<br>
+turn them into something greater:<br>
+Glory be to God, the Maker.<br>
+<br>
+VERSE 3:<br>
+Though our hearts are weak from failure,<br>
+broken dreams and failed attempts,<br>
+show us that in ev’ry season,<br>
+You will fill our emptiness. (chorus)<br>
+<a href="https://theportersgate.bandcamp.com/track/god-the-maker-feat-latifah-alattas">(<em>God the Maker, The Porter’s Gate)</em></a></p>
+</blockquote>
+</div>
 </section>
+<section>
+<section id="retrieval" class="title-slide slide level1 center scrollable">
+<h1>Retrieval</h1>
+<ul>
+<li>Which of the following statements correctly reads a user-entered number and converts it to an integer, storing the result in the variable <code>number</code>?</li>
+</ul>
+<ol type="A">
+<li><p><code>number = int(input("Enter a number:"))</code></p></li>
+<li><p><code>number = input("Enter a number:")</code></p></li>
+<li><p><code>number = float(input("Enter a number:"))</code></p></li>
+<li><p><code>number = str(input("Enter a number:"))</code></p></li>
+</ol>
+<!-- Answer: A) -->
+</section>
+<section class="slide level2 scrollable">
 
+<ul>
+<li>Which line of code correctly prints a floating-point number <code>price</code> rounded to two decimal places, along with the text “Total Price:”?</li>
+</ul>
+<ol type="A">
+<li><p><code>print("Total Price: {:.2f}".format(price))</code></p></li>
+<li><p><code>print("Total Price: %0.2f" % price)</code></p></li>
+<li><p><code>print("Total Price: " + round(price, 2))</code></p></li>
+<li><p><code>print("Total Price: ", round(price, 2))</code></p></li>
+</ol>
+</section>
+<section class="slide level2 scrollable">
+
+<ul>
+<li>Which of the following benefits is directly associated with following a consistent programming style?</li>
+</ul>
+<ol type="A">
+<li><p>Improved code performance</p></li>
+<li><p>Enhanced code readability and maintainability</p></li>
+<li><p>Faster execution speed of the code</p></li>
+<li><p>Reduced number of programming languages required</p></li>
+</ol>
+<!-- Answer: B) -->
+</section>
+<section class="slide level2 scrollable">
+
+<ul>
+<li>Which of the following best describes a benefit of using comments in your code?</li>
+</ul>
+<ol type="A">
+<li><p>They improve code execution speed</p></li>
+<li><p>They make the code more concise</p></li>
+<li><p>They help other developers (and yourself) understand the purpose and functionality of the code</p></li>
+<li><p>They reduce the need for error handling</p></li>
+</ol>
+<!-- Answer: C) -->
+</section>
+<section class="slide level2 scrollable">
+
+<ul>
+<li>Which of the following lines of code correctly adds a comment to explain the purpose of a variable in Python?</li>
+</ul>
+<ol type="A">
+<li><p><code># This variable stores the user age age = 25</code></p></li>
+<li><p><code>age = 25 # This variable stores the user age</code></p></li>
+<li><p><code>age = 25 // This variable stores the user age</code></p></li>
+<li><p><code>age = 25 /* This variable stores the user age */</code></p></li>
+</ol>
+<!-- Answer: B) -->
+</section>
+<section class="slide level2">
+
+</section></section>
 <section>
 <section id="operators" class="title-slide slide level1 center" data-stack-name="operators">
 <h1>Operators</h1>
@@ -483,7 +578,7 @@
 <ul>
 <li>Always be careful with expressions using more than one operator! For example:</li>
 </ul>
-<div id="47657854" class="cell" data-execution_count="1">
+<div id="c60d1b92" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>a <span class="op">=</span> <span class="dv">3</span></span>
 <span id="cb1-2"><a></a>b <span class="op">=</span> <span class="dv">6</span></span>
 <span id="cb1-3"><a></a>c <span class="op">=</span> a <span class="op">+</span> b <span class="op">*</span> <span class="dv">2</span></span>
@@ -552,7 +647,7 @@
 <section id="evaluating-operations-in-strings" class="slide level2">
 <h2>Evaluating operations in strings</h2>
 <p>It is also possible to evaluate an expression coded as a string. For example:</p>
-<div id="8e0901f5" class="cell" data-execution_count="2">
+<div id="986c0866" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>expression <span class="op">=</span> <span class="st">"2 * (4 + 6) / 3 - 5"</span></span>
 <span id="cb2-2"><a></a>result <span class="op">=</span> <span class="bu">eval</span>(expression)</span>
 <span id="cb2-3"><a></a><span class="bu">print</span>(result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -574,7 +669,7 @@
 <ul>
 <li>Import the whole module and use as needed: need to use the module name followed by a dot (.) before using a function or variable from the module.</li>
 </ul>
-<div id="506a3cd6" class="cell" data-execution_count="3">
+<div id="6381c81b" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> math</span>
 <span id="cb4-2"><a></a>r <span class="op">=</span> <span class="dv">3</span></span>
 <span id="cb4-3"><a></a>circumference <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> r <span class="op">*</span> math.pi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -583,7 +678,7 @@
 <ul>
 <li>Import only the functions and variables you will need. Then, no need to use the qualifier “math.”</li>
 </ul>
-<div id="f82a9af5" class="cell" data-execution_count="4">
+<div id="b59282e3" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="im">from</span> math <span class="im">import</span> pi</span>
 <span id="cb5-2"><a></a>r <span class="op">=</span> <span class="dv">3</span></span>
 <span id="cb5-3"><a></a>circumference <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> r <span class="op">*</span> pi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -633,7 +728,7 @@
 <ul>
 <li>You can also try to import all of the modules resources by using</li>
 </ul>
-<div id="7f8c86dd" class="cell" data-execution_count="5">
+<div id="bbf2e367" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="im">from</span> math <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>

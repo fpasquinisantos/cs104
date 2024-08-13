@@ -136,17 +136,6 @@ We will be using an online text called *Programming in Python 3 with ZyLabs*. T
 
 You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
 
-#### Website and class handouts
-
-This website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that will be posted on Perusall.
-
-#### Perspectives readings
-
-Sseveral articles on programming that will be available on [**Perusall**](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing). We expect you to interact and discuss with these texts.
-
-::: callout-important
-The articles on reflections about programming that we are going to read are presenting **lots of different opinions that may not reflect what I, myself, subscribe to**. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don't agree completely.
-:::
 :::
 
 ::: {.callout-note collapse="true"}
@@ -162,37 +151,35 @@ The labs in SB 354 & 372 are pre-configured to support this course, so if you ar
     -   the instructions for using those machines here: <https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php>
 :::
 
-# Activities
+# Weekly Activities
 
 1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Fridays. As you work through the text, complete the "participation" activities in the specified sections as you go. You can skip the "challenge" activities.
 
-2.  **Perspectives reading (on Perusall)**: *every other week*, you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
-
-3.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). Class activities will be posted on our Perusall page. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+2.  **Class activities**: during our classes, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). They won't count for grading, but are very useful for studying. We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
 
     -   a programmer (runs the exercises in Thonny)
     -   a recorder (writes the team's answers to the exercises)
     -   a manager/presenter (keeps the team on track; interacts with class)
 
-4.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+3.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Tuesday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
 
     -   If feasible, *you will work in pairs during the lab exercises and you may work in pairs for your homeworks as well*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
     -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser. See "Getting Started" for more information.
 
-5.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
+4.  **Quiz**: usually **on Wednesdays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device.
 
     -   Exceptionally at week 1, we won't have a Quiz (too early for that).
 
-6.  **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
+5.  **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. These will total 6 homework assignments during the course.
 
-Plus, every other week we will have a
+6.  **Participation (afterthoughts and discussion)**: every week, you will be asked to post some overall thoughts and interact with our colleagues in a Moodle Wiki. This will count as 5% participation grade, and it can be very fun. Please, don't post just for grade - it will be nice to interact later and see whatever the rest of class is thinking. I will also post, weekly, a blog post or article with "food for thought", considering what we studied in the week.
 
 # Grading
 
 We will compute your final grade as follows:
 
--   5% --- Preparation readings (zyBooks) (6 in total)
--   5% --- Perspectives readings (Perusall) (3 in total)
+-   5% --- Preparation readings (6 in total)
+-   5% --- Participation activities (6 in total)
 -   40% --- Quizzes (6 in total)
 -   50% --- Homeworks (6 in total)
 

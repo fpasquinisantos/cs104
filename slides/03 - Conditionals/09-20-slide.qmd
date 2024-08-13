@@ -14,7 +14,7 @@ format:
         scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-20-SL-If-Else"
+title: "09-20 - If-Else"
 ---
 
 # Retrieval

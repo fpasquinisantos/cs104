@@ -7,6 +7,8 @@ format:
 title: "09-11 - Math operations"
 ---
 
-# Retrieval
+# Quiz 1 (in class)
+
+---
 
 {{< include /_content/pogil/math.qmd >}}

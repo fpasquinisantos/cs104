@@ -4,7 +4,7 @@ format:
     toc: false
     number-sections: true
     colorlinks: true
-title: "09-16-HO-Dictionaries"
+title: "09-16 - Dictionaries"
 ---
 
 # Retrieval

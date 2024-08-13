@@ -14,8 +14,14 @@ format:
         scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-13-SL-Sequences"
+title: "09-13 - Sequences"
 ---
+
+::: {.smaller}
+
+{{< include /_prayers/kyrie-in-work.qmd >}}
+
+:::
 
 # Retrieval
 

@@ -14,7 +14,7 @@ format:
         scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-27-SL-Loops2"
+title: "09-27 - Loops (2)"
 ---
 
 # Retrieval

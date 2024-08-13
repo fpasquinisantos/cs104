@@ -1,4 +1,6 @@
-# Discussion: Hospitable code
+# Hospitable code {data-stack-name="hospitality"}
+
+##
 
 Professor Victor Norman, from Calvin, wrote a nice [article](https://cs.calvin.edu/documents/christian/TeachingHospitableCode.pdf) calling attention to an important practice: we should always aim to write **hospitable code**.
 

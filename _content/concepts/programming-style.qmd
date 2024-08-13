@@ -1,11 +1,6 @@
-::: {.content-visible unless-format="revealjs"}
-# Programming Style
+# Programming Style {data-stack-name="style"}
 
-:::
-
-::: {.content-visible when-format="revealjs"}
-##  {data-name="<b>2.7 PROGRAMMING STYLE</b>"}
-:::
+##
 
 - Like in any language, style and form makes a BIG difference. One could say that it doesn't matter once it works, however, that is a very narrow way to understand human expression...
 
@@ -17,6 +12,8 @@ prime_numbers = [x for x in range(2, 101) if all(x % y != 0 for y in range(2, in
 ```
 
 This is very concise, however, it is not readable. It is a monster of an expression!
+
+---
 
 What would happen if we just rewrite it like this?
 
@@ -34,6 +31,8 @@ prime_numbers = [x for x in range(2, 101) if is_prime(x)]
 ```
 
 It is more code, however, it is much more readable... (Don't care about not understanding all the syntax now, we'll see that later).
+
+---
 
 - **Some programming style tips:**
     -   Lack of comments is a problem. But too much commenting is also a problem.

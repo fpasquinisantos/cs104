@@ -14,9 +14,9 @@ format:
         scale: 0.67
 revealjs-plugins:
     - simplemenu
-title: "09-18-SL-Numpy"
+title: "09-18 - Numpy"
 ---
 
-# Retrieval
+# Quiz 2 (in class)
 
 {{< include /_content/concepts/numpy.qmd >}}

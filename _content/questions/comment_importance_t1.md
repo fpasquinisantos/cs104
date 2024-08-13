@@ -1,3 +1,1 @@
 Explain the role of comments in programming. How do comments contribute to code quality and maintainability? Provide examples of different types of comments and describe scenarios where each type might be used effectively.
-
-\TextField[multiline=true, width=\linewidth, height=5em]{}
