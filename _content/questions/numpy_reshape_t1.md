@@ -1,0 +1,1 @@
+Imagine you have a 1D NumPy array that contains the pixel values of a grayscale image stored sequentially. The image is known to be 28 pixels wide and 28 pixels tall. How would you use the reshape function to transform this 1D array into a 2D array that matches the image’s dimensions? Explain why using reshape is useful in this scenario.

@@ -1,0 +1,1 @@
+You have a 1D NumPy array representing the monthly sales figures for a product over several years, with 12 values per year. How would you use the reshape function to organize this data into a 2D array where each row represents a different year? Discuss how using reshape can help in analyzing the sales trends over the years.

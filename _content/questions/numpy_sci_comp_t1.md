@@ -1,0 +1,1 @@
+What role does the NumPy library play in scientific computing with Python? Describe how NumPy helps with working on numerical data and provide an example of a task that NumPy makes easier compared to using standard Python lists.

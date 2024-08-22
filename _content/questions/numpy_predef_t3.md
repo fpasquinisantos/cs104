@@ -1,0 +1,1 @@
+Write a Python code snippet to create a NumPy array of shape (3, 3) filled with ones using a predefined NumPy function.

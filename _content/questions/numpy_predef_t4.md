@@ -1,0 +1,1 @@
+Write a Python code snippet to create a NumPy array with 7 evenly spaced values between 0 and 1 (inclusive) using a predefined NumPy function.

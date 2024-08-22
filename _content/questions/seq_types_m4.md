@@ -1,18 +1,8 @@
-Which of the following operations can be performed on lists but not on tuples or strings?
+Which statement correctly explains a difference between lists and tuples?
 
-A) Use the `+` operator to concatenate with another list  
-B) Use the `*` operator to repeat the sequence  
-C) Use the `.append()` method to add an element  
-D) Use indexing to access elements
+A) The built-in function len() works with lists but not with tuples.
+B) List items can be changed, while tuple items can’t be changed.
+C) List items can be of any type, while tuple types can only be numbers.
+D) List items use [      ] operators to access items by index, while tuples use (     ) operators to access items by index.
 
-<!--
-**Answer:** C) Use the `.append()` method to add an element
-
-**Explanation:**
-
-- **Concatenation with `+`** is valid for lists, tuples, and strings, allowing you to combine them.
-- **Repetition with `*`** is valid for lists, tuples, and strings, allowing you to repeat the sequence.
-- **The `.append()` method** is specific to lists and allows you to add an element to the end of a list. Tuples and strings are immutable, so you cannot modify them after creation.
-- **Indexing** is valid for lists, tuples, and strings, allowing you to access individual elements.
-
--->
+<!-- ANSWER: B -->

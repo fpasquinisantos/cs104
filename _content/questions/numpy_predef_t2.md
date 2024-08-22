@@ -1,0 +1,1 @@
+Write a Python code snippet to create a NumPy array of shape (2, 3) filled with random integers between 10 and 20 (inclusive).

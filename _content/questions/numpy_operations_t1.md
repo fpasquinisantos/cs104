@@ -1,0 +1,1 @@
+Compare the use of element-wise operations in NumPy arrays with using traditional Python lists for performing similar operations. Provide a simple example where element-wise operations in NumPy arrays offer advantages over lists.

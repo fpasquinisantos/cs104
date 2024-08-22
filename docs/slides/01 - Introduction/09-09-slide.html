@@ -8,7 +8,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.5.56">
 
   <title>CS 104 (Applied Computing) at Calvin University – 09-09 - Input/Output</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -494,7 +494,7 @@ In Jesus name we pray. Amen.</p>
 </ul></li>
 </ul>
 
-<img data-src="../..\img/vending-machine.gif" data-align="center" class="r-stretch"></section>
+<img data-src="../../img/vending-machine.gif" data-align="center" class="r-stretch"></section>
 <section id="graphical-inputoutput" class="slide level2">
 <h2>Graphical input/output</h2>
 <ul>
@@ -503,20 +503,20 @@ In Jesus name we pray. Amen.</p>
 <li>Traditionally, <a href="https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/wimp">WIMP</a> (Windows, Icons, Menus and Pointers)</li>
 </ul>
 
-<img data-src="../..\img/ui.jpg" style="width:30.0%" class="r-stretch"></section>
+<img data-src="../../img/ui.jpg" style="width:30.0%" class="r-stretch"></section>
 <section id="text-inputoutput" class="slide level2">
 <h2>Text input/output</h2>
 <ul>
 <li>Even simpler, however, it is a good start for programming!</li>
 </ul>
-<div id="edf6d691" class="cell" data-execution_count="1">
+<div id="2d0e15e1" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Please enter your name:"</span>)</span>
 <span id="cb4-2"><a></a>reverse <span class="op">=</span> name[::<span class="op">-</span><span class="dv">1</span>]</span>
 <span id="cb4-3"><a></a><span class="bu">print</span>(<span class="st">"Your name in reverse is"</span>, reverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The command-line interface will ask for input from our keyboard, and then:</p>
 
-<img data-src="../..\img/ioexample.png" style="width:40.0%" class="r-stretch"></section></section>
+<img data-src="../../img/ioexample.png" style="width:40.0%" class="r-stretch"></section></section>
 <section>
 <section id="python-text-output-print" class="title-slide slide level1 center" data-stack-name="print">
 <h1>Python text output: <code>print()</code></h1>
@@ -546,7 +546,7 @@ In Jesus name we pray. Amen.</p>
 </ul></li>
 <li>You can customize an input message by passing a string:</li>
 </ul>
-<div id="81cab692" class="cell" data-execution_count="2">
+<div id="67ee4446" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>x <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Please enter your name: "</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -555,7 +555,7 @@ In Jesus name we pray. Amen.</p>
 <ul>
 <li>Now, suppose we want to calculate the sum of two numbers:</li>
 </ul>
-<div id="6a5cbb15" class="cell" data-execution_count="3">
+<div id="21dbc6d0" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>x <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Please enter first number: "</span>)</span>
 <span id="cb6-2"><a></a>y <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Please enter second number: "</span>)</span>
 <span id="cb6-3"><a></a>z <span class="op">=</span> x <span class="op">+</span> y</span>
@@ -563,7 +563,7 @@ In Jesus name we pray. Amen.</p>
 </div>
 <p>What happened???</p>
 
-<img data-src="../..\img/wellwellwell.png" class="r-stretch"></section></section>
+<img data-src="../../img/wellwellwell.png" class="r-stretch"></section></section>
 <section>
 <section id="converting-string-to-number-types" class="title-slide slide level1 center" data-stack-name="converting numbers">
 <h1>Converting string to number types</h1>
@@ -577,7 +577,7 @@ In Jesus name we pray. Amen.</p>
 <li>The string that goes inside the parentheses (which we call the “argument” of the method) will be turned to an integer/float</li>
 </ul></li>
 </ul>
-<div id="79055448" class="cell" data-execution_count="4">
+<div id="d8623ac2" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>xstring <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Please enter your age: "</span>)</span>
 <span id="cb7-2"><a></a>x <span class="op">=</span> <span class="bu">int</span>(xstring)</span>
 <span id="cb7-3"><a></a><span class="bu">print</span>(<span class="st">"Your age is "</span>, x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -585,7 +585,7 @@ In Jesus name we pray. Amen.</p>
 <ul>
 <li>Just make things shorter by chaining one method into another!</li>
 </ul>
-<div id="5fceebe2" class="cell" data-execution_count="5">
+<div id="2326e882" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>x <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Please enter your age: "</span>))</span>
 <span id="cb8-2"><a></a><span class="bu">print</span>(<span class="st">"Your age is "</span>, x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -604,7 +604,7 @@ In Jesus name we pray. Amen.</p>
 <li><p>Like in any language, style and form makes a BIG difference. One could say that it doesn’t matter once it works, however, that is a very narrow way to understand human expression…</p></li>
 <li><p>Sometimes there are multiple ways to write code that works, but many of them are not be <em>hospitable</em>. As an example:</p></li>
 </ul>
-<div id="b1fcf078" class="cell" data-execution_count="6">
+<div id="5d631d1a" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>prime_numbers <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">101</span>) <span class="cf">if</span> <span class="bu">all</span>(x <span class="op">%</span> y <span class="op">!=</span> <span class="dv">0</span> <span class="cf">for</span> y <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="bu">int</span>(x<span class="op">**</span><span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>This is very concise, however, it is not readable. It is a monster of an expression!</p>
@@ -612,7 +612,7 @@ In Jesus name we pray. Amen.</p>
 <section class="slide level2">
 
 <p>What would happen if we just rewrite it like this?</p>
-<div id="a18691af" class="cell" data-execution_count="7">
+<div id="a50c1ce0" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a><span class="kw">def</span> is_prime(n):</span>
 <span id="cb10-2"><a></a>    <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
 <span id="cb10-3"><a></a>        <span class="cf">return</span> <span class="va">False</span></span>
@@ -705,7 +705,7 @@ In Jesus name we pray. Amen.</p>
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
-'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":false,"barhtml":{"header":"<div class='menubar'><ul class='menu'></ul></div>","footer":""},"scale":0.67},
+'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":false,"barhtml":{"header":"<div class='menubar'><a href='index.html'>back</a><ul class='menu'></ul>","footer":""},"scale":0.6},
 'smaller': false,
  
         // Display controls in the bottom right corner

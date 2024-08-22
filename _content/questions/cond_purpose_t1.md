@@ -1,0 +1,1 @@
+Explain the role of conditional statements in programming. Describe a scenario where you would use an `if-else` statement to control the flow of a program. Provide an example of how you would implement this scenario in code, and explain how the conditional logic affects the execution of the program.

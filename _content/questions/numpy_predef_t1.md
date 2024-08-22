@@ -1,0 +1,1 @@
+Write a Python code snippet that creates a NumPy array of shape (3, 2) with the values 1, 2, 3, 4, 5, and 6 arranged in the array.
